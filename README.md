@@ -71,3 +71,8 @@ python news.py
 - `output/` не коммитится.
 - публичные HTML-страницы не содержат внутренних URL и полного списка кандидатов.
 - `state.json` не содержит URL источников.
+
+
+## Rate-limit pacing
+
+The collector intentionally spaces OpenAI API calls by 25 seconds and uses conservative exponential backoff on HTTP 429. This is designed for a 200k TPM tier while preserving all six editorial collection passes.

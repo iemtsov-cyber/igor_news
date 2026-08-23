@@ -23,22 +23,51 @@ ROOT = Path(__file__).resolve().parent
 
 
 
-def create_response_with_retry(client: OpenAI, *, label: str, max_retries: int = 5, **kwargs):
-    """Call Responses API and wait automatically when the org hits a TPM/RPM limit."""
+# The collector can consume ~50-60k TPM per web-search request.  On a 200k TPM
+# tier, firing several requests back-to-back creates a burst even though the total
+# daily allowance is ample.  Keep starts far enough apart so at most ~3 large
+# requests sit in the same rolling minute.
+MIN_API_INTERVAL_SECONDS = 25.0
+_last_api_call_started = 0.0
+
+
+def _pace_api_calls(label: str) -> None:
+    global _last_api_call_started
+    now = time.monotonic()
+    remaining = MIN_API_INTERVAL_SECONDS - (now - _last_api_call_started)
+    if _last_api_call_started and remaining > 0:
+        print(f"API pacing before {label}: waiting {remaining:.1f}s...")
+        time.sleep(remaining)
+    _last_api_call_started = time.monotonic()
+
+
+def create_response_with_retry(client: OpenAI, *, label: str, max_retries: int = 7, **kwargs):
+    """Call Responses API with pacing and conservative exponential backoff.
+
+    Failed requests also consume rate-limit capacity, so we deliberately wait
+    longer than the server's minimum hint instead of immediately hammering it.
+    """
+    global _last_api_call_started
     for attempt in range(max_retries + 1):
+        _pace_api_calls(label)
         try:
             return client.responses.create(**kwargs)
         except RateLimitError as exc:
             if attempt >= max_retries:
                 raise
-            # OpenAI often returns e.g. "Please try again in 11.874s".
             match = re.search(r"try again in\s+([0-9.]+)s", str(exc), re.IGNORECASE)
-            if match:
-                wait = float(match.group(1)) + 1.5
-            else:
-                wait = min(60.0, 8.0 * (2 ** attempt))
-            print(f"Rate limit for {label}; waiting {wait:.1f}s and retrying ({attempt + 1}/{max_retries})...")
+            hinted = float(match.group(1)) if match else 0.0
+            # A failed attempt itself counts against TPM. Give the rolling window
+            # time to drain; the delay grows if the tier remains saturated.
+            backoff = min(90.0, 25.0 * (1.55 ** attempt))
+            wait = max(hinted + 5.0, backoff)
+            print(
+                f"Rate limit for {label}; waiting {wait:.1f}s and retrying "
+                f"({attempt + 1}/{max_retries})..."
+            )
             time.sleep(wait)
+            # Do not impose another full pacing delay immediately after backoff.
+            _last_api_call_started = time.monotonic() - MIN_API_INTERVAL_SECONDS
 
 def read_json(name: str) -> dict[str, Any]:
     return json.loads((ROOT / name).read_text(encoding="utf-8"))
@@ -224,7 +253,7 @@ def collect_batch(
         client,
         label=f"collector:{batch_name}",
         model=cfg["models"]["collector"],
-        max_output_tokens=6000,
+        max_output_tokens=4000,
         tools=[{
             "type": "web_search",
             "filters": {"allowed_domains": domains},
@@ -351,7 +380,7 @@ def edit_edition(
         client,
         label="editor",
         model=cfg["models"]["editor"],
-        max_output_tokens=10000,
+        max_output_tokens=8000,
         input=prompt,
         text={
             "format": {

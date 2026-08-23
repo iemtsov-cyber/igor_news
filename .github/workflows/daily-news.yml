@@ -1,10 +1,10 @@
-name: Daily News + GitHub Pages
+name: News every 4 hours + GitHub Pages
 
 on:
   workflow_dispatch:
   schedule:
-    # 07:00 Moscow time (UTC+3)
-    - cron: "0 4 * * *"
+    # Every 4 hours. UTC schedule becomes 03:00, 07:00, 11:00, 15:00, 19:00, 23:00 Moscow time.
+    - cron: "0 */4 * * *"
 
 permissions:
   contents: write
@@ -25,6 +25,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -35,18 +37,19 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Build today's edition
+      - name: Build incremental edition
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python news.py
 
-      - name: Save archive and memory
+      - name: Save feed, archive and memory
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs state.json
           if ! git diff --cached --quiet; then
-            git commit -m "news: update daily edition"
+            git commit -m "news: append four-hour update"
+            git pull --rebase origin main
             git push
           fi
 

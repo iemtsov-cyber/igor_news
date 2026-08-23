@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
+import random
 import re
 import html
 import time
@@ -211,11 +213,15 @@ def edition_schema() -> dict[str, Any]:
                         "source_urls": {"type": "array", "items": {"type": "string"}},
                         "source_names": {"type": "array", "items": {"type": "string"}},
                         "importance": {"type": "number", "minimum": 0, "maximum": 10},
-                        "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+                        "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+                        "preference_tags": {"type": "array", "items": {"type": "string"}},
+                        "is_random_top": {"type": "boolean"},
+                        "is_internet_element": {"type": "boolean"}
                     },
                     "required": [
                         "category", "headline", "body", "aside", "source_urls",
-                        "source_names", "importance", "confidence"
+                        "source_names", "importance", "confidence", "preference_tags",
+                        "is_random_top", "is_internet_element"
                     ]
                 }
             }
@@ -265,11 +271,11 @@ def collect_batch(
             label=f"collector:{batch_name}",
             model=cfg["models"]["collector"],
             max_output_tokens=int(cfg["web_search"].get("collector_max_output_tokens", 5000)),
-            tools=[{
+            tools=[({
                 "type": "web_search",
-                "filters": {"allowed_domains": domains},
-                "search_context_size": cfg["web_search"]["search_context_size"]
-            }],
+                "search_context_size": cfg["web_search"]["search_context_size"],
+                **({"filters": {"allowed_domains": domains}} if domains else {})
+            })],
             input=prompt,
             text={
                 "format": {
@@ -379,6 +385,8 @@ def edit_edition(
     editor_prompt: str,
     now: datetime,
     history: list[dict[str, Any]],
+    require_internet_element: bool = False,
+    require_random_top: bool = False,
 ) -> dict[str, Any]:
     edition_cfg = cfg["edition"]
     data = {
@@ -389,6 +397,8 @@ def edit_edition(
         "soft_targets": cfg["soft_targets"],
         "source_legend": build_source_legend(sources),
         "recently_shown": history,
+        "require_internet_element": require_internet_element,
+        "require_random_top": require_random_top,
         "candidates": candidates
     }
 
@@ -404,10 +414,11 @@ def edit_edition(
 Цель: около {edition_cfg['target_items']} сюжетов, допустимо от {edition_cfg['min_items']} до {edition_cfg['max_items']}.
 Политика — не более {round(edition_cfg['max_politics_share']*100)}% выпуска.
 Не более {edition_cfg['max_reddit_items']} сюжетов, где главным интересом является Reddit, и не более {edition_cfg['max_meme_items']} чисто мемного сюжета.
-Обязательно включи минимум {edition_cfg.get('min_internet_elements', 1)} лёгкий интернет-элемент: актуальный мем, реально хороший Reddit-комментарий или заметный интернет-феномен из найденных кандидатов. Предпочтительно встроить его в aside обычного сюжета; не создавай отдельную рубрику ради мема. Ничего не выдумывай.
+Если require_internet_element=true, обязательно включи минимум один лёгкий интернет-элемент из найденных кандидатов; если false — включай только если он действительно хорош. Предпочтительно встроить его в aside обычного сюжета; не создавай отдельную рубрику ради мема. Ничего не выдумывай.
+Если require_random_top=true, обязательно включи ровно один сюжет из collection_batch=random_top; если false — не добавляй новый random_top. Это контролируемая случайность, а не основной редакционный приоритет.
 Не включай один и тот же сюжет дважды. Если разные источники описывают одно событие — объедини их и сохрани все полезные URL в source_urls.
 Сверься с recently_shown: не повторяй уже показанный сюжет, если не произошло существенного нового развития. Если развитие существенное — можно включить, но текст должен ясно сообщать, что именно изменилось.
-В source_names используй человекочитаемые названия источников из source_legend.
+В source_names используй человекочитаемые названия источников из source_legend; для random_top с source_id=unknown можно использовать source_name/source_domain самого кандидата.
 Поле aside оставь пустой строкой, если нет реально хорошего комментария, мема или странной детали.
 
 ДАННЫЕ:
@@ -450,7 +461,6 @@ def edit_edition(
 
 
 def apply_hard_limits(edition: dict[str, Any], cfg: dict[str, Any]) -> dict[str, Any]:
-    # Final cheap guardrails. We do not try to second-guess the editor beyond hard caps.
     items = edition.get("items", [])
     max_items = int(cfg["edition"]["max_items"])
     edition["items"] = items[:max_items]
@@ -471,16 +481,189 @@ def section_for(category: str) -> str:
         return "Кино и культура"
     if any(x in c for x in ["sport", "chess", "спорт", "шах"]):
         return "Спорт и шахматы"
-    if any(x in c for x in ["meme", "internet", "reddit", "мем", "интернет"]):
-        return "Еще интересное"
     return "Еще интересное"
 
 
-def render_markdown(edition: dict[str, Any], cfg: dict[str, Any]) -> str:
-    show_links = bool(cfg["edition"].get("show_links", False))
-    show_sources = bool(cfg["edition"].get("show_source_names", False))
-    show_sections = bool(cfg["edition"].get("show_section_headers", True))
+def category_from_section(section: str) -> str:
+    s = section.lower()
+    if "россия" in s or "бизнес" in s:
+        return "russia"
+    if s.strip() == "мир":
+        return "world"
+    if "наука" in s or "технолог" in s:
+        return "technology"
+    if "москва" in s or "еда" in s or "ресторан" in s:
+        return "moscow"
+    if "кино" in s or "культур" in s:
+        return "culture"
+    if "спорт" in s or "шах" in s:
+        return "sports"
+    return "internet_culture"
 
+
+def stable_story_id(item: dict[str, Any]) -> str:
+    seed = normalize_title(item.get("headline", "")) + "|" + normalize_title(item.get("body", ""))[:240]
+    return hashlib.sha256(seed.encode("utf-8")).hexdigest()[:16]
+
+
+def normalize_tags(item: dict[str, Any], cfg: dict[str, Any]) -> list[str]:
+    raw = item.get("preference_tags", []) or []
+    tags: list[str] = []
+    for value in raw:
+        tag = " ".join(str(value).strip().lower().split())
+        if tag and tag not in tags:
+            tags.append(tag)
+    category = " ".join(str(item.get("category", "")).strip().lower().split())
+    if category and category not in tags:
+        tags.insert(0, category)
+    limit = int(cfg.get("personalization", {}).get("max_tags_per_story", 6))
+    return tags[:limit]
+
+
+def public_story(item: dict[str, Any], cfg: dict[str, Any], now: datetime) -> dict[str, Any]:
+    clean = {
+        "category": item.get("category", "other"),
+        "headline": item.get("headline", "").strip(),
+        "body": item.get("body", "").strip(),
+        "aside": item.get("aside", "").strip(),
+        "importance": float(item.get("importance", 5)),
+        "confidence": float(item.get("confidence", 0.7)),
+        "preference_tags": normalize_tags(item, cfg),
+        "is_random_top": bool(item.get("is_random_top", False)),
+        "is_internet_element": bool(item.get("is_internet_element", False)),
+        "added_at": item.get("added_at") or now.isoformat(),
+    }
+    clean["story_id"] = item.get("story_id") or stable_story_id(clean)
+    return clean
+
+
+def parse_legacy_html(path: Path, cfg: dict[str, Any], now: datetime) -> list[dict[str, Any]]:
+    """Migrate the last v5 page once, so the first v6 update does not erase it."""
+    if not path.exists():
+        return []
+    text = path.read_text(encoding="utf-8", errors="ignore")
+    result: list[dict[str, Any]] = []
+    section_re = re.compile(r"<section><h2>(.*?)</h2>(.*?)</section>", re.S | re.I)
+    story_re = re.compile(
+        r'<article class="story">.*?<h3>(.*?)</h3>\s*<p>(.*?)</p>(?:<div class="aside">(.*?)</div>)?.*?</article>',
+        re.S | re.I,
+    )
+    for section_html, body_html in section_re.findall(text):
+        section = html.unescape(re.sub(r"<.*?>", "", section_html)).strip()
+        category = category_from_section(section)
+        for headline_html, body_text_html, aside_html in story_re.findall(body_html):
+            headline = html.unescape(re.sub(r"<.*?>", "", headline_html)).strip()
+            body = html.unescape(re.sub(r"<.*?>", "", body_text_html)).strip()
+            aside = html.unescape(re.sub(r"<.*?>", "", aside_html)).strip() if aside_html else ""
+            if not headline:
+                continue
+            item = {
+                "category": category,
+                "headline": headline,
+                "body": body,
+                "aside": aside,
+                "preference_tags": [category],
+                "is_random_top": False,
+                "is_internet_element": bool(aside) or category == "internet_culture",
+                "added_at": now.isoformat(),
+                "importance": 5,
+                "confidence": 0.7,
+            }
+            result.append(public_story(item, cfg, now))
+    return result
+
+
+def load_master_feed(cfg: dict[str, Any], now: datetime) -> list[dict[str, Any]]:
+    docs = ROOT / "docs"
+    path = docs / "feed.json"
+    if path.exists():
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            return [public_story(x, cfg, now) for x in payload.get("items", [])]
+        except Exception as exc:
+            print(f"Не удалось прочитать docs/feed.json: {exc}. Пробую миграцию HTML.")
+    return parse_legacy_html(docs / "index.html", cfg, now)
+
+
+def story_day(item: dict[str, Any], tz: ZoneInfo) -> str:
+    try:
+        dt = datetime.fromisoformat(item.get("added_at", ""))
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=tz)
+        return dt.astimezone(tz).strftime("%Y-%m-%d")
+    except Exception:
+        return ""
+
+
+def merge_feed(existing: list[dict[str, Any]], new_items: list[dict[str, Any]], cfg: dict[str, Any], now: datetime) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
+    threshold = float(cfg["dedupe"]["title_similarity_threshold"])
+    merged = list(existing)
+    added: list[dict[str, Any]] = []
+    for raw in new_items:
+        item = public_story(raw, cfg, now)
+        if any(similarity(item["headline"], old.get("headline", "")) >= threshold for old in merged):
+            continue
+        merged.append(item)
+        added.append(item)
+    return merged, added
+
+
+def fallback_story(candidate: dict[str, Any], cfg: dict[str, Any], now: datetime, *, random_top: bool = False, internet: bool = False) -> dict[str, Any]:
+    body_parts = [candidate.get("what_happened", "").strip(), candidate.get("why_interesting", "").strip()]
+    body = " ".join(x for x in body_parts if x)
+    return {
+        "category": candidate.get("category", "random_top" if random_top else "internet_culture"),
+        "headline": candidate.get("title", "").strip(),
+        "body": body,
+        "aside": candidate.get("comment_or_meme_text", "").strip() if internet else "",
+        "source_urls": [candidate.get("url", "")] if candidate.get("url") else [],
+        "source_names": [candidate.get("source_name", candidate.get("source_domain", ""))],
+        "importance": 5.5,
+        "confidence": float(candidate.get("confidence", 0.65)),
+        "preference_tags": [candidate.get("category", "other"), "случайно из топа" if random_top else "интернет-культура"],
+        "is_random_top": random_top,
+        "is_internet_element": internet,
+        "added_at": now.isoformat(),
+    }
+
+
+def enforce_required_specials(
+    edition: dict[str, Any],
+    candidates: list[dict[str, Any]],
+    cfg: dict[str, Any],
+    now: datetime,
+    require_random_top: bool,
+    require_internet_element: bool,
+) -> dict[str, Any]:
+    items = list(edition.get("items", []))
+    max_items = int(cfg["edition"]["max_items"])
+
+    def room_for(item: dict[str, Any]) -> None:
+        nonlocal items
+        if len(items) >= max_items:
+            for idx in range(len(items) - 1, -1, -1):
+                if not items[idx].get("is_random_top") and not items[idx].get("is_internet_element"):
+                    items.pop(idx)
+                    break
+        if len(items) < max_items:
+            items.append(item)
+
+    if require_random_top and not any(x.get("is_random_top") for x in items):
+        pool = [c for c in candidates if c.get("collection_batch") == "random_top"]
+        if pool:
+            room_for(fallback_story(pool[0], cfg, now, random_top=True))
+
+    if require_internet_element and not any(x.get("is_internet_element") for x in items):
+        pool = [c for c in candidates if c.get("collection_batch") == "internet_culture" or c.get("is_comment_or_meme")]
+        if pool:
+            room_for(fallback_story(pool[0], cfg, now, internet=True))
+
+    edition["items"] = items
+    return edition
+
+
+def render_markdown(edition: dict[str, Any], cfg: dict[str, Any]) -> str:
+    show_sections = bool(cfg["edition"].get("show_section_headers", True))
     lines = [f"# {edition.get('title', 'Новости Игоря')}", ""]
     grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
     order: list[str] = []
@@ -489,57 +672,76 @@ def render_markdown(edition: dict[str, Any], cfg: dict[str, Any]) -> str:
         if section not in grouped:
             order.append(section)
         grouped[section].append(item)
-
     number = 1
     for section in order:
         if show_sections:
             lines += [f"## {section}", ""]
         for item in grouped[section]:
-            lines.append(f"### {number}. {item['headline']}")
-            lines.append("")
-            lines.append(item["body"].strip())
-            aside = item.get("aside", "").strip()
-            if aside:
-                lines += ["", aside]
-            if show_sources and item.get("source_names"):
-                lines += ["", "Источники: " + ", ".join(item["source_names"])]
-            if show_links and item.get("source_urls"):
-                lines += ["", "Ссылки: " + " | ".join(item["source_urls"])]
+            lines += [f"### {number}. {item['headline']}", "", item.get("body", "").strip()]
+            if item.get("aside", "").strip():
+                lines += ["", item["aside"].strip()]
             lines += ["", ""]
             number += 1
     return "\n".join(lines).rstrip() + "\n"
 
 
-
-def render_html(edition: dict[str, Any], now: datetime, archive_mode: bool = False) -> str:
-    grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
-    order: list[str] = []
-    for item in edition.get("items", []):
-        section = section_for(item.get("category", ""))
-        if section not in grouped:
-            order.append(section)
-        grouped[section].append(item)
+def render_html(edition: dict[str, Any], now: datetime, cfg: dict[str, Any], archive_mode: bool = False) -> str:
+    tz = ZoneInfo(cfg["timezone"])
+    items = list(edition.get("items", []))
+    by_day: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for item in items:
+        by_day[story_day(item, tz) or now.strftime("%Y-%m-%d")].append(item)
+    day_order = sorted(by_day.keys(), reverse=True)
 
     nav_archive = "index.html" if archive_mode else "archive/index.html"
     nav_home = "../index.html" if archive_mode else "index.html"
     parts: list[str] = []
     number = 1
-    for section in order:
-        cards: list[str] = []
-        for item in grouped[section]:
-            aside = item.get("aside", "").strip()
-            aside_html = f'<div class="aside">{html.escape(aside)}</div>' if aside else ""
-            cards.append(
-                f'<article class="story"><div class="num">{number}</div>'
-                f'<div class="story-body"><h3>{html.escape(item.get("headline", ""))}</h3>'
-                f'<p>{html.escape(item.get("body", ""))}</p>{aside_html}</div></article>'
-            )
-            number += 1
-        parts.append(f'<section><h2>{html.escape(section)}</h2>{"".join(cards)}</section>')
+    for day in day_order:
+        day_items = by_day[day]
+        if not archive_mode or len(day_order) > 1:
+            try:
+                day_label = datetime.strptime(day, "%Y-%m-%d").strftime("%d.%m.%Y")
+            except ValueError:
+                day_label = day
+            parts.append(f'<div class="day-divider"><span>{html.escape(day_label)}</span></div>')
+        grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
+        section_order: list[str] = []
+        for item in day_items:
+            section = section_for(item.get("category", ""))
+            if section not in grouped:
+                section_order.append(section)
+            grouped[section].append(item)
+        for section in section_order:
+            cards: list[str] = []
+            group_items = sorted(grouped[section], key=lambda x: x.get("added_at", ""), reverse=True)
+            for item in group_items:
+                aside = item.get("aside", "").strip()
+                aside_html = f'<div class="aside">{html.escape(aside)}</div>' if aside else ""
+                story_id = item.get("story_id") or stable_story_id(item)
+                tags_json = html.escape(json.dumps(item.get("preference_tags", []), ensure_ascii=False), quote=True)
+                category_attr = html.escape(item.get("category", "other"), quote=True)
+                cards.append(
+                    f'<article class="story" data-story-id="{story_id}" data-category="{category_attr}" data-tags="{tags_json}">'
+                    f'<div class="num">{number}</div><div class="story-body"><h3>{html.escape(item.get("headline", ""))}</h3>'
+                    f'<p>{html.escape(item.get("body", ""))}</p>{aside_html}'
+                    f'<div class="feedback" aria-label="Настроить будущую ленту">'
+                    f'<button class="vote vote-up" type="button" title="Больше такого">👍 <span>Больше такого</span></button>'
+                    f'<button class="vote vote-down" type="button" title="Меньше такого">👎 <span>Меньше такого</span></button>'
+                    f'</div></div></article>'
+                )
+                number += 1
+            parts.append(f'<section><h2>{html.escape(section)}</h2>{"".join(cards)}</section>')
 
     title = html.escape(edition.get("title", "Новости Игоря"))
     generated = now.strftime("%d.%m.%Y · %H:%M МСК")
-    home_link = f'<a href="{nav_home}">Сегодня</a>' if archive_mode else ""
+    home_link = f'<a href="{nav_home}">Лента</a>' if archive_mode else ""
+    p_cfg = cfg.get("personalization", {})
+    js_cfg = json.dumps({
+        "hideThreshold": float(p_cfg.get("hide_threshold", -1.6)),
+        "categoryWeight": float(p_cfg.get("category_vote_weight", 0.8)),
+        "tagWeight": float(p_cfg.get("tag_vote_weight", 0.45)),
+    })
     return f"""<!doctype html>
 <html lang="ru">
 <head>
@@ -548,27 +750,93 @@ def render_html(edition: dict[str, Any], now: datetime, archive_mode: bool = Fal
 <title>{title}</title>
 <meta name="description" content="Персональная новостная лента: сигнал вместо потока.">
 <style>
-:root {{ color-scheme: light dark; --bg:#f7f7f5; --text:#171717; --muted:#717171; --line:#e7e7e2; --accent:#1f4d3f; }}
-@media (prefers-color-scheme:dark) {{ :root {{ --bg:#111; --text:#f3f3f0; --muted:#aaa; --line:#30302e; --accent:#91c9b5; }} }}
+:root {{ color-scheme: light dark; --bg:#f7f7f5; --text:#171717; --muted:#717171; --line:#e7e7e2; --accent:#1f4d3f; --soft:#efefeb; }}
+@media (prefers-color-scheme:dark) {{ :root {{ --bg:#111; --text:#f3f3f0; --muted:#aaa; --line:#30302e; --accent:#91c9b5; --soft:#1d1d1b; }} }}
 *{{box-sizing:border-box}} body{{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.5}}
-.wrap{{max-width:820px;margin:0 auto;padding:28px 20px 70px}}
-header{{padding:28px 0 22px;border-bottom:1px solid var(--line);margin-bottom:30px}}
+.wrap{{max-width:820px;margin:0 auto;padding:28px 20px 70px}} header{{padding:28px 0 22px;border-bottom:1px solid var(--line);margin-bottom:24px}}
 h1{{font-family:Georgia,"Times New Roman",serif;font-size:clamp(36px,7vw,62px);line-height:.98;margin:0 0 14px;letter-spacing:-1.5px}}
-.deck{{font-size:17px;color:var(--muted);margin:0 0 12px}}
-.meta{{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--muted)}} .meta a{{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}}
-section{{margin:38px 0}} h2{{font-size:14px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 8px;color:var(--accent)}}
+.deck{{font-size:17px;color:var(--muted);margin:0 0 12px}} .meta{{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--muted)}} .meta a{{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}}
+.day-divider{{display:flex;align-items:center;gap:12px;margin:40px 0 10px;color:var(--muted);font-size:13px;font-weight:600}} .day-divider:after{{content:"";height:1px;background:var(--line);flex:1}}
+section{{margin:30px 0}} h2{{font-size:14px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 8px;color:var(--accent)}}
 .story{{display:grid;grid-template-columns:34px 1fr;gap:10px;padding:22px 0;border-top:1px solid var(--line)}} .num{{font-family:Georgia,serif;font-size:16px;color:var(--muted);padding-top:4px}}
 h3{{font-family:Georgia,"Times New Roman",serif;font-size:25px;line-height:1.16;margin:0 0 9px;letter-spacing:-.25px}} p{{margin:0;font-size:17px}}
-.aside{{margin-top:12px;padding-left:13px;border-left:3px solid var(--accent);font-size:15px;color:var(--muted)}} footer{{border-top:1px solid var(--line);padding-top:22px;margin-top:48px;font-size:13px;color:var(--muted)}}
-@media(max-width:560px){{.wrap{{padding:18px 16px 50px}} header{{padding-top:20px}} .story{{grid-template-columns:28px 1fr}} h3{{font-size:22px}} p{{font-size:16px}}}}
+.aside{{margin-top:12px;padding-left:13px;border-left:3px solid var(--accent);font-size:15px;color:var(--muted)}}
+.feedback{{display:flex;gap:8px;margin-top:14px}} .vote{{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:6px 10px;font:12px/1.2 inherit;cursor:pointer}} .vote:hover{{color:var(--text);background:var(--soft)}} .vote.active{{color:var(--text);border-color:var(--accent);background:var(--soft)}}
+.pref-hidden{{display:none}} .pref-note{{padding:10px 12px;margin:0 0 18px;border:1px solid var(--line);border-radius:10px;color:var(--muted);font-size:13px}} .pref-note button{{border:0;background:none;color:var(--accent);cursor:pointer;font:inherit;text-decoration:underline}}
+footer{{border-top:1px solid var(--line);padding-top:22px;margin-top:48px;font-size:13px;color:var(--muted)}}
+@media(max-width:560px){{.wrap{{padding:18px 16px 50px}} header{{padding-top:20px}} .story{{grid-template-columns:28px 1fr}} h3{{font-size:22px}} p{{font-size:16px}} .vote span{{display:none}}}}
 </style>
 </head>
 <body><main class="wrap">
-<header><h1>{title}</h1><p class="deck">Сигнал вместо потока. Только то, на чём стоило остановиться.</p>
-<div class="meta"><span>{generated}</span><a href="{nav_archive}">Архив выпусков</a>{home_link}</div></header>
+<header><h1>{title}</h1><p class="deck">Сигнал вместо потока. Новое добавляется каждые четыре часа и не исчезает.</p>
+<div class="meta"><span>Обновлено {generated}</span><a href="{nav_archive}">Архив по дням</a>{home_link}</div></header>
+<div id="pref-note" class="pref-note" hidden>По вашим оценкам скрыто новых сюжетов: <strong id="hidden-count">0</strong>. <button id="show-hidden" type="button">Показать</button></div>
 {"".join(parts)}
-<footer>Новости Игоря · автоматическая персональная редакция</footer>
-</main></body></html>"""
+<footer>Новости Игоря · лайки хранятся только в этом браузере и влияют на будущие похожие сюжеты</footer>
+</main>
+<script>
+(() => {{
+  const CFG = {js_cfg};
+  const KEY = 'igor_news_preferences_v1';
+  const blank = () => ({{ category: {{}}, tags: {{}}, feedback: {{}}, known: {{}}, hidden: {{}} }});
+  let state;
+  try {{ state = Object.assign(blank(), JSON.parse(localStorage.getItem(KEY) || '{{}}')); }} catch (_) {{ state = blank(); }}
+  const save = () => localStorage.setItem(KEY, JSON.stringify(state));
+  const cards = [...document.querySelectorAll('.story[data-story-id]')];
+  const parseTags = card => {{ try {{ return JSON.parse(card.dataset.tags || '[]'); }} catch (_) {{ return []; }} }};
+  const score = card => {{
+    const cat = (card.dataset.category || '').toLowerCase();
+    const tags = parseTags(card);
+    let s = Number(state.category[cat] || 0);
+    if (tags.length) s += tags.reduce((a,t) => a + Number(state.tags[String(t).toLowerCase()] || 0), 0) / tags.length;
+    return s;
+  }};
+  const setButtons = card => {{
+    const v = Number(state.feedback[card.dataset.storyId] || 0);
+    card.querySelector('.vote-up')?.classList.toggle('active', v === 1);
+    card.querySelector('.vote-down')?.classList.toggle('active', v === -1);
+  }};
+  let hidden = 0;
+  cards.forEach(card => {{
+    const id = card.dataset.storyId;
+    if (state.hidden[id]) {{ card.classList.add('pref-hidden'); hidden++; }}
+    else if (!state.known[id] && score(card) <= CFG.hideThreshold) {{
+      state.hidden[id] = true; card.classList.add('pref-hidden'); hidden++;
+    }}
+    state.known[id] = true;
+    setButtons(card);
+  }});
+  save();
+  const note = document.getElementById('pref-note');
+  const count = document.getElementById('hidden-count');
+  if (hidden > 0 && note && count) {{ note.hidden = false; count.textContent = String(hidden); }}
+  document.getElementById('show-hidden')?.addEventListener('click', () => {{
+    document.querySelectorAll('.pref-hidden').forEach(x => x.classList.remove('pref-hidden'));
+    if (note) note.hidden = true;
+  }});
+  const vote = (card, wanted) => {{
+    const id = card.dataset.storyId;
+    const previous = Number(state.feedback[id] || 0);
+    const next = previous === wanted ? 0 : wanted;
+    const delta = next - previous;
+    const cat = (card.dataset.category || '').toLowerCase();
+    if (cat) state.category[cat] = Number(state.category[cat] || 0) + delta * CFG.categoryWeight;
+    parseTags(card).forEach(t => {{
+      const k = String(t).toLowerCase();
+      state.tags[k] = Number(state.tags[k] || 0) + delta * CFG.tagWeight;
+    }});
+    state.feedback[id] = next;
+    state.hidden[id] = false;
+    card.classList.remove('pref-hidden');
+    save(); setButtons(card);
+  }};
+  cards.forEach(card => {{
+    card.querySelector('.vote-up')?.addEventListener('click', () => vote(card, 1));
+    card.querySelector('.vote-down')?.addEventListener('click', () => vote(card, -1));
+  }});
+}})();
+</script>
+</body></html>"""
 
 
 def render_archive_index(docs_dir: Path) -> str:
@@ -585,36 +853,63 @@ def render_archive_index(docs_dir: Path) -> str:
         items.append(f'<li><a href="{html.escape(f.name)}">{html.escape(label)}</a></li>')
     listing = "".join(items) or "<li>Пока нет сохранённых выпусков.</li>"
     return f"""<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Архив · Новости Игоря</title>
-<style>body{{max-width:760px;margin:40px auto;padding:0 20px;font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}}h1{{font:42px/1 Georgia,serif}}a{{color:inherit}}li{{margin:10px 0}}</style></head><body><a href="../index.html">← Сегодня</a><h1>Архив выпусков</h1><ul>{listing}</ul></body></html>"""
+<style>body{{max-width:760px;margin:40px auto;padding:0 20px;font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}}h1{{font:42px/1 Georgia,serif}}a{{color:inherit}}li{{margin:10px 0}}</style></head><body><a href="../index.html">← Лента</a><h1>Архив по дням</h1><ul>{listing}</ul></body></html>"""
 
-def save_outputs(edition: dict[str, Any], candidates: list[dict[str, Any]], cfg: dict[str, Any], now: datetime) -> tuple[Path, Path]:
+
+def save_outputs(
+    new_edition: dict[str, Any],
+    candidates: list[dict[str, Any]],
+    cfg: dict[str, Any],
+    now: datetime,
+    existing_feed: list[dict[str, Any]],
+) -> tuple[Path, Path, list[dict[str, Any]], list[dict[str, Any]]]:
     out_dir = ROOT / "output"
     out_dir.mkdir(exist_ok=True)
     docs_dir = ROOT / "docs"
     archive_dir = docs_dir / "archive"
+    data_dir = docs_dir / "data"
     archive_dir.mkdir(parents=True, exist_ok=True)
+    data_dir.mkdir(parents=True, exist_ok=True)
 
     stamp = now.strftime("%Y-%m-%d_%H%M")
     day = now.strftime("%Y-%m-%d")
     md_path = out_dir / f"digest_{stamp}.md"
     json_path = out_dir / f"digest_{stamp}.json"
 
-    md_path.write_text(render_markdown(edition, cfg), encoding="utf-8")
-    archive = {
-        "generated_at": now.isoformat(),
-        "edition": edition,
-        "candidate_count": len(candidates),
-        "candidates": candidates
-    }
-    json_path.write_text(json.dumps(archive, ensure_ascii=False, indent=2), encoding="utf-8")
+    merged, added = merge_feed(existing_feed, new_edition.get("items", []), cfg, now)
+    full_edition = {"title": "Новости Игоря", "items": merged}
+    md_path.write_text(render_markdown({"title": new_edition.get("title", "Новости Игоря"), "items": added}, cfg), encoding="utf-8")
+    internal = {"generated_at": now.isoformat(), "edition": new_edition, "candidate_count": len(candidates), "candidates": candidates}
+    json_path.write_text(json.dumps(internal, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    # Public Pages files never contain source URLs or internal candidate data.
-    (docs_dir / "index.html").write_text(render_html(edition, now, archive_mode=False), encoding="utf-8")
-    (archive_dir / f"{day}.html").write_text(render_html(edition, now, archive_mode=True), encoding="utf-8")
+    feed_payload = {"updated_at": now.isoformat(), "items": merged}
+    (docs_dir / "feed.json").write_text(json.dumps(feed_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    tz = ZoneInfo(cfg["timezone"])
+    today_items = [x for x in merged if story_day(x, tz) == day]
+    today_payload = {"date": day, "updated_at": now.isoformat(), "items": today_items}
+    (data_dir / f"{day}.json").write_text(json.dumps(today_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    (docs_dir / "index.html").write_text(render_html(full_edition, now, cfg, archive_mode=False), encoding="utf-8")
+    (archive_dir / f"{day}.html").write_text(render_html({"title": "Новости Игоря", "items": today_items}, now, cfg, archive_mode=True), encoding="utf-8")
     (archive_dir / "index.html").write_text(render_archive_index(docs_dir), encoding="utf-8")
     (docs_dir / ".nojekyll").touch()
-    return md_path, json_path
+    return md_path, json_path, merged, added
 
+
+
+
+def reconcile_special_flags(edition: dict[str, Any], candidates: list[dict[str, Any]]) -> dict[str, Any]:
+    random_urls = {c.get("url", "") for c in candidates if c.get("collection_batch") == "random_top" and c.get("url")}
+    internet_urls = {c.get("url", "") for c in candidates if c.get("collection_batch") == "internet_culture" and c.get("url")}
+    for item in edition.get("items", []):
+        urls = set(item.get("source_urls", []) or [])
+        item["is_random_top"] = bool(urls & random_urls)
+        if urls & internet_urls:
+            item["is_internet_element"] = True
+        else:
+            item["is_internet_element"] = bool(item.get("is_internet_element", False) and item.get("aside", "").strip())
+    return edition
 
 def source_health(candidates: list[dict[str, Any]]) -> str:
     counts = Counter(c.get("source_name", "unknown") for c in candidates)
@@ -623,7 +918,7 @@ def source_health(candidates: list[dict[str, Any]]) -> str:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Персональный выпуск 'Новости Игоря'")
+    parser = argparse.ArgumentParser(description="Персональная лента 'Новости Игоря'")
     parser.add_argument("--dry-run", action="store_true", help="Проверить конфиги без вызова API")
     parser.add_argument("--batch", action="append", help="Запустить только указанный collection batch; можно повторять")
     args = parser.parse_args()
@@ -638,17 +933,35 @@ def main() -> int:
 
     tz = ZoneInfo(cfg["timezone"])
     now = datetime.now(tz)
+    today = now.strftime("%Y-%m-%d")
+    existing_feed = load_master_feed(cfg, now)
+    today_items = [x for x in existing_feed if story_day(x, tz) == today]
 
-    # Validate batches and domains before spending any API calls.
+    min_internet = int(cfg["edition"].get("min_internet_elements_per_day", 1))
+    require_internet_element = sum(1 for x in today_items if x.get("is_internet_element")) < min_internet
+    # One lottery story in every normal four-hour update. Manual --batch runs obey only requested batches.
+    require_random_top = bool(cfg["edition"].get("random_top_items_per_update", 1)) and not args.batch
+
+    print(f"В ленте уже {len(existing_feed)} сюжетов; сегодня {len(today_items)}.")
+    print(f"Сегодня нужен интернет-элемент: {require_internet_element}; случайный топ: {require_random_top}")
+
     batches = cfg["collection_batches"]
-    selected = args.batch or list(batches.keys())
+    if args.batch:
+        selected = list(args.batch)
+    else:
+        selected = list(batches.keys())
+        if not require_internet_element and "internet_culture" in selected:
+            selected.remove("internet_culture")
+
+    # Validate ordinary whitelisted batches; random_top deliberately has no domain filter.
     for batch in selected:
         if batch not in batches:
             raise SystemExit(f"Неизвестный batch: {batch}")
-        domains = batch_domains(sources, batch)
-        if not domains:
+        allow_any = bool(batches[batch].get("allow_any_domain", False))
+        domains = [] if allow_any else batch_domains(sources, batch)
+        if not domains and not allow_any:
             raise SystemExit(f"У batch {batch} нет доменов в sources.json")
-        print(f"{batch}: {len(domains)} domains")
+        print(f"{batch}: {'любой разумный домен' if allow_any else str(len(domains)) + ' domains'}")
 
     if args.dry_run:
         print("Конфиги валидны. API не вызывался.")
@@ -660,9 +973,13 @@ def main() -> int:
     client = OpenAI()
     candidates: list[dict[str, Any]] = []
     for batch in selected:
-        domains = batch_domains(sources, batch)
+        allow_any = bool(batches[batch].get("allow_any_domain", False))
+        domains = [] if allow_any else batch_domains(sources, batch)
         print(f"Собираю {batch}...")
         items = collect_batch(client, batch, batches[batch]["prompt"], domains, cfg, now)
+        if batch == "random_top" and items:
+            # One real lottery ticket from the top pool; the editor cannot cherry-pick it back into familiarity.
+            items = [random.SystemRandom().choice(items)]
         for item in items:
             item["collection_batch"] = batch
         candidates.extend(items)
@@ -675,13 +992,25 @@ def main() -> int:
 
     history = recent_history(state, cfg, now)
     print(f"История за последние {cfg.get('memory', {}).get('history_days', 7)} дн.: {len(history)} сюжетов")
-    edition = edit_edition(client, candidates, sources, cfg, policy, editor_prompt, now, history)
+    edition = edit_edition(
+        client, candidates, sources, cfg, policy, editor_prompt, now, history,
+        require_internet_element=require_internet_element,
+        require_random_top=require_random_top,
+    )
+    edition = reconcile_special_flags(edition, candidates)
     edition = apply_hard_limits(edition, cfg)
-    md_path, json_path = save_outputs(edition, candidates, cfg, now)
-    update_state(state, edition, cfg, now)
+    edition = enforce_required_specials(
+        edition, candidates, cfg, now,
+        require_random_top=require_random_top,
+        require_internet_element=require_internet_element,
+    )
 
+    md_path, json_path, merged_feed, added = save_outputs(edition, candidates, cfg, now, existing_feed)
+    update_state(state, {"items": added}, cfg, now)
+
+    print(f"Добавлено в ленту: {len(added)}; всего: {len(merged_feed)}")
     print(f"Готово: {md_path}")
-    print(f"Архив: {json_path}")
+    print(f"Внутренний архив запуска: {json_path}")
     return 0
 
 

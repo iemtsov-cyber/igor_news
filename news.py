@@ -5,6 +5,7 @@ import json
 import os
 import re
 import html
+import time
 from collections import Counter, defaultdict
 from dataclasses import dataclass
 from datetime import datetime, timedelta
@@ -15,10 +16,29 @@ from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 
 from dotenv import load_dotenv
-from openai import OpenAI
+from openai import OpenAI, RateLimitError
 
 ROOT = Path(__file__).resolve().parent
 
+
+
+
+def create_response_with_retry(client: OpenAI, *, label: str, max_retries: int = 5, **kwargs):
+    """Call Responses API and wait automatically when the org hits a TPM/RPM limit."""
+    for attempt in range(max_retries + 1):
+        try:
+            return client.responses.create(**kwargs)
+        except RateLimitError as exc:
+            if attempt >= max_retries:
+                raise
+            # OpenAI often returns e.g. "Please try again in 11.874s".
+            match = re.search(r"try again in\s+([0-9.]+)s", str(exc), re.IGNORECASE)
+            if match:
+                wait = float(match.group(1)) + 1.5
+            else:
+                wait = min(60.0, 8.0 * (2 ** attempt))
+            print(f"Rate limit for {label}; waiting {wait:.1f}s and retrying ({attempt + 1}/{max_retries})...")
+            time.sleep(wait)
 
 def read_json(name: str) -> dict[str, Any]:
     return json.loads((ROOT / name).read_text(encoding="utf-8"))
@@ -200,8 +220,11 @@ def collect_batch(
 Если дата на странице неясна, published_at оставь пустой строкой.
 """.strip()
 
-    response = client.responses.create(
+    response = create_response_with_retry(
+        client,
+        label=f"collector:{batch_name}",
         model=cfg["models"]["collector"],
+        max_output_tokens=6000,
         tools=[{
             "type": "web_search",
             "filters": {"allowed_domains": domains},
@@ -324,8 +347,11 @@ def edit_edition(
 {json.dumps(data, ensure_ascii=False)}
 """.strip()
 
-    response = client.responses.create(
+    response = create_response_with_retry(
+        client,
+        label="editor",
         model=cfg["models"]["editor"],
+        max_output_tokens=10000,
         input=prompt,
         text={
             "format": {

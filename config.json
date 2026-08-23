@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 4,
   "timezone": "Europe/Moscow",
   "lookback_hours": 30,
   "edition": {
@@ -20,7 +20,9 @@
   },
   "web_search": {
     "search_context_size": "low",
-    "max_candidates_per_batch": 18
+    "max_candidates_per_batch": 10,
+    "collector_max_output_tokens": 5000,
+    "json_retries": 2
   },
   "dedupe": {
     "title_similarity_threshold": 0.79

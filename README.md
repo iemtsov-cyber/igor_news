@@ -76,3 +76,7 @@ python news.py
 ## Rate-limit pacing
 
 The collector intentionally spaces OpenAI API calls by 25 seconds and uses conservative exponential backoff on HTTP 429. This is designed for a 200k TPM tier while preserving all six editorial collection passes.
+
+
+## v4 reliability
+Collector batches request smaller candidate lists and retry incomplete/malformed structured JSON. One bad batch is skipped instead of aborting the whole daily edition.

@@ -232,45 +232,82 @@ def collect_batch(
     cfg: dict[str, Any],
     now: datetime,
 ) -> list[dict[str, Any]]:
+    """Collect one thematic batch and survive truncated structured output.
+
+    Structured Outputs can still be incomplete when max_output_tokens is reached.
+    A daily news run should not die because one batch produced a cut-off JSON string,
+    so we retry that batch with a smaller requested list and, after a few attempts,
+    skip only that batch rather than aborting the whole edition.
+    """
     lookback = int(cfg["lookback_hours"])
     since = now - timedelta(hours=lookback)
-    max_items = int(cfg["web_search"]["max_candidates_per_batch"])
+    configured_max = int(cfg["web_search"]["max_candidates_per_batch"])
+    candidate_limit = configured_max
+    json_retries = int(cfg["web_search"].get("json_retries", 2))
 
-    prompt = f"""
+    for json_attempt in range(json_retries + 1):
+        prompt = f"""
 Сегодня {now:%Y-%m-%d %H:%M} по часовому поясу {cfg['timezone']}.
 Ищи материалы, опубликованные или относящиеся в первую очередь к периоду после {since:%Y-%m-%d %H:%M}.
 
 Редакционная задача этого пакета:
 {batch_prompt}
 
-Верни до {max_items} кандидатов. Не добивай список слабыми материалами.
+Верни до {candidate_limit} кандидатов. Не добивай список слабыми материалами.
+Пиши КОМПАКТНО: what_happened — максимум 2 коротких предложения; why_interesting — максимум 1 короткое предложение; comment_or_meme_text — максимум 1 короткое предложение.
 Для каждого кандидата дай реальный URL найденной страницы и ее домен.
 Если это Reddit-комментарий или мем, поле is_comment_or_meme=true, а comment_or_meme_text содержит только реально найденную формулировку или очень короткое точное описание мема; ничего не выдумывай.
 Если дата на странице неясна, published_at оставь пустой строкой.
 """.strip()
 
-    response = create_response_with_retry(
-        client,
-        label=f"collector:{batch_name}",
-        model=cfg["models"]["collector"],
-        max_output_tokens=4000,
-        tools=[{
-            "type": "web_search",
-            "filters": {"allowed_domains": domains},
-            "search_context_size": cfg["web_search"]["search_context_size"]
-        }],
-        input=prompt,
-        text={
-            "format": {
-                "type": "json_schema",
-                "name": f"candidate_batch_{batch_name}",
-                "strict": True,
-                "schema": candidate_schema()
+        response = create_response_with_retry(
+            client,
+            label=f"collector:{batch_name}",
+            model=cfg["models"]["collector"],
+            max_output_tokens=int(cfg["web_search"].get("collector_max_output_tokens", 5000)),
+            tools=[{
+                "type": "web_search",
+                "filters": {"allowed_domains": domains},
+                "search_context_size": cfg["web_search"]["search_context_size"]
+            }],
+            input=prompt,
+            text={
+                "format": {
+                    "type": "json_schema",
+                    "name": f"candidate_batch_{batch_name}",
+                    "strict": True,
+                    "schema": candidate_schema()
+                }
             }
-        }
-    )
-    payload = json.loads(response.output_text)
-    return payload.get("items", [])
+        )
+
+        status = getattr(response, "status", "completed")
+        if status == "incomplete":
+            details = getattr(response, "incomplete_details", None)
+            reason = getattr(details, "reason", "unknown") if details else "unknown"
+            print(f"Incomplete structured output for {batch_name}: {reason}.")
+        else:
+            try:
+                payload = json.loads(response.output_text)
+                return payload.get("items", [])
+            except json.JSONDecodeError as exc:
+                print(
+                    f"Malformed/truncated JSON for {batch_name}: {exc}. "
+                    f"Will retry with a smaller candidate list."
+                )
+
+        if json_attempt < json_retries:
+            candidate_limit = max(5, candidate_limit - 3)
+            wait = 20.0
+            print(
+                f"Retrying {batch_name} structured output in {wait:.0f}s "
+                f"with limit {candidate_limit} ({json_attempt + 1}/{json_retries})..."
+            )
+            time.sleep(wait)
+        else:
+            print(f"Skipping batch {batch_name}: structured output stayed incomplete after retries.")
+
+    return []
 
 
 def enrich_candidates(candidates: list[dict[str, Any]], sources: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -376,23 +413,39 @@ def edit_edition(
 {json.dumps(data, ensure_ascii=False)}
 """.strip()
 
-    response = create_response_with_retry(
-        client,
-        label="editor",
-        model=cfg["models"]["editor"],
-        max_output_tokens=8000,
-        input=prompt,
-        text={
-            "format": {
-                "type": "json_schema",
-                "name": "news_edition",
-                "strict": True,
-                "schema": edition_schema()
-            },
-            "verbosity": "medium"
-        }
-    )
-    return json.loads(response.output_text)
+    for attempt in range(2):
+        response = create_response_with_retry(
+            client,
+            label="editor",
+            model=cfg["models"]["editor"],
+            max_output_tokens=9000,
+            input=prompt,
+            text={
+                "format": {
+                    "type": "json_schema",
+                    "name": "news_edition",
+                    "strict": True,
+                    "schema": edition_schema()
+                },
+                "verbosity": "medium"
+            }
+        )
+        status = getattr(response, "status", "completed")
+        if status == "completed":
+            try:
+                return json.loads(response.output_text)
+            except json.JSONDecodeError as exc:
+                print(f"Editor returned malformed JSON: {exc}.")
+        else:
+            details = getattr(response, "incomplete_details", None)
+            reason = getattr(details, "reason", "unknown") if details else "unknown"
+            print(f"Editor output incomplete: {reason}.")
+
+        if attempt == 0:
+            print("Retrying editor after 30s...")
+            time.sleep(30)
+
+    raise RuntimeError("Editor could not produce a complete structured edition after retry.")
 
 
 def apply_hard_limits(edition: dict[str, Any], cfg: dict[str, Any]) -> dict[str, Any]:

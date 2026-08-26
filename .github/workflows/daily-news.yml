@@ -37,15 +37,16 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Validate v8
+      - name: Validate v8.1
         run: |
           python -m py_compile news.py
           python -m py_compile news_v8.py
+          python -m py_compile news_v81.py
 
       - name: Build incremental edition from free RSS
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-        run: python news_v8.py
+        run: python news_v81.py
 
       - name: Save feed, archive and memory
         run: |

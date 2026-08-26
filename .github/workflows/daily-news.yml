@@ -37,16 +37,21 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Migrate collector to Gemini
+        run: |
+          python migrate_v7.py
+          python -m py_compile news.py
+
       - name: Build incremental edition
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python news.py
 
       - name: Save feed, archive and memory
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs state.json
+          git add news.py docs state.json
           if ! git diff --cached --quiet; then
             git commit -m "news: append four-hour update"
             git pull --rebase origin main

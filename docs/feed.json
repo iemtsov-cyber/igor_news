@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T16:51:02.247602+03:00",
+  "updated_at": "2026-08-26T17:02:10.744436+03:00",
   "items": [
     {
       "category": "russia",
@@ -2190,6 +2190,96 @@
       "is_internet_element": false,
       "added_at": "2026-08-26T16:51:02.247602+03:00",
       "story_id": "abceca9f8f96fdf9"
+    },
+    {
+      "category": "random_top",
+      "headline": "Летевшие на Севастополь ракеты «Фламинго» и почти 800 беспилотников сбили в РФ за сутки",
+      "body": "Летевшие на Севастополь ракеты «Фламинго» и почти 800 беспилотников сбили в РФ за сутки ФОНТАНКА.ру Лес у подножия горы Ильяс-Кая загорелся после падения обломка украинского БПЛА URA.RU ПВО уничтожила три ракеты «Фламинго» над Черным морем у Севастополя Росбалт В Севастополе обломки дрона упали на автобус: погибли два человека Радио Свобода Госпитализированы 10 пострадавших при атаке БПЛА в Севастополе Интерфакс",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-08-26T17:02:10.744436+03:00",
+      "story_id": "6f22b1010b70aed6"
+    },
+    {
+      "category": "technology",
+      "headline": "Использование Codex с вашим тарифным планом ChatGPT",
+      "body": "Использование Codex с вашим тарифным планом ChatGPT OpenAI Help Center",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-26T17:02:10.744436+03:00",
+      "story_id": "e503c3be693fe0ed"
+    },
+    {
+      "category": "technology",
+      "headline": "Credit Grants - OpenAI Platform",
+      "body": "Credit Grants - OpenAI Platform OpenAI Platform",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-26T17:02:10.744436+03:00",
+      "story_id": "b88d3edc394a1b86"
+    },
+    {
+      "category": "technology",
+      "headline": "Приложение Google для ChatGPT — Часто задаваемые вопросы о контроле данных",
+      "body": "Приложение Google для ChatGPT — Часто задаваемые вопросы о контроле данных OpenAI Help Center",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-26T17:02:10.744436+03:00",
+      "story_id": "5235acbd283736bd"
+    },
+    {
+      "category": "technology",
+      "headline": "Устранение проблем с доступом к приложениям ChatGPT для Mac или iOS при использовании Cloudflare Zero Trust",
+      "body": "Устранение проблем с доступом к приложениям ChatGPT для Mac или iOS при использовании Cloudflare Zero Trust OpenAI Help Center",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-26T17:02:10.744436+03:00",
+      "story_id": "e7f0b082b97d498d"
+    },
+    {
+      "category": "moscow",
+      "headline": "ГЭС-2» отметит пятилетие серией из семи концертов",
+      "body": "ГЭС-2» отметит пятилетие серией из семи концертов daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-26T17:02:10.744436+03:00",
+      "story_id": "4c298f8d8a5bda8b"
     }
   ]
 }

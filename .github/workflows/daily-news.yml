@@ -37,6 +37,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Select free Gemini model
+        run: |
+          python -c "from pathlib import Path; p=Path('config.json'); s=p.read_text(encoding='utf-8'); p.write_text(s.replace('gemini-2.5-flash-lite','gemini-3.1-flash-lite'), encoding='utf-8')"
+
       - name: Migrate collector to Gemini
         run: |
           python migrate_v7.py
@@ -51,7 +55,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news.py docs state.json
+          git add config.json news.py docs state.json
           if ! git diff --cached --quiet; then
             git commit -m "news: append four-hour update"
             git pull --rebase origin main

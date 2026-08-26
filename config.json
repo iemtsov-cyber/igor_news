@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "timezone": "Europe/Moscow",
   "lookback_hours": 8,
   "edition": {
@@ -17,8 +17,8 @@
     "random_top_items_per_update": 1
   },
   "models": {
-    "collector": "gemini-2.5-flash-lite",
-    "editor": "gemini-2.5-flash-lite"
+    "collector": "rss",
+    "editor": "openrouter/free"
   },
   "web_search": {
     "search_context_size": "low",
@@ -98,6 +98,7 @@
     "tag_vote_weight": 0.45,
     "max_tags_per_story": 6
   },
-  "provider": "google_gemini_free",
-  "editor_max_output_tokens": 7000
+  "provider": "rss_plus_openrouter_free",
+  "editor_max_output_tokens": 6500,
+  "openrouter_free_requests_per_day": 50
 }

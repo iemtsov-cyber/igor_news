@@ -3,8 +3,9 @@ name: News every 4 hours + GitHub Pages
 on:
   workflow_dispatch:
   schedule:
-    # Every 4 hours. UTC schedule becomes 03:00, 07:00, 11:00, 15:00, 19:00, 23:00 Moscow time.
-    - cron: "0 */4 * * *"
+    # Every 4 hours in Moscow, shifted away from minute 00 to avoid GitHub Actions peak load.
+    - cron: "17 3,7,11,15,19,23 * * *"
+      timezone: "Europe/Moscow"
 
 permissions:
   contents: write

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T17:25:41.191109+03:00",
+  "updated_at": "2026-08-27T14:14:26.624495+03:00",
   "items": [
     {
       "category": "russia",
@@ -2295,6 +2295,60 @@
       "is_internet_element": false,
       "added_at": "2026-08-26T17:25:41.191109+03:00",
       "story_id": "4d9557f020b18340"
+    },
+    {
+      "category": "other",
+      "headline": "В Петербурге взорвался автомобиль высокопоставленного военного",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "россия",
+        "происшествия",
+        "петербург",
+        "военные"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-27T14:14:26.624495+03:00",
+      "story_id": "d0657dfdd34af966"
+    },
+    {
+      "category": "other",
+      "headline": "Мемы вроде «сикс-севен» становятся модными из-за перегрузки информацией",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "интернет-культура",
+        "мемы",
+        "соцсети",
+        "популярная культура"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-27T14:14:26.624495+03:00",
+      "story_id": "b19260817a909de4"
+    },
+    {
+      "category": "other",
+      "headline": "Уолл-стрит завершила торги среды в минусе",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "рынки",
+        "сша",
+        "экономика",
+        "трейдинг"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-27T14:14:26.624495+03:00",
+      "story_id": "6933dd9593a5b872"
     }
   ]
 }

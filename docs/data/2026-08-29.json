@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updated_at": "2026-08-29T11:24:32.620522+03:00",
+  "updated_at": "2026-08-29T15:24:31.554453+03:00",
   "items": [
     {
       "category": "other",
@@ -478,6 +478,66 @@
       "is_internet_element": false,
       "added_at": "2026-08-29T11:24:32.620522+03:00",
       "story_id": "818a640e9ad4a19f"
+    },
+    {
+      "category": "random_top",
+      "headline": "Украина лишилась возможности создавать ракеты «Фламинго",
+      "body": "Украина лишилась возможности создавать ракеты «Фламинго» URA.RU Минобороны РФ заявило об ударах по логистическим центрам в Киеве и Киевской области Интерфакс ВС РФ поразили завод по производству химвеществ для ракет «Фламинго» на Украине Ведомости В Киевской области поражено предприятие компании Fire Point — Минобороны России EADaily ВС России поразили склад боеприпасов ООО Fire Point в населённом пункте Милая prospect.com.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-08-29T15:24:31.554453+03:00",
+      "story_id": "de9724f60eb62554"
+    },
+    {
+      "category": "moscow",
+      "headline": "Официальная программа Международного модного кинофестиваля журнала \"Богема\" / La Boheme Cinema на юбилейной выставке \"Интерткань",
+      "body": "Официальная программа Международного модного кинофестиваля журнала \"Богема\" / La Boheme Cinema на юбилейной выставке \"Интерткань\" festivals.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-29T15:24:31.554453+03:00",
+      "story_id": "b320392605128d98"
+    },
+    {
+      "category": "moscow",
+      "headline": "Фестивали России в октябре 2026 года в жанре Графика: афиша, билеты, все города,",
+      "body": "Фестивали России в октябре 2026 года в жанре Графика: афиша, билеты, все города, festivals.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-29T15:24:31.554453+03:00",
+      "story_id": "613078a1137ac5fe"
+    },
+    {
+      "category": "moscow",
+      "headline": "афиша, билеты, жанры",
+      "body": "афиша, билеты, жанры festivals.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-29T15:24:31.554453+03:00",
+      "story_id": "9fa0207035aca991"
     }
   ]
 }

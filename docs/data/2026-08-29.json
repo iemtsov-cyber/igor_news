@@ -1,6 +1,6 @@
 {
   "date": "2026-08-29",
-  "updated_at": "2026-08-29T15:24:31.554453+03:00",
+  "updated_at": "2026-08-29T19:24:37.324891+03:00",
   "items": [
     {
       "category": "other",
@@ -538,6 +538,51 @@
       "is_internet_element": false,
       "added_at": "2026-08-29T15:24:31.554453+03:00",
       "story_id": "9fa0207035aca991"
+    },
+    {
+      "category": "random_top",
+      "headline": "Трамп заявил о заключении крупнейшей в истории нефтяной сделки с Венесуэлой",
+      "body": "Трамп заявил о заключении крупнейшей в истории нефтяной сделки с Венесуэлой Интерфакс США заключили с Венесуэлой «крупнейшую нефтяную сделку в истории» Meduza Трамп объявил о заключении «исторической» нефтяной сделки США с Венесуэлой BBC Трамп: США возьмут под контроль часть нефтяных запасов Венесуэлы Радио Свобода Трамп объявил об очередной «исторической сделке». На этот раз с Венесуэлой и ее нефтью BFM.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-08-29T19:24:37.324891+03:00",
+      "story_id": "7d87c79ae544eeed"
+    },
+    {
+      "category": "technology",
+      "headline": "ChatGPT — примечания к выпуску",
+      "body": "ChatGPT — примечания к выпуску OpenAI Help Center",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-29T19:24:37.324891+03:00",
+      "story_id": "97ec61744ba2d340"
+    },
+    {
+      "category": "moscow",
+      "headline": "tickets.afisha.ru",
+      "body": "tickets.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-29T19:24:37.324891+03:00",
+      "story_id": "0bf021946c5f7f5d"
     }
   ]
 }

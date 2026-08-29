@@ -845,6 +845,21 @@
       "shown_at": "2026-08-29T15:24:31.554453+03:00",
       "headline": "афиша, билеты, жанры",
       "category": "moscow"
+    },
+    {
+      "shown_at": "2026-08-29T19:24:37.324891+03:00",
+      "headline": "Трамп заявил о заключении крупнейшей в истории нефтяной сделки с Венесуэлой",
+      "category": "random_top"
+    },
+    {
+      "shown_at": "2026-08-29T19:24:37.324891+03:00",
+      "headline": "ChatGPT — примечания к выпуску",
+      "category": "technology"
+    },
+    {
+      "shown_at": "2026-08-29T19:24:37.324891+03:00",
+      "headline": "tickets.afisha.ru",
+      "category": "moscow"
     }
   ]
 }

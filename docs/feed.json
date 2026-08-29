@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T19:24:37.324891+03:00",
+  "updated_at": "2026-08-29T23:24:39.751602+03:00",
   "items": [
     {
       "category": "russia",
@@ -2934,6 +2934,78 @@
       "is_internet_element": false,
       "added_at": "2026-08-29T19:24:37.324891+03:00",
       "story_id": "0bf021946c5f7f5d"
+    },
+    {
+      "category": "other",
+      "headline": "Кабмин продлил запрет на экспорт дизтоплива производителями до 30 сентября",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "энергетика",
+        "экспорт",
+        "топливо",
+        "регулирование"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-29T23:24:39.751602+03:00",
+      "story_id": "2a59dbd7e0a3b80a"
+    },
+    {
+      "category": "other",
+      "headline": "Bandai выпустила Tamagotchi Ring — очень маленькое тамагочи-кольцо",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "гаджеты",
+        "ретро",
+        "bandai",
+        "носимая электроника"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-29T23:24:39.751602+03:00",
+      "story_id": "27ca4ecacb7ac15a"
+    },
+    {
+      "category": "other",
+      "headline": "20 минут тренировки могут помочь после недосыпа так же, как 90-минутный сон",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "здоровье",
+        "сон",
+        "тренировки",
+        "наука"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-29T23:24:39.751602+03:00",
+      "story_id": "33ffffb09dea7c23"
+    },
+    {
+      "category": "other",
+      "headline": "Альпинисту в Австрии вернули рюкзак и снаряжение, потерянные 60 лет назад",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "альпинизм",
+        "история",
+        "спасение",
+        "соцсети"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-29T23:24:39.751602+03:00",
+      "story_id": "0a3d2cf4effbf215"
     }
   ]
 }

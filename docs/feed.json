@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T00:48:26.412476+03:00",
+  "updated_at": "2026-08-29T03:24:22.470903+03:00",
   "items": [
     {
       "category": "russia",
@@ -2361,6 +2361,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "москва",
         "электронное голосование",
         "выборы",
@@ -2379,6 +2380,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "кибербезопасность",
         "криптовалюты",
         "гейминг",
@@ -2398,6 +2400,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "мировые новости",
         "климат",
         "катастрофы",
@@ -2417,6 +2420,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "москва",
         "городская среда",
         "спорт",
@@ -2436,6 +2440,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "кино",
         "книги",
         "история",
@@ -2455,6 +2460,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "технологии",
         "ноутбуки",
         "инженерия",
@@ -2497,6 +2503,81 @@
       "is_internet_element": true,
       "added_at": "2026-08-29T00:48:26.412476+03:00",
       "story_id": "6fe3be385fabb0b5"
+    },
+    {
+      "category": "random_top",
+      "headline": "Ростовская область ввела режим ЧС из-за нарушения судоходства после атак БПЛА",
+      "body": "Ростовская область ввела режим ЧС из-за нарушения судоходства после атак БПЛА Интерфакс В Ростовской области ввели режим ЧС из-за остановки портов Радио Свобода В Ростовской области - ЧС из-за прекращения работы портов DW.com «Полностью остановились отгрузки». Один из главных аграрных регионов России ввел режим ЧС из-за невозможности вывезти зерно на экспорт Русская служба The Moscow Times Губернатор Ростовской области ввел режим ЧС из-за проблем с вывозом зерна. Ранее мировые цены на пшеницу выросли до трехлетнего максимума theins.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-08-29T03:24:22.470903+03:00",
+      "story_id": "e36f285d727e0aa4"
+    },
+    {
+      "category": "world",
+      "headline": "Reuters",
+      "body": "Reuters",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "world"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-29T03:24:22.470903+03:00",
+      "story_id": "76812252c2e1601b"
+    },
+    {
+      "category": "moscow",
+      "headline": "Джефф Рейк сегодня — последние новости и статьи",
+      "body": "Джефф Рейк сегодня — последние новости и статьи daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-29T03:24:22.470903+03:00",
+      "story_id": "f9be59a93e932b1a"
+    },
+    {
+      "category": "moscow",
+      "headline": "Татьяна Соловьева сегодня — последние новости и статьи",
+      "body": "Татьяна Соловьева сегодня — последние новости и статьи daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-29T03:24:22.470903+03:00",
+      "story_id": "467802e82ae2365d"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Петербурге представят книгу «Нулевые. Подлинная история российского кино» Марии Кувшиновой",
+      "body": "В Петербурге представят книгу «Нулевые. Подлинная история российского кино» Марии Кувшиновой go.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-29T03:24:22.470903+03:00",
+      "story_id": "8984e16f824b2f16"
     }
   ]
 }

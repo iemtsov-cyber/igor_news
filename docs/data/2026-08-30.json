@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "updated_at": "2026-08-30T19:24:24.093314+03:00",
+  "updated_at": "2026-08-30T23:24:27.677948+03:00",
   "items": [
     {
       "category": "random_top",
@@ -346,6 +346,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "инвестиции",
         "рынок",
         "стартапы",
@@ -364,6 +365,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "космос",
         "наса",
         "наука",
@@ -382,6 +384,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "исландия",
         "ес",
         "политика",
@@ -400,6 +403,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "кипр",
         "катастрофа",
         "спасательство",
@@ -418,6 +422,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "беспилотники",
         "пво",
         "россия",
@@ -427,6 +432,81 @@
       "is_internet_element": false,
       "added_at": "2026-08-30T19:24:24.093314+03:00",
       "story_id": "6f1130538a9b7165"
+    },
+    {
+      "category": "random_top",
+      "headline": "Паром с 279 пассажирами перевернулся и начал тонуть у берегов Северного Кипра",
+      "body": "Паром с 279 пассажирами перевернулся и начал тонуть у берегов Северного Кипра БИЗНЕС Online — Новости Казани У берегов Северного Кипра затонул пассажирский паром. 237 человек спасли, 8 погибли, более 20 пропали BBC Не менее семи человек стали жертвами крушения судна у северных берегов Кипра Интерфакс У берегов Кипра затонул скоростной паром, на борту которого находились почти 270 человек BFM.ru Минимум семь человек погибли при крушении парома у побережья Кипра Эксперт",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T23:24:27.677948+03:00",
+      "story_id": "1b2f9818364b1229"
+    },
+    {
+      "category": "moscow",
+      "headline": "Игры - статьи, обзоры и подборки лучших игр",
+      "body": "Игры - статьи, обзоры и подборки лучших игр daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T23:24:27.677948+03:00",
+      "story_id": "155606758ddcf052"
+    },
+    {
+      "category": "moscow",
+      "headline": "Российская пловчиха победила на заплыве в Дарданеллах",
+      "body": "Российская пловчиха победила на заплыве в Дарданеллах daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T23:24:27.677948+03:00",
+      "story_id": "bb8165d500e17717"
+    },
+    {
+      "category": "moscow",
+      "headline": "Трек «Britney» от Obladaet появился в сериале, который спродюсировал 50 Cent",
+      "body": "Трек «Britney» от Obladaet появился в сериале, который спродюсировал 50 Cent daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T23:24:27.677948+03:00",
+      "story_id": "75314d1686c9efe3"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Волгограде открыли сквер и памятник Станиславу Говорухину",
+      "body": "В Волгограде открыли сквер и памятник Станиславу Говорухину daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T23:24:27.677948+03:00",
+      "story_id": "72a2512a0538ca6c"
     }
   ]
 }

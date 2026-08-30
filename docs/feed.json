@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T23:24:39.751602+03:00",
+  "updated_at": "2026-08-30T03:24:25.782735+03:00",
   "items": [
     {
       "category": "russia",
@@ -2943,6 +2943,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "энергетика",
         "экспорт",
         "топливо",
@@ -2961,6 +2962,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "гаджеты",
         "ретро",
         "bandai",
@@ -2979,6 +2981,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "здоровье",
         "сон",
         "тренировки",
@@ -2997,6 +3000,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "альпинизм",
         "история",
         "спасение",
@@ -3006,6 +3010,81 @@
       "is_internet_element": false,
       "added_at": "2026-08-29T23:24:39.751602+03:00",
       "story_id": "0a3d2cf4effbf215"
+    },
+    {
+      "category": "random_top",
+      "headline": "Посольство РФ сообщило о восьми пропавших без вести россиянах в районе бедствия в Тибете",
+      "body": "Посольство РФ сообщило о восьми пропавших без вести россиянах в районе бедствия в Тибете Интерфакс Количество погибших в Непале достигло 626 человек Интерфакс Непал приостановил поиски пропавших после наводнения из-за погоды ВФокусе Mail В Непале похоронят 226 неопознанных тел после разрушительного наводнения Радио Свобода Посольство РФ в КНР объявило восемь россиян пропавшими без вести в Непале BFM.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T03:24:25.782735+03:00",
+      "story_id": "b85d5b183a290461"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "VR-гарнитура Steam Frame поступит в продажу в сентябре 2026 года — sadlyItsBradley",
+      "body": "VR-гарнитура Steam Frame поступит в продажу в сентябре 2026 года — sadlyItsBradley Клуб DNS",
+      "aside": "VR-гарнитура Steam Frame поступит в продажу в сентябре 2026 года — sadlyItsBradley - Клуб DNS",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-08-30T03:24:25.782735+03:00",
+      "story_id": "ae9fb89cdca17ad2"
+    },
+    {
+      "category": "moscow",
+      "headline": "Ереванский трамвай | Театр марионеток | г. Ереван",
+      "body": "Ереванский трамвай | Театр марионеток | г. Ереван mos.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T03:24:25.782735+03:00",
+      "story_id": "bb5a08559174534e"
+    },
+    {
+      "category": "moscow",
+      "headline": "Практики соучастия «Грёзы по сельскому театру",
+      "body": "Практики соучастия «Грёзы по сельскому театру» mos.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T03:24:25.782735+03:00",
+      "story_id": "2b3af55786e53279"
+    },
+    {
+      "category": "moscow",
+      "headline": "Библиотечник. Москва",
+      "body": "Библиотечник. Москва mos.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T03:24:25.782735+03:00",
+      "story_id": "cf877252d931909f"
     }
   ]
 }

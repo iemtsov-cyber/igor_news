@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T15:24:40.787072+03:00",
+  "updated_at": "2026-08-30T19:24:24.093314+03:00",
   "items": [
     {
       "category": "russia",
@@ -3346,6 +3346,96 @@
       "is_internet_element": false,
       "added_at": "2026-08-30T15:24:40.787072+03:00",
       "story_id": "39ebb0c9a2009145"
+    },
+    {
+      "category": "other",
+      "headline": "Компании дали инвесторам рекордные 1,1 трлн рублей за квартал",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "инвестиции",
+        "рынок",
+        "стартапы",
+        "финансы"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T19:24:24.093314+03:00",
+      "story_id": "50be68cd28928bf7"
+    },
+    {
+      "category": "other",
+      "headline": "НАСА запустила космический телескоп для изучения тёмной энергии",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "космос",
+        "наса",
+        "наука",
+        "телескоп"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T19:24:24.093314+03:00",
+      "story_id": "ce0bd606071e8af4"
+    },
+    {
+      "category": "other",
+      "headline": "Исландия отказалась возобновлять переговоры о вступлении в ЕС",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "исландия",
+        "ес",
+        "политика",
+        "суверенитет"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T19:24:24.093314+03:00",
+      "story_id": "0c5b8cd4c0a4dde7"
+    },
+    {
+      "category": "other",
+      "headline": "Пассажирский паром под Северным Кипром затонул: 7 погибших, 23 пропали",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "кипр",
+        "катастрофа",
+        "спасательство",
+        "море"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T19:24:24.093314+03:00",
+      "story_id": "d89fb3cd40fbf69c"
+    },
+    {
+      "category": "other",
+      "headline": "Почти полтысячи беспилутников атаковали регионы России за сутки",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "беспилотники",
+        "пво",
+        "россия",
+        "атака"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T19:24:24.093314+03:00",
+      "story_id": "6f1130538a9b7165"
     }
   ]
 }

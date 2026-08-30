@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "updated_at": "2026-08-30T03:24:25.782735+03:00",
+  "updated_at": "2026-08-30T07:24:29.330019+03:00",
   "items": [
     {
       "category": "random_top",
@@ -76,6 +76,131 @@
       "is_internet_element": false,
       "added_at": "2026-08-30T03:24:25.782735+03:00",
       "story_id": "cf877252d931909f"
+    },
+    {
+      "category": "technology",
+      "headline": "OpenAI introduces credit grants for developers",
+      "body": "OpenAI has launched a credit grant program for developers building on its platform. The initiative aims to lower financial barriers for AI innovators and expand the ecosystem.",
+      "aside": "",
+      "importance": 0.9,
+      "confidence": 0.96,
+      "preference_tags": [
+        "ai",
+        "openai",
+        "developer funding",
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T07:24:29.330019+03:00",
+      "story_id": "25b7b5cfabcfb007"
+    },
+    {
+      "category": "technology",
+      "headline": "Steam Frame VR headset set for September 2026 launch",
+      "body": "The Steam Frame VR headset is scheduled for release in September 2026. Developers and gamers anticipate a new level of immersion with its advanced display and tracking.",
+      "aside": "",
+      "importance": 0.85,
+      "confidence": 0.9,
+      "preference_tags": [
+        "vr",
+        "gaming",
+        "technology",
+        "hardware"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T07:24:29.330019+03:00",
+      "story_id": "4dd3c4e5812ed172"
+    },
+    {
+      "category": "business",
+      "headline": "Ozon suspends post‑payment in 38 regions after warehouse strike",
+      "body": "After a fire damaged its warehouses, Ozon stopped offering post‑payment in 38 regions. The company says the change is temporary and will be revisited once operations normalize.",
+      "aside": "",
+      "importance": 0.9,
+      "confidence": 0.92,
+      "preference_tags": [
+        "e-commerce",
+        "logistics",
+        "russia",
+        "business"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T07:24:29.330019+03:00",
+      "story_id": "094291f6b9cc37c4"
+    },
+    {
+      "category": "business",
+      "headline": "Rosatom finalizes controlling acquisition of 'Deло' group",
+      "body": "Rosatom has completed the purchase of a controlling stake in the 'Deло' group. The deal consolidates Rosatom's position in the domestic energy sector.",
+      "aside": "",
+      "importance": 0.88,
+      "confidence": 0.91,
+      "preference_tags": [
+        "energy",
+        "corporate",
+        "russia",
+        "business"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T07:24:29.330019+03:00",
+      "story_id": "8eda901452967144"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "GTA 6 leak hackers launch and then burn a meme token",
+      "body": "Hackers linked to the GTA 6 leak introduced a meme cryptocurrency token and then destroyed it. The brief experiment highlighted the volatile nature of internet‑driven digital assets.",
+      "aside": "",
+      "importance": 0.8,
+      "confidence": 0.85,
+      "preference_tags": [
+        "internet_culture",
+        "meme",
+        "crypto",
+        "gaming",
+        "internet"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T07:24:29.330019+03:00",
+      "story_id": "d8093da111662a59"
+    },
+    {
+      "category": "science",
+      "headline": "AI model predicts soil moisture two weeks in advance",
+      "body": "Scientists have built an AI system that predicts soil moisture up to two weeks ahead. The tool could help farmers optimize irrigation and improve water efficiency.",
+      "aside": "",
+      "importance": 0.85,
+      "confidence": 0.9,
+      "preference_tags": [
+        "ai",
+        "agriculture",
+        "climate",
+        "science"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T07:24:29.330019+03:00",
+      "story_id": "c67968cbc6d73ff6"
+    },
+    {
+      "category": "random_top",
+      "headline": "Минобороны сообщило об ударах по порту Николаева и объектах в Киеве",
+      "body": "Минобороны сообщило об ударах по порту Николаева и объектах в Киеве БИЗНЕС Online — Новости Казани Украина лишилась возможности создавать ракеты «Фламинго» URA.RU Нанесены удары по логистическим центрам и объектам топливно-энергетической инфраструктуры Украины Интерфакс Россия увеличила интенсивность ударов по военным объектам Украины BFM.ru ВС РФ поразили завод по производству химвеществ для ракет «Фламинго» на Украине Ведомости",
+      "aside": "",
+      "importance": 5.5,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top",
+        "случайно из топа"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T07:24:29.330019+03:00",
+      "story_id": "75e528da612e6a5c"
     }
   ]
 }

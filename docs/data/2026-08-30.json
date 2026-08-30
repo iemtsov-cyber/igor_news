@@ -1,6 +1,6 @@
 {
   "date": "2026-08-30",
-  "updated_at": "2026-08-30T11:24:35.383267+03:00",
+  "updated_at": "2026-08-30T15:24:40.787072+03:00",
   "items": [
     {
       "category": "random_top",
@@ -277,6 +277,66 @@
       "is_internet_element": false,
       "added_at": "2026-08-30T11:24:35.383267+03:00",
       "story_id": "10fb30f01e43fd84"
+    },
+    {
+      "category": "random_top",
+      "headline": "Власти Венесуэлы заявили, что нефтяное соглашение с США рассчитано на 25 лет",
+      "body": "Власти Венесуэлы заявили, что нефтяное соглашение с США рассчитано на 25 лет Интерфакс Венесуэла и США заключили энергетическое соглашение на 25 лет Ведомости Трамп объявил о заключении «исторической» нефтяной сделки США с Венесуэлой BBC США заключили с Венесуэлой «крупнейшую нефтяную сделку в истории» Meduza Глава Венесуэлы защищает историческую нефтянную сделку с США DW.com",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T15:24:40.787072+03:00",
+      "story_id": "b6c77d63005886f9"
+    },
+    {
+      "category": "moscow",
+      "headline": "Где купить динозавра? Ответ — в нашем гиде по выставкам Москвы в сентябре",
+      "body": "Где купить динозавра? Ответ — в нашем гиде по выставкам Москвы в сентябре daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T15:24:40.787072+03:00",
+      "story_id": "27f8d638cd395f20"
+    },
+    {
+      "category": "moscow",
+      "headline": "Юра Борисов без страховки забрался на купол павильона «Космос» на ВДНХ",
+      "body": "Юра Борисов без страховки забрался на купол павильона «Космос» на ВДНХ daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T15:24:40.787072+03:00",
+      "story_id": "2b4b30521d75c2af"
+    },
+    {
+      "category": "moscow",
+      "headline": "ИИ впервые помог нейрохирургам удалить опухоль мозга в реальном времени",
+      "body": "ИИ впервые помог нейрохирургам удалить опухоль мозга в реальном времени daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-30T15:24:40.787072+03:00",
+      "story_id": "39ebb0c9a2009145"
     }
   ]
 }

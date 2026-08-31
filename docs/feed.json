@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T23:24:27.677948+03:00",
+  "updated_at": "2026-08-31T03:24:20.483446+03:00",
   "items": [
     {
       "category": "russia",
@@ -3516,6 +3516,108 @@
       "is_internet_element": false,
       "added_at": "2026-08-30T23:24:27.677948+03:00",
       "story_id": "72a2512a0538ca6c"
+    },
+    {
+      "category": "world",
+      "headline": "США и Саудовская Аравия подписали ядерную сделку",
+      "body": "США и Саудовская Аравия подписали ядерную сделку. Этот договор призван обеспечить энергетическую безопасность и стабилизировать отношения в регионе.",
+      "aside": "Энергетическое сотрудничество между двумя крупнейшими энергосистемами мира.",
+      "importance": 0.95,
+      "confidence": 0.98,
+      "preference_tags": [
+        "world",
+        "international_business",
+        "energy_security",
+        "nuclear_deals"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-31T03:24:20.483446+03:00",
+      "story_id": "d0738e83dc2d2201"
+    },
+    {
+      "category": "business",
+      "headline": "Частные инвесторы вложили 1,1 трлн рублей в рынок",
+      "body": "Частные инвесторы вложили рекордные 1,1 трлн рублей в российский рынок. Инвесторы получили до 19% доходности на короткие вклады.",
+      "aside": "Высокие инвестиции привлекают внимание к развитию частного капитала в экономике.",
+      "importance": 0.9,
+      "confidence": 0.97,
+      "preference_tags": [
+        "business",
+        "investments",
+        "economy"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-31T03:24:20.483446+03:00",
+      "story_id": "473d9243aa002d1f"
+    },
+    {
+      "category": "technology",
+      "headline": "OpenAI запустила программу кредитования для разработчиков",
+      "body": "OpenAI запустила программу кредитования для разработчиков своей платформы. Инициатива направлена на поддержку инноваций в сфере искусственного интеллекта.",
+      "aside": "Поддержка разработчиков помогает развитию экосистемы ИИ.",
+      "importance": 0.85,
+      "confidence": 0.96,
+      "preference_tags": [
+        "technology",
+        "ai",
+        "innovation"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-31T03:24:20.483446+03:00",
+      "story_id": "c15851c2d3b0b18f"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "Встреча Путина и Зеленского вызвала мем «67»",
+      "body": "Встреча Путина и Зеленского вызвала волну юмористических комментариев. Мем «67» набирает популярность среди широкой аудитории.",
+      "aside": "Публичное мнение к встрече выражается через интернет-культурные форматы.",
+      "importance": 0.8,
+      "confidence": 0.93,
+      "preference_tags": [
+        "politics",
+        "memes",
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-08-31T03:24:20.483446+03:00",
+      "story_id": "d291117dc7733fb9"
+    },
+    {
+      "category": "gaming",
+      "headline": "Star Wars Galaxies Legends взломана модератором Reddit",
+      "body": "Star Wars Galaxies Legends была взломана модератором Reddit с помощью ИИ. Инцидент вызвал интерес в сообществе геймера.",
+      "aside": "Уязвимость модерации поднимает вопросы безопасности в онлайн-пространстве.",
+      "importance": 0.7,
+      "confidence": 0.95,
+      "preference_tags": [
+        "gaming",
+        "security",
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-31T03:24:20.483446+03:00",
+      "story_id": "99aea0a8d60820b0"
+    },
+    {
+      "category": "random_top",
+      "headline": "Мы ответим»: В Германии началась истерика из-за беспилотника",
+      "body": "Мы ответим»: В Германии началась истерика из-за беспилотника URA.RU Politico и Welt: Германия обвинит Россию в попытке диверсии в аэропорту Лейпцига и введет санкции Meduza Мерц анонсировал совместный ответ ФРГ и НАТО на инцидент с БПЛА в Лейпциге Национальная Служба Новостей Мерц на следующей неделе планирует объявить о санкциях против РФ Интерфакс Германия планирует обвинить Россию в подготовке теракта в Лейпциге и ввести «масштабные санкции Русская служба The Moscow Times",
+      "aside": "",
+      "importance": 5.5,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top",
+        "случайно из топа"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-08-31T03:24:20.483446+03:00",
+      "story_id": "2f4d624710fa7890"
     }
   ]
 }

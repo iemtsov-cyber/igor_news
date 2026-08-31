@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "updated_at": "2026-08-31T11:24:29.051931+03:00",
+  "updated_at": "2026-08-31T15:24:34.148658+03:00",
   "items": [
     {
       "category": "world",
@@ -226,6 +226,79 @@
       "is_internet_element": false,
       "added_at": "2026-08-31T11:24:29.051931+03:00",
       "story_id": "c2fdec542f3d825e"
+    },
+    {
+      "category": "other",
+      "headline": "SpaceX запустила телескоп Nancy Grace Roman для изучения тёмной материи",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "космос",
+        "тёмная материя",
+        "nasa",
+        "астрономия",
+        "spacex"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-31T15:24:34.148658+03:00",
+      "story_id": "7e33bb682e3c0f6b"
+    },
+    {
+      "category": "other",
+      "headline": "Баста собрал более 210 тыс. зрителей на трёх концертах в «Лужниках»",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "музыка",
+        "баста",
+        "концерты",
+        "лужники",
+        "хип-хоп"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-31T15:24:34.148658+03:00",
+      "story_id": "34f97a61dedbc4a1"
+    },
+    {
+      "category": "other",
+      "headline": "Вашингтон нанёс удары по Ирану, Тегеран ответил атакой на базы США в Иордании",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "военные действия",
+        "сша",
+        "иран",
+        "иордания",
+        "ближний восток"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-31T15:24:34.148658+03:00",
+      "story_id": "4ba2b240c37393c7"
+    },
+    {
+      "category": "random_top",
+      "headline": "Дроны ударили по жилым домам и складу в Екатеринбурге",
+      "body": "Дроны ударили по жилым домам и складу в Екатеринбурге 66.RU Екатеринбург подвергся атаке БПЛА, есть попадания в логистический центр Интерфакс Беспилотник попал в дом в Екатеринбурге, пострадали четверо: видео с места ЧП - 31 августа 2026 | Е1.ру Е1.ру Украинские беспилотники атаковали Екатеринбург. Поврежден многоэтажный дом, четыре человека пострадали Meduza Дроны повредили три жилых дома в Екатеринбурге 66.RU",
+      "aside": "",
+      "importance": 5.5,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top",
+        "случайно из топа"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-08-31T15:24:34.148658+03:00",
+      "story_id": "8e57bc95f7a22bab"
     }
   ]
 }

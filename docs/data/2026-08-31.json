@@ -1,6 +1,6 @@
 {
   "date": "2026-08-31",
-  "updated_at": "2026-08-31T19:24:22.059060+03:00",
+  "updated_at": "2026-08-31T23:24:26.115587+03:00",
   "items": [
     {
       "category": "world",
@@ -332,6 +332,66 @@
       "is_internet_element": false,
       "added_at": "2026-08-31T19:24:22.059060+03:00",
       "story_id": "8ae21b1a329b23e2"
+    },
+    {
+      "category": "random_top",
+      "headline": "О чем Владимир Путин и Си Цзиньпин говорили в Бишкеке",
+      "body": "О чем Владимир Путин и Си Цзиньпин говорили в Бишкеке vedomosti.ru Путин предложил сделать безвизовый режим с КНР постоянным — «если китайская сторона сочтет это полезным Meduza Беседа с Председателем КНР Си Цзиньпином kremlin.ru Путин: Россия готова перевести безвиз с Китаем на постоянную основу BFM.ru Путин в шестой раз с начала войны попробует уговорить Си Цзиньпина запустить «Силу Сибири-2 Русская служба The Moscow Times",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-08-31T23:24:26.115587+03:00",
+      "story_id": "51b88356b761cfac"
+    },
+    {
+      "category": "moscow",
+      "headline": "Музыкальное бинго в ТК Амбар",
+      "body": "Музыкальное бинго в ТК Амбар festivals.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-31T23:24:26.115587+03:00",
+      "story_id": "d3de934353ad1bb1"
+    },
+    {
+      "category": "moscow",
+      "headline": "Таганско-Краснопресненскую линию метро продлят в район Куркино",
+      "body": "Таганско-Краснопресненскую линию метро продлят в район Куркино daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-31T23:24:26.115587+03:00",
+      "story_id": "5b8bdb06aa6c5c37"
+    },
+    {
+      "category": "moscow",
+      "headline": "Новую рукопись Лори Андерсон спрячут от читателей на 88 лет",
+      "body": "Новую рукопись Лори Андерсон спрячут от читателей на 88 лет daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-08-31T23:24:26.115587+03:00",
+      "story_id": "52e1a4d436dfda4c"
     }
   ]
 }

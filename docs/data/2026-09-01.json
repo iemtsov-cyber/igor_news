@@ -1,6 +1,6 @@
 {
   "date": "2026-09-01",
-  "updated_at": "2026-09-01T15:35:11.663594+03:00",
+  "updated_at": "2026-09-01T19:44:07.075134+03:00",
   "items": [
     {
       "category": "random_top",
@@ -280,6 +280,82 @@
       "is_internet_element": false,
       "added_at": "2026-09-01T15:35:11.663594+03:00",
       "story_id": "b930221baa43f57c"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Москве в День города пройдёт парад трамваев",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "moscow",
+        "москва",
+        "день города",
+        "трамваи",
+        "парад",
+        "транспорт"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-01T19:44:07.075134+03:00",
+      "story_id": "4c81f512ba954d03"
+    },
+    {
+      "category": "culture",
+      "headline": "В Непале продолжаются поиски 600 рабочих, заблокированных в туннелях после наводнения",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "culture",
+        "наводнение",
+        "непал",
+        "спасательство",
+        "туннели",
+        "стихийное бедствие"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-01T19:44:07.075134+03:00",
+      "story_id": "c4e9019a77df0b9e"
+    },
+    {
+      "category": "culture",
+      "headline": "Уходит в отставку министр армии США Дэн Дрисколл",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "culture",
+        "сша",
+        "министр обороны",
+        "отставка",
+        "украина",
+        "переговоры"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-01T19:44:07.075134+03:00",
+      "story_id": "0f9fda1105e1ac20"
+    },
+    {
+      "category": "random_top",
+      "headline": "СМИ: Германия готовится официально обвинить Россию в атаке на аэропорт Лейпцига",
+      "body": "СМИ: Германия готовится официально обвинить Россию в атаке на аэропорт Лейпцига rtvi.com Ещё заголовки и мнения в приложении \"Google Новости",
+      "aside": "",
+      "importance": 5.5,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top",
+        "случайно из топа"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-01T19:44:07.075134+03:00",
+      "story_id": "42eed0ce6b2ad88f"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updated_at": "2026-09-02T15:36:15.382234+03:00",
+  "updated_at": "2026-09-02T19:30:58.078546+03:00",
   "items": [
     {
       "category": "random_top",
@@ -308,6 +308,66 @@
       "is_internet_element": false,
       "added_at": "2026-09-02T15:36:15.382234+03:00",
       "story_id": "7f29c38ef527bb97"
+    },
+    {
+      "category": "moscow",
+      "headline": "ВРАН: почти половина россиян столкнулась с признаками депрессии",
+      "body": "ВРАН: почти половина россиян столкнулась с признаками депрессии daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T19:30:58.078546+03:00",
+      "story_id": "5b6dad7d65c27b35"
+    },
+    {
+      "category": "moscow",
+      "headline": "Смотрим трейлер первого сезона сериала по «Гарри Поттеру",
+      "body": "Смотрим трейлер первого сезона сериала по «Гарри Поттеру» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T19:30:58.078546+03:00",
+      "story_id": "3c240d6cfd9b15ee"
+    },
+    {
+      "category": "moscow",
+      "headline": "Михалков допустил, что может снова сыграть главную роль в кино",
+      "body": "Михалков допустил, что может снова сыграть главную роль в кино daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T19:30:58.078546+03:00",
+      "story_id": "742462525d26ca25"
+    },
+    {
+      "category": "moscow",
+      "headline": "В книжном «Озеро» пройдет фестиваль — с лекциями, маркетом и концертом",
+      "body": "В книжном «Озеро» пройдет фестиваль — с лекциями, маркетом и концертом daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T19:30:58.078546+03:00",
+      "story_id": "d34da5c570330909"
     }
   ]
 }

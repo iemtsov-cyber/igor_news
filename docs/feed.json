@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T03:37:44.471600+03:00",
+  "updated_at": "2026-09-02T07:30:56.855515+03:00",
   "items": [
     {
       "category": "russia",
@@ -4353,6 +4353,82 @@
       "is_internet_element": false,
       "added_at": "2026-09-02T03:37:44.471600+03:00",
       "story_id": "e15a7c1390116a3f"
+    },
+    {
+      "category": "random_top",
+      "headline": "Регистрация на выставку «Улица Дальнего Востока» открыта во Владивостоке",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "random_top",
+        "выставки",
+        "дальний восток",
+        "владивосток",
+        "экономика"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T07:30:56.855515+03:00",
+      "story_id": "46a50f1645361f2c"
+    },
+    {
+      "category": "world",
+      "headline": "США нанесли новые удары по объектам в Иране",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "world",
+        "политика",
+        "военные действия",
+        "иран",
+        "сша"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T07:30:56.855515+03:00",
+      "story_id": "9657d29e469c7bf4"
+    },
+    {
+      "category": "moscow",
+      "headline": "Фильм «Чучело» выходит в российском прокате",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "moscow",
+        "кино",
+        "россия",
+        "прокат",
+        "драма"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T07:30:56.855515+03:00",
+      "story_id": "f47f8f95145fdd13"
+    },
+    {
+      "category": "culture",
+      "headline": "Игрок BrainPower87 сыграл в онлайн-турнире на Chess.com",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "culture",
+        "шахматы",
+        "турнир",
+        "онлайн",
+        "спорт"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T07:30:56.855515+03:00",
+      "story_id": "089c9e88838db6e6"
     }
   ]
 }

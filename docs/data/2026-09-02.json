@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updated_at": "2026-09-02T11:31:00.825365+03:00",
+  "updated_at": "2026-09-02T15:36:15.382234+03:00",
   "items": [
     {
       "category": "random_top",
@@ -248,6 +248,66 @@
       "is_internet_element": false,
       "added_at": "2026-09-02T11:31:00.825365+03:00",
       "story_id": "23e6ed250cf58dd8"
+    },
+    {
+      "category": "random_top",
+      "headline": "Прогноз по прибыли банковского сектора на 2026 год от ЦБ РФ: показатели прибыли, оценка процентной маржи",
+      "body": "Прогноз по прибыли банковского сектора на 2026 год от ЦБ РФ: показатели прибыли, оценка процентной маржи finance.mail.ru ЦБ РФ повысил прогноз по прибыли банков на 2026 год до 3,9-4,4 трлн рублей Интерфакс Чистая прибыль банковского сектора России в 1 полугодии выросла до 2,3 трлн рублей Финам ЦБ отметил рост кредитования во всех сегментах во II квартале Ведомости Банковский сектор во втором квартале: рост корпоративных кредитов, ипотека и прибыль finance.mail.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T15:36:15.382234+03:00",
+      "story_id": "229e1a291a69abfd"
+    },
+    {
+      "category": "moscow",
+      "headline": "6 фильмов, ради которых стоит сходить в кино в сентябре-2026",
+      "body": "6 фильмов, ради которых стоит сходить в кино в сентябре-2026 daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T15:36:15.382234+03:00",
+      "story_id": "a2fd810b0ebd6506"
+    },
+    {
+      "category": "moscow",
+      "headline": "Все фестивали в Туле 2026: афиша, билеты, жанр Рок",
+      "body": "Все фестивали в Туле 2026: афиша, билеты, жанр Рок festivals.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T15:36:15.382234+03:00",
+      "story_id": "5b3433a018e35aaf"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Канаде появился, а потом исчез и возник в другом месте остров, покрытый лесом",
+      "body": "В Канаде появился, а потом исчез и возник в другом месте остров, покрытый лесом daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T15:36:15.382234+03:00",
+      "story_id": "7f29c38ef527bb97"
     }
   ]
 }

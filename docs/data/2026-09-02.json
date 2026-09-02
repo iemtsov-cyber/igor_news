@@ -1,6 +1,6 @@
 {
   "date": "2026-09-02",
-  "updated_at": "2026-09-02T07:30:56.855515+03:00",
+  "updated_at": "2026-09-02T11:31:00.825365+03:00",
   "items": [
     {
       "category": "random_top",
@@ -152,6 +152,102 @@
       "is_internet_element": false,
       "added_at": "2026-09-02T07:30:56.855515+03:00",
       "story_id": "089c9e88838db6e6"
+    },
+    {
+      "category": "russia",
+      "headline": "Минфин готовит продажу госпакета «Шереметьево» к концу года",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "russia",
+        "приватизация",
+        "аэропорты",
+        "госактивы",
+        "минфин"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T11:31:00.825365+03:00",
+      "story_id": "6e2e88d579a2fa13"
+    },
+    {
+      "category": "business",
+      "headline": "«Яндекс» может открыть «Алисе AI» доступ к банковским приложениям пользователей",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "business",
+        "яндекс",
+        "алиса",
+        "финтех",
+        "ии-ассистенты",
+        "банковские приложения"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T11:31:00.825365+03:00",
+      "story_id": "9394a5328972ab7d"
+    },
+    {
+      "category": "world",
+      "headline": "США нанесли новые удары по Ирану, Иран ответил ударами по базам США в Ираке и Иордании",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "world",
+        "сша",
+        "иран",
+        "ближний восток",
+        "военная эскалация"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T11:31:00.825365+03:00",
+      "story_id": "2d5a9b1f9277440c"
+    },
+    {
+      "category": "world",
+      "headline": "Гонконгский активист Джошуа Вонг признал вину в сговоре с иностранными силами",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "world",
+        "гонконг",
+        "политические дела",
+        "китай",
+        "правозащита"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T11:31:00.825365+03:00",
+      "story_id": "6eabec6edc0dbbbf"
+    },
+    {
+      "category": "music",
+      "headline": "Сингл Эда Ширана «Azizam» стал самым прослушиваемым в ресторанах и магазинах России этим летом",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "music",
+        "эд ширан",
+        "музыка в ритейле",
+        "плейлисты",
+        "рестораны россии"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T11:31:00.825365+03:00",
+      "story_id": "23e6ed250cf58dd8"
     }
   ]
 }

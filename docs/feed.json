@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T23:28:34.541791+03:00",
+  "updated_at": "2026-09-02T03:37:44.471600+03:00",
   "items": [
     {
       "category": "russia",
@@ -4278,6 +4278,81 @@
       "is_internet_element": false,
       "added_at": "2026-09-01T23:28:34.541791+03:00",
       "story_id": "1a1a33f2720dac40"
+    },
+    {
+      "category": "random_top",
+      "headline": "ВСУ днем ударили по территории России дронами и ракетами. Есть пострадавшие",
+      "body": "ВСУ днем ударили по территории России дронами и ракетами. Есть пострадавшие ФОНТАНКА.ру Военные РФ сообщили о поражении более 100 украинских беспилотников в течение дня Интерфакс Один погибший, 29 раненых, более 800 БПЛА. Итог налетов на центр России за сутки ВФокусе Mail Около 20 беспилотников сбили в небе над Новгородской и Псковской областями Ведомости В ночь на 1 сентября Киев атаковал Россию 516 беспилотниками spbdnevnik.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T03:37:44.471600+03:00",
+      "story_id": "0c5e73eb5144e983"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "Павел Дуров* раскритиковал школьное образование",
+      "body": "Павел Дуров* раскритиковал школьное образование Spletnik",
+      "aside": "Павел Дуров* раскритиковал школьное образование - Spletnik",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-09-02T03:37:44.471600+03:00",
+      "story_id": "a73d41e379788110"
+    },
+    {
+      "category": "technology",
+      "headline": "Using Healthcare Public Data in ChatGPT and Codex",
+      "body": "Using Healthcare Public Data in ChatGPT and Codex OpenAI Help Center",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T03:37:44.471600+03:00",
+      "story_id": "a057372e4db7d9ea"
+    },
+    {
+      "category": "moscow",
+      "headline": "Появился трейлер новой адаптации «Отверженных",
+      "body": "Появился трейлер новой адаптации «Отверженных» go.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T03:37:44.471600+03:00",
+      "story_id": "e5f3c2366fbe6761"
+    },
+    {
+      "category": "moscow",
+      "headline": "Мазерати» с Аль Пачино и Энтони Хопкинсом выйдет в России 3 декабря",
+      "body": "Мазерати» с Аль Пачино и Энтони Хопкинсом выйдет в России 3 декабря daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-02T03:37:44.471600+03:00",
+      "story_id": "e15a7c1390116a3f"
     }
   ]
 }

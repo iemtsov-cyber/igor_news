@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T19:30:04.226042+03:00",
+  "updated_at": "2026-09-03T23:28:39.668906+03:00",
   "items": [
     {
       "category": "russia",
@@ -5177,6 +5177,51 @@
       "is_internet_element": false,
       "added_at": "2026-09-03T19:30:04.226042+03:00",
       "story_id": "cde66373a3daa513"
+    },
+    {
+      "category": "random_top",
+      "headline": "Новый циклон уже над Петербургом. Что будет с погодой в ближайшие два дня",
+      "body": "Новый циклон уже над Петербургом. Что будет с погодой в ближайшие два дня ФОНТАНКА.ру Синоптик Колесов: Балтийский циклон зальет Петербург сильными дождями Росбалт Жителей Петербурга предупредили о ливнях с подтоплениями в пятницу dp.ru Какая погода будет в СПб 4 сентября 2026 Metronews.ru «Водоканал» доложил о готовности канализации Петербурга к ливням spbdnevnik.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T23:28:39.668906+03:00",
+      "story_id": "cc76573cc0a3144f"
+    },
+    {
+      "category": "technology",
+      "headline": "Using OneNote in ChatGPT and Codex",
+      "body": "Using OneNote in ChatGPT and Codex OpenAI Help Center",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T23:28:39.668906+03:00",
+      "story_id": "7c75b7d395ed810d"
+    },
+    {
+      "category": "moscow",
+      "headline": "Netflix разрабатывает сериал на основе хоррор-сеттинга для «Подземелий и драконов",
+      "body": "Netflix разрабатывает сериал на основе хоррор-сеттинга для «Подземелий и драконов» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T23:28:39.668906+03:00",
+      "story_id": "5a722850414f856f"
     }
   ]
 }

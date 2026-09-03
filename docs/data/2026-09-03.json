@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-03",
+  "updated_at": "2026-09-03T03:39:28.276135+03:00",
+  "items": [
+    {
+      "category": "random_top",
+      "headline": "Wildberries передал в ФНС данные пострадавших селлеров: отсрочка по налогам на год, детали",
+      "body": "Wildberries передал в ФНС данные пострадавших селлеров: отсрочка по налогам на год, детали Финансы Mail Гуцан предложил ввести в 2027 году мораторий на проверки бизнеса, пострадавшего из-за БПЛА interfax.ru Wildberries передал данные ФНС о пострадавших селлерах New-Retail.ru Бизнес попросил правительство дать Ozon и его селлерам налоговую отсрочку Incrussia «Опора России» предложила распространить налоговые льготы на Ozon и его селлеров Эксперт",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T03:39:28.276135+03:00",
+      "story_id": "209176fcc5d6f90d"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "Покупают не только артиста, но и инфоповод»: в России объяснили феномен «3 сентября",
+      "body": "Покупают не только артиста, но и инфоповод»: в России объяснили феномен «3 сентября» gazeta.press",
+      "aside": "«Покупают не только артиста, но и инфоповод»: в России объяснили феномен «3 сентября» - gazeta.press",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-09-03T03:39:28.276135+03:00",
+      "story_id": "05ff228afcb9d2aa"
+    },
+    {
+      "category": "moscow",
+      "headline": "Официальный сайт Мэра Москвы",
+      "body": "Официальный сайт Мэра Москвы",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T03:39:28.276135+03:00",
+      "story_id": "e92dfbdd9a11d516"
+    },
+    {
+      "category": "moscow",
+      "headline": "Флоренс Пью в новом трейлере экранизации романа «К востоку от рая» Джона Стейнбека",
+      "body": "Флоренс Пью в новом трейлере экранизации романа «К востоку от рая» Джона Стейнбека go.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T03:39:28.276135+03:00",
+      "story_id": "0954c9ba784253c4"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Apple рассказали, какую зарплату будет получать новый глава компании Джон Тернус",
+      "body": "В Apple рассказали, какую зарплату будет получать новый глава компании Джон Тернус daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T03:39:28.276135+03:00",
+      "story_id": "eeb881971734bba5"
+    }
+  ]
+}

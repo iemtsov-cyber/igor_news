@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "updated_at": "2026-09-03T03:39:28.276135+03:00",
+  "updated_at": "2026-09-03T08:36:39.669228+03:00",
   "items": [
     {
       "category": "random_top",
@@ -76,6 +76,81 @@
       "is_internet_element": false,
       "added_at": "2026-09-03T03:39:28.276135+03:00",
       "story_id": "eeb881971734bba5"
+    },
+    {
+      "category": "random_top",
+      "headline": "МИД России вызвал временного поверенного в делах Германии",
+      "body": "МИД России вызвал временного поверенного в делах Германии Ведомости В атаке дронов на аэропорт Лейпцига подозревают уроженца России с латвийским паспортом и белоруса с российским паспортом meduza.io МИД РФ отвергает обвинения Берлина в причастности России к инциденту в Лейпциге Интерфакс Следователи установили личности двух подозреваемых в подготовке взрыва в аэропорту Лейпцига, это россиянин и белорус — Süddeutsche Zeitung theins.ru Медведев заявил, что Германия \"заслуживает прямого удара по всем немецким производствам военной техники\" для Украины Настоящее Время",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T08:36:39.669228+03:00",
+      "story_id": "2d7aebe193a9596a"
+    },
+    {
+      "category": "moscow",
+      "headline": "Виктория Буцких сегодня — последние новости и статьи",
+      "body": "Виктория Буцких сегодня — последние новости и статьи daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T08:36:39.669228+03:00",
+      "story_id": "04ca858247eb9245"
+    },
+    {
+      "category": "moscow",
+      "headline": "Слово пацаноида. Добро пожаловать в «Зазеркалье», у нас есть кукичи",
+      "body": "Слово пацаноида. Добро пожаловать в «Зазеркалье», у нас есть кукичи daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T08:36:39.669228+03:00",
+      "story_id": "d4bbc20ce35844e1"
+    },
+    {
+      "category": "moscow",
+      "headline": "Цирк-шапито «Актион» – расписание на спектакли в Барнауле – Афиша-Театры",
+      "body": "Цирк-шапито «Актион» – расписание на спектакли в Барнауле – Афиша-Театры afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T08:36:39.669228+03:00",
+      "story_id": "a7639ed73e9f29f6"
+    },
+    {
+      "category": "moscow",
+      "headline": "Фильм Рождение империи (Россия, 2026), купить билет - Афиша-Кино",
+      "body": "Фильм Рождение империи (Россия, 2026), купить билет - Афиша-Кино afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T08:36:39.669228+03:00",
+      "story_id": "d97cbc31ecc0dafa"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "updated_at": "2026-09-03T15:36:10.885583+03:00",
+  "updated_at": "2026-09-03T19:30:04.226042+03:00",
   "items": [
     {
       "category": "random_top",
@@ -325,6 +325,81 @@
       "is_internet_element": false,
       "added_at": "2026-09-03T15:36:10.885583+03:00",
       "story_id": "f5e19e527922bb4f"
+    },
+    {
+      "category": "random_top",
+      "headline": "Зачем петербургскому метро машинист, если поезд уже умеет сам - Газета СПБ РУ - новости Санкт-Петербурга",
+      "body": "Зачем петербургскому метро машинист, если поезд уже умеет сам - Газета СПБ РУ - новости Санкт-Петербурга Газета СПБ РУ В метро Петербурга тестируют поезда-роботы: «Балтийца» учат обходиться без машиниста Росбалт Беспилотный поезд протестировали в метро Петербурга. Без человеческого фактора движение станет безопаснее, говорит губернатор Собака.ru — Журнал о людях в Петербурге Беглов: шестую линию метро будут продолжать строить с элементами ИИ dp.ru Без рук машиниста: в петербургском метро запустили испытания автоматического движения spbdnevnik.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T19:30:04.226042+03:00",
+      "story_id": "94075ef44f0e32de"
+    },
+    {
+      "category": "moscow",
+      "headline": "Стартовали съемки второго сезона лирической комедии Okko «Мамонты",
+      "body": "Стартовали съемки второго сезона лирической комедии Okko «Мамонты» go.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T19:30:04.226042+03:00",
+      "story_id": "1f9c2f0db532bb1e"
+    },
+    {
+      "category": "moscow",
+      "headline": "Магнит» запустит бренд презервативов Iron Bolt",
+      "body": "Магнит» запустит бренд презервативов Iron Bolt daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T19:30:04.226042+03:00",
+      "story_id": "0f06a71d3a9406d0"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Москве двоим мужчинам дали 10 суток ареста за агрессивное поведение в метро",
+      "body": "В Москве двоим мужчинам дали 10 суток ареста за агрессивное поведение в метро daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T19:30:04.226042+03:00",
+      "story_id": "0e2b8124bd65c46e"
+    },
+    {
+      "category": "moscow",
+      "headline": "В России хотят построить «Диснейленд» по мотивам славянских сказок",
+      "body": "В России хотят построить «Диснейленд» по мотивам славянских сказок daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T19:30:04.226042+03:00",
+      "story_id": "cde66373a3daa513"
     }
   ]
 }

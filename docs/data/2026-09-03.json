@@ -1,6 +1,6 @@
 {
   "date": "2026-09-03",
-  "updated_at": "2026-09-03T11:32:00.802618+03:00",
+  "updated_at": "2026-09-03T15:36:10.885583+03:00",
   "items": [
     {
       "category": "random_top",
@@ -265,6 +265,66 @@
       "is_internet_element": false,
       "added_at": "2026-09-03T11:32:00.802618+03:00",
       "story_id": "86a2d6a28efe9438"
+    },
+    {
+      "category": "random_top",
+      "headline": "Российский рынок акций открылся ростом индекса IMOEX2 на 0,2%",
+      "body": "Российский рынок акций открылся ростом индекса IMOEX2 на 0,2% Финансы Mail Индекс МосБиржи превысил 2200 пунктов и обновил максимум с 14 августа Интерфакс Индекс МосБиржи возвращается к росту на фоне заявлений с ВЭФ, дорогой нефти и дешевеющего рубля Финам Российский рынок акций стоит на месте Ведомости Что происходит на рынке акций 3 сентября 2026: важные факторы, о чем нужно знать Финансы Mail",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T15:36:10.885583+03:00",
+      "story_id": "eaea0060759e19f3"
+    },
+    {
+      "category": "moscow",
+      "headline": "В День города в Москве продлят работу городского транспорта",
+      "body": "В День города в Москве продлят работу городского транспорта daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T15:36:10.885583+03:00",
+      "story_id": "f945cf3072b840cc"
+    },
+    {
+      "category": "moscow",
+      "headline": "Николас Кейдж в трейлере военного боевика «Стойкость",
+      "body": "Николас Кейдж в трейлере военного боевика «Стойкость» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T15:36:10.885583+03:00",
+      "story_id": "33ba038387aa4bbe"
+    },
+    {
+      "category": "moscow",
+      "headline": "Москвичи рассказали, чему хотят учиться у предпринимателей",
+      "body": "Москвичи рассказали, чему хотят учиться у предпринимателей daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-03T15:36:10.885583+03:00",
+      "story_id": "f5e19e527922bb4f"
     }
   ]
 }

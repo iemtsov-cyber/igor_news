@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T19:29:54.082244+03:00",
+  "updated_at": "2026-09-04T23:28:30.307852+03:00",
   "items": [
     {
       "category": "russia",
@@ -5642,6 +5642,51 @@
       "is_internet_element": false,
       "added_at": "2026-09-04T19:29:54.082244+03:00",
       "story_id": "615a45ae7531f642"
+    },
+    {
+      "category": "random_top",
+      "headline": "Новая газета»* признана Минюстом России иностранным агентом",
+      "body": "Новая газета»* признана Минюстом России иностранным агентом ФОНТАНКА.ру «Новую газету» объявили «иностранным агентом» Meduza Минюст России внёс \"Новую газету\" в реестр \"иноагентов\" Радио Свобода «У нас нет комментариев. У нас есть позиция». Заявление редакции «Новой газеты»* — Новая Газета Новая газета «Новую газету»* и экс-главреда «Инде» признали иноагентами БИЗНЕС Online",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-04T23:28:30.307852+03:00",
+      "story_id": "2d08afcbce5c7b04"
+    },
+    {
+      "category": "technology",
+      "headline": "OpenAI выпустила GPT-6 Astra",
+      "body": "OpenAI выпустила GPT-6 Astra nplus1.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-04T23:28:30.307852+03:00",
+      "story_id": "db5b99dccf236fcf"
+    },
+    {
+      "category": "technology",
+      "headline": "Поцелуй неандертальца, тараканье молоко и закопанные трусы",
+      "body": "Поцелуй неандертальца, тараканье молоко и закопанные трусы nplus1.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-04T23:28:30.307852+03:00",
+      "story_id": "a8732c2020bed7b7"
     }
   ]
 }

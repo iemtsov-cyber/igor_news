@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "updated_at": "2026-09-04T07:29:41.501419+03:00",
+  "updated_at": "2026-09-04T11:31:42.615576+03:00",
   "items": [
     {
       "category": "random_top",
@@ -40,6 +40,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "бюджет обороны",
         "нато",
         "военные учения",
@@ -58,6 +59,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "беспилотники",
         "военные действия",
         "пво рф",
@@ -76,6 +78,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "психология",
         "поведение",
         "стресс",
@@ -101,6 +104,81 @@
       "is_internet_element": false,
       "added_at": "2026-09-04T07:29:41.501419+03:00",
       "story_id": "26fc068413d3dcd8"
+    },
+    {
+      "category": "random_top",
+      "headline": "Пермский оператор АЗС вдвое урезал лимит на бензин — Новости Перми и Пермского края",
+      "body": "Пермский оператор АЗС вдвое урезал лимит на бензин — Новости Перми и Пермского края properm.ru В Пермском крае из-за дефицита бензина нарушена работа общественного транспорта в одном из муниципальных округов Радио Свобода НОВОСТИ - Очереди на заправках ИСКРА Кунгур «О-ой, да вы что делаете!»: водители встают на ж/д пути перед АЗС, чтобы заправиться, — онлайн о ситуации с топливом в Перми 59.ru В Прикамье крупная сеть заправок изменила график работы: какие АЗС работают круглосуточно URA.RU",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-04T11:31:42.615576+03:00",
+      "story_id": "748341376a41f267"
+    },
+    {
+      "category": "moscow",
+      "headline": "Венеция-2026 – все статьи на сайте Афиша Daily",
+      "body": "Венеция-2026 – все статьи на сайте Афиша Daily daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-04T11:31:42.615576+03:00",
+      "story_id": "24a4854e32e1f540"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Москве пройдет выставка «Врубель. Рождение нового искусства",
+      "body": "В Москве пройдет выставка «Врубель. Рождение нового искусства» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-04T11:31:42.615576+03:00",
+      "story_id": "9e18bb38df4f0d67"
+    },
+    {
+      "category": "moscow",
+      "headline": "Из городов Золотого кольца дешевле всего отдохнуть в Рыбинске, а дороже всего — в Суздале",
+      "body": "Из городов Золотого кольца дешевле всего отдохнуть в Рыбинске, а дороже всего — в Суздале daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-04T11:31:42.615576+03:00",
+      "story_id": "6e9e5274da0b59ce"
+    },
+    {
+      "category": "moscow",
+      "headline": "Фильмы Венецианского кинофестиваля-2026: оценки российских кинокритиков",
+      "body": "Фильмы Венецианского кинофестиваля-2026: оценки российских кинокритиков daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-04T11:31:42.615576+03:00",
+      "story_id": "0f1dacb219980abf"
     }
   ]
 }

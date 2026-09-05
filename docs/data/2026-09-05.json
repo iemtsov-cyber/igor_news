@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "updated_at": "2026-09-05T11:28:20.406994+03:00",
+  "updated_at": "2026-09-05T15:32:16.188806+03:00",
   "items": [
     {
       "category": "random_top",
@@ -218,6 +218,81 @@
       "is_internet_element": false,
       "added_at": "2026-09-05T11:28:20.406994+03:00",
       "story_id": "9c0f7b4827b271dd"
+    },
+    {
+      "category": "random_top",
+      "headline": "Военный эксперт: наши войска оседлали гряду на пути к освобождению Краматорска",
+      "body": "Военный эксперт: наши войска оседлали гряду на пути к освобождению Краматорска EADaily ВС РФ взяли под контроль Куртовку в ДНР BFM.ru Минобороны РФ заявило о нанесении мощного огневого поражения ВСУ при штурме Никаноровки в ДНР Интерфакс ВС РФ взяли под контроль Грузское и Никаноровку в ДНР Новые Известия Российская армия освободила села Никаноровка и Грузское Ugra-news.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-05T15:32:16.188806+03:00",
+      "story_id": "e4316fe5abbe4f58"
+    },
+    {
+      "category": "moscow",
+      "headline": "На Петербург обрушились сильные ливни. Посмотрите, как выглядел затопленный город",
+      "body": "На Петербург обрушились сильные ливни. Посмотрите, как выглядел затопленный город daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-05T15:32:16.188806+03:00",
+      "story_id": "afc48fe8e36b2660"
+    },
+    {
+      "category": "moscow",
+      "headline": "Слово «шумахер» внесли в словарь Института Виноградова",
+      "body": "Слово «шумахер» внесли в словарь Института Виноградова daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-05T15:32:16.188806+03:00",
+      "story_id": "eafb328c84c8d397"
+    },
+    {
+      "category": "moscow",
+      "headline": "Симоновскую набережную в Москве продлят на 3 километра",
+      "body": "Симоновскую набережную в Москве продлят на 3 километра daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-05T15:32:16.188806+03:00",
+      "story_id": "5fdf827415ddb5fb"
+    },
+    {
+      "category": "moscow",
+      "headline": "Сериал «Паук-Нуар» с Николасом Кейджем не стали продлевать на второй сезон",
+      "body": "Сериал «Паук-Нуар» с Николасом Кейджем не стали продлевать на второй сезон daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-05T15:32:16.188806+03:00",
+      "story_id": "b97d4504ba4149b9"
     }
   ]
 }

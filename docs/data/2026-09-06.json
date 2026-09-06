@@ -1,6 +1,6 @@
 {
   "date": "2026-09-06",
-  "updated_at": "2026-09-06T11:29:55.011954+03:00",
+  "updated_at": "2026-09-06T15:33:27.430388+03:00",
   "items": [
     {
       "category": "other",
@@ -214,6 +214,98 @@
       "is_internet_element": false,
       "added_at": "2026-09-06T11:29:55.011954+03:00",
       "story_id": "ce88f451cef3409d"
+    },
+    {
+      "category": "russia",
+      "headline": "В Иркутской области уничтожат сотню голов скота из-за вспышки инфекции",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "russia",
+        "сельское хозяйство",
+        "регионы россии",
+        "ветеринария",
+        "иркутская область"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T15:33:27.430388+03:00",
+      "story_id": "3226cdb57d2f4ecf"
+    },
+    {
+      "category": "science",
+      "headline": "Учёные уточнили роль генетики в формировании характера",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "science",
+        "генетика",
+        "психология",
+        "наука о человеке",
+        "исследования"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T15:33:27.430388+03:00",
+      "story_id": "261d4b8bb6c5f9e0"
+    },
+    {
+      "category": "cinema",
+      "headline": "Marvel опубликовала список из 42 часов фильмов для подготовки к «Мстителям: Доктор Дум»",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "cinema",
+        "marvel",
+        "кинофраншизы",
+        "мстители",
+        "блокбастеры"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T15:33:27.430388+03:00",
+      "story_id": "ecb8e72b2fd8205b"
+    },
+    {
+      "category": "random_top",
+      "headline": "Минобороны заявило о поражении 400 беспилотников ВСУ за сутки",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "random_top",
+        "бпла",
+        "минобороны",
+        "конфликт на украине",
+        "пво"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T15:33:27.430388+03:00",
+      "story_id": "d1bc01c82dc4e55a"
+    },
+    {
+      "category": "random_top",
+      "headline": "Минобороны России раскрыло, сколько БПЛА сбито ночью 6 сентября",
+      "body": "Минобороны России раскрыло, сколько БПЛА сбито ночью 6 сентября rzn.info Атакован поезд, горит завод, погибли люди: последствия налета БПЛА 6 сентября RTVI Трое погибших, десять раненых, 450 БПЛА. Итог атак ВСУ на центр России за сутки ВФокусе Mail Украина ударила по России беспилотниками в день визита команды Трампа URA.RU Минобороны РФ заявило о поражении за сутки 400 беспилотников ВСУ Интерфакс",
+      "aside": "",
+      "importance": 5.5,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top",
+        "случайно из топа"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T15:33:27.430388+03:00",
+      "story_id": "790a44d12340f69d"
     }
   ]
 }

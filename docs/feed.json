@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T23:27:56.996447+03:00",
+  "updated_at": "2026-09-06T03:41:08.804191+03:00",
   "items": [
     {
       "category": "russia",
@@ -6218,6 +6218,110 @@
       "is_internet_element": false,
       "added_at": "2026-09-05T23:27:56.996447+03:00",
       "story_id": "f93e6972425c10c0"
+    },
+    {
+      "category": "other",
+      "headline": "Путин дал указание не наносить удары по Киеву 5–8 сентября из-за визита американской делегации",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "переговоры",
+        "сша",
+        "украина",
+        "кремль"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T03:41:08.804191+03:00",
+      "story_id": "677b8fc149a75e1b"
+    },
+    {
+      "category": "other",
+      "headline": "OpenAI представила GPT-6 Astra — первую модель, заявленную как AGI",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "ии",
+        "openai",
+        "agi",
+        "технологии"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T03:41:08.804191+03:00",
+      "story_id": "3e34ba5e116cbe8d"
+    },
+    {
+      "category": "other",
+      "headline": "Джордж Клуни выступил против государственного регулирования ИИ",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "кино",
+        "ии",
+        "политика",
+        "знаменитости"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T03:41:08.804191+03:00",
+      "story_id": "0e2c42c1b55b882d"
+    },
+    {
+      "category": "other",
+      "headline": "США нанесли удары по трём иранским нефтяным танкерам в ответ на атаки на военные корабли",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "сша",
+        "иран",
+        "военные действия",
+        "энергетика"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T03:41:08.804191+03:00",
+      "story_id": "b47d3c393b859177"
+    },
+    {
+      "category": "random_top",
+      "headline": "Путин дал указание не наносить удары по Киеву 5-8 сентября в связи с визитом Уитткофа и Кушнера",
+      "body": "Путин дал указание не наносить удары по Киеву 5-8 сентября в связи с визитом Уитткофа и Кушнера Интерфакс Ещё заголовки и мнения в приложении \"Google Новости",
+      "aside": "",
+      "importance": 5.5,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top",
+        "случайно из топа"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T03:41:08.804191+03:00",
+      "story_id": "73f2e41322c649f5"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "Звёзды «Уральских пельменей» стали героями мемов у зумеров | ОТВ - Новости",
+      "body": "Звёзды «Уральских пельменей» стали героями мемов у зумеров | ОТВ - Новости obltv.ru",
+      "aside": "Звёзды «Уральских пельменей» стали героями мемов у зумеров | ОТВ - Новости - obltv.ru",
+      "importance": 5.5,
+      "confidence": 0.78,
+      "preference_tags": [
+        "internet_culture",
+        "интернет-культура"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-09-06T03:41:08.804191+03:00",
+      "story_id": "1a4f5e2e2c3597f8"
     }
   ]
 }

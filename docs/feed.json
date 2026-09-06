@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T19:28:55.979106+03:00",
+  "updated_at": "2026-09-06T23:28:36.881779+03:00",
   "items": [
     {
       "category": "russia",
@@ -6598,6 +6598,51 @@
       "is_internet_element": false,
       "added_at": "2026-09-06T19:28:55.979106+03:00",
       "story_id": "637167a88f75db0b"
+    },
+    {
+      "category": "random_top",
+      "headline": "Киев завыл, а американцы полетели договариваться — обзорная сводка",
+      "body": "Киев завыл, а американцы полетели договариваться — обзорная сводка Столица С Ещё заголовки и мнения в приложении \"Google Новости",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T23:28:36.881779+03:00",
+      "story_id": "e3ec113fb38889e5"
+    },
+    {
+      "category": "moscow",
+      "headline": "Человек-паук: Новый день» собрал 2,4 млрд долларов и вошел в топ-3 самых кассовых фильмов в истории",
+      "body": "Человек-паук: Новый день» собрал 2,4 млрд долларов и вошел в топ-3 самых кассовых фильмов в истории daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T23:28:36.881779+03:00",
+      "story_id": "16f0f604d38b377c"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Москве хотят оформить районные центры в стиле неоклассики",
+      "body": "В Москве хотят оформить районные центры в стиле неоклассики daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T23:28:36.881779+03:00",
+      "story_id": "091536e3c6ef807f"
     }
   ]
 }

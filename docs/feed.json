@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T15:33:27.430388+03:00",
+  "updated_at": "2026-09-06T19:28:55.979106+03:00",
   "items": [
     {
       "category": "russia",
@@ -6523,6 +6523,81 @@
       "is_internet_element": false,
       "added_at": "2026-09-06T15:33:27.430388+03:00",
       "story_id": "790a44d12340f69d"
+    },
+    {
+      "category": "random_top",
+      "headline": "В Рязанской области обломки БПЛА повредили два жилых дома, произошло возгорание на предприятии",
+      "body": "В Рязанской области обломки БПЛА повредили два жилых дома, произошло возгорание на предприятии 62ИНФО Пожар начался на предприятии в Рязанской области после падения обломков БПЛА Интерфакс В Рязани после атаки дронов загорелся нефтеперерабатывающий завод Радио Свобода В Рязани снова атакован один из крупнейших НПЗ России. Повреждены жилые дома theins.ru На территории Рязанской области действует беспилотная опасность RZN.info",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T19:28:55.979106+03:00",
+      "story_id": "657488e490c78e93"
+    },
+    {
+      "category": "moscow",
+      "headline": "Эдвард Ферлонг рассказал о славе после «Терминатора-2»: «Расти на виду у всех очень тяжело",
+      "body": "Эдвард Ферлонг рассказал о славе после «Терминатора-2»: «Расти на виду у всех очень тяжело» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T19:28:55.979106+03:00",
+      "story_id": "8d1c259a3a998d4e"
+    },
+    {
+      "category": "moscow",
+      "headline": "Лида Мониава покинет пост директора детского хосписа «Дом с маяком",
+      "body": "Лида Мониава покинет пост директора детского хосписа «Дом с маяком» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T19:28:55.979106+03:00",
+      "story_id": "f63980024548f936"
+    },
+    {
+      "category": "moscow",
+      "headline": "42 часа домашней работы: Marvel назвала список фильмов для подготовки к «Мстителям: Доктор Дум",
+      "body": "42 часа домашней работы: Marvel назвала список фильмов для подготовки к «Мстителям: Доктор Дум» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T19:28:55.979106+03:00",
+      "story_id": "4c75b5870ae43965"
+    },
+    {
+      "category": "moscow",
+      "headline": "Врачи отвели Брюсу Кэмпбеллу пять лет жизни",
+      "body": "Врачи отвели Брюсу Кэмпбеллу пять лет жизни daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T19:28:55.979106+03:00",
+      "story_id": "637167a88f75db0b"
     }
   ]
 }

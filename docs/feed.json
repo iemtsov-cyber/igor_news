@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T07:29:07.148510+03:00",
+  "updated_at": "2026-09-06T11:29:55.011954+03:00",
   "items": [
     {
       "category": "russia",
@@ -6356,6 +6356,81 @@
       "is_internet_element": false,
       "added_at": "2026-09-06T07:29:07.148510+03:00",
       "story_id": "783b325d6508bcc6"
+    },
+    {
+      "category": "random_top",
+      "headline": "Украина ударила по России беспилотниками в день визита команды Трампа",
+      "body": "Украина ударила по России беспилотниками в день визита команды Трампа URA.RU Минобороны РФ сообщило о поражении за ночь 258 украинских БПЛА interfax.ru Города без света и раненые дети: последствия атаки БПЛА 5 сентября RTVI МО: Силы ПВО сбили 763 дрона ВСУ и семь авиационных бомб Национальная Служба Новостей МО РФ: ночью в Саратовской области и других регионах сбили 258 беспилотников vzsar.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T11:29:55.011954+03:00",
+      "story_id": "e553e4ec6f9a4032"
+    },
+    {
+      "category": "moscow",
+      "headline": "Россиянам могут разрешить поездки в Китай на личных авто",
+      "body": "Россиянам могут разрешить поездки в Китай на личных авто go.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T11:29:55.011954+03:00",
+      "story_id": "631eac82442adab3"
+    },
+    {
+      "category": "moscow",
+      "headline": "Шоу Bad Bunny в перерыве Супербоула завоевало семь «Эмми",
+      "body": "Шоу Bad Bunny в перерыве Супербоула завоевало семь «Эмми» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T11:29:55.011954+03:00",
+      "story_id": "ccbdc7e7fd077bfb"
+    },
+    {
+      "category": "moscow",
+      "headline": "Дэнни Бойл подтвердил использование ИИ в своем новом фильме «Чернила",
+      "body": "Дэнни Бойл подтвердил использование ИИ в своем новом фильме «Чернила» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T11:29:55.011954+03:00",
+      "story_id": "bb43132459dc780b"
+    },
+    {
+      "category": "moscow",
+      "headline": "Концертный зал Измайлово, Афиша спектаклей на 28 ноября - Афиша-Театры",
+      "body": "Концертный зал Измайлово, Афиша спектаклей на 28 ноября - Афиша-Театры afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-06T11:29:55.011954+03:00",
+      "story_id": "ce88f451cef3409d"
     }
   ]
 }

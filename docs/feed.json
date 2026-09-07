@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T07:31:13.825595+03:00",
+  "updated_at": "2026-09-07T11:33:36.920794+03:00",
   "items": [
     {
       "category": "russia",
@@ -6745,6 +6745,81 @@
       "is_internet_element": false,
       "added_at": "2026-09-07T07:31:13.825595+03:00",
       "story_id": "e01edf4062df4a98"
+    },
+    {
+      "category": "random_top",
+      "headline": "Один человек погиб и четверо пострадали при ударе дрона по жилому дому в Перми",
+      "body": "Один человек погиб и четверо пострадали при ударе дрона по жилому дому в Перми Интерфакс Украинские беспилотники атаковали Пермь. Один из дронов попал в многоэтажный жилой дом meduza.io Один человек погиб в результате атаки БПЛА на Пермь vfokuse.mail.ru В Перми беспилотник попал в многоэтажный дом svoboda.org Удар БПЛА по жилому дому в Перми: кадры атаки ГИПОРТ",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-07T11:33:36.920794+03:00",
+      "story_id": "d163f148b30d49e1"
+    },
+    {
+      "category": "technology",
+      "headline": "GPT-5.6 и GPT-6 Pro в ChatGPT",
+      "body": "GPT-5.6 и GPT-6 Pro в ChatGPT OpenAI Help Center",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-07T11:33:36.920794+03:00",
+      "story_id": "85a841fad5d05d18"
+    },
+    {
+      "category": "moscow",
+      "headline": "Бухта вдов» получила восемь «Эмми», закрытый «Паук-Нуар» — пять",
+      "body": "Бухта вдов» получила восемь «Эмми», закрытый «Паук-Нуар» — пять daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-07T11:33:36.920794+03:00",
+      "story_id": "c91712054f0ed3eb"
+    },
+    {
+      "category": "moscow",
+      "headline": "В России на треть вырос голосовой трафик на фоне ограничений мобильного интернета",
+      "body": "В России на треть вырос голосовой трафик на фоне ограничений мобильного интернета daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-07T11:33:36.920794+03:00",
+      "story_id": "5740a26e44c20e8a"
+    },
+    {
+      "category": "moscow",
+      "headline": "Лилли Вачовски больше не хочет заниматься «Матрицей",
+      "body": "Лилли Вачовски больше не хочет заниматься «Матрицей» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-07T11:33:36.920794+03:00",
+      "story_id": "905e7787739b6feb"
     }
   ]
 }

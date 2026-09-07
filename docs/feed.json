@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T23:28:36.881779+03:00",
+  "updated_at": "2026-09-07T03:41:17.684849+03:00",
   "items": [
     {
       "category": "russia",
@@ -6643,6 +6643,51 @@
       "is_internet_element": false,
       "added_at": "2026-09-06T23:28:36.881779+03:00",
       "story_id": "091536e3c6ef807f"
+    },
+    {
+      "category": "random_top",
+      "headline": "Ребенок погиб, три человека пострадали в результате атаки БПЛА на Севастополь",
+      "body": "Ребенок погиб, три человека пострадали в результате атаки БПЛА на Севастополь interfax.ru Девочка, раненная при атаке БПЛА в Севастополе, умерла в машине скорой помощи BFM.ru Девочка погибла после атаки беспилотника на Севастополь Национальная Служба Новостей Дрон ВСУ, атаковавший Севастополь, был начинен взрывчаткой spbdnevnik.ru В Севастополе в результате детонации БПЛА повреждены дома, детский сад и автомобили ForPost",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-07T03:41:17.684849+03:00",
+      "story_id": "3a66c2d7294b91cf"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "Claude Code жил моей жизнью на Reddit пять дней. Что из этого вышло — пугает",
+      "body": "Claude Code жил моей жизнью на Reddit пять дней. Что из этого вышло — пугает Хабр",
+      "aside": "Claude Code жил моей жизнью на Reddit пять дней. Что из этого вышло — пугает - Хабр",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-09-07T03:41:17.684849+03:00",
+      "story_id": "0ffb83428d845290"
+    },
+    {
+      "category": "world",
+      "headline": "Bloomberg.com",
+      "body": "Bloomberg.com",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "world"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-07T03:41:17.684849+03:00",
+      "story_id": "3e72880ad5b93e71"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updated_at": "2026-09-07T03:41:17.684849+03:00",
+  "updated_at": "2026-09-07T07:31:13.825595+03:00",
   "items": [
     {
       "category": "random_top",
@@ -46,6 +46,63 @@
       "is_internet_element": false,
       "added_at": "2026-09-07T03:41:17.684849+03:00",
       "story_id": "3e72880ad5b93e71"
+    },
+    {
+      "category": "world",
+      "headline": "В Севастополе после атаки БПЛА погиб ребёнок, ещё трое пострадали",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "world",
+        "беспилотники",
+        "севастополь",
+        "последствия атак",
+        "гражданские жертвы"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-07T07:31:13.825595+03:00",
+      "story_id": "f91238db2f732aaa"
+    },
+    {
+      "category": "world",
+      "headline": "В Майами грузовой Boeing выкатился с полосы: пять человек погибли",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "world",
+        "авиакатастрофа",
+        "майами",
+        "boeing",
+        "авиация"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-07T07:31:13.825595+03:00",
+      "story_id": "55eedee5c6087d83"
+    },
+    {
+      "category": "world",
+      "headline": "«Альтернатива для Германии» победила на выборах в Саксонии-Анхальт",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "world",
+        "выборы",
+        "афд",
+        "германия",
+        "политика"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-07T07:31:13.825595+03:00",
+      "story_id": "e01edf4062df4a98"
     }
   ]
 }

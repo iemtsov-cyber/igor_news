@@ -1,6 +1,6 @@
 {
   "date": "2026-09-07",
-  "updated_at": "2026-09-07T11:33:36.920794+03:00",
+  "updated_at": "2026-09-07T15:37:23.928050+03:00",
   "items": [
     {
       "category": "random_top",
@@ -178,6 +178,81 @@
       "is_internet_element": false,
       "added_at": "2026-09-07T11:33:36.920794+03:00",
       "story_id": "905e7787739b6feb"
+    },
+    {
+      "category": "random_top",
+      "headline": "Число погибших под лавиной в КБР альпинистов выросло до 11 человек",
+      "body": "Число погибших под лавиной в КБР альпинистов выросло до 11 человек Интерфакс В Кабардино-Балкарии под лавиной погибли 11 альпинистов DW.com В результате схода лавины в Кабардино-Балкарии погибли 11 человек. Шестеро альпинистов пропали без вести Meduza Ставшая причиной гибели 11 альпинистов в КБР лавина попала на видео RTVI В горах Кабардино-Балкарии под лавину попала группа альпинистов РИА «Кабардино-Балкария",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-07T15:37:23.928050+03:00",
+      "story_id": "af0fe721b1a2dd4c"
+    },
+    {
+      "category": "technology",
+      "headline": "Физики измерили квантовую фазу свободно падающих атомов",
+      "body": "Физики измерили квантовую фазу свободно падающих атомов nplus1.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-07T15:37:23.928050+03:00",
+      "story_id": "9a62a48044239bbf"
+    },
+    {
+      "category": "moscow",
+      "headline": "Смотрим трейлер романтической драмы «Падает снег» — режиссерского дебюта Евгении Громовой",
+      "body": "Смотрим трейлер романтической драмы «Падает снег» — режиссерского дебюта Евгении Громовой daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-07T15:37:23.928050+03:00",
+      "story_id": "b544c00fede14732"
+    },
+    {
+      "category": "moscow",
+      "headline": "7 сентября россияне смогут увидеть соединение Луны, Марса, Юпитера и двух ярких звезд",
+      "body": "7 сентября россияне смогут увидеть соединение Луны, Марса, Юпитера и двух ярких звезд daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-07T15:37:23.928050+03:00",
+      "story_id": "8b96d2269b3e32c9"
+    },
+    {
+      "category": "moscow",
+      "headline": "Шакира может выступить в Бишкеке",
+      "body": "Шакира может выступить в Бишкеке daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-07T15:37:23.928050+03:00",
+      "story_id": "f01e83fd03e54d41"
     }
   ]
 }

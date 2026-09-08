@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updated_at": "2026-09-08T19:33:41.865576+03:00",
+  "updated_at": "2026-09-08T23:29:47.998393+03:00",
   "items": [
     {
       "category": "random_top",
@@ -304,6 +304,66 @@
       "is_internet_element": false,
       "added_at": "2026-09-08T19:33:41.865576+03:00",
       "story_id": "b80520b744ff42a7"
+    },
+    {
+      "category": "random_top",
+      "headline": "Россия и Украина снова заговорили о переговорах. Пойдет ли процесс дальше?",
+      "body": "Россия и Украина снова заговорили о переговорах. Пойдет ли процесс дальше? bfm.ru Песков заявил о скорой победе России в СВО bfm.ru Кремль заявил о близкой победе на фронте: главное об СВО за 8 сентября URA.RU Кремль предупредил об ужесточении требований к Киеву по мере затягивания мирного процесса Интерфакс «Победа очень близка». Кремль пообещал, что скоро выиграет войну с Украиной Русская служба The Moscow Times",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-08T23:29:47.998393+03:00",
+      "story_id": "1df9ac394461bb10"
+    },
+    {
+      "category": "moscow",
+      "headline": "Мультсериал «Южный Парк» в шутку переименовали в «Южную Америку",
+      "body": "Мультсериал «Южный Парк» в шутку переименовали в «Южную Америку» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-08T23:29:47.998393+03:00",
+      "story_id": "4ccbbb14df82cd4f"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Варшаве роботы устроили митинг против ИИ",
+      "body": "В Варшаве роботы устроили митинг против ИИ daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-08T23:29:47.998393+03:00",
+      "story_id": "4da766c79fc7a240"
+    },
+    {
+      "category": "moscow",
+      "headline": "Смотрим тизер второго сезона сериала «Декстер: Воскрешение",
+      "body": "Смотрим тизер второго сезона сериала «Декстер: Воскрешение» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-08T23:29:47.998393+03:00",
+      "story_id": "fb0b7245ba4d8cf3"
     }
   ]
 }

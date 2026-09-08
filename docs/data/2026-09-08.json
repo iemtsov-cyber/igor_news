@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updated_at": "2026-09-08T11:32:42.449821+03:00",
+  "updated_at": "2026-09-08T15:37:35.088337+03:00",
   "items": [
     {
       "category": "random_top",
@@ -145,6 +145,66 @@
       "is_internet_element": false,
       "added_at": "2026-09-08T11:32:42.449821+03:00",
       "story_id": "2a43d68b44ac8688"
+    },
+    {
+      "category": "random_top",
+      "headline": "Перекрыли центр Москвы",
+      "body": "Перекрыли центр Москвы EADaily Движение ограничено на ряде улиц в центре Москвы Интерфакс Дептранс: в центре Москвы перекрыли движение Авто Mail Перекрытие дорог в Москве с 4 по 6 сентября: движение по ряду центральных улиц и набережных будет ограничено / Новости города / Сайт Москвы mos.ru Какие улицы перекроют из-за Дня города? BFM.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-08T15:37:35.088337+03:00",
+      "story_id": "b6fae42bea4e8885"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Москве мотосезон закроется 19 сентября",
+      "body": "В Москве мотосезон закроется 19 сентября daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-08T15:37:35.088337+03:00",
+      "story_id": "0527e49b41659d57"
+    },
+    {
+      "category": "moscow",
+      "headline": "Выход сериала «Трудно быть богом» подстегнул интерес к оригинальной повести Стругацких",
+      "body": "Выход сериала «Трудно быть богом» подстегнул интерес к оригинальной повести Стругацких daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-08T15:37:35.088337+03:00",
+      "story_id": "8fb1495cd6e82e90"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Москве открылись три центра женского здоровья — они заменят женские консультации старого формата",
+      "body": "В Москве открылись три центра женского здоровья — они заменят женские консультации старого формата daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-08T15:37:35.088337+03:00",
+      "story_id": "5090c4c119777717"
     }
   ]
 }

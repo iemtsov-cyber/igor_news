@@ -1,6 +1,6 @@
 {
   "date": "2026-09-08",
-  "updated_at": "2026-09-08T07:31:06.560437+03:00",
+  "updated_at": "2026-09-08T11:32:42.449821+03:00",
   "items": [
     {
       "category": "random_top",
@@ -85,6 +85,66 @@
       "is_internet_element": false,
       "added_at": "2026-09-08T07:31:06.560437+03:00",
       "story_id": "0c089856a08c28d2"
+    },
+    {
+      "category": "random_top",
+      "headline": "Десять человек пострадали в результате атаки БПЛА в Саратове",
+      "body": "Десять человек пострадали в результате атаки БПЛА в Саратове Интерфакс Украинские дроны атаковали Саратов. Повреждены жилые дома, пострадали 10 человек Meduza Налет БПЛА на Саратов. Повреждено несколько домов, 10 человек пострадали Взгляд-инфо Украинские дроны в пятый раз с начала года атаковали саратовский НПЗ «Роснефти» Русская служба The Moscow Times Саратов Лайв MAX",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-08T11:32:42.449821+03:00",
+      "story_id": "00a847728394b80b"
+    },
+    {
+      "category": "moscow",
+      "headline": "94-летний Джон Уильямс неожиданно продирижировал «Имперским маршем» из «Звездных войн",
+      "body": "94-летний Джон Уильямс неожиданно продирижировал «Имперским маршем» из «Звездных войн» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-08T11:32:42.449821+03:00",
+      "story_id": "a139824f2783ed99"
+    },
+    {
+      "category": "moscow",
+      "headline": "Афиша» и «2ГИС» запустили театральный маршрут",
+      "body": "Афиша» и «2ГИС» запустили театральный маршрут daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-08T11:32:42.449821+03:00",
+      "story_id": "31f5cd31fd8b7bb2"
+    },
+    {
+      "category": "moscow",
+      "headline": "Илон — это ядерная бомба»: вышел первый тизер документалки об Илоне Маске от Алекса Гибни",
+      "body": "Илон — это ядерная бомба»: вышел первый тизер документалки об Илоне Маске от Алекса Гибни daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-08T11:32:42.449821+03:00",
+      "story_id": "2a43d68b44ac8688"
     }
   ]
 }

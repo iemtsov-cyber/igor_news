@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updated_at": "2026-09-09T03:40:39.299622+03:00",
+  "updated_at": "2026-09-09T07:30:53.995101+03:00",
   "items": [
     {
       "category": "random_top",
@@ -31,6 +31,81 @@
       "is_internet_element": true,
       "added_at": "2026-09-09T03:40:39.299622+03:00",
       "story_id": "3c8dc69081dddc9e"
+    },
+    {
+      "category": "random_top",
+      "headline": "Лавров: Украины, которую Россия признавала, больше не существует",
+      "body": "Лавров: Украины, которую Россия признавала, больше не существует vfokuse.mail.ru Дмитрий Чернышенко: В стенах главной кузницы кинодеятелей России теперь есть пространство, посвящённое богатому творческому наследию народного артиста Вьетнама Нго Мань Лана Правительство России Состоялась встреча Вячеслава Володина и Генерального секретаря Центрального комитета Коммунистической партии Вьетнама То Лама Государственная Дума Геннадий Зюганов встретился с делегацией Вьетнама во главе с Президентом То Ламом Официальный сайт КПРФ «Бамбуковая дипломатия»: зачем президент Вьетнама летит в Москву RTVI",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-09T07:30:53.995101+03:00",
+      "story_id": "35fd072f7a23f505"
+    },
+    {
+      "category": "world",
+      "headline": "reuters.com",
+      "body": "reuters.com",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "world"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-09T07:30:53.995101+03:00",
+      "story_id": "311102fffebcaa54"
+    },
+    {
+      "category": "technology",
+      "headline": "HoneyBook",
+      "body": "HoneyBook OpenAI",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-09T07:30:53.995101+03:00",
+      "story_id": "35698ca1a0d77531"
+    },
+    {
+      "category": "moscow",
+      "headline": "mos.ru",
+      "body": "mos.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-09T07:30:53.995101+03:00",
+      "story_id": "1eb009ce4db0a122"
+    },
+    {
+      "category": "moscow",
+      "headline": "Фильм Мой папа — медведь (Россия, 2025), купить билет или смотреть онлайн - Афиша-Кино",
+      "body": "Фильм Мой папа — медведь (Россия, 2025), купить билет или смотреть онлайн - Афиша-Кино afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-09T07:30:53.995101+03:00",
+      "story_id": "0a8c14caa5c51040"
     }
   ]
 }

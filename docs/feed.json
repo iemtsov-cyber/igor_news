@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T15:37:38.104050+03:00",
+  "updated_at": "2026-09-09T19:32:13.624490+03:00",
   "items": [
     {
       "category": "russia",
@@ -7662,6 +7662,81 @@
       "is_internet_element": false,
       "added_at": "2026-09-09T15:37:38.104050+03:00",
       "story_id": "f71895e4cd0d2084"
+    },
+    {
+      "category": "random_top",
+      "headline": "Собянин сообщил о планах продлить метро в Химки, Мытищи, Балашиху и Красногорск",
+      "body": "Собянин сообщил о планах продлить метро в Химки, Мытищи, Балашиху и Красногорск mos.ru Ещё заголовки и мнения в приложении \"Google Новости",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-09T19:32:13.624490+03:00",
+      "story_id": "77de5f486956751f"
+    },
+    {
+      "category": "technology",
+      "headline": "Get more done with Canva and ChatGPT",
+      "body": "Get more done with Canva and ChatGPT OpenAI",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-09T19:32:13.624490+03:00",
+      "story_id": "a7e976a8de6158af"
+    },
+    {
+      "category": "technology",
+      "headline": "Business finance made simple in ChatGPT",
+      "body": "Business finance made simple in ChatGPT OpenAI",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-09T19:32:13.624490+03:00",
+      "story_id": "d5d70517dfa61459"
+    },
+    {
+      "category": "technology",
+      "headline": "Check the run. Fix what’s off. Run payroll with Gusto plug-in for ChatGPT.",
+      "body": "Check the run. Fix what’s off. Run payroll with Gusto plug-in for ChatGPT. OpenAI",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-09T19:32:13.624490+03:00",
+      "story_id": "3a96c8c5ac2f2806"
+    },
+    {
+      "category": "technology",
+      "headline": "Stripe plugin for ChatGPT",
+      "body": "Stripe plugin for ChatGPT OpenAI",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-09T19:32:13.624490+03:00",
+      "story_id": "66dd0d5719b8e42d"
     }
   ]
 }

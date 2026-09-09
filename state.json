@@ -2260,6 +2260,31 @@
       "shown_at": "2026-09-09T15:37:38.104050+03:00",
       "headline": "Минувшая ночь в Москве стала самой холодной с мая",
       "category": "moscow"
+    },
+    {
+      "shown_at": "2026-09-09T19:32:13.624490+03:00",
+      "headline": "Собянин сообщил о планах продлить метро в Химки, Мытищи, Балашиху и Красногорск",
+      "category": "random_top"
+    },
+    {
+      "shown_at": "2026-09-09T19:32:13.624490+03:00",
+      "headline": "Get more done with Canva and ChatGPT",
+      "category": "technology"
+    },
+    {
+      "shown_at": "2026-09-09T19:32:13.624490+03:00",
+      "headline": "Business finance made simple in ChatGPT",
+      "category": "technology"
+    },
+    {
+      "shown_at": "2026-09-09T19:32:13.624490+03:00",
+      "headline": "Check the run. Fix what’s off. Run payroll with Gusto plug-in for ChatGPT.",
+      "category": "technology"
+    },
+    {
+      "shown_at": "2026-09-09T19:32:13.624490+03:00",
+      "headline": "Stripe plugin for ChatGPT",
+      "category": "technology"
     }
   ]
 }

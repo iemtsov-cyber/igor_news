@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T19:32:13.624490+03:00",
+  "updated_at": "2026-09-09T23:30:25.020723+03:00",
   "items": [
     {
       "category": "russia",
@@ -7737,6 +7737,36 @@
       "is_internet_element": false,
       "added_at": "2026-09-09T19:32:13.624490+03:00",
       "story_id": "66dd0d5719b8e42d"
+    },
+    {
+      "category": "random_top",
+      "headline": "Больше тысячи БПЛА сбили за сутки. Что известно о последствиях атак по регионам",
+      "body": "Больше тысячи БПЛА сбили за сутки. Что известно о последствиях атак по регионам ФОНТАНКА.ру Военные поразили за ночь 596 украинских беспилотников над российскими регионами Интерфакс ПВО сбила еще 108 украинских дронов над Россией BFM.ru ВС РФ за день уничтожили 108 украинских беспилотников URA.RU Средства ПВО РФ за ночь сбили 596 украинских беспилотников Независимая газета",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-09T23:30:25.020723+03:00",
+      "story_id": "f03602c0b78adaf4"
+    },
+    {
+      "category": "culture",
+      "headline": "FIDE",
+      "body": "FIDE",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-09T23:30:25.020723+03:00",
+      "story_id": "281121fcb107dae9"
     }
   ]
 }

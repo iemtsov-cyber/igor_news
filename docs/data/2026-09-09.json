@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "updated_at": "2026-09-09T11:31:26.098542+03:00",
+  "updated_at": "2026-09-09T15:37:38.104050+03:00",
   "items": [
     {
       "category": "random_top",
@@ -115,12 +115,12 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "геополитика",
         "ближний восток",
         "нефть",
         "иран",
-        "сша",
-        "безопасность"
+        "сша"
       ],
       "is_random_top": true,
       "is_internet_element": false,
@@ -135,12 +135,12 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "образование",
         "медицина",
         "кадры",
         "законодательство",
-        "вузы",
-        "здравоохранение"
+        "вузы"
       ],
       "is_random_top": false,
       "is_internet_element": false,
@@ -155,6 +155,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "москва",
         "погода",
         "климат",
@@ -173,6 +174,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "москва",
         "люди",
         "долголетие",
@@ -192,12 +194,12 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "образование",
         "дети",
         "психология",
         "государство",
-        "общество",
-        "здоровье"
+        "общество"
       ],
       "is_random_top": false,
       "is_internet_element": false,
@@ -212,17 +214,77 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "сериалы",
         "кино",
         "поп-культура",
         "amc",
-        "зомби",
-        "франшизы"
+        "зомби"
       ],
       "is_random_top": false,
       "is_internet_element": false,
       "added_at": "2026-09-09T11:31:26.098542+03:00",
       "story_id": "9fcd274f8085fc9a"
+    },
+    {
+      "category": "random_top",
+      "headline": "США уничтожили пять танкеров КСИР в ответ на обстрел своего корабля",
+      "body": "США уничтожили пять танкеров КСИР в ответ на обстрел своего корабля Интерфакс КСИР готовится атаковать танкеры вблизи Кувейта и Бахрейна в ответ на удары США Интерфакс США уничтожили 5 иранских танкеров, Иран стрелял по американским судам Радио Свобода США заявили об уничтожении пяти иранских танкеров, Иран нанес ответный удар BBC США заявили, что за ночь атаковали пять иранских нефтяных танкеров. Цена Brent превысила $100 за баррель theins.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-09T15:37:38.104050+03:00",
+      "story_id": "20bbae4e13d9315c"
+    },
+    {
+      "category": "world",
+      "headline": "Hungary loses court fight over frozen Russian asset profits for Ukraine",
+      "body": "Hungary loses court fight over frozen Russian asset profits for Ukraine Reuters",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "world"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-09T15:37:38.104050+03:00",
+      "story_id": "8da7d8a4d05cafbf"
+    },
+    {
+      "category": "moscow",
+      "headline": "В начале ноября россиян ждет сокращенная рабочая неделя",
+      "body": "В начале ноября россиян ждет сокращенная рабочая неделя daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-09T15:37:38.104050+03:00",
+      "story_id": "b8bd41ccf553e641"
+    },
+    {
+      "category": "moscow",
+      "headline": "Минувшая ночь в Москве стала самой холодной с мая",
+      "body": "Минувшая ночь в Москве стала самой холодной с мая daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-09T15:37:38.104050+03:00",
+      "story_id": "f71895e4cd0d2084"
     }
   ]
 }

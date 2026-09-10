@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T23:30:25.020723+03:00",
+  "updated_at": "2026-09-10T03:36:32.981221+03:00",
   "items": [
     {
       "category": "russia",
@@ -7767,6 +7767,36 @@
       "is_internet_element": false,
       "added_at": "2026-09-09T23:30:25.020723+03:00",
       "story_id": "281121fcb107dae9"
+    },
+    {
+      "category": "random_top",
+      "headline": "Без объяснения причин: Мерц отменил телефонный разговор с Трампом",
+      "body": "Без объяснения причин: Мерц отменил телефонный разговор с Трампом EADaily Мерц отменил телефонный разговор с Трампом Meduza Победа «Альтернативы для Германии» может быть «обнулена» / В мире Независимая газета Трамп считает, что популисты в Германии на подъеме interfax.ru «У меня как у члена ХДС кровью обливается сердце»: Меркель об успехе АдГ на выборах RTVI",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T03:36:32.981221+03:00",
+      "story_id": "3ce9f4771d7582f8"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "CoinW добавила мем-коин Хантера Байдена и запустила турнир на 100 000 USDT",
+      "body": "CoinW добавила мем-коин Хантера Байдена и запустила турнир на 100 000 USDT CryptoRank",
+      "aside": "CoinW добавила мем-коин Хантера Байдена и запустила турнир на 100 000 USDT - CryptoRank",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-09-10T03:36:32.981221+03:00",
+      "story_id": "4a6e44942c4c5ea8"
     }
   ]
 }

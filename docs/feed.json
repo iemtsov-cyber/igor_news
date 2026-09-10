@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T07:30:48.657635+03:00",
+  "updated_at": "2026-09-10T11:32:49.144512+03:00",
   "items": [
     {
       "category": "russia",
@@ -7857,6 +7857,36 @@
       "is_internet_element": false,
       "added_at": "2026-09-10T07:30:48.657635+03:00",
       "story_id": "d9441b565cdd4dad"
+    },
+    {
+      "category": "random_top",
+      "headline": "Число пострадавших при атаке БЭК на набережную Сочи выросло до восьми",
+      "body": "Число пострадавших при атаке БЭК на набережную Сочи выросло до восьми BFM.ru Число пострадавших при атаке безэкипажных катеров в Сочи увеличилось до 28 Интерфакс Последствия атаки безэкипажных катеров на набережную Сочи: 8 ранены, пострадали 28 человекnull — Новая Газета Новая газета В результате атаки БПЛА в Сочи ранены восемь человек, в Воронеже погибла женщина vfokuse.mail.ru В Сочи после атаки безэкипажных катеров загорелась набережная БИЗНЕС Online",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T11:32:49.144512+03:00",
+      "story_id": "5cd6807411de8152"
+    },
+    {
+      "category": "technology",
+      "headline": "GPT-6 Astra: новое поколение интеллекта",
+      "body": "GPT-6 Astra: новое поколение интеллекта OpenAI",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T11:32:49.144512+03:00",
+      "story_id": "69fee76bb9e9859b"
     }
   ]
 }

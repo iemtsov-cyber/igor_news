@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updated_at": "2026-09-10T11:32:49.144512+03:00",
+  "updated_at": "2026-09-10T15:37:22.714900+03:00",
   "items": [
     {
       "category": "random_top",
@@ -121,6 +121,66 @@
       "is_internet_element": false,
       "added_at": "2026-09-10T11:32:49.144512+03:00",
       "story_id": "69fee76bb9e9859b"
+    },
+    {
+      "category": "random_top",
+      "headline": "Депутат Рады Микиша: Уиткофф и Кушнер привезли Киеву условия капитуляции",
+      "body": "Депутат Рады Микиша: Уиткофф и Кушнер привезли Киеву условия капитуляции ura.news Интервью Министра иностранных дел Российской Федерации С.В.Лаврова программе «Большая игра» на «Первом канале», Москва, 8 сентября 2026 года Министерство иностранных дел России Война Meduza Как прошел визит Кушнера и Уиткоффа в Москву Forbes.ru В Кремль не передавали настроения Киева после переговоров с посланниками Трампа Интерфакс",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T15:37:22.714900+03:00",
+      "story_id": "53b26e25937bb30f"
+    },
+    {
+      "category": "moscow",
+      "headline": "Раскрыты цены на iPhone 18 Pro и iPhone Duo в России",
+      "body": "Раскрыты цены на iPhone 18 Pro и iPhone Duo в России go.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T15:37:22.714900+03:00",
+      "story_id": "484f32bd87bd74fc"
+    },
+    {
+      "category": "moscow",
+      "headline": "Предпродажи билетов на новых «Мстителей» достигли 50 млн долларов",
+      "body": "Предпродажи билетов на новых «Мстителей» достигли 50 млн долларов daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T15:37:22.714900+03:00",
+      "story_id": "df1320de7cba56fe"
+    },
+    {
+      "category": "moscow",
+      "headline": "Александр Фокин стал исполняющим обязанности ректора ГИТИСа",
+      "body": "Александр Фокин стал исполняющим обязанности ректора ГИТИСа daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T15:37:22.714900+03:00",
+      "story_id": "5da3b90386ff2a5d"
     }
   ]
 }

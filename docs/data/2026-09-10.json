@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updated_at": "2026-09-10T15:37:22.714900+03:00",
+  "updated_at": "2026-09-10T19:29:38.717116+03:00",
   "items": [
     {
       "category": "random_top",
@@ -181,6 +181,66 @@
       "is_internet_element": false,
       "added_at": "2026-09-10T15:37:22.714900+03:00",
       "story_id": "5da3b90386ff2a5d"
+    },
+    {
+      "category": "random_top",
+      "headline": "Число пострадавших при атаке безэкипажных катеров в Сочи увеличилось до 28",
+      "body": "Число пострадавших при атаке безэкипажных катеров в Сочи увеличилось до 28 Интерфакс «Все кричат, дети плачут» meduza.io Как работают отели на центральной набережной Сочи после ночной атаки tourdom.ru Число пострадавших при атаке безэкипажных катеров на набережную в Сочи выросло до 28 Forbes.ru СК завел дело о теракте по факту удара боевых катеров ВСУ по курортной зоне Сочи ВФокусе Mail",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T19:29:38.717116+03:00",
+      "story_id": "8654d61e6752c23a"
+    },
+    {
+      "category": "technology",
+      "headline": "Budget Pacing",
+      "body": "Budget Pacing OpenAI Help Center",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T19:29:38.717116+03:00",
+      "story_id": "2cae2ba78ef48020"
+    },
+    {
+      "category": "moscow",
+      "headline": "В «Зарядье» откроют выставку об истории гостиницы «Россия",
+      "body": "В «Зарядье» откроют выставку об истории гостиницы «Россия» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T19:29:38.717116+03:00",
+      "story_id": "5505a27e2d0898d4"
+    },
+    {
+      "category": "moscow",
+      "headline": "Отдых в Египте зимой подорожал для россиян на 10–20% за год",
+      "body": "Отдых в Египте зимой подорожал для россиян на 10–20% за год daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T19:29:38.717116+03:00",
+      "story_id": "03eeb4cafbb3f648"
     }
   ]
 }

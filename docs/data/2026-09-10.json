@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updated_at": "2026-09-10T19:29:38.717116+03:00",
+  "updated_at": "2026-09-10T23:28:23.897933+03:00",
   "items": [
     {
       "category": "random_top",
@@ -241,6 +241,81 @@
       "is_internet_element": false,
       "added_at": "2026-09-10T19:29:38.717116+03:00",
       "story_id": "03eeb4cafbb3f648"
+    },
+    {
+      "category": "random_top",
+      "headline": "Торговля России и Индии после санкций: перспективы сотрудничества, нефть, дроны",
+      "body": "Торговля России и Индии после санкций: перспективы сотрудничества, нефть, дроны Финансы Mail Мастера Югры представили уникальную технологию работы с оленьей шкурой на выставке в Нью-Дели Ugra-news.ru Россия и Индия обсудили сотрудничество в производстве редких металлов Добывающая промышленность НЦ «Россия» представил на ИННОПРОМе в Индии экспозицию о народных промыслах Новые Известия Денис Мантуров: видим большой потенциал индийских товаров на отечественном рынке Интерфакс",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T23:28:23.897933+03:00",
+      "story_id": "97ad73a5598785e6"
+    },
+    {
+      "category": "technology",
+      "headline": "ChatGPT for Financial Services",
+      "body": "ChatGPT for Financial Services OpenAI Help Center",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T23:28:23.897933+03:00",
+      "story_id": "19c1c8613f4e2392"
+    },
+    {
+      "category": "moscow",
+      "headline": "Кто подставил «Хитрого Койота»? Как списанная со счетов комедия по «Луни Тюнз» стала хитом",
+      "body": "Кто подставил «Хитрого Койота»? Как списанная со счетов комедия по «Луни Тюнз» стала хитом go.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T23:28:23.897933+03:00",
+      "story_id": "ac2d1ce3c7453c52"
+    },
+    {
+      "category": "moscow",
+      "headline": "Концерт Канье Уэста могут перенести из Петербурга в Москву",
+      "body": "Концерт Канье Уэста могут перенести из Петербурга в Москву go.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T23:28:23.897933+03:00",
+      "story_id": "bd8652f562ae2594"
+    },
+    {
+      "category": "moscow",
+      "headline": "Index Fest: день 4. Вечер",
+      "body": "Index Fest: день 4. Вечер festivals.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T23:28:23.897933+03:00",
+      "story_id": "7db1d4e7d9fd21fc"
     }
   ]
 }

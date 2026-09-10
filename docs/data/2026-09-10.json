@@ -1,6 +1,6 @@
 {
   "date": "2026-09-10",
-  "updated_at": "2026-09-10T03:36:32.981221+03:00",
+  "updated_at": "2026-09-10T07:30:48.657635+03:00",
   "items": [
     {
       "category": "random_top",
@@ -31,6 +31,66 @@
       "is_internet_element": true,
       "added_at": "2026-09-10T03:36:32.981221+03:00",
       "story_id": "4a6e44942c4c5ea8"
+    },
+    {
+      "category": "random_top",
+      "headline": "Путин: Россия может ввести безвизовый режим для граждан Вьетнама",
+      "body": "Путин: Россия может ввести безвизовый режим для граждан Вьетнама Ведомости Государственный обед от имени Президента России в честь Президента Вьетнама Президент России Путин сказал об интересе РФ к транзиту энергоресурсов через Вьетнам в другие страны Интерфакс Россия и Вьетнам усилят военное сотрудничество и обмен данными о «недружественных» странах. Путин пообещал безвиз для «вьетнамских друзей» theins.ru Путин заявил об удвоении темпов роста торговли России и Вьетнама BFM.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T07:30:48.657635+03:00",
+      "story_id": "8b38a00a780dedf4"
+    },
+    {
+      "category": "technology",
+      "headline": "Microsoft Power BI",
+      "body": "Microsoft Power BI OpenAI",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T07:30:48.657635+03:00",
+      "story_id": "c8d63da269fc1d74"
+    },
+    {
+      "category": "technology",
+      "headline": "VillageSQL",
+      "body": "VillageSQL OpenAI",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T07:30:48.657635+03:00",
+      "story_id": "7f7c558ade3fd5e7"
+    },
+    {
+      "category": "technology",
+      "headline": "MotherDuck",
+      "body": "MotherDuck OpenAI",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-10T07:30:48.657635+03:00",
+      "story_id": "d9441b565cdd4dad"
     }
   ]
 }

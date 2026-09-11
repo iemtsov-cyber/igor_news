@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T07:31:01.430151+03:00",
+  "updated_at": "2026-09-11T11:31:53.094449+03:00",
   "items": [
     {
       "category": "russia",
@@ -8151,6 +8151,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "ии-модели",
         "gpt",
         "openai",
@@ -8169,6 +8170,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "шахматы",
         "fide",
         "чемпионат мира",
@@ -8187,6 +8189,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "санкции",
         "иран",
         "мировая политика",
@@ -8205,6 +8208,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "экономика",
         "германия",
         "ввп",
@@ -8223,6 +8227,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "энергетика",
         "ес",
         "российская нефть",
@@ -8248,6 +8253,112 @@
       "is_internet_element": false,
       "added_at": "2026-09-11T07:31:01.430151+03:00",
       "story_id": "1c5734084dd1a174"
+    },
+    {
+      "category": "other",
+      "headline": "Россия заняла седьмое место на международных соревнованиях по копанию могил",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "москва",
+        "спорт",
+        "культура",
+        "интернет-реакция"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-11T11:31:53.094449+03:00",
+      "story_id": "b6c43f1ac464e4c7"
+    },
+    {
+      "category": "other",
+      "headline": "В Москве запущена аренда промышленных роботов для малого бизнеса",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "москва",
+        "роботы",
+        "бизнес",
+        "автоматизация"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-11T11:31:53.094449+03:00",
+      "story_id": "0b8d486448329ca7"
+    },
+    {
+      "category": "other",
+      "headline": "Россия официально запустила 5G-связь на территории страны",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "технологии",
+        "связь",
+        "интернет",
+        "россия"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-11T11:31:53.094449+03:00",
+      "story_id": "c80d5ca04ef77718"
+    },
+    {
+      "category": "other",
+      "headline": "Американцы заняли все десять первых позиций в списке миллиардеров Bloomberg — Илон Маск лидирует",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "бизнес",
+        "миллиардеры",
+        "сша",
+        "илон маск"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-11T11:31:53.094449+03:00",
+      "story_id": "4edaaf50c12469de"
+    },
+    {
+      "category": "other",
+      "headline": "Rocket Lab выпустила солнечный элемент для спутников с КПД 31,5%",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "космос",
+        "технологии",
+        "энергетика",
+        "rocket lab"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-11T11:31:53.094449+03:00",
+      "story_id": "717286362ad6254c"
+    },
+    {
+      "category": "random_top",
+      "headline": "Минобороны: российские войска продолжили наносить групповые удары по Украине",
+      "body": "Минобороны: российские войска продолжили наносить групповые удары по Украине EADaily «Вам бандероль»: в Минобороны прокомментировали удары по объектам ВСУ URA.RU Военные РФ нанесли удары по складу комплектующих для дронов в районе Одессы Интерфакс ВС РФ поразили на Украине дата-центр «Би-мобайл» и терминал «Новой почты» Новые Известия Российские войска ударили по инфраструктуре ВСУ в 146 районах Ведомости",
+      "aside": "",
+      "importance": 5.5,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top",
+        "случайно из топа"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-11T11:31:53.094449+03:00",
+      "story_id": "00522f99ea70b7e1"
     }
   ]
 }

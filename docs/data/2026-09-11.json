@@ -1,0 +1,66 @@
+{
+  "date": "2026-09-11",
+  "updated_at": "2026-09-11T03:36:58.440581+03:00",
+  "items": [
+    {
+      "category": "random_top",
+      "headline": "Европа провалила план на €300 млрд по отказу от нефти и газа из РФ",
+      "body": "Европа провалила план на €300 млрд по отказу от нефти и газа из РФ rtvi.com Евросоюз отстает от плана по отказу от российских нефти и газа Meduza Антироссийская политика Европы оставит ее без газа URA.RU ЕС сократил импорт российского СПГ в августе: динамика поставок, объемы, статистика за 8 месяцев Финансы Mail Европейские аудиторы: Брюссель имеет мало отношения к снижению импорта газа из России EADaily",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-11T03:36:58.440581+03:00",
+      "story_id": "4b35bbd933d44901"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "Мем или нишевый? Цена на складной iPhone шокировала покупателей",
+      "body": "Мем или нишевый? Цена на складной iPhone шокировала покупателей nsn.fm",
+      "aside": "Мем или нишевый? Цена на складной iPhone шокировала покупателей - nsn.fm",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-09-11T03:36:58.440581+03:00",
+      "story_id": "8c80e0000b149f20"
+    },
+    {
+      "category": "culture",
+      "headline": "chessolympiad2026.fide.com",
+      "body": "chessolympiad2026.fide.com",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-11T03:36:58.440581+03:00",
+      "story_id": "e01660d0c7eb1443"
+    },
+    {
+      "category": "world",
+      "headline": "Financial Times",
+      "body": "Financial Times",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "world"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-11T03:36:58.440581+03:00",
+      "story_id": "0b9611419d5968ee"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T15:36:16.234906+03:00",
+  "updated_at": "2026-09-11T19:30:53.200959+03:00",
   "items": [
     {
       "category": "russia",
@@ -8478,6 +8478,80 @@
       "is_internet_element": false,
       "added_at": "2026-09-11T15:36:16.234906+03:00",
       "story_id": "e26d58a97a72b5d4"
+    },
+    {
+      "category": "technology",
+      "headline": "Apple открыла предпродажи новых «Мстителей» и раскрыла цены на складной iPhone",
+      "body": "Apple officially announced the iPhone 18 Pro and the foldable iPhone Duo, with pre-orders already reaching $50 million. Prices for the foldable model in Russia were disclosed, sparking a heated debate online over whether it is a gimmick or a genuine shift in mobile design.",
+      "aside": "Интернет-элемент: purchasers called the foldable iPhone a \"gimmick\" and a \"niche toy\", but the pre-order numbers suggest otherwise.",
+      "importance": 4.0,
+      "confidence": 0.85,
+      "preference_tags": [
+        "technology",
+        "smartphones",
+        "apple",
+        "russia",
+        "preorders"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-09-11T19:30:53.200959+03:00",
+      "story_id": "e0bb1a70b74acd6f"
+    },
+    {
+      "category": "culture",
+      "headline": "На аукцион выставили «Платье мести» принцессы Дианы",
+      "body": "A dress belonging to Princess Diana, known as the \"revenge dress,\" has been put up for auction. The piece is expected to fetch a record price, reflecting the enduring cultural and commercial power of the royal icon.",
+      "aside": "The dress is expected to sell for several million pounds, a record for a piece of modern fashion memorabilia.",
+      "importance": 3.0,
+      "confidence": 0.9,
+      "preference_tags": [
+        "culture",
+        "культура",
+        "мода",
+        "аукционы",
+        "британская королевская семья"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-11T19:30:53.200959+03:00",
+      "story_id": "ee725859ac734bab"
+    },
+    {
+      "category": "world",
+      "headline": "В Нью-Йорке 2977 дронов воссоздали башни-близнецы к годовщине 11 сентября",
+      "body": "In New York, a drone light show recreated the Twin Towers to mark the anniversary of the September 11 attacks. The display involved nearly 3,000 drones and was praised for its technical scale and emotional impact.",
+      "aside": "A total of 2,977 drones were used, one for each victim of the September 11 attacks.",
+      "importance": 4.0,
+      "confidence": 0.9,
+      "preference_tags": [
+        "world",
+        "мир",
+        "technology",
+        "память",
+        "сша",
+        "дроны"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-11T19:30:53.200959+03:00",
+      "story_id": "e68a2904bbd1ff06"
+    },
+    {
+      "category": "random_top",
+      "headline": "В Минобороны России сообщили о поражении дата-центров на Украине",
+      "body": "В Минобороны России сообщили о поражении дата-центров на Украине Forbes.ru За неделю поражены 13 сухогрузов, два танкера и два буксира, действовавших в интересах ВСУ interfax.ru Ночные удары от Киева до Одессы: ВС РФ атаковали объекты украинской логистики и промышленности RTVI Российские войска поразили пункты управления и дата-центры Украины CNews.ru ВС РФ поразили на Украине дата-центр «Би-мобайл» и терминал «Новой почты» Новые Известия",
+      "aside": "",
+      "importance": 5.5,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top",
+        "случайно из топа"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-11T19:30:53.200959+03:00",
+      "story_id": "e38f632c5e989611"
     }
   ]
 }

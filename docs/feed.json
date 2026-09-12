@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T19:28:45.046512+03:00",
+  "updated_at": "2026-09-12T23:30:43.342177+03:00",
   "items": [
     {
       "category": "russia",
@@ -8940,6 +8940,51 @@
       "is_internet_element": false,
       "added_at": "2026-09-12T19:28:45.046512+03:00",
       "story_id": "ac6d96bceca3014f"
+    },
+    {
+      "category": "random_top",
+      "headline": "В Таганроге четыре коммерческих объектах загорелись из-за обломков БПЛА",
+      "body": "В Таганроге четыре коммерческих объектах загорелись из-за обломков БПЛА Интерфакс БПЛА атаковали Россию 12 сентября: есть погибшие, что известно Росбалт В Таганроге ночью БПЛА были сбиты над городом — из-за падения обломков загорелся магазин газета Таганрогская правда Дроны атаковали Таганрог. В городе тушат несколько пожаров Радио Свобода ВСУ атаковали здание детского футбольного клуба в Таганроге ВФокусе Mail",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-12T23:30:43.342177+03:00",
+      "story_id": "62fb9a91a76ad91b"
+    },
+    {
+      "category": "moscow",
+      "headline": "Михаил Волков",
+      "body": "Михаил Волков daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-12T23:30:43.342177+03:00",
+      "story_id": "28d0c229b5a48d3a"
+    },
+    {
+      "category": "moscow",
+      "headline": "Полина Шубина",
+      "body": "Полина Шубина daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-12T23:30:43.342177+03:00",
+      "story_id": "a94dc58960684455"
     }
   ]
 }

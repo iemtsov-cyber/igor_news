@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T23:29:33.548707+03:00",
+  "updated_at": "2026-09-12T03:35:51.001634+03:00",
   "items": [
     {
       "category": "russia",
@@ -8641,6 +8641,21 @@
       "is_internet_element": false,
       "added_at": "2026-09-11T23:29:33.548707+03:00",
       "story_id": "ef12c6a1fcf3bcee"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "Россия и Индия планируют реализовать совместный проект по изучению Венеры",
+      "body": "Россия и Индия планируют реализовать совместный проект по изучению Венеры Интерфакс",
+      "aside": "Россия и Индия планируют реализовать совместный проект по изучению Венеры - Интерфакс",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-09-12T03:35:51.001634+03:00",
+      "story_id": "be7550a031622acc"
     }
   ]
 }

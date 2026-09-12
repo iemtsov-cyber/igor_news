@@ -1,6 +1,6 @@
 {
   "date": "2026-09-12",
-  "updated_at": "2026-09-12T15:33:10.048879+03:00",
+  "updated_at": "2026-09-12T19:28:45.046512+03:00",
   "items": [
     {
       "category": "internet_culture",
@@ -197,6 +197,109 @@
       "is_internet_element": false,
       "added_at": "2026-09-12T15:33:10.048879+03:00",
       "story_id": "a0c4a14018429bdd"
+    },
+    {
+      "category": "random_top",
+      "headline": "В Таганроге загорелись коммерческие объекты после падения БПЛА",
+      "body": "В Таганроге после атаки беспилотников загорелись склад и супермаркет BFM.ru. Обломки аппаратов вызвали пожары на трех объектах, однако пострадавших нет. Инцидент подчеркивает уязвимость городской инфраструктуры перед новыми волнами кибервойн.",
+      "aside": "drone_attacks, fire, taganrog",
+      "importance": 8.0,
+      "confidence": 0.85,
+      "preference_tags": [
+        "random_top",
+        "drone_attacks",
+        "fire",
+        "taganrog"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-12T19:28:45.046512+03:00",
+      "story_id": "5bcf7dc2f3bef12e"
+    },
+    {
+      "category": "technology",
+      "headline": "OpenAI выпустила GPT-6 Astra как новое поколение ИИ",
+      "body": "OpenAI анонсировала GPT-6 Astra, рассматриваемое как следующее поколение интеллектуальных систем. Модель обещает улучшенные способности к анализу сложных данных и более естественному диалогу, что делает её потенциально полезной для корпоративного использования.",
+      "aside": "ai, openai, technology",
+      "importance": 9.0,
+      "confidence": 0.95,
+      "preference_tags": [
+        "ai",
+        "openai",
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-12T19:28:45.046512+03:00",
+      "story_id": "8aab671c4b990e8b"
+    },
+    {
+      "category": "science",
+      "headline": "Виноград содержит вещество, замедляющее развитие болезни Паркинсона",
+      "body": "Исследователи обнаружили в винограде молекулу, способную замедлять протекание нейродегенеративных заболеваний. Это открытие может открыть путь к новым препаратам и изменить подходы к лечению Паркинсона в будущем.",
+      "aside": "science, medicine, parkinson",
+      "importance": 7.0,
+      "confidence": 0.88,
+      "preference_tags": [
+        "science",
+        "medicine",
+        "neurology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-12T19:28:45.046512+03:00",
+      "story_id": "eda6a868ce4d5cbb"
+    },
+    {
+      "category": "energy",
+      "headline": "Саудовская Аравия приостановила нефтепровод «Восток — Запад» из-за атак Ирак",
+      "body": "После ударов беспилотников с территории Ирака Саудовская Аравия остановила работу нефтепровода «Восток — Запад». Решение создает риски для поставок энергоносителей и может повлиять на цены на мировом рынке.",
+      "aside": "energy, oil, saudi_aravia",
+      "importance": 8.0,
+      "confidence": 0.92,
+      "preference_tags": [
+        "energy",
+        "oil",
+        "saudi_aravia"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-12T19:28:45.046512+03:00",
+      "story_id": "4a3ce0351129fbb8"
+    },
+    {
+      "category": "moscow",
+      "headline": "Леди Гага впервые стала мамой",
+      "body": "Голливудская звезда Леди Гага объявила о рождении ребенка, что стало громким событием в медиа-пространстве. Событие подчеркивает трансформацию её статуса от актриски до матери и привлекает внимание широкой аудитории.",
+      "aside": "celebrity, moscow, family",
+      "importance": 6.0,
+      "confidence": 0.9,
+      "preference_tags": [
+        "celebrity",
+        "moscow",
+        "family"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-12T19:28:45.046512+03:00",
+      "story_id": "90ca6a8a8e8c4b00"
+    },
+    {
+      "category": "geopolitics",
+      "headline": "Торговая война и тикток: как США и Китай меняют правила игры",
+      "body": "Конфликт между Вашингтоном и Пекином продолжается через торговые санкции и влияние социальных сетей. Этот тренд формирует новые сценарии для международной торговли и технологического экспорта.",
+      "aside": "geopolitics, trade, us_china",
+      "importance": 7.0,
+      "confidence": 0.9,
+      "preference_tags": [
+        "geopolitics",
+        "trade",
+        "us_china"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-12T19:28:45.046512+03:00",
+      "story_id": "ac6d96bceca3014f"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updated_at": "2026-09-13T19:29:33.485090+03:00",
+  "updated_at": "2026-09-13T23:29:07.257704+03:00",
   "items": [
     {
       "category": "random_top",
@@ -183,6 +183,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "дипломатия",
         "энергетика",
         "украина",
@@ -202,6 +203,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "ии",
         "openai",
         "gpt-6",
@@ -221,6 +223,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "кофейни",
         "москва",
         "блогеры",
@@ -240,6 +243,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "кино",
         "прокат",
         "российское кино",
@@ -259,6 +263,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "сериалы",
         "кино",
         "бухта вдов",
@@ -278,6 +283,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "выборы",
         "швеция",
         "политика",
@@ -304,6 +310,36 @@
       "is_internet_element": false,
       "added_at": "2026-09-13T19:29:33.485090+03:00",
       "story_id": "6584788e2f18e07e"
+    },
+    {
+      "category": "moscow",
+      "headline": "Сьюки Уотерхаус готова сделать из дочери непобейби",
+      "body": "Сьюки Уотерхаус готова сделать из дочери непобейби daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-13T23:29:07.257704+03:00",
+      "story_id": "e616cfcfb3482ce6"
+    },
+    {
+      "category": "moscow",
+      "headline": "Инде Наварретт думала, что «провалила» прослушивание на роль в «Обсессии",
+      "body": "Инде Наварретт думала, что «провалила» прослушивание на роль в «Обсессии» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-13T23:29:07.257704+03:00",
+      "story_id": "6d208736e2f7557b"
     }
   ]
 }

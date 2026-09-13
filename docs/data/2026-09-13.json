@@ -1,0 +1,36 @@
+{
+  "date": "2026-09-13",
+  "updated_at": "2026-09-13T03:37:34.732898+03:00",
+  "items": [
+    {
+      "category": "random_top",
+      "headline": "Дроны ВСУ днем сбивали в восьми регионах России",
+      "body": "Дроны ВСУ днем сбивали в восьми регионах России ФОНТАНКА.ру Минобороны РФ заявило об уничтожении 670 дронов ВСУ за сутки Интерфакс МО РФ: над Саратовской областью и другими регионами сбили 230 БПЛА Взгляд-инфо Над регионами РФ за день уничтожено 53 дрона ВСУ URA.RU ПВО сбила 67 украинских БПЛА над Россией BFM.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-13T03:37:34.732898+03:00",
+      "story_id": "f7eeda5e0d56a966"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "Токен Байдена рухнул на 99%. Кто реально заработал на мем-коине LAPTOP?",
+      "body": "Токен Байдена рухнул на 99%. Кто реально заработал на мем-коине LAPTOP? CryptoRank",
+      "aside": "Токен Байдена рухнул на 99%. Кто реально заработал на мем-коине LAPTOP? - CryptoRank",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-09-13T03:37:34.732898+03:00",
+      "story_id": "973771f5a4c5d9dc"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T15:33:27.104652+03:00",
+  "updated_at": "2026-09-13T19:29:33.485090+03:00",
   "items": [
     {
       "category": "russia",
@@ -9158,6 +9158,136 @@
       "is_internet_element": false,
       "added_at": "2026-09-13T15:33:27.104652+03:00",
       "story_id": "207f93134ebd8cda"
+    },
+    {
+      "category": "other",
+      "headline": "Трамп потребовал от Украины прекратить удары по дизельным объектам России",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "дипломатия",
+        "энергетика",
+        "украина",
+        "сша",
+        "трамп"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-13T19:29:33.485090+03:00",
+      "story_id": "a26248f76cde81be"
+    },
+    {
+      "category": "other",
+      "headline": "OpenAI представила GPT-6 Astra — новое поколение языковой модели",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "ии",
+        "openai",
+        "gpt-6",
+        "технологии",
+        "искусственный интеллект"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-13T19:29:33.485090+03:00",
+      "story_id": "f2716d5ec2483850"
+    },
+    {
+      "category": "other",
+      "headline": "В Москве откроет кофейню блогерша Анастасия Миронова",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "кофейни",
+        "москва",
+        "блогеры",
+        "гастрономия",
+        "рестораны"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-13T19:29:33.485090+03:00",
+      "story_id": "93b9b454946e9da0"
+    },
+    {
+      "category": "other",
+      "headline": "«Последний богатырь. Колобок» собрал 1 млрд рублей в прокате",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "кино",
+        "прокат",
+        "российское кино",
+        "бюджет",
+        "культура"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-13T19:29:33.485090+03:00",
+      "story_id": "5a3c78f74eb917e3"
+    },
+    {
+      "category": "other",
+      "headline": "Съемки второго сезона «Бухты вдов» могут стартовать в марте 2027 года",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "сериалы",
+        "кино",
+        "бухта вдов",
+        "съемки",
+        "развлечения"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-13T19:29:33.485090+03:00",
+      "story_id": "0a0ca445c819f911"
+    },
+    {
+      "category": "other",
+      "headline": "В Швеции проходят выборы: ультраправые могут впервые получить портфели в правительстве",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "выборы",
+        "швеция",
+        "политика",
+        "ес",
+        "правительство"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-13T19:29:33.485090+03:00",
+      "story_id": "0dd314401a1f93fb"
+    },
+    {
+      "category": "random_top",
+      "headline": "Трамп сказал, что США просили Украину не бить в РФ по связанным с дизтопливом объектам",
+      "body": "Трамп сказал, что США просили Украину не бить в РФ по связанным с дизтопливом объектам interfax.ru Трамп призвал Украину прекратить удары по производству дизельного топлива в России Meduza Трамп: Киев должен прекратить удары по дизельным объектам РФ dw.com Трамп: Зеленский должен прекратить атаки на топливную инфраструктуру России БИЗНЕС Online «Вредит всему миру»: Трамп выдвинул требование Зеленскому RTVI",
+      "aside": "",
+      "importance": 5.5,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top",
+        "случайно из топа"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-13T19:29:33.485090+03:00",
+      "story_id": "6584788e2f18e07e"
     }
   ]
 }

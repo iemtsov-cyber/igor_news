@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updated_at": "2026-09-13T03:37:34.732898+03:00",
+  "updated_at": "2026-09-13T07:29:29.845840+03:00",
   "items": [
     {
       "category": "random_top",
@@ -31,6 +31,51 @@
       "is_internet_element": true,
       "added_at": "2026-09-13T03:37:34.732898+03:00",
       "story_id": "973771f5a4c5d9dc"
+    },
+    {
+      "category": "random_top",
+      "headline": "Мы — русские. Христос Воскресе! Как прошел 90-тысячный крестный ход в центре Петербурга",
+      "body": "Мы — русские. Христос Воскресе! Как прошел 90-тысячный крестный ход в центре Петербурга ФОНТАНКА.ру Праздник перенесения мощей святого Александра Невского отметили в Санкт-Петербурге patriarchia.ru Как прошел Александро-Невский крестный ход в Петербурге. Репортаж \"РГ\" vfokuse.mail.ru В Петербурге прошел крестный ход с мощами Дмитрия Донского Собака.ru — Журнал о людях в Петербурге Федор Болтин: «Знаменательный день для петербуржцев» spbdnevnik.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-13T07:29:29.845840+03:00",
+      "story_id": "eaf977f7b271e52e"
+    },
+    {
+      "category": "moscow",
+      "headline": "afisha.ru",
+      "body": "afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-13T07:29:29.845840+03:00",
+      "story_id": "b41b65320d79c68a"
+    },
+    {
+      "category": "moscow",
+      "headline": "Фильм Хитрый Койот (США, 2026), купить билет - Афиша-Кино",
+      "body": "Фильм Хитрый Койот (США, 2026), купить билет - Афиша-Кино afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-13T07:29:29.845840+03:00",
+      "story_id": "a7f22668d211fea7"
     }
   ]
 }

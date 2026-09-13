@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "updated_at": "2026-09-13T07:29:29.845840+03:00",
+  "updated_at": "2026-09-13T11:30:02.712942+03:00",
   "items": [
     {
       "category": "random_top",
@@ -76,6 +76,66 @@
       "is_internet_element": false,
       "added_at": "2026-09-13T07:29:29.845840+03:00",
       "story_id": "a7f22668d211fea7"
+    },
+    {
+      "category": "random_top",
+      "headline": "Наследный принц Абу-Даби обсудил двустороннее сотрудничество с Путиным",
+      "body": "Наследный принц Абу-Даби обсудил двустороннее сотрудничество с Путиным Интерфакс Беседа с Наследным принцем Абу-Даби, Председателем Исполнительного совета Эмирата Абу-Даби Халедом Бен Мухаммедом Бен Заидом Аль Нахайяном Президент России Ушаков раскрыл одну из главных тем двусторонних встреч Путина на БРИКС URA.RU Путин назвал «самую близкую» для России страну на Ближнем Востоке ВФокусе Mail Отдельный трек внешней политики РФ: что обсудит Путин с наследным принцем Абу-Даби EADaily",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-13T11:30:02.712942+03:00",
+      "story_id": "aead36ce02469053"
+    },
+    {
+      "category": "moscow",
+      "headline": "A24 выпустит фильм по вселенной «Фонда SCP",
+      "body": "A24 выпустит фильм по вселенной «Фонда SCP» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-13T11:30:02.712942+03:00",
+      "story_id": "b31e03c0b8b6af63"
+    },
+    {
+      "category": "moscow",
+      "headline": "Blizzard анонсировала новую часть Diablo и мультсериал по вселенной",
+      "body": "Blizzard анонсировала новую часть Diablo и мультсериал по вселенной daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-13T11:30:02.712942+03:00",
+      "story_id": "0b5c766f8ca3be7c"
+    },
+    {
+      "category": "moscow",
+      "headline": "На Венецианском кинофестивале объявили победителей. Илья Хржановский* взял приз за режиссуру",
+      "body": "На Венецианском кинофестивале объявили победителей. Илья Хржановский* взял приз за режиссуру daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-13T11:30:02.712942+03:00",
+      "story_id": "b12e0abc2b5116f4"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "updated_at": "2026-09-14T07:31:42.003314+03:00",
+  "updated_at": "2026-09-14T11:32:59.549115+03:00",
   "items": [
     {
       "category": "random_top",
@@ -46,6 +46,51 @@
       "is_internet_element": false,
       "added_at": "2026-09-14T07:31:42.003314+03:00",
       "story_id": "f96ef66fad8309d8"
+    },
+    {
+      "category": "random_top",
+      "headline": "Поезд с Джонсоном и советником Мерца эвакуировали на Украине из-за БПЛА",
+      "body": "Поезд с Джонсоном и советником Мерца эвакуировали на Украине из-за БПЛА RTVI В Госдуме пообещали Польше «фатальные неприятности» vfokuse.mail.ru Дональд Туск заявил об эскалации действий России у границ Польши Радио Свобода Борис Джонсон и советник канцлера Германии возвращались из Киева на поезде и оказались недалеко от состава, по которому нанес удар российский дрон Meduza Премьер Польши созвал экстренное совещание из-за российских атак на границе Русская служба The Moscow Times",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-14T11:32:59.549115+03:00",
+      "story_id": "7f59e34ccd647796"
+    },
+    {
+      "category": "moscow",
+      "headline": "Теннисист Александр Зверев выиграл US Open",
+      "body": "Теннисист Александр Зверев выиграл US Open daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-14T11:32:59.549115+03:00",
+      "story_id": "eefc042a5f6275a9"
+    },
+    {
+      "category": "moscow",
+      "headline": "Американка собрала 13 тыс. предметов с лягушками и попала в Книгу рекордов Гиннесса",
+      "body": "Американка собрала 13 тыс. предметов с лягушками и попала в Книгу рекордов Гиннесса daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-14T11:32:59.549115+03:00",
+      "story_id": "b17a5bf8a3ffb271"
     }
   ]
 }

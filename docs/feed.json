@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T15:37:50.386715+03:00",
+  "updated_at": "2026-09-14T19:31:08.474675+03:00",
   "items": [
     {
       "category": "russia",
@@ -9448,6 +9448,94 @@
       "is_internet_element": false,
       "added_at": "2026-09-14T15:37:50.386715+03:00",
       "story_id": "ec585b294e05e49c"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Москве открылся «Невидимый фонд» для бездомных женщин",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "moscow",
+        "бездомные",
+        "социальные проекты",
+        "москва"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-14T19:31:08.474675+03:00",
+      "story_id": "b62a3a9e759b6b6a"
+    },
+    {
+      "category": "moscow",
+      "headline": "Кристиан Бэйл основал поселок для детей-сирот в Калифорнии",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "moscow",
+        "благотворительность",
+        "кристиан бэйл",
+        "социальные проекты"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-14T19:31:08.474675+03:00",
+      "story_id": "da8955f79923bea7"
+    },
+    {
+      "category": "technology",
+      "headline": "Northrop Grumman расширяет производство ракетных двигателей в Мэриленде",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "technology",
+        "ракетные двигатели",
+        "оборона",
+        "northrop grumman"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-14T19:31:08.474675+03:00",
+      "story_id": "5533cc6b5bdcab41"
+    },
+    {
+      "category": "random_top",
+      "headline": "В Нижнекамске погибли две девушки в результате атаки БПЛА",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "random_top",
+        "беспилотники",
+        "нижнекамск",
+        "трагедия"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-14T19:31:08.474675+03:00",
+      "story_id": "037abe0cd3bc5cb0"
+    },
+    {
+      "category": "random_top",
+      "headline": "Оборвались две юные жизни: жертвами атаки БПЛА по Нижнекамску стали девушки",
+      "body": "Оборвались две юные жизни: жертвами атаки БПЛА по Нижнекамску стали девушки KazanFirst Число пострадавших при атаке БПЛА в Нижнекамске выросло до 14 человек Интерфакс «Жизнь в городе должна полностью остановиться, когда сирена!»: Нижнекамск делает выводы из налета БПЛА БИЗНЕС Online Почти 400 сбитых дронов ВСУ и трагедия в Нижнекамске: главное об атаках БПЛА newizv.ru Что произошло в ночь на 14 сентября в России и мире spbdnevnik.ru",
+      "aside": "",
+      "importance": 5.5,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top",
+        "случайно из топа"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-14T19:31:08.474675+03:00",
+      "story_id": "457401f5cbea0b2a"
     }
   ]
 }

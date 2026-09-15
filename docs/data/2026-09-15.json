@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updated_at": "2026-09-15T11:34:14.201137+03:00",
+  "updated_at": "2026-09-15T15:35:51.062961+03:00",
   "items": [
     {
       "category": "technology",
@@ -259,6 +259,51 @@
       "is_internet_element": false,
       "added_at": "2026-09-15T11:34:14.201137+03:00",
       "story_id": "b8a9170b66bc5cf2"
+    },
+    {
+      "category": "random_top",
+      "headline": "Предприятие повреждено из-за атаки БПЛА в Самарской области",
+      "body": "Предприятие повреждено из-за атаки БПЛА в Самарской области ФОНТАНКА.ру Украинские военные нанесли удар по складу Ozon в Таганроге и НПЗ в Самарской области Meduza Жители Сызрани рассказали \"РГ\" о массовой атаке украинских БПЛА на город ВФокусе Mail Сызранский НПЗ атаковали дроны, в Таганроге - удары ракет dw.com В Волгоградской области после украинской атаки загорелся один из крупнейших производителей цемента в России Русская служба The Moscow Times",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-15T15:35:51.062961+03:00",
+      "story_id": "958ced8e28fe3fa0"
+    },
+    {
+      "category": "moscow",
+      "headline": "Сериал «Седьмой игрок» с Антоном Лапенко выйдет на «Кинопоиске» 15 октября",
+      "body": "Сериал «Седьмой игрок» с Антоном Лапенко выйдет на «Кинопоиске» 15 октября daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-15T15:35:51.062961+03:00",
+      "story_id": "2ccc61b6c16cffbd"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Липецкой области пенсионерка на электросамокате сбила другую пенсионерку",
+      "body": "В Липецкой области пенсионерка на электросамокате сбила другую пенсионерку daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-15T15:35:51.062961+03:00",
+      "story_id": "96ee0886fbbc548d"
     }
   ]
 }

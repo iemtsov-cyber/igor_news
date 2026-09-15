@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updated_at": "2026-09-15T07:32:08.485036+03:00",
+  "updated_at": "2026-09-15T11:34:14.201137+03:00",
   "items": [
     {
       "category": "technology",
@@ -199,6 +199,66 @@
       "is_internet_element": false,
       "added_at": "2026-09-15T07:32:08.485036+03:00",
       "story_id": "26cc48796ebd3259"
+    },
+    {
+      "category": "random_top",
+      "headline": "В США одобрили законопроект о санкциях против России",
+      "body": "В США одобрили законопроект о санкциях против России URA.RU В Палате представителей США одобрили рассмотрение законопроекта о санкциях против РФ Интерфакс Конгресс США замахнулся на покупателей российской нефти: тарифы до 100% RTVI Конгресс США одобрил законопроект о санкциях против России: пошлины 100%, вторичные ограничения Финансы Mail Палата представителей США одобрила рассмотрение санкций против России BFM.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-15T11:34:14.201137+03:00",
+      "story_id": "2f14bcfc2ed9536c"
+    },
+    {
+      "category": "moscow",
+      "headline": "Премьера сериала «Полдень» состоится в «Кион» и Okko 1 октября",
+      "body": "Премьера сериала «Полдень» состоится в «Кион» и Okko 1 октября daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-15T11:34:14.201137+03:00",
+      "story_id": "18c3b43fece7fa08"
+    },
+    {
+      "category": "moscow",
+      "headline": "Больница Питт», «Бухта вдов» и «ГКС Сент-Луис» получили премию «Эмми-2026",
+      "body": "Больница Питт», «Бухта вдов» и «ГКС Сент-Луис» получили премию «Эмми-2026» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-15T11:34:14.201137+03:00",
+      "story_id": "3c74744d47ed430a"
+    },
+    {
+      "category": "moscow",
+      "headline": "Российский бренд The Act закрывает 4 магазина",
+      "body": "Российский бренд The Act закрывает 4 магазина daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-15T11:34:14.201137+03:00",
+      "story_id": "b8a9170b66bc5cf2"
     }
   ]
 }

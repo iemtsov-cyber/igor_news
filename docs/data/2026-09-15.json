@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "updated_at": "2026-09-15T15:35:51.062961+03:00",
+  "updated_at": "2026-09-15T19:30:49.708544+03:00",
   "items": [
     {
       "category": "technology",
@@ -304,6 +304,51 @@
       "is_internet_element": false,
       "added_at": "2026-09-15T15:35:51.062961+03:00",
       "story_id": "96ee0886fbbc548d"
+    },
+    {
+      "category": "random_top",
+      "headline": "Банк России понизил официальный курс доллара на 16 сентября до ₽84,23",
+      "body": "Банк России понизил официальный курс доллара на 16 сентября до ₽84,23 Финансы Mail Курсы доллара, евро и юаня на 15 сентября Банки.ру Официальный курс доллара на 16 сентября 2026 г.: актуальные данные ЦБ РФ, курс доллара к рублю сегодня Финансы Mail ЦБ повысил официальный курс доллара на 15 сентября до 84,3363 рубля Финам Курс доллара США отпадал БКС Экспресс",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-15T19:30:49.708544+03:00",
+      "story_id": "760cea5c655a7344"
+    },
+    {
+      "category": "moscow",
+      "headline": "На Болотной набережной открыли новый пешеходный мост",
+      "body": "На Болотной набережной открыли новый пешеходный мост daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-15T19:30:49.708544+03:00",
+      "story_id": "2b63aaa6ebcf8fa7"
+    },
+    {
+      "category": "moscow",
+      "headline": "Index Fest. День 5. Закрытие фестиваля. Index Friends",
+      "body": "Index Fest. День 5. Закрытие фестиваля. Index Friends festivals.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-15T19:30:49.708544+03:00",
+      "story_id": "64b708738c0c0f02"
     }
   ]
 }

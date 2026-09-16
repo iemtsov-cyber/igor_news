@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T11:32:15.975520+03:00",
+  "updated_at": "2026-09-16T15:36:47.440588+03:00",
   "items": [
     {
       "category": "russia",
@@ -10084,6 +10084,51 @@
       "is_internet_element": false,
       "added_at": "2026-09-16T11:32:15.975520+03:00",
       "story_id": "172137e5d892a316"
+    },
+    {
+      "category": "random_top",
+      "headline": "Саудовская Аравия отменила часть поставок нефти в Европу в конце сентября — СМИ",
+      "body": "Саудовская Аравия отменила часть поставок нефти в Европу в конце сентября — СМИ Клопс - новости Калининград Саудовская Аравия приостановила поставки нефти в Европу после остановки ключевого трубопровода ru.themoscowtimes.com Эр-Рияд молчит о возможной отмене поставок нефти: масштаб сбоев неясен ru.euronews.com Bloomberg: Саудиты наращивают поставки нефти через Ормуз после остановки нефтепровода finance.mail.ru В США считают, что поврежденный саудовский нефтепровод заработает через несколько дней Интерфакс",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-16T15:36:47.440588+03:00",
+      "story_id": "608133f0a0e4329f"
+    },
+    {
+      "category": "technology",
+      "headline": "Выставление счетов в разных валютах",
+      "body": "Выставление счетов в разных валютах OpenAI Help Center",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-16T15:36:47.440588+03:00",
+      "story_id": "7fac89635bc09f95"
+    },
+    {
+      "category": "technology",
+      "headline": "Герпетологи заглянули внутрь фальшивого паука на хвосте паукохвостой гадюки",
+      "body": "Герпетологи заглянули внутрь фальшивого паука на хвосте паукохвостой гадюки nplus1.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-16T15:36:47.440588+03:00",
+      "story_id": "2b3e410f7bb84f30"
     }
   ]
 }

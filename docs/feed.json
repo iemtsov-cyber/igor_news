@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T07:30:33.979522+03:00",
+  "updated_at": "2026-09-16T11:32:15.975520+03:00",
   "items": [
     {
       "category": "russia",
@@ -9989,6 +9989,101 @@
       "is_internet_element": false,
       "added_at": "2026-09-16T07:30:33.979522+03:00",
       "story_id": "15fde6d056d356e9"
+    },
+    {
+      "category": "random_top",
+      "headline": "Гражданина РФ и Канады приговорили к семи годам за госизмену",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "random_top",
+        "госизмена",
+        "правознавание",
+        "коми",
+        "двойное гражданство"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-16T11:32:15.975520+03:00",
+      "story_id": "256bc7aba7135bae"
+    },
+    {
+      "category": "science",
+      "headline": "Герпетологи изучили внутреннее устройство фальшивого паука на гадюке",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "science",
+        "герпетология",
+        "фальшивый паук",
+        "симбиоз",
+        "микроскопия"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-16T11:32:15.975520+03:00",
+      "story_id": "e2ddee1e535a1f86"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Москве резко вырос спрос на мороженое и глазированные сырки",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "moscow",
+        "мороженое",
+        "глазированные сырки",
+        "ритейл",
+        "погода"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-16T11:32:15.975520+03:00",
+      "story_id": "64ae30c71ad2a82e"
+    },
+    {
+      "category": "culture",
+      "headline": "BBC расследует судьбу «Троицы» Рублёва после повреждений",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "culture",
+        "троица",
+        "рублёв",
+        "реставрация",
+        "би-би-си"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-16T11:32:15.975520+03:00",
+      "story_id": "d10c0226831d16da"
+    },
+    {
+      "category": "culture",
+      "headline": "Артисты отказались участвовать в туре Эда Ширана после скандала с Macklemore",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "culture",
+        "эд ширен",
+        "macklemore",
+        "палестинская поддержка",
+        "музыкальный тур"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-16T11:32:15.975520+03:00",
+      "story_id": "172137e5d892a316"
     }
   ]
 }

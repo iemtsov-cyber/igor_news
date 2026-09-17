@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T11:31:51.173718+03:00",
+  "updated_at": "2026-09-17T15:36:13.318015+03:00",
   "items": [
     {
       "category": "russia",
@@ -10273,6 +10273,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "нефть",
         "атаки",
         "ярославль",
@@ -10291,6 +10292,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "музыка",
         "mtv",
         "мадонна",
@@ -10309,6 +10311,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "туризм",
         "москва",
         "молодёжь",
@@ -10334,6 +10337,81 @@
       "is_internet_element": false,
       "added_at": "2026-09-17T11:31:51.173718+03:00",
       "story_id": "245004a1a8909e6d"
+    },
+    {
+      "category": "random_top",
+      "headline": "Медведь напал на сборщиков ягод в Иркутской области. Двое погибли",
+      "body": "Медведь напал на сборщиков ягод в Иркутской области. Двое погибли ФОНТАНКА.ру Двое мужчин погибли при нападении медведя в Иркутской области ВФокусе Mail В Иркутской области расширили режим повышенной готовности из-за медведей Интерфакс Медведь убил двух мужчин в лесу Daily Карелия Медведь задрал двух сборщиков ягод в Иркутской области Тайшет24",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-17T15:36:13.318015+03:00",
+      "story_id": "2f2554a945e5a1c3"
+    },
+    {
+      "category": "culture",
+      "headline": "Chess Olympiad 2026 — Official Website",
+      "body": "Chess Olympiad 2026 — Official Website",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-17T15:36:13.318015+03:00",
+      "story_id": "8a61a95bae255387"
+    },
+    {
+      "category": "technology",
+      "headline": "Перенос личной рабочей области в ChatGPT Business или ChatGPT Enterprise",
+      "body": "Перенос личной рабочей области в ChatGPT Business или ChatGPT Enterprise OpenAI Help Center",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-17T15:36:13.318015+03:00",
+      "story_id": "d89968a041d8f9b4"
+    },
+    {
+      "category": "technology",
+      "headline": "Яйца и арахис во время беременности не снизили риск пищевой аллергии у детей",
+      "body": "Яйца и арахис во время беременности не снизили риск пищевой аллергии у детей nplus1.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-17T15:36:13.318015+03:00",
+      "story_id": "c7caea5bdfce51c2"
+    },
+    {
+      "category": "moscow",
+      "headline": "Каждый четвертый россиянин заказывает доставку, чтобы не готовить или не тащить тяжелые пакеты",
+      "body": "Каждый четвертый россиянин заказывает доставку, чтобы не готовить или не тащить тяжелые пакеты daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-17T15:36:13.318015+03:00",
+      "story_id": "72113ca4b89c7228"
     }
   ]
 }

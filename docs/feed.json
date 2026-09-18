@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T23:30:07.883524+03:00",
+  "updated_at": "2026-09-18T03:36:06.247003+03:00",
   "items": [
     {
       "category": "russia",
@@ -10487,6 +10487,36 @@
       "is_internet_element": false,
       "added_at": "2026-09-17T23:30:07.883524+03:00",
       "story_id": "cef920a2188eda40"
+    },
+    {
+      "category": "random_top",
+      "headline": "Активы Auchan и Nestle в России переданы во временное управление",
+      "body": "Активы Auchan и Nestle в России переданы во временное управление Интерфакс Путин передал во временное управление активы «Ашан», Nestle и бывшей Leroy Merlin Meduza Российские активы «Ашан», Nestle и бывшего Leroy Merlin переданы во временное управление. Это может стать началом смены собственника BBC «Лемана ПРО» запросила разъяснения из-за указа Путина о смене управления Национальная Служба Новостей Российские активы Nestle и \"Ашан\" переданы во внешнее управление Радио Свобода",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-18T03:36:06.247003+03:00",
+      "story_id": "18d99885cc553c6a"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "Мошенники на Reddit охотятся на лудоманов, обещая вернуть проигранное",
+      "body": "Мошенники на Reddit охотятся на лудоманов, обещая вернуть проигранное Techora.ru",
+      "aside": "Мошенники на Reddit охотятся на лудоманов, обещая вернуть проигранное - Techora.ru",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-09-18T03:36:06.247003+03:00",
+      "story_id": "365c133489d18f70"
     }
   ]
 }

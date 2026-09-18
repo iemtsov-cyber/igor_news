@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "updated_at": "2026-09-18T15:34:32.793704+03:00",
+  "updated_at": "2026-09-18T19:28:52.103178+03:00",
   "items": [
     {
       "category": "random_top",
@@ -106,6 +106,51 @@
       "is_internet_element": false,
       "added_at": "2026-09-18T15:34:32.793704+03:00",
       "story_id": "55008ef2c8eb8f93"
+    },
+    {
+      "category": "random_top",
+      "headline": "Ашан», «Лемана ПРО» и Nestle отреагировали на указ о внешнем управлении их бизнесом",
+      "body": "Ашан», «Лемана ПРО» и Nestle отреагировали на указ о внешнем управлении их бизнесом Forbes.ru Кремль вспомнил об украинских атаках, комментируя передачу Auchan и Nestle во временное управление BBC Швейцария отреагировала на решение Путина по активам Nestlé RTVI Nestlé и \"Ашан\" отреагировали на передачу их бизнеса в РФ DW.com «Планируем все необходимые шаги для защиты своих прав». В Nestle и «Ашан» прокомментировали указ Путина о введении временного управления в компаниях Meduza",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-18T19:28:52.103178+03:00",
+      "story_id": "80cf1bd0e1bf3dd6"
+    },
+    {
+      "category": "moscow",
+      "headline": "Синоптик: в Москву на следующей неделе придут похолодание и дожди",
+      "body": "Синоптик: в Москву на следующей неделе придут похолодание и дожди daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-18T19:28:52.103178+03:00",
+      "story_id": "62e8b6b39e7b8fa0"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Москве на четверть снизилось число ДТП с каршерингом",
+      "body": "В Москве на четверть снизилось число ДТП с каршерингом daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-18T19:28:52.103178+03:00",
+      "story_id": "6da4774f0c246e64"
     }
   ]
 }

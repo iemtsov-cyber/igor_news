@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T19:28:52.103178+03:00",
+  "updated_at": "2026-09-18T23:28:50.329988+03:00",
   "items": [
     {
       "category": "russia",
@@ -10637,6 +10637,66 @@
       "is_internet_element": false,
       "added_at": "2026-09-18T19:28:52.103178+03:00",
       "story_id": "6da4774f0c246e64"
+    },
+    {
+      "category": "random_top",
+      "headline": "Кремль ответил на данные о мобилизации 300 тыс. россиян после выборов",
+      "body": "Кремль ответил на данные о мобилизации 300 тыс. россиян после выборов RTVI Bloomberg: на фоне слухов о мобилизации российские чиновники пытаются вывести активы за границу и открыть счета в иностранных банках Meduza Кремль в 18-й раз с начала лета заявил, что мобилизации не будет Русская служба The Moscow Times Чиновники и сотрудники военкоматов открывают иностранные счета и советуют близким уехать из РФ в ожидании мобилизации — Bloomberg novayagazeta.eu Слухи о мобилизации в России вызвали всплеск интереса к эмиграции Euronews.com",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-18T23:28:50.329988+03:00",
+      "story_id": "f13822dd896dc18e"
+    },
+    {
+      "category": "technology",
+      "headline": "Astra for Law",
+      "body": "Astra for Law OpenAI Help Center",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-18T23:28:50.329988+03:00",
+      "story_id": "74bff38bb73e18b4"
+    },
+    {
+      "category": "technology",
+      "headline": "Рука андроида стала самостоятельной",
+      "body": "Рука андроида стала самостоятельной nplus1.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-18T23:28:50.329988+03:00",
+      "story_id": "23969f6cdb17693a"
+    },
+    {
+      "category": "moscow",
+      "headline": "Сэм Рейми и Джош Кули экранизируют игру 99 Nights in the Forest",
+      "body": "Сэм Рейми и Джош Кули экранизируют игру 99 Nights in the Forest go.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-18T23:28:50.329988+03:00",
+      "story_id": "60f9a96d151ef8b1"
     }
   ]
 }

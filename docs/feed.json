@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T11:29:40.193751+03:00",
+  "updated_at": "2026-09-19T15:33:26.372450+03:00",
   "items": [
     {
       "category": "russia",
@@ -10807,6 +10807,36 @@
       "is_internet_element": false,
       "added_at": "2026-09-19T11:29:40.193751+03:00",
       "story_id": "993ae759bfee86fd"
+    },
+    {
+      "category": "random_top",
+      "headline": "Путин поддержал заключение крупнейшего контракта в авиастроительной отрасли",
+      "body": "Путин поддержал заключение крупнейшего контракта в авиастроительной отрасли Ведомости Стало известно, какие самолеты будет использовать «Аэрофлот» вместо Airbus и Boeing Банки.ру Аэропорт Пулково первым в России подготовился к приёму самолётов МС-21 dp.ru Суперджеты и МС-21 против Boeing и Airbus: Путин одобрил сделку Ростеха и Аэрофлота на 90 самолетов Росбалт Минпромторг рассчитывает снизить стоимость МС-21 к 2032 году до менее 7,5 млрд рублей Интерфакс",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-19T15:33:26.372450+03:00",
+      "story_id": "7fd1969819638a18"
+    },
+    {
+      "category": "technology",
+      "headline": "Presentations plugin for ChatGPT",
+      "body": "Presentations plugin for ChatGPT OpenAI",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-19T15:33:26.372450+03:00",
+      "story_id": "47690807fb50184c"
     }
   ]
 }

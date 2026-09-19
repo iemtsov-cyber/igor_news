@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T03:35:39.786520+03:00",
+  "updated_at": "2026-09-19T07:29:11.032760+03:00",
   "items": [
     {
       "category": "russia",
@@ -10727,6 +10727,36 @@
       "is_internet_element": true,
       "added_at": "2026-09-19T03:35:39.786520+03:00",
       "story_id": "e5dfc5e63512e38a"
+    },
+    {
+      "category": "random_top",
+      "headline": "Опубликован календарь праздников на 2027 год. Новогодние каникулы в России продлятся 11 дней",
+      "body": "Опубликован календарь праздников на 2027 год. Новогодние каникулы в России продлятся 11 дней Meduza Праздничных выходных дней станет меньше: опубликован производственный календарь на 2027 год Банки.ру Новогодние каникулы в России в 2027 году продлятся 11 дней Интерфакс Стало известно, в какие числа россияне будут отдыхать в мае spbdnevnik.ru Производственный календарь на 2027 год Государственная Дума",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-19T07:29:11.032760+03:00",
+      "story_id": "5c46af6521a3aad6"
+    },
+    {
+      "category": "technology",
+      "headline": "OneNote (Beta) plugin for ChatGPT",
+      "body": "OneNote (Beta) plugin for ChatGPT OpenAI",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-19T07:29:11.032760+03:00",
+      "story_id": "b0bb8287176f9f3f"
     }
   ]
 }

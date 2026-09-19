@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T15:33:26.372450+03:00",
+  "updated_at": "2026-09-19T19:28:51.445431+03:00",
   "items": [
     {
       "category": "russia",
@@ -10837,6 +10837,96 @@
       "is_internet_element": false,
       "added_at": "2026-09-19T15:33:26.372450+03:00",
       "story_id": "47690807fb50184c"
+    },
+    {
+      "category": "random_top",
+      "headline": "Украина выпустила сотни БПЛА по России во второй день выборов",
+      "body": "Украина выпустила сотни БПЛА по России во второй день выборов URA.RU Минобороны заявило о поражении за сутки 936 беспилотников ВСУ Интерфакс В течение дня силы ПВО уничтожили 328 БПЛА над регионами России Ведомости БПЛА уничтожены над Липецкой областью Gorod48 Ночью над Россией были уничтожены 344 украинских БПЛА BFM.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-19T19:28:51.445431+03:00",
+      "story_id": "c2deae86847d6203"
+    },
+    {
+      "category": "moscow",
+      "headline": "Власти Сингапура начнут платить жителям деньги за чтение книг",
+      "body": "Власти Сингапура начнут платить жителям деньги за чтение книг daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-19T19:28:51.445431+03:00",
+      "story_id": "133a19c5781fd60f"
+    },
+    {
+      "category": "moscow",
+      "headline": "Московский метрополитен обучит 60 собак-проводников для незрячих пассажиров",
+      "body": "Московский метрополитен обучит 60 собак-проводников для незрячих пассажиров daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-19T19:28:51.445431+03:00",
+      "story_id": "164e0fbbfadaeb87"
+    },
+    {
+      "category": "moscow",
+      "headline": "Россия возглавила рейтинг самых кошачьих стран в мире",
+      "body": "Россия возглавила рейтинг самых кошачьих стран в мире daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-19T19:28:51.445431+03:00",
+      "story_id": "205eba2b4a2c7c1e"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Московском зоопарке проведут день летучих мышей — с играми и мастер-классом",
+      "body": "В Московском зоопарке проведут день летучих мышей — с играми и мастер-классом daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-19T19:28:51.445431+03:00",
+      "story_id": "d0e66c956f826f68"
+    },
+    {
+      "category": "moscow",
+      "headline": "Новая «Обитель зла» претендует на лучший старт проката в истории франшизы",
+      "body": "Новая «Обитель зла» претендует на лучший старт проката в истории франшизы daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-19T19:28:51.445431+03:00",
+      "story_id": "631af8de9956ebb2"
     }
   ]
 }

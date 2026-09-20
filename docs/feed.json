@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T07:29:37.864108+03:00",
+  "updated_at": "2026-09-20T11:29:46.644374+03:00",
   "items": [
     {
       "category": "russia",
@@ -11167,6 +11167,36 @@
       "is_internet_element": false,
       "added_at": "2026-09-20T07:29:37.864108+03:00",
       "story_id": "ff9f5f25f36b1f81"
+    },
+    {
+      "category": "random_top",
+      "headline": "БПЛА уничтожены над Липецкой областью",
+      "body": "БПЛА уничтожены над Липецкой областью Gorod48 Российские военные за сутки сбили более 1,9 тыс. дронов ВСУ Интерфакс Российские средства ПВО сбили 1951 беспилотник ВСУ spbdnevnik.ru Минобороны: ПВО за ночь сбила более 1,1 тысячи БПЛА ВСУ BFM.ru Минобороны РФ: в Саратовской области и других регионах сбили 1110 беспилотников Взгляд-инфо",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-20T11:29:46.644374+03:00",
+      "story_id": "aa98a8b4d33825f0"
+    },
+    {
+      "category": "moscow",
+      "headline": "В 2027 году у россиян будет семь коротких рабочих недель",
+      "body": "В 2027 году у россиян будет семь коротких рабочих недель daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-20T11:29:46.644374+03:00",
+      "story_id": "198a7e6cb4c85c4c"
     }
   ]
 }

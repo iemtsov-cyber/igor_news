@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T23:28:27.221411+03:00",
+  "updated_at": "2026-09-20T03:37:32.626593+03:00",
   "items": [
     {
       "category": "russia",
@@ -10987,6 +10987,66 @@
       "is_internet_element": false,
       "added_at": "2026-09-19T23:28:27.221411+03:00",
       "story_id": "2c0419b1b76379e9"
+    },
+    {
+      "category": "random_top",
+      "headline": "СМИ: В Эр-Рияде загорелось хранилище нефтяной компании Saudi Aramco",
+      "body": "СМИ: В Эр-Рияде загорелось хранилище нефтяной компании Saudi Aramco БИЗНЕС Online В столице Саудовской Аравии объявляли воздушную тревогу, у аэропорта что-то горело. Хуситы признали факт обстрела BBC Хуситы заявили о серии ударов по объектам в Саудовской Аравии Интерфакс У аэропорта Эр-Рияда горит топливный резервуар Saudi Aramco vfokuse.mail.ru Пламя и черный дым появились у аэропорта Эр-Рияда после воздушной тревоги Euronews.com",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-20T03:37:32.626593+03:00",
+      "story_id": "194bf05f403bbed9"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "Портативных консолей мощнее в этом сегменте нет. Стартовали продажи Acer Predator Atlas 8",
+      "body": "Портативных консолей мощнее в этом сегменте нет. Стартовали продажи Acer Predator Atlas 8 ixbt.com",
+      "aside": "Портативных консолей мощнее в этом сегменте нет. Стартовали продажи Acer Predator Atlas 8 - ixbt.com",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-09-20T03:37:32.626593+03:00",
+      "story_id": "94b73756ad27514c"
+    },
+    {
+      "category": "technology",
+      "headline": "Windsor.ai plugin for ChatGPT",
+      "body": "Windsor.ai plugin for ChatGPT OpenAI",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-20T03:37:32.626593+03:00",
+      "story_id": "e05f4f72dcce857b"
+    },
+    {
+      "category": "technology",
+      "headline": "Ubersuggest plugin for ChatGPT",
+      "body": "Ubersuggest plugin for ChatGPT OpenAI",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-20T03:37:32.626593+03:00",
+      "story_id": "af19fa289900541d"
     }
   ]
 }

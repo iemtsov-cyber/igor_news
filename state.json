@@ -2,26 +2,6 @@
   "version": 1,
   "seen": [
     {
-      "shown_at": "2026-08-29T07:24:27.752810+03:00",
-      "headline": "Биологи объяснили, почему европейцам трудно есть насекомых",
-      "category": "science"
-    },
-    {
-      "shown_at": "2026-08-29T07:24:27.752810+03:00",
-      "headline": "BBC разобрался, заменяет ли ИИ рабочие места — и где уже заменил",
-      "category": "technology"
-    },
-    {
-      "shown_at": "2026-08-29T07:24:27.752810+03:00",
-      "headline": "Как Владимиру Путину показывали новую «Волгу",
-      "category": "random_top"
-    },
-    {
-      "shown_at": "2026-08-29T11:24:32.620522+03:00",
-      "headline": "В Ростовской области семь человек пострадали при атаке украинских беспилотников на склады Ozon и DNS",
-      "category": "random_top"
-    },
-    {
       "shown_at": "2026-08-29T11:24:32.620522+03:00",
       "headline": "OpenAI запустила программу кредитных грантов для разработчиков своей платформы",
       "category": "technology"
@@ -2499,6 +2479,26 @@
     {
       "shown_at": "2026-09-19T23:28:27.221411+03:00",
       "headline": "WordPress.com plugin for ChatGPT",
+      "category": "technology"
+    },
+    {
+      "shown_at": "2026-09-20T03:37:32.626593+03:00",
+      "headline": "СМИ: В Эр-Рияде загорелось хранилище нефтяной компании Saudi Aramco",
+      "category": "random_top"
+    },
+    {
+      "shown_at": "2026-09-20T03:37:32.626593+03:00",
+      "headline": "Портативных консолей мощнее в этом сегменте нет. Стартовали продажи Acer Predator Atlas 8",
+      "category": "internet_culture"
+    },
+    {
+      "shown_at": "2026-09-20T03:37:32.626593+03:00",
+      "headline": "Windsor.ai plugin for ChatGPT",
+      "category": "technology"
+    },
+    {
+      "shown_at": "2026-09-20T03:37:32.626593+03:00",
+      "headline": "Ubersuggest plugin for ChatGPT",
       "category": "technology"
     }
   ]

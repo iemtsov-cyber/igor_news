@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updated_at": "2026-09-21T19:30:37.819671+03:00",
+  "updated_at": "2026-09-21T23:28:21.720064+03:00",
   "items": [
     {
       "category": "random_top",
@@ -256,6 +256,81 @@
       "is_internet_element": false,
       "added_at": "2026-09-21T19:30:37.819671+03:00",
       "story_id": "ba1de885b05d9d3e"
+    },
+    {
+      "category": "random_top",
+      "headline": "Кабмин внесет налоговые поправки для поддержки пострадавшего от БПЛА бизнеса",
+      "body": "Кабмин внесет налоговые поправки для поддержки пострадавшего от БПЛА бизнеса БИЗНЕС Online Минфин с отраслями прорабатывает изменения налогового законодательства по учёту расходов на оборону Интерфакс Минфин анонсировал «налоговые изменения» для оплаты расходов компаний на оборону и восстановление после атак дронов Meduza В России анонсировали налоговые изменения из-за атак БПЛА RTVI Минфин готовит налоговые изменения для компаний, которые тратятся на защиту от дронов и восстановление после атак theins.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-21T23:28:21.720064+03:00",
+      "story_id": "e2c3a054a0658d4c"
+    },
+    {
+      "category": "technology",
+      "headline": "Робособака с манипулятором на спине научилась передвигать стулья",
+      "body": "Робособака с манипулятором на спине научилась передвигать стулья nplus1.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-21T23:28:21.720064+03:00",
+      "story_id": "4f771870ceab1cd2"
+    },
+    {
+      "category": "moscow",
+      "headline": "Редактор «Афиши Daily» Евгений Ткачев примет участие в фестивале о русских сериалах",
+      "body": "Редактор «Афиши Daily» Евгений Ткачев примет участие в фестивале о русских сериалах go.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-21T23:28:21.720064+03:00",
+      "story_id": "ea1380584926a252"
+    },
+    {
+      "category": "moscow",
+      "headline": "В США человек встретился на боксерском ринге с андроидом — и проиграл",
+      "body": "В США человек встретился на боксерском ринге с андроидом — и проиграл daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-21T23:28:21.720064+03:00",
+      "story_id": "4eb04a22dd00d302"
+    },
+    {
+      "category": "moscow",
+      "headline": "Ученые выяснили, почему мозг не любит бодрствовать после полуночи",
+      "body": "Ученые выяснили, почему мозг не любит бодрствовать после полуночи daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-21T23:28:21.720064+03:00",
+      "story_id": "2d086a6adf4d11f3"
     }
   ]
 }

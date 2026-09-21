@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T07:31:20.093080+03:00",
+  "updated_at": "2026-09-21T11:31:34.573865+03:00",
   "items": [
     {
       "category": "russia",
@@ -11497,6 +11497,81 @@
       "is_internet_element": false,
       "added_at": "2026-09-21T07:31:20.093080+03:00",
       "story_id": "0a4b9af416a097b5"
+    },
+    {
+      "category": "random_top",
+      "headline": "лидеры выборов в Госдуму по округам Саратовской области",
+      "body": "лидеры выборов в Госдуму по округам Саратовской области Взгляд-инфо Вячеслав Володин получил на выборах в Госдуму более 90% голосов Meduza Десятка лидеров по уровню поддержки избирателей на выборах в Государственную Думу IX созыва Государственная Дума Володин лидирует в одномандатном округе в Саратовской области с 84,84% Интерфакс Володин вошел в топ депутатов по уровню поддержки на выборах в Госдуму ВФокусе Mail",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-21T11:31:34.573865+03:00",
+      "story_id": "2b3d05758ab21c36"
+    },
+    {
+      "category": "moscow",
+      "headline": "Умер Пресли Гербер — модель и сын Синди Кроуфорд",
+      "body": "Умер Пресли Гербер — модель и сын Синди Кроуфорд daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-21T11:31:34.573865+03:00",
+      "story_id": "90bb45147f8ad4f7"
+    },
+    {
+      "category": "moscow",
+      "headline": "Американский стартап научился превращать книги и учебники в ленту тиктока",
+      "body": "Американский стартап научился превращать книги и учебники в ленту тиктока daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-21T11:31:34.573865+03:00",
+      "story_id": "02cbf327b7c20573"
+    },
+    {
+      "category": "moscow",
+      "headline": "Ученые не нашли доказательств влияния соцсетей на удовлетворенность жизнью",
+      "body": "Ученые не нашли доказательств влияния соцсетей на удовлетворенность жизнью daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-21T11:31:34.573865+03:00",
+      "story_id": "9b518cde78379ddc"
+    },
+    {
+      "category": "moscow",
+      "headline": "В 2026 году Charli XCX сыграла в шести фильмах. Расставили их от худшего к лучшему",
+      "body": "В 2026 году Charli XCX сыграла в шести фильмах. Расставили их от худшего к лучшему daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-21T11:31:34.573865+03:00",
+      "story_id": "3272e1560cef4cca"
     }
   ]
 }

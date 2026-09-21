@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T15:33:22.321100+03:00",
+  "updated_at": "2026-09-21T19:30:37.819671+03:00",
   "items": [
     {
       "category": "russia",
@@ -11617,6 +11617,51 @@
       "is_internet_element": false,
       "added_at": "2026-09-21T15:33:22.321100+03:00",
       "story_id": "6674e6d26eeda342"
+    },
+    {
+      "category": "random_top",
+      "headline": "Российская армия ударила по логистическому центру под Киевом",
+      "body": "Российская армия ударила по логистическому центру под Киевом БИЗНЕС Online ВС РФ ударили ночью по логистическим центрам и портам Украины ВФокусе Mail ВС РФ ударили по центру BDU Logistic и газораспределительной станции на Украине Новые Известия Минобороны РФ заявило об ударе по автомобильному мосту в Одесской области Интерфакс ВС РФ поразили логоцентр с военными грузами под Киевом URA.RU",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-21T19:30:37.819671+03:00",
+      "story_id": "64ca9ae1389dbbe2"
+    },
+    {
+      "category": "moscow",
+      "headline": "Старые iPhone в России начали дорожать после презентации новых моделей Apple",
+      "body": "Старые iPhone в России начали дорожать после презентации новых моделей Apple daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-21T19:30:37.819671+03:00",
+      "story_id": "215f6263e1f58d6c"
+    },
+    {
+      "category": "moscow",
+      "headline": "Исследование: ИИ помогает думать, но люди все чаще боятся слишком сильно от него зависеть",
+      "body": "Исследование: ИИ помогает думать, но люди все чаще боятся слишком сильно от него зависеть daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-21T19:30:37.819671+03:00",
+      "story_id": "ba1de885b05d9d3e"
     }
   ]
 }

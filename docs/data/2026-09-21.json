@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "updated_at": "2026-09-21T11:31:34.573865+03:00",
+  "updated_at": "2026-09-21T15:33:22.321100+03:00",
   "items": [
     {
       "category": "random_top",
@@ -166,6 +166,51 @@
       "is_internet_element": false,
       "added_at": "2026-09-21T11:31:34.573865+03:00",
       "story_id": "3272e1560cef4cca"
+    },
+    {
+      "category": "random_top",
+      "headline": "Россиянам станет сложнее получить кредит, Ozon и Wildberries столкнулись с ростом исков. Обзор Банки.ру",
+      "body": "Россиянам станет сложнее получить кредит, Ozon и Wildberries столкнулись с ростом исков. Обзор Банки.ру Банки.ру «Известия»: банки будут проверять просрочку по ЖКХ и алиментам перед выдачей кредитов bfm.ru ЦБ предложил учитывать долги по ЖКХ и алиментам при выдаче кредитов expert.ru «Давно пора»: Почему должникам по алиментам и ЖКХ начнут отказывать в кредитах Национальная Служба Новостей Грядут изменения для россиян с долгами по ЖКУ и алиментам URA.RU",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-21T15:33:22.321100+03:00",
+      "story_id": "6ae99c29890ad81f"
+    },
+    {
+      "category": "moscow",
+      "headline": "Вышел новый трейлер «Приключений Клиффа Бута",
+      "body": "Вышел новый трейлер «Приключений Клиффа Бута» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-21T15:33:22.321100+03:00",
+      "story_id": "e52d250fc11b8dbb"
+    },
+    {
+      "category": "moscow",
+      "headline": "Вышел трейлер «Приключений Клиффа Бута» — спин-оффа «Однажды в… Голливуде",
+      "body": "Вышел трейлер «Приключений Клиффа Бута» — спин-оффа «Однажды в… Голливуде» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-21T15:33:22.321100+03:00",
+      "story_id": "6674e6d26eeda342"
     }
   ]
 }

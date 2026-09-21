@@ -2,21 +2,6 @@
   "version": 1,
   "seen": [
     {
-      "shown_at": "2026-08-30T03:24:25.782735+03:00",
-      "headline": "Библиотечник. Москва",
-      "category": "moscow"
-    },
-    {
-      "shown_at": "2026-08-30T07:24:29.330019+03:00",
-      "headline": "OpenAI introduces credit grants for developers",
-      "category": "technology"
-    },
-    {
-      "shown_at": "2026-08-30T07:24:29.330019+03:00",
-      "headline": "Steam Frame VR headset set for September 2026 launch",
-      "category": "technology"
-    },
-    {
       "shown_at": "2026-08-30T07:24:29.330019+03:00",
       "headline": "Ozon suspends post‑payment in 38 regions after warehouse strike",
       "category": "business"
@@ -2500,6 +2485,21 @@
       "shown_at": "2026-09-20T23:28:12.885104+03:00",
       "headline": "Экзитполлы ВЦИОМ: «Единая Россия» набирает более 57% на выборах в Госдуму",
       "category": "random_top"
+    },
+    {
+      "shown_at": "2026-09-21T03:37:19.149732+03:00",
+      "headline": "Выборы в Государственную думу–2026: экзитпол АЦ ВЦИОМ",
+      "category": "random_top"
+    },
+    {
+      "shown_at": "2026-09-21T03:37:19.149732+03:00",
+      "headline": "Backrooms у нас дома: что такое «Зазеркалье», по которому сходят с ума социальные сети",
+      "category": "internet_culture"
+    },
+    {
+      "shown_at": "2026-09-21T03:37:19.149732+03:00",
+      "headline": "Владелец бренда Love is… требует от «Магнита» 132 млн рублей",
+      "category": "moscow"
     }
   ]
 }

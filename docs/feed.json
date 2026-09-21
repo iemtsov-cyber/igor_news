@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T23:28:12.885104+03:00",
+  "updated_at": "2026-09-21T03:37:19.149732+03:00",
   "items": [
     {
       "category": "russia",
@@ -11407,6 +11407,51 @@
       "is_internet_element": false,
       "added_at": "2026-09-20T23:28:12.885104+03:00",
       "story_id": "3c0ccc1797d0849e"
+    },
+    {
+      "category": "random_top",
+      "headline": "Выборы в Государственную думу–2026: экзитпол АЦ ВЦИОМ",
+      "body": "Выборы в Государственную думу–2026: экзитпол АЦ ВЦИОМ ВЦИОМ. Новости ЦИК России опубликовал первые результаты выборов в Госдуму. После обработки 14% протоколов у «Единой России» 57,5% Meduza После обработки 14% протоколов \"Единая Россия\" набирает 57,54%, КПРФ - 13,67%, ЛДПР - 9,27% Интерфакс ЦИК: \"Единая Россия\" побеждает на выборах в Госдуму РФ dw.com Выборы-2026: как проголосовать — подробная инструкция на все случаи mosreg.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-21T03:37:19.149732+03:00",
+      "story_id": "6df41859b9c8a02e"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "Backrooms у нас дома: что такое «Зазеркалье», по которому сходят с ума социальные сети",
+      "body": "Backrooms у нас дома: что такое «Зазеркалье», по которому сходят с ума социальные сети Sport24.ru",
+      "aside": "Backrooms у нас дома: что такое «Зазеркалье», по которому сходят с ума социальные сети - Sport24.ru",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-09-21T03:37:19.149732+03:00",
+      "story_id": "fa95f3e7a4e9907e"
+    },
+    {
+      "category": "moscow",
+      "headline": "Владелец бренда Love is… требует от «Магнита» 132 млн рублей",
+      "body": "Владелец бренда Love is… требует от «Магнита» 132 млн рублей daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-21T03:37:19.149732+03:00",
+      "story_id": "57232a792bf2d50b"
     }
   ]
 }

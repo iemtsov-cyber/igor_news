@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T07:29:57.288749+03:00",
+  "updated_at": "2026-09-22T11:31:16.470478+03:00",
   "items": [
     {
       "category": "russia",
@@ -11797,6 +11797,66 @@
       "is_internet_element": false,
       "added_at": "2026-09-22T07:29:57.288749+03:00",
       "story_id": "06e9da9a4e83234e"
+    },
+    {
+      "category": "random_top",
+      "headline": "Макрон придумал, как сбить цены на топливо в Европе",
+      "body": "Макрон придумал, как сбить цены на топливо в Европе URA.RU Власти Франции пообещали новые меры помощи пострадавшим от роста цен на горючее Интерфакс Франция готовится снизить требования к качеству топлива: что известно Росбалт Макрон созывает экстренный саммит G7 из-за цен на топливо в Европе ВФокусе Mail Моя дорогая машина: цена дизтоплива во Франции превысила €2,40 за литр, цены в Европе также бьют рекорды Euronews.com",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-22T11:31:16.470478+03:00",
+      "story_id": "f8d954da54ac1c84"
+    },
+    {
+      "category": "moscow",
+      "headline": "Сорвиголова: Рожденный заново» закончится на третьем сезоне",
+      "body": "Сорвиголова: Рожденный заново» закончится на третьем сезоне daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-22T11:31:16.470478+03:00",
+      "story_id": "523ea3679674e57c"
+    },
+    {
+      "category": "moscow",
+      "headline": "Converse удалила рекламу кроссовок, в которой увидели отсылки к Ку-клукс-клану",
+      "body": "Converse удалила рекламу кроссовок, в которой увидели отсылки к Ку-клукс-клану daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-22T11:31:16.470478+03:00",
+      "story_id": "ac0d3475cb31ea06"
+    },
+    {
+      "category": "moscow",
+      "headline": "Кинопремьеры недели: «Девятая планета», «Вышка-2» и «Твигги",
+      "body": "Кинопремьеры недели: «Девятая планета», «Вышка-2» и «Твигги» afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-22T11:31:16.470478+03:00",
+      "story_id": "7204d14075eaf062"
     }
   ]
 }

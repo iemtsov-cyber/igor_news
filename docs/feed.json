@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T03:36:01.085374+03:00",
+  "updated_at": "2026-09-22T07:29:57.288749+03:00",
   "items": [
     {
       "category": "russia",
@@ -11767,6 +11767,36 @@
       "is_internet_element": true,
       "added_at": "2026-09-22T03:36:01.085374+03:00",
       "story_id": "0c5c13aaeb78de5f"
+    },
+    {
+      "category": "technology",
+      "headline": "Privacy Center in ChatGPT",
+      "body": "Privacy Center in ChatGPT OpenAI Help Center",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-22T07:29:57.288749+03:00",
+      "story_id": "fdce63a4592c78f1"
+    },
+    {
+      "category": "moscow",
+      "headline": "Брат принцессы Дианы заявил, что у нее мог быть СДВГ",
+      "body": "Брат принцессы Дианы заявил, что у нее мог быть СДВГ daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-22T07:29:57.288749+03:00",
+      "story_id": "06e9da9a4e83234e"
     }
   ]
 }

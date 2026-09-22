@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "updated_at": "2026-09-22T11:31:16.470478+03:00",
+  "updated_at": "2026-09-22T20:01:05.869572+03:00",
   "items": [
     {
       "category": "random_top",
@@ -121,6 +121,81 @@
       "is_internet_element": false,
       "added_at": "2026-09-22T11:31:16.470478+03:00",
       "story_id": "7204d14075eaf062"
+    },
+    {
+      "category": "random_top",
+      "headline": "Три человека погибли при пожаре в торговом комплексе в Стерлитамаке",
+      "body": "Три человека погибли при пожаре в торговом комплексе в Стерлитамаке Интерфакс В Стерлитамаке — пожар в торговом центре. Есть погибшие. Люди выпрыгивали из окон, спасаясь от огня Meduza Число жертв пожара в торговом комплексе в Стерлитамаке увеличилось до четырех Интерфакс Число жертв пожара в Башкирии выросло до четырех ВФокусе Mail Пожар в ТЦ в Стерлитамаке унес жизни четверых человек BFM.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-22T20:01:05.869572+03:00",
+      "story_id": "8a07e2a9aac6d3d8"
+    },
+    {
+      "category": "moscow",
+      "headline": "Сьюзен Сарандон и Оливия Колман снимутся в триллере «Армия теней",
+      "body": "Сьюзен Сарандон и Оливия Колман снимутся в триллере «Армия теней» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-22T20:01:05.869572+03:00",
+      "story_id": "15f49714c63d9f11"
+    },
+    {
+      "category": "moscow",
+      "headline": "Гриль Рест Фест & Абрау Дюрсо",
+      "body": "Гриль Рест Фест & Абрау Дюрсо festivals.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-22T20:01:05.869572+03:00",
+      "story_id": "13b6f0aaf2db1e1f"
+    },
+    {
+      "category": "moscow",
+      "headline": "Фестиваль перформансов «Недоказанное, несказанное, незримое.» Утренняя программа.",
+      "body": "Фестиваль перформансов «Недоказанное, несказанное, незримое.» Утренняя программа. festivals.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-22T20:01:05.869572+03:00",
+      "story_id": "b4a27349525a3f97"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Москве пройдет премьера роуд-муви «Без оглядки» с Анной Пересильд",
+      "body": "В Москве пройдет премьера роуд-муви «Без оглядки» с Анной Пересильд daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-22T20:01:05.869572+03:00",
+      "story_id": "f142254845856b44"
     }
   ]
 }

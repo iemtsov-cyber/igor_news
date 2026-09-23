@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T22:42:07.126671+03:00",
+  "updated_at": "2026-09-24T01:58:45.894253+03:00",
   "items": [
     {
       "category": "russia",
@@ -12226,6 +12226,51 @@
       "is_internet_element": false,
       "added_at": "2026-09-23T22:42:07.126671+03:00",
       "story_id": "29a12066433feed1"
+    },
+    {
+      "category": "random_top",
+      "headline": "В Москве предотвратили подрыв авто в кортеже высокопоставленного чиновника",
+      "body": "В Москве предотвратили подрыв авто в кортеже высокопоставленного чиновника БИЗНЕС Online — Новости Казани Москвич задержан за подготовку подрыва авто в кортеже высокопоставленного чиновника Интерфакс В Москве предотвращен подрыв кортежа высокопоставленного чиновника BFM.ru ФСБ задержала жителя Москвы за подготовку теракта против чиновника Эксперт Москвич планировал подрыв кортежа высокопоставленного чиновника РФ, он задержан ВФокусе Mail",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-24T01:58:45.894253+03:00",
+      "story_id": "231818984d1adf8b"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "Политзаключенные как мем",
+      "body": "Политзаключенные как мем Русская служба The Moscow Times",
+      "aside": "Политзаключенные как мем - Русская служба The Moscow Times",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-09-24T01:58:45.894253+03:00",
+      "story_id": "1ae2202af716effe"
+    },
+    {
+      "category": "moscow",
+      "headline": "Джуд Лоу намерен сняться в новом фильме Ари Астера вместе со Скарлетт Йоханссон",
+      "body": "Джуд Лоу намерен сняться в новом фильме Ари Астера вместе со Скарлетт Йоханссон daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-24T01:58:45.894253+03:00",
+      "story_id": "a089cd89e4289cf9"
     }
   ]
 }

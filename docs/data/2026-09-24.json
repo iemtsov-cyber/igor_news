@@ -1,6 +1,6 @@
 {
   "date": "2026-09-24",
-  "updated_at": "2026-09-24T16:35:29.702727+03:00",
+  "updated_at": "2026-09-24T23:00:27.465143+03:00",
   "items": [
     {
       "category": "random_top",
@@ -179,6 +179,81 @@
       "is_internet_element": false,
       "added_at": "2026-09-24T16:35:29.702727+03:00",
       "story_id": "12617b06cdef83bd"
+    },
+    {
+      "category": "random_top",
+      "headline": "В Госдуме появится комитет по ИИ. Его может возглавить депутат, который был инициатором закона об «иностранных агентах",
+      "body": "В Госдуме появится комитет по ИИ. Его может возглавить депутат, который был инициатором закона об «иностранных агентах» Meduza Медведев анонсировал учреждение в Госдуме двух новых комитетов interfax.ru В новой Госдуме появится комитет по ИИ. «Единая Россия» претендует на 20 из 35 комитетов theins.ru Медведев: в Госдуме нового созыва планируют создать 35 комитетов BFM.ru Комитет Госдумы по обороне в новом созыве возглавит Владимир Касатонов Росбалт",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-24T23:00:27.465143+03:00",
+      "story_id": "31ecda97590bf07d"
+    },
+    {
+      "category": "moscow",
+      "headline": "Афиша – куда сходить в Коммунаре, все развлечения и билеты на Afisha.ru",
+      "body": "Афиша – куда сходить в Коммунаре, все развлечения и билеты на Afisha.ru afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-24T23:00:27.465143+03:00",
+      "story_id": "568ab4d319df923a"
+    },
+    {
+      "category": "moscow",
+      "headline": "Киноафиша Южно-Сахалинска",
+      "body": "Киноафиша Южно-Сахалинска afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-24T23:00:27.465143+03:00",
+      "story_id": "dd3c0e5a3cbff1fc"
+    },
+    {
+      "category": "moscow",
+      "headline": "Инна Белоусова",
+      "body": "Инна Белоусова daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-24T23:00:27.465143+03:00",
+      "story_id": "e9961601025ba83b"
+    },
+    {
+      "category": "moscow",
+      "headline": "Джон Малкович и Сэм Рокуэлл в новом трейлере «Дикой лошади» — фильма Мартина МакДоны",
+      "body": "Джон Малкович и Сэм Рокуэлл в новом трейлере «Дикой лошади» — фильма Мартина МакДоны daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-24T23:00:27.465143+03:00",
+      "story_id": "e0e0d4c7994aa233"
     }
   ]
 }

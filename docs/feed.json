@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T08:03:07.454093+03:00",
+  "updated_at": "2026-09-25T16:53:19.174986+03:00",
   "items": [
     {
       "category": "russia",
@@ -12605,6 +12605,81 @@
       "is_internet_element": false,
       "added_at": "2026-09-25T08:03:07.454093+03:00",
       "story_id": "5a6b184874c7b7c0"
+    },
+    {
+      "category": "random_top",
+      "headline": "В Совбезе России отреагировали на поставки газа в Армению из Азербайджана",
+      "body": "В Совбезе России отреагировали на поставки газа в Армению из Азербайджана eadaily.com Поставки российского газа в Армению возобновлены Интерфакс Россия пригрозила полностью остановить поставки газа в Армению с 1 ноября Русская служба The Moscow Times В Совбезе рассказали о болезненном отказе Армении от российского газа Новые Известия Поставка природного газа в Армению из РФ возобновлена newsarmenia.am",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-25T16:53:19.174986+03:00",
+      "story_id": "47b37d15d1ae084b"
+    },
+    {
+      "category": "technology",
+      "headline": "Воспалительные заболевания кишечника связали с повышенным риском осложнений беременности",
+      "body": "Воспалительные заболевания кишечника связали с повышенным риском осложнений беременности nplus1.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-25T16:53:19.174986+03:00",
+      "story_id": "b115f982284d70ed"
+    },
+    {
+      "category": "moscow",
+      "headline": "Россельхознадзор не подтвердил связь между вакциной «Мультифел» и гибелью кошек",
+      "body": "Россельхознадзор не подтвердил связь между вакциной «Мультифел» и гибелью кошек daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-25T16:53:19.174986+03:00",
+      "story_id": "0ba0fd38236f23f4"
+    },
+    {
+      "category": "moscow",
+      "headline": "Михаил, Александр и София: названы самые популярные имена детей в 2026 году",
+      "body": "Михаил, Александр и София: названы самые популярные имена детей в 2026 году daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-25T16:53:19.174986+03:00",
+      "story_id": "06938052777ef1f9"
+    },
+    {
+      "category": "moscow",
+      "headline": "Рок-фест в Сердце",
+      "body": "Рок-фест в Сердце festivals.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-25T16:53:19.174986+03:00",
+      "story_id": "60649bd0daffb84d"
     }
   ]
 }

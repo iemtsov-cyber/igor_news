@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "updated_at": "2026-09-25T16:53:19.174986+03:00",
+  "updated_at": "2026-09-25T23:02:49.599040+03:00",
   "items": [
     {
       "category": "russia",
@@ -202,6 +202,66 @@
       "is_internet_element": false,
       "added_at": "2026-09-25T16:53:19.174986+03:00",
       "story_id": "60649bd0daffb84d"
+    },
+    {
+      "category": "random_top",
+      "headline": "Итоги выборов в Государственную Думу IX созыва",
+      "body": "Итоги выборов в Государственную Думу IX созыва Государственная Дума «Единая Россия» получила в новой Госдуме 349 мандатов из 450. В парламенте будет 46 участников войны Meduza ЦИК огласил итоги выборов. У \"ЕР\" 349 мандатов, у всех остальных 101 Радио Свобода ЦИК РФ утвердил результаты выборов депутатов Госдумы девятого созыва Интерфакс ЦИК: «Единая Россия» лидирует по результатам ДЭГа Ведомости",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-25T23:02:49.599040+03:00",
+      "story_id": "3dbca4092bdba576"
+    },
+    {
+      "category": "world",
+      "headline": "Russia's Perm oil refinery halted operations after Friday drone attack, sources say",
+      "body": "Russia's Perm oil refinery halted operations after Friday drone attack, sources say Reuters",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "world"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-25T23:02:49.599040+03:00",
+      "story_id": "394a855c7ff4e794"
+    },
+    {
+      "category": "moscow",
+      "headline": "Ничего смешного – все статьи на сайте Афиша Daily",
+      "body": "Ничего смешного – все статьи на сайте Афиша Daily daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-25T23:02:49.599040+03:00",
+      "story_id": "76322f1b688a04b8"
+    },
+    {
+      "category": "moscow",
+      "headline": "Концерт Канье Уэста в Петербурге не состоится",
+      "body": "Концерт Канье Уэста в Петербурге не состоится daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-25T23:02:49.599040+03:00",
+      "story_id": "ec04efe3c8de42b7"
     }
   ]
 }

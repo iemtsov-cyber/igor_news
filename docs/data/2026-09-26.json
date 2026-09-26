@@ -1,6 +1,6 @@
 {
   "date": "2026-09-26",
-  "updated_at": "2026-09-26T08:05:44.776675+03:00",
+  "updated_at": "2026-09-26T16:09:51.035878+03:00",
   "items": [
     {
       "category": "random_top",
@@ -91,6 +91,66 @@
       "is_internet_element": false,
       "added_at": "2026-09-26T08:05:44.776675+03:00",
       "story_id": "f05790d42b399732"
+    },
+    {
+      "category": "random_top",
+      "headline": "Появились подробности смертельной аварии на российском предприятии: Происшествия: Россия",
+      "body": "Появились подробности смертельной аварии на российском предприятии: Происшествия: Россия lenta.news На крупнейшем месторождении угля в России произошел взрыв, погибли не менее четырех рабочих DW.com На крупнейшем в России угольном месторождении произошел взрыв. Погибли четыре человека Meduza Уголовное дело по факту гибели работников на месторождении возбуждено в Якутии Интерфакс Названа возможная причина ЧП на угольном месторождении в Якутии ВФокусе Mail",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-26T16:09:51.035878+03:00",
+      "story_id": "7f66999fbedd1b01"
+    },
+    {
+      "category": "moscow",
+      "headline": "Первая робособака начала патрулировать улицы Москвы",
+      "body": "Первая робособака начала патрулировать улицы Москвы daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-26T16:09:51.035878+03:00",
+      "story_id": "b48f45c2f75eed0d"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Петербурге отменят коронавирусные ограничения",
+      "body": "В Петербурге отменят коронавирусные ограничения daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-26T16:09:51.035878+03:00",
+      "story_id": "20bfc01c5ab7013d"
+    },
+    {
+      "category": "moscow",
+      "headline": "Россияне путешествуют в 11 раз реже американцев и в 16 раз реже японцев",
+      "body": "Россияне путешествуют в 11 раз реже американцев и в 16 раз реже японцев daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-26T16:09:51.035878+03:00",
+      "story_id": "c93ce4afc42269dc"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "date": "2026-09-27",
-  "updated_at": "2026-09-27T01:55:50.308349+03:00",
+  "updated_at": "2026-09-27T08:23:50.791316+03:00",
   "items": [
     {
       "category": "world",
@@ -120,6 +120,51 @@
       "is_internet_element": true,
       "added_at": "2026-09-27T01:55:50.308349+03:00",
       "story_id": "a7f49d19c9a730a5"
+    },
+    {
+      "category": "random_top",
+      "headline": "Доступ к пляжам и набережным ограничили в Сочи из-за безэкипажных катеров",
+      "body": "Доступ к пляжам и набережным ограничили в Сочи из-за безэкипажных катеров Интерфакс Доступ к пляжам и набережным Сочи открыли после отмены угрозы безэкипажных катеров Интерфакс На российском курорте объявили угрозу атаки БЭК URA.RU В Сочи закрыли аэропорт и воют сирены из-за угрозы БПЛА KubanPress Что известно о ночной атаке по Сочи, Краснодару и Армавиру утром 27 сентября sochistream.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-27T08:23:50.791316+03:00",
+      "story_id": "60313d62a2d58210"
+    },
+    {
+      "category": "moscow",
+      "headline": "Афиша на 24 октября – куда сходить в Москве, стр. 46",
+      "body": "Афиша на 24 октября – куда сходить в Москве, стр. 46 afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-27T08:23:50.791316+03:00",
+      "story_id": "668e77706ca47563"
+    },
+    {
+      "category": "moscow",
+      "headline": "Выставка Стас Фальков. 異形 / Иная форма, Санкт-Петербург – Афиша-Музеи",
+      "body": "Выставка Стас Фальков. 異形 / Иная форма, Санкт-Петербург – Афиша-Музеи afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-27T08:23:50.791316+03:00",
+      "story_id": "70fcc08cbb0ebccd"
     }
   ]
 }

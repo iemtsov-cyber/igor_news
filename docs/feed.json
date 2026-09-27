@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T08:23:50.791316+03:00",
+  "updated_at": "2026-09-27T17:02:09.612431+03:00",
   "items": [
     {
       "category": "russia",
@@ -13149,6 +13149,51 @@
       "is_internet_element": false,
       "added_at": "2026-09-27T08:23:50.791316+03:00",
       "story_id": "70fcc08cbb0ebccd"
+    },
+    {
+      "category": "random_top",
+      "headline": "Бойцы \"Севера\" взяли под контроль Хрипуны в волчанском котле",
+      "body": "Бойцы \"Севера\" взяли под контроль Хрипуны в волчанском котле ВФокусе Mail Российская армия взяла под контроль харьковское село Хрипуны BFM.ru ВС РФ установили контроль над селами Петропавловка, Лозовая и Марьино Ведомости Военные РФ ведут бои за три села в Харьковской области Интерфакс Армия России освободила Хрипуны в Харьковской области ura.news",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-27T17:02:09.612431+03:00",
+      "story_id": "7eca4e02af900ae6"
+    },
+    {
+      "category": "moscow",
+      "headline": "Житель Китая подал в суд на разработчиков чат-бота, обвинив ИИ в семейных несчастьях",
+      "body": "Житель Китая подал в суд на разработчиков чат-бота, обвинив ИИ в семейных несчастьях daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-27T17:02:09.612431+03:00",
+      "story_id": "babb04973271472d"
+    },
+    {
+      "category": "moscow",
+      "headline": "Пациентов с депрессией будут лечить по-новому. Минздрав обновил стандарт помощи",
+      "body": "Пациентов с депрессией будут лечить по-новому. Минздрав обновил стандарт помощи daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-27T17:02:09.612431+03:00",
+      "story_id": "d321af737e966409"
     }
   ]
 }

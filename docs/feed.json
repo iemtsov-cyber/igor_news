@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T02:06:30.622423+03:00",
+  "updated_at": "2026-09-28T08:30:47.678637+03:00",
   "items": [
     {
       "category": "russia",
@@ -13269,6 +13269,66 @@
       "is_internet_element": true,
       "added_at": "2026-09-28T02:06:30.622423+03:00",
       "story_id": "5739e1d71b8f7eb5"
+    },
+    {
+      "category": "random_top",
+      "headline": "Иран объявил о готовности к «войне Судного дня» с США: заявление министра МИД Ирана Арагчи",
+      "body": "Иран объявил о готовности к «войне Судного дня» с США: заявление министра МИД Ирана Арагчи URA.RU Трамп отверг предложение Ирана открыть Ормузский пролив на неделю BBC Трамп отказался от предложенного Ираном перемирия в Ормузе svoboda.org Аракчи заявил, что Тегеран выстоит перед любым новым витком агрессии Интерфакс Президент США не рассчитывает на скорый мир с Ираном Независимая газета",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-28T08:30:47.678637+03:00",
+      "story_id": "96b6bfeff94c45d3"
+    },
+    {
+      "category": "moscow",
+      "headline": "Фильм Вышка-2 (Таиланд, Великобритания, США, 2026), купить билет - Афиша-Кино",
+      "body": "Фильм Вышка-2 (Таиланд, Великобритания, США, 2026), купить билет - Афиша-Кино afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-28T08:30:47.678637+03:00",
+      "story_id": "34d82079f4c7bc86"
+    },
+    {
+      "category": "moscow",
+      "headline": "Фильм Как Иван в сказку попал (Россия, 2026), купить билет - Афиша-Кино",
+      "body": "Фильм Как Иван в сказку попал (Россия, 2026), купить билет - Афиша-Кино afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-28T08:30:47.678637+03:00",
+      "story_id": "93a6be2d6e2091fe"
+    },
+    {
+      "category": "moscow",
+      "headline": "Фильм Дом мертвых (Таиланд, 2025), купить билет - Афиша-Кино",
+      "body": "Фильм Дом мертвых (Таиланд, 2025), купить билет - Афиша-Кино afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-28T08:30:47.678637+03:00",
+      "story_id": "a10443da615cdcbe"
     }
   ]
 }

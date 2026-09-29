@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T19:47:47.164044+03:00",
+  "updated_at": "2026-09-29T03:23:57.604822+03:00",
   "items": [
     {
       "category": "russia",
@@ -13338,6 +13338,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "бизнес",
         "ритейл",
         "нацприватизация",
@@ -13357,6 +13358,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "космос",
         "spacex",
         "starship",
@@ -13376,6 +13378,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "наука",
         "медицина",
         "школяри",
@@ -13395,6 +13398,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "здравоохранение",
         "вакцинация",
         "впч",
@@ -13414,6 +13418,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "музыка",
         "стиви уандер",
         "архивы",
@@ -13433,6 +13438,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "фестивали",
         "цифровое искусство",
         "петербург",
@@ -13443,6 +13449,66 @@
       "is_internet_element": false,
       "added_at": "2026-09-28T19:47:47.164044+03:00",
       "story_id": "1fc78f8d59d44da9"
+    },
+    {
+      "category": "random_top",
+      "headline": "Путин оставил Дмитриева на посту главы РФПИ еще на пять лет",
+      "body": "Путин оставил Дмитриева на посту главы РФПИ еще на пять лет EADaily Полномочия главы РФПИ Дмитриева продлены на пять лет interfax.ru Путин продлил полномочия Дмитриева на посту главы РФПИ еще на пять лет BFM.ru Путин переназначил Дмитриева гендиректором РФПИ vedomosti.ru Кирилла Дмитриева переназначили на пост главы РФПИ еще на пять лет Эксперт",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-29T03:23:57.604822+03:00",
+      "story_id": "593b6895b55391fc"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "Капитализация рынка мем-коинов упала до $35,2 млрд на фоне ротации активов и снижения крупных токенов",
+      "body": "Капитализация рынка мем-коинов упала до $35,2 млрд на фоне ротации активов и снижения крупных токенов Marketpower.pro",
+      "aside": "Капитализация рынка мем-коинов упала до $35,2 млрд на фоне ротации активов и снижения крупных токенов - Marketpower.pro",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-09-29T03:23:57.604822+03:00",
+      "story_id": "c969ad5cbec678cf"
+    },
+    {
+      "category": "moscow",
+      "headline": "Женщины лучше читают эмоции: ученые выяснили, в чем мужчины их опережают",
+      "body": "Женщины лучше читают эмоции: ученые выяснили, в чем мужчины их опережают daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-29T03:23:57.604822+03:00",
+      "story_id": "1a418033b6654c7a"
+    },
+    {
+      "category": "moscow",
+      "headline": "На чемпионате мира по велогонкам массажист поучаствовал в заезде вместо спортсмена с травмой",
+      "body": "На чемпионате мира по велогонкам массажист поучаствовал в заезде вместо спортсмена с травмой daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-29T03:23:57.604822+03:00",
+      "story_id": "f2ee0566e8219e73"
     }
   ]
 }

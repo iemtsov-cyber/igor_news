@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T21:07:07.899464+03:00",
+  "updated_at": "2026-09-30T02:45:40.404260+03:00",
   "items": [
     {
       "category": "russia",
@@ -13606,6 +13606,114 @@
       "is_internet_element": false,
       "added_at": "2026-09-29T21:07:07.899464+03:00",
       "story_id": "29d2f3752c408d3c"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Москве началось патрулирование улиц роботами",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "moscow",
+        "роботы",
+        "москва",
+        "безопасность",
+        "ии-технологии"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-30T02:45:40.404260+03:00",
+      "story_id": "2e2b10667e6b1af3"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "Ремастер The Witcher 3 вышел с багами: Геральт стал чёрным, текстуры пропали",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "internet_culture",
+        "игры",
+        "the witcher",
+        "cdpr",
+        "мемы"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-30T02:45:40.404260+03:00",
+      "story_id": "05dbb1d58f68149a"
+    },
+    {
+      "category": "sports",
+      "headline": "Вердикт по делу «Манчестер Сити»: UEFA наложила санкции на клуб",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "sports",
+        "футбол",
+        "манчестер сити",
+        "uefa",
+        "регулирование"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-30T02:45:40.404260+03:00",
+      "story_id": "8c5628ebebedf8b9"
+    },
+    {
+      "category": "russia",
+      "headline": "Россияне тратят на питомцев больше денег, чем на себя — каждый шестой",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "russia",
+        "потребление",
+        "питомцы",
+        "социология",
+        "россия"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-30T02:45:40.404260+03:00",
+      "story_id": "9e7bb93042cc8e26"
+    },
+    {
+      "category": "random_top",
+      "headline": "Дмитриев опубликовал фото из Вашингтона под культовый трек «Кино",
+      "body": "Дмитриев опубликовал фото из Вашингтона под культовый трек «Кино» URA.RU Спецпосланник Кремля Дмитриев обсудил в США войну и энергопроекты Радио Свобода Дмитриев провел встречи, на которых были сотрудники Минфина и Минэнерго США Интерфакс Reuters: Дмитриев провел встречу по Украине с чиновниками США bfm.ru Кирилл Дмитриев провел переговоры по Украине с чиновниками в Вашингтоне Новые Известия",
+      "aside": "",
+      "importance": 5.5,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top",
+        "случайно из топа"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-30T02:45:40.404260+03:00",
+      "story_id": "7eaebc1e601840e8"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "G.Skill заменила по гарантии комплект памяти ценой в $1199, хотя он был куплен всего за $150 — Wccftech",
+      "body": "G.Skill заменила по гарантии комплект памяти ценой в $1199, хотя он был куплен всего за $150 — Wccftech Клуб DNS",
+      "aside": "G.Skill заменила по гарантии комплект памяти ценой в $1199, хотя он был куплен всего за $150 — Wccftech - Клуб DNS",
+      "importance": 5.5,
+      "confidence": 0.78,
+      "preference_tags": [
+        "internet_culture",
+        "интернет-культура"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-09-30T02:45:40.404260+03:00",
+      "story_id": "6d639007c6faeb42"
     }
   ]
 }

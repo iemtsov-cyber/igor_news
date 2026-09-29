@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T13:44:17.275883+03:00",
+  "updated_at": "2026-09-29T21:07:07.899464+03:00",
   "items": [
     {
       "category": "russia",
@@ -13561,6 +13561,51 @@
       "is_internet_element": false,
       "added_at": "2026-09-29T13:44:17.275883+03:00",
       "story_id": "f931cd0135d3f693"
+    },
+    {
+      "category": "moscow",
+      "headline": "Повесть Льва Толстого «Смерть Ивана Ильича» стала бестселлером в Бразилии благодаря футболисту",
+      "body": "Повесть Льва Толстого «Смерть Ивана Ильича» стала бестселлером в Бразилии благодаря футболисту daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-29T21:07:07.899464+03:00",
+      "story_id": "1a9c1826352b6de8"
+    },
+    {
+      "category": "moscow",
+      "headline": "В гранатах нашли вещество, которое улучшило работу сердца на 80% — правда, пока только у животных",
+      "body": "В гранатах нашли вещество, которое улучшило работу сердца на 80% — правда, пока только у животных daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-29T21:07:07.899464+03:00",
+      "story_id": "a23ba10016a12a77"
+    },
+    {
+      "category": "moscow",
+      "headline": "Netflix опубликовал трейлер документального сериала о Мэттью Перри",
+      "body": "Netflix опубликовал трейлер документального сериала о Мэттью Перри daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-29T21:07:07.899464+03:00",
+      "story_id": "29d2f3752c408d3c"
     }
   ]
 }

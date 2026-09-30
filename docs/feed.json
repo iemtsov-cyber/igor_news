@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T02:45:40.404260+03:00",
+  "updated_at": "2026-09-30T08:39:04.548021+03:00",
   "items": [
     {
       "category": "russia",
@@ -13714,6 +13714,120 @@
       "is_internet_element": true,
       "added_at": "2026-09-30T02:45:40.404260+03:00",
       "story_id": "6d639007c6faeb42"
+    },
+    {
+      "category": "other",
+      "headline": "Дэвид Финчер уходит с Netflix после десяти лет сотрудничества",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "кино",
+        "стриминги",
+        "netflix",
+        "режиссёры",
+        "бизнес медиа"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-30T08:39:04.548021+03:00",
+      "story_id": "6c7d1a98bba106d3"
+    },
+    {
+      "category": "other",
+      "headline": "Дженнифер Лоуренс сыграет главную роль в фильме «Потоп» Зака Креггера",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "кино",
+        "дженнифер лоуренс",
+        "ужасы",
+        "зака креггер",
+        "warner bros"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-30T08:39:04.548021+03:00",
+      "story_id": "c24284890255f6cc"
+    },
+    {
+      "category": "other",
+      "headline": "Отопительный сезон в Москве начнётся 1 октября",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "москва",
+        "отопление",
+        "жкх",
+        "городская инфраструктура",
+        "погода"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-30T08:39:04.548021+03:00",
+      "story_id": "c519a9b168f46fff"
+    },
+    {
+      "category": "other",
+      "headline": "В Англии предотвратили атаку на военную авиабазу, задержанных отпустили",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "великобритания",
+        "безопасность",
+        "ввс",
+        "терроризм",
+        "полиция"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-30T08:39:04.548021+03:00",
+      "story_id": "88895f0a722ae46b"
+    },
+    {
+      "category": "other",
+      "headline": "В Германии построили самую высокую ветряную турбину в мире — 280 метров",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "энергетика",
+        "ветровая энергетика",
+        "германия",
+        "технологии",
+        "инженерия"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-30T08:39:04.548021+03:00",
+      "story_id": "43a465993c0dc1d6"
+    },
+    {
+      "category": "other",
+      "headline": "Концерты Канье Уэста в России официально отменены, а не перенесены",
+      "body": "",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 0.7,
+      "preference_tags": [
+        "музыка",
+        "концерты",
+        "канье уэст",
+        "санкт-петербург",
+        "бизнес мероприятий"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-30T08:39:04.548021+03:00",
+      "story_id": "b37098bc840dc85e"
     }
   ]
 }

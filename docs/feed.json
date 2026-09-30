@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T08:39:04.548021+03:00",
+  "updated_at": "2026-09-30T17:57:45.197308+03:00",
   "items": [
     {
       "category": "russia",
@@ -13723,6 +13723,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "кино",
         "стриминги",
         "netflix",
@@ -13742,6 +13743,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "кино",
         "дженнифер лоуренс",
         "ужасы",
@@ -13761,6 +13763,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "москва",
         "отопление",
         "жкх",
@@ -13780,6 +13783,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "великобритания",
         "безопасность",
         "ввс",
@@ -13799,6 +13803,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "энергетика",
         "ветровая энергетика",
         "германия",
@@ -13818,6 +13823,7 @@
       "importance": 5.0,
       "confidence": 0.7,
       "preference_tags": [
+        "other",
         "музыка",
         "концерты",
         "канье уэст",
@@ -13828,6 +13834,81 @@
       "is_internet_element": false,
       "added_at": "2026-09-30T08:39:04.548021+03:00",
       "story_id": "b37098bc840dc85e"
+    },
+    {
+      "category": "random_top",
+      "headline": "Владимир Путин: «Россия не может бегать по миру и унизительно клянчить подачки",
+      "body": "Владимир Путин: «Россия не может бегать по миру и унизительно клянчить подачки» BFM.ru Путин заявил о необходимости сбалансированного и реалистичного федерального бюджета Интерфакс Путин: Бюджет должен быть реалистичным, надо исключить популизм ВФокусе Mail \"Ошибки абсолютно недопустимы\" Радио Свобода Путин заявил, что Россия никогда не будет просить подачки у других стран news.newizv.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-09-30T17:57:45.197308+03:00",
+      "story_id": "b7142de8b87757e9"
+    },
+    {
+      "category": "moscow",
+      "headline": "Вышел трейлер «Чуда-юда» — семейного фэнтези с Сергеем Безруковым и Викторией Исаковой",
+      "body": "Вышел трейлер «Чуда-юда» — семейного фэнтези с Сергеем Безруковым и Викторией Исаковой daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-30T17:57:45.197308+03:00",
+      "story_id": "037d581c11a84445"
+    },
+    {
+      "category": "moscow",
+      "headline": "Коммерсант»: фильмы с коррумпированными силовиками больше не будут получать господдержку",
+      "body": "Коммерсант»: фильмы с коррумпированными силовиками больше не будут получать господдержку daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-30T17:57:45.197308+03:00",
+      "story_id": "44148a83119dd84d"
+    },
+    {
+      "category": "moscow",
+      "headline": "Минздрав зарегистрировал вакцину против аллергии на пыльцу березы",
+      "body": "Минздрав зарегистрировал вакцину против аллергии на пыльцу березы daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-30T17:57:45.197308+03:00",
+      "story_id": "8cf8cbcde99df72b"
+    },
+    {
+      "category": "moscow",
+      "headline": "В Москве пройдут «похороны» Лабубу",
+      "body": "В Москве пройдут «похороны» Лабубу daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-09-30T17:57:45.197308+03:00",
+      "story_id": "f9f0debc08846e02"
     }
   ]
 }

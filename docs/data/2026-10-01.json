@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-01",
+  "updated_at": "2026-10-01T09:03:39.398663+03:00",
+  "items": [
+    {
+      "category": "random_top",
+      "headline": "Трамп после анонса скорых «событий» дал одно обещание: Политика: Мир",
+      "body": "Трамп после анонса скорых «событий» дал одно обещание: Политика: Мир lenta.news Президент США заявил, что еще не решил, как поступить с Ираном Интерфакс Axios: Переговоры США и Ирана в тупике ВФокусе Mail Вашингтон и Тегеран вернулись от Ормуза к атому Независимая газета Трамп снова призвал вооружать противников Ирана — руками ЦРУ и «Моссада» RTVI",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-10-01T09:03:39.398663+03:00",
+      "story_id": "4975579c60a381ca"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "Интернет мемы на утро 1 октября и детектор лжи",
+      "body": "Интернет мемы на утро 1 октября и детектор лжи Mixnews",
+      "aside": "Интернет мемы на утро 1 октября и детектор лжи - Mixnews",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-10-01T09:03:39.398663+03:00",
+      "story_id": "c6ef51bdf5ef4175"
+    },
+    {
+      "category": "moscow",
+      "headline": "Йоахим Реннинг снимет хоррор «Система",
+      "body": "Йоахим Реннинг снимет хоррор «Система» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-10-01T09:03:39.398663+03:00",
+      "story_id": "e0478a04c8929a5c"
+    },
+    {
+      "category": "moscow",
+      "headline": "Дэнни Бойл подтвердил, что Киллиан Мерфи сыграет в «28 лет спустя. Часть 3",
+      "body": "Дэнни Бойл подтвердил, что Киллиан Мерфи сыграет в «28 лет спустя. Часть 3» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-10-01T09:03:39.398663+03:00",
+      "story_id": "ee1d7a008a4f0fc0"
+    },
+    {
+      "category": "moscow",
+      "headline": "Фильм Пункт назначения. Рука смерти (Тайвань, 2026) - Афиша-Кино",
+      "body": "Фильм Пункт назначения. Рука смерти (Тайвань, 2026) - Афиша-Кино afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-10-01T09:03:39.398663+03:00",
+      "story_id": "b93556884e1afa47"
+    }
+  ]
+}

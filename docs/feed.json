@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T18:29:46.242309+03:00",
+  "updated_at": "2026-10-02T00:04:00.782571+03:00",
   "items": [
     {
       "category": "russia",
@@ -14104,6 +14104,96 @@
       "is_internet_element": false,
       "added_at": "2026-10-01T18:29:46.242309+03:00",
       "story_id": "9ce288ced37d2010"
+    },
+    {
+      "category": "random_top",
+      "headline": "Эстония запретила транзит российского и белорусского зерна",
+      "body": "Эстония запретила транзит российского и белорусского зерна ВФокусе Mail Эстония запретила транзит российского и белорусского зерна через свою территорию Радио Свобода Глава МИД Эстонии высказался за отказ от транзита зерна из РФ через порты Балтии Интерфакс Эстония запретила транзит зерна из РФ. Его и так нет, но власти хотят гарантировать, что Москва не использует эстонские порты в будущем theins.ru Более 90 человек попали в больницу после отравления на свадьбе в Азербайджане Мойка78.ру",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-10-02T00:04:00.782571+03:00",
+      "story_id": "4fa99593840048a3"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "И ни слова о торте: 15 мемов про Наполеона, которые оценят поклонники императора",
+      "body": "И ни слова о торте: 15 мемов про Наполеона, которые оценят поклонники императора Вокруг света",
+      "aside": "И ни слова о торте: 15 мемов про Наполеона, которые оценят поклонники императора - Вокруг света",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-10-02T00:04:00.782571+03:00",
+      "story_id": "e054fbb845902608"
+    },
+    {
+      "category": "moscow",
+      "headline": "Каждый пятый россиянин верит, что Солнце вращается вокруг Земли",
+      "body": "Каждый пятый россиянин верит, что Солнце вращается вокруг Земли daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-10-02T00:04:00.782571+03:00",
+      "story_id": "ec5a4d7796a98c5a"
+    },
+    {
+      "category": "moscow",
+      "headline": "Ученые обнаружили, что число домашних кошек связано с уровнем счастья в стране",
+      "body": "Ученые обнаружили, что число домашних кошек связано с уровнем счастья в стране daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-10-02T00:04:00.782571+03:00",
+      "story_id": "3cd2830e4af6c783"
+    },
+    {
+      "category": "moscow",
+      "headline": "Tooba и благотворительные фонды запустили сбор помощи одиноким пожилым людям",
+      "body": "Tooba и благотворительные фонды запустили сбор помощи одиноким пожилым людям daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-10-02T00:04:00.782571+03:00",
+      "story_id": "aabd149b9ef2f1ff"
+    },
+    {
+      "category": "moscow",
+      "headline": "Арнольд Шварценеггер предстал в образе Санта-Клауса в тизере-трейлере «Человека с мешком",
+      "body": "Арнольд Шварценеггер предстал в образе Санта-Клауса в тизере-трейлере «Человека с мешком» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-10-02T00:04:00.782571+03:00",
+      "story_id": "bcd1dbacc798aaec"
     }
   ]
 }

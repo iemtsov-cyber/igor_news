@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updated_at": "2026-10-02T11:42:31.523892+03:00",
+  "updated_at": "2026-10-02T17:46:19.869572+03:00",
   "items": [
     {
       "category": "random_top",
@@ -226,6 +226,81 @@
       "is_internet_element": false,
       "added_at": "2026-10-02T11:42:31.523892+03:00",
       "story_id": "6cd060d3bfc75a16"
+    },
+    {
+      "category": "random_top",
+      "headline": "Новак: власти дадут НПЗ возможность перенести сроки модернизации",
+      "body": "Новак: власти дадут НПЗ возможность перенести сроки модернизации БИЗНЕС Online — Новости Казани Новак считает, что восстановление НПЗ актуальнее, чем их модернизация Интерфакс Украина за ночь атаковала четыре НПЗ в России Русская служба The Moscow Times Ситуация на заправках, есть ли топливо и что происходит с экономикой: главные заявления Новака Новые Известия Новак сообщил о защите НПЗ от атак: пассивная оборона, ПВО и поддержка модернизации Финансы Mail",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-10-02T17:46:19.869572+03:00",
+      "story_id": "f695bd93c24e7864"
+    },
+    {
+      "category": "moscow",
+      "headline": "Афиша» проведет для подписчиков «СберПрайма» экскурсию по театральной Москве",
+      "body": "Афиша» проведет для подписчиков «СберПрайма» экскурсию по театральной Москве daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-10-02T17:46:19.869572+03:00",
+      "story_id": "0836f1e1c7a6a9ef"
+    },
+    {
+      "category": "moscow",
+      "headline": "Блогера-инцела Алексея Поднебесного приговорили к трем годам колонии за секс с несовершеннолетней",
+      "body": "Блогера-инцела Алексея Поднебесного приговорили к трем годам колонии за секс с несовершеннолетней daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-10-02T17:46:19.869572+03:00",
+      "story_id": "2dd264627cf1dc72"
+    },
+    {
+      "category": "moscow",
+      "headline": "Арнольд Шварценеггер отправил роботов в доменную печь — в точности как в «Терминаторе-2",
+      "body": "Арнольд Шварценеггер отправил роботов в доменную печь — в точности как в «Терминаторе-2» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-10-02T17:46:19.869572+03:00",
+      "story_id": "c4e152fec87999dc"
+    },
+    {
+      "category": "moscow",
+      "headline": "Никита Кологривый снялся в продолжении сериала «Камбэк",
+      "body": "Никита Кологривый снялся в продолжении сериала «Камбэк» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-10-02T17:46:19.869572+03:00",
+      "story_id": "bd3fbab491073e86"
     }
   ]
 }

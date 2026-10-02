@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "updated_at": "2026-10-02T08:46:40.783153+03:00",
+  "updated_at": "2026-10-02T11:29:04.524436+03:00",
   "items": [
     {
       "category": "random_top",
@@ -151,6 +151,66 @@
       "is_internet_element": false,
       "added_at": "2026-10-02T08:46:40.783153+03:00",
       "story_id": "b07ece57f7228612"
+    },
+    {
+      "category": "random_top",
+      "headline": "Российские военные поразили в Киеве авто-железнодорожный мост через Днепр",
+      "body": "Российские военные поразили в Киеве авто-железнодорожный мост через Днепр EADaily ВС РФ ударили по мосту через Днепр и подстанции «Киевская» Новые Известия ВС РФ поразили мост через Днепр в Киеве ng.ru Российские военные нанесли удар по судну с грузами для ВСУ в Черном море Интерфакс Армия России выводит из строя инфраструктурные объекты в Киеве ugra-news.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-10-02T11:29:04.524436+03:00",
+      "story_id": "2c6e51741de585d9"
+    },
+    {
+      "category": "moscow",
+      "headline": "Оуэн Уилсон рассказал о возвращении к «Знакомству с родителями»: «Все легко вернулись к своим ролям",
+      "body": "Оуэн Уилсон рассказал о возвращении к «Знакомству с родителями»: «Все легко вернулись к своим ролям» daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-10-02T11:29:04.524436+03:00",
+      "story_id": "6afa4b2101babae6"
+    },
+    {
+      "category": "moscow",
+      "headline": "По «Форсажу» снимут телевизионной сериал — премьера намечена на 2028 год",
+      "body": "По «Форсажу» снимут телевизионной сериал — премьера намечена на 2028 год daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-10-02T11:29:04.524436+03:00",
+      "story_id": "b66e6cdb6d06d6dd"
+    },
+    {
+      "category": "moscow",
+      "headline": "Почти у каждой звезды есть бьюти-бренд. Зачем их создают и почему мы покупаем Rhode и Dua",
+      "body": "Почти у каждой звезды есть бьюти-бренд. Зачем их создают и почему мы покупаем Rhode и Dua daily.afisha.ru",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-10-02T11:29:04.524436+03:00",
+      "story_id": "4c91d5053b89b118"
     }
   ]
 }

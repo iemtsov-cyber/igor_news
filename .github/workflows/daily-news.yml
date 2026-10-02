@@ -2,8 +2,6 @@ name: News every 4 hours + GitHub Pages
 
 on:
   workflow_dispatch:
-  push:
-    branches: ["main"]
   schedule:
     # Every 4 hours in Moscow, shifted away from minute 00 to avoid GitHub Actions peak load.
     - cron: "17 3,7,11,15,19,23 * * *"

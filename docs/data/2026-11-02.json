@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updated_at": "2026-11-02T16:27:41.739319+03:00",
+  "updated_at": "2026-11-02T17:35:23.998280+03:00",
   "items": [
     {
       "category": "random_top",
@@ -76,6 +76,456 @@
       "is_internet_element": false,
       "added_at": "2026-11-02T16:27:41.739319+03:00",
       "story_id": "a24422ca199bc02e"
+    },
+    {
+      "category": "technology",
+      "headline": "Голикова анонсировала расширение программы высокотехнологичной медпомощи",
+      "body": "Голикова анонсировала расширение программы высокотехнологичной медпомощи",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 1.0,
+      "preference_tags": [
+        "technology",
+        "health",
+        "government"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T17:35:23.998280+03:00",
+      "story_id": "4fc209e2289c2e2d",
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9LMnZScTR6U0g1YTVUdVZOVTNBamhCNVRTWWNKVDJTM3VJWE50VnJNMTZVbHJyWVZiMzQ1X0RDQ2xCVkRoSWdfWEdHRdIBS0FVX3lxTE9LMnZScTR6U0g1YTVUdVZOVTNBamhCNVRTWWNKVDJTM3VJWE50VnJNMTZVbHJyWVZiMzQ1X0RDQ2xCVkRoSWdfWEdHRQ?oc=5"
+      ],
+      "source_names": [
+        "Интерфакс"
+      ],
+      "published_at": "2026-11-02T15:51:00+03:00",
+      "source_dates": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9LMnZScTR6U0g1YTVUdVZOVTNBamhCNVRTWWNKVDJTM3VJWE50VnJNMTZVbHJyWVZiMzQ1X0RDQ2xCVkRoSWdfWEdHRdIBS0FVX3lxTE9LMnZScTR6U0g1YTVUdVZOVTNBamhCNVRTWWNKVDJTM3VJWE50VnJNMTZVbHJyWVZiMzQ1X0RDQ2xCVkRoSWdfWEdHRQ?oc=5",
+          "published_at": "2026-11-02T15:51:00+03:00"
+        }
+      ]
+    },
+    {
+      "category": "economy",
+      "headline": "Инвесторы во главе с Blackstone стали партнерами Mitsubishi по проекту LNG Canada",
+      "body": "Инвесторы во главе с Blackstone стали партнерами Mitsubishi по проекту LNG Canada",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 1.0,
+      "preference_tags": [
+        "economy",
+        "investment",
+        "energy"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T17:35:23.998280+03:00",
+      "story_id": "77c99e8d34ddaf7e",
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5rb2ZSR3c1RWVHdlVjbHFXOVo0SjdSWThGSmxvTUthQl9LY2ZpYXFnb1RZczdCRklka01lRHBmb01TMlViMVpEYnhTWdIBS0FVX3lxTE5rb2ZSR3c1RWVHdlVjbHFXOVo0SjdSWThGSmxvTUthQl9LY2ZpYXFnb1RZczdCRklka01lRHBmb01TMlViMVpEYnhTWQ?oc=5"
+      ],
+      "source_names": [
+        "Интерфакс"
+      ],
+      "published_at": "2026-11-02T13:21:00+03:00",
+      "source_dates": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5rb2ZSR3c1RWVHdlVjbHFXOVo0SjdSWThGSmxvTUthQl9LY2ZpYXFnb1RZczdCRklka01lRHBmb01TMlViMVpEYnhTWdIBS0FVX3lxTE5rb2ZSR3c1RWVHdlVjbHFXOVo0SjdSWThGSmxvTUthQl9LY2ZpYXFnb1RZczdCRklka01lRHBmb01TMlViMVpEYnhTWQ?oc=5",
+          "published_at": "2026-11-02T13:21:00+03:00"
+        }
+      ]
+    },
+    {
+      "category": "economy",
+      "headline": "Brent подешевела до $108,48 за баррель",
+      "body": "Brent подешевела до $108,48 за баррель",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 1.0,
+      "preference_tags": [
+        "economy",
+        "energy",
+        "commodities"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T17:35:23.998280+03:00",
+      "story_id": "5558c2fa0bd8632e",
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5rcjdlTmQ4VndabG85alJVSm9jeVJZX1lfS1h1SEFzWXYxdUJVSXpuaS1WaDh2OUdnVnBnb2lRZ2tLSHA2cXkydFVUa9IBS0FVX3lxTE5rcjdlTmQ4VndabG85alJVSm9jeVJZX1lfS1h1SEFzWXYxdUJVSXpuaS1WaDh2OUdnVnBnb2lRZ2tLSHA2cXkydFVUaw?oc=5"
+      ],
+      "source_names": [
+        "Интерфакс"
+      ],
+      "published_at": "2026-11-02T14:59:00+03:00",
+      "source_dates": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5rcjdlTmQ4VndabG85alJVSm9jeVJZX1lfS1h1SEFzWXYxdUJVSXpuaS1WaDh2OUdnVnBnb2lRZ2tLSHA2cXkydFVUa9IBS0FVX3lxTE5rcjdlTmQ4VndabG85alJVSm9jeVJZX1lfS1h1SEFzWXYxdUJVSXpuaS1WaDh2OUdnVnBnb2lRZ2tLSHA2cXkydFVUaw?oc=5",
+          "published_at": "2026-11-02T14:59:00+03:00"
+        }
+      ]
+    },
+    {
+      "category": "russia",
+      "headline": "Москва продолжает наращивать производственную инфраструктуру — Сергей Собянин",
+      "body": "Москва продолжает наращивать производственную инфраструктуру — Сергей Собянин",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 1.0,
+      "preference_tags": [
+        "russia",
+        "infrastructure",
+        "economy"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T17:35:23.998280+03:00",
+      "story_id": "c89e8280da4d1db4",
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ra2ctY3VuODJiYnBzOHA0UDdKVjZtX2wwLUVmUmVVUDZhZUtoMjZoZUlqd1RoeHkwbjIwcEVXekFPNVFBSXBiOFl1ek83ZEtfVlRN?oc=5"
+      ],
+      "source_names": [
+        "Официальный сайт Мэра Москвы"
+      ],
+      "published_at": "2026-11-02T13:03:01+03:00",
+      "source_dates": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ra2ctY3VuODJiYnBzOHA0UDdKVjZtX2wwLUVmUmVVUDZhZUtoMjZoZUlqd1RoeHkwbjIwcEVXekFPNVFBSXBiOFl1ek83ZEtfVlRN?oc=5",
+          "published_at": "2026-11-02T13:03:01+03:00"
+        }
+      ]
+    },
+    {
+      "category": "ai",
+      "headline": "Нейросети, Шекспир и храм-призрак: куда пойти 2–6 ноября",
+      "body": "Нейросети, Шекспир и храм-призрак: куда пойти 2–6 ноября",
+      "aside": "",
+      "importance": 4.0,
+      "confidence": 1.0,
+      "preference_tags": [
+        "ai",
+        "culture",
+        "events"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T17:35:23.998280+03:00",
+      "story_id": "9e6b19b3da953523",
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTE1oemhhTmNXamZySGNKUjkxUTV3RGhjR2ZkQm1iLVE0MXpZb2FtRFJ1bDZZbmUxdGkyNmxwMUlBRFU0V0d3ZWxoNFVXSU1ENDlWWDNIdUtmeG1mbVFpcXV0eVhmQWxFc3Q0dERoZDR3MUxSbDF1ekFRZzFR?oc=5"
+      ],
+      "source_names": [
+        "Ведомости"
+      ],
+      "published_at": "2026-11-02T13:23:21+03:00",
+      "source_dates": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1oemhhTmNXamZySGNKUjkxUTV3RGhjR2ZkQm1iLVE0MXpZb2FtRFJ1bDZZbmUxdGkyNmxwMUlBRFU0V0d3ZWxoNFVXSU1ENDlWWDNIdUtmeG1mbVFpcXV0eVhmQWxFc3Q0dERoZDR3MUxSbDF1ekFRZzFR?oc=5",
+          "published_at": "2026-11-02T13:23:21+03:00"
+        }
+      ]
+    },
+    {
+      "category": "technology",
+      "headline": "Beget начал восстановление данных после массированной кибератаки",
+      "body": "Beget начал восстановление данных после массированной кибератаки",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 1.0,
+      "preference_tags": [
+        "technology",
+        "cybersecurity",
+        "incident"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T17:35:23.998280+03:00",
+      "story_id": "f8457532e4052fcc",
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYjg5cVhqNElFRmxaVF9QLW0xWW5WWEJNc05rQUg2d3kyWHdrWjE0Zng3azFnejZuSFR6OVppYWFsemhyRGFjeU52dUdTNGdjUlpBZkhiamtsOVY4MHAxTk83V2NLTW5JcWpsTG1pMnI1cGEtSktfdmdac29SeVh5aXplWWRCRFY4TW5vZXJzc3c?oc=5"
+      ],
+      "source_names": [
+        "Ведомости"
+      ],
+      "published_at": "2026-11-02T17:17:21+03:00",
+      "source_dates": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYjg5cVhqNElFRmxaVF9QLW0xWW5WWEJNc05rQUg2d3kyWHdrWjE0Zng3azFnejZuSFR6OVppYWFsemhyRGFjeU52dUdTNGdjUlpBZkhiamtsOVY4MHAxTk83V2NLTW5JcWpsTG1pMnI1cGEtSktfdmdac29SeVh5aXplWWRCRFY4TW5vZXJzc3c?oc=5",
+          "published_at": "2026-11-02T17:17:21+03:00"
+        }
+      ]
+    },
+    {
+      "category": "economy",
+      "headline": "Акции VK выросли на 15% вечером 2 ноября",
+      "body": "Акции VK выросли на 15% вечером 2 ноября",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 1.0,
+      "preference_tags": [
+        "economy",
+        "stocks",
+        "finance"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T17:35:23.998280+03:00",
+      "story_id": "1773e19e0b7f1843",
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxPR1VKdFU4TzNRT0RyMWhnZFhkZ2tlak8wcEVwZ3hvMkxVZ0FlX19Edl9ZdGg5bVc1STBEMWJpWkxVV1JjTGpwX1JDZnZJd0tKYnFkcTFNWWlYSUNYc1RKQURWa3lpMDhTV0FkR0pFSnVxbVZWV2ZWclNmdm4wa1hhYVdGVTQ?oc=5"
+      ],
+      "source_names": [
+        "Ведомости"
+      ],
+      "published_at": "2026-11-02T17:28:48+03:00",
+      "source_dates": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPR1VKdFU4TzNRT0RyMWhnZFhkZ2tlak8wcEVwZ3hvMkxVZ0FlX19Edl9ZdGg5bVc1STBEMWJpWkxVV1JjTGpwX1JDZnZJd0tKYnFkcTFNWWlYSUNYc1RKQURWa3lpMDhTV0FkR0pFSnVxbVZWV2ZWclNmdm4wa1hhYVdGVTQ?oc=5",
+          "published_at": "2026-11-02T17:28:48+03:00"
+        }
+      ]
+    },
+    {
+      "category": "economy",
+      "headline": "Мосбиржа начнет торги 27 вечными фьючерсами на глобальные активы",
+      "body": "Мосбиржа начнет торги 27 вечными фьючерсами на глобальные активы",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 1.0,
+      "preference_tags": [
+        "economy",
+        "finance",
+        "markets"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T17:35:23.998280+03:00",
+      "story_id": "76a5b9e475e9efe1",
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbDB6YVY4UFdZU0dGTGxvUnBRZFphQnN5Ym1OTHUxNy1xLWpQNmF4VnlxdUJaUkxEdUVwaExKd0tMZVJSSlYwQ3VyMUllVnpZN2dvb1hiT0RkXzhaQVlnSkJyclVDSG5YamlMcmJhTDBDc1lBTmVvVkp1dHRCZS1HTjg3MDVpUUlQcWtKc0w3TExHVm1ZNDItYzBtcFE?oc=5"
+      ],
+      "source_names": [
+        "Ведомости"
+      ],
+      "published_at": "2026-11-02T17:02:30+03:00",
+      "source_dates": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbDB6YVY4UFdZU0dGTGxvUnBRZFphQnN5Ym1OTHUxNy1xLWpQNmF4VnlxdUJaUkxEdUVwaExKd0tMZVJSSlYwQ3VyMUllVnpZN2dvb1hiT0RkXzhaQVlnSkJyclVDSG5YamlMcmJhTDBDc1lBTmVvVkp1dHRCZS1HTjg3MDVpUUlQcWtKc0w3TExHVm1ZNDItYzBtcFE?oc=5",
+          "published_at": "2026-11-02T17:02:30+03:00"
+        }
+      ]
+    },
+    {
+      "category": "economy",
+      "headline": "Московская биржа запустит организованный рынок цифровых валют",
+      "body": "Московская биржа запустит организованный рынок цифровых валют",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 1.0,
+      "preference_tags": [
+        "economy",
+        "finance",
+        "digital_assets"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T17:35:23.998280+03:00",
+      "story_id": "4b9fb175ac8ef7c0",
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxPXzhuNTdudTAwX2txM3BSeFB2TDBHbW8yZ3VRT080QUZUdUFpeHJyU1o3VTZmMHltN3hiS3RLbVNydXF2c1ppaEpubjZoa1ZwQzB1RFdoak4yOHM0dVBBNjhzS1phbWNNcmlpbWpONWY3SlZpWFk5UmxLeXRmdFlGek52cUJ5d3FNMkhpbENWWUt4Zw?oc=5"
+      ],
+      "source_names": [
+        "Ведомости"
+      ],
+      "published_at": "2026-11-02T16:10:01+03:00",
+      "source_dates": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPXzhuNTdudTAwX2txM3BSeFB2TDBHbW8yZ3VRT080QUZUdUFpeHJyU1o3VTZmMHltN3hiS3RLbVNydXF2c1ppaEpubjZoa1ZwQzB1RFdoak4yOHM0dVBBNjhzS1phbWNNcmlpbWpONWY3SlZpWFk5UmxLeXRmdFlGek52cUJ5d3FNMkhpbENWWUt4Zw?oc=5",
+          "published_at": "2026-11-02T16:10:01+03:00"
+        }
+      ]
+    },
+    {
+      "category": "space",
+      "headline": "Два космических телескопа NASA раскрыли детали туманности Кошачья голова",
+      "body": "Два космических телескопа NASA раскрыли детали туманности Кошачья голова",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 1.0,
+      "preference_tags": [
+        "space",
+        "nasa",
+        "astronomy"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T17:35:23.998280+03:00",
+      "story_id": "8e384d7a29d45e3f",
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5T3JjWnM2YWZWdktsYmtraTFCWUF0YWFBMlpDRjhBR2kteUtXWVVvcEtjbDZPVnI0azFTVXBGbVVpSTlJNzM5NExlVkdOSjBqYXN2Ng?oc=5"
+      ],
+      "source_names": [
+        "Naked Science"
+      ],
+      "published_at": "2026-11-02T13:25:46+03:00",
+      "source_dates": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5T3JjWnM2YWZWdktsYmtraTFCWUF0YWFBMlpDRjhBR2kteUtXWVVvcEtjbDZPVnI0azFTVXBGbVVpSTlJNzM5NExlVkdOSjBqYXN2Ng?oc=5",
+          "published_at": "2026-11-02T13:25:46+03:00"
+        }
+      ]
+    },
+    {
+      "category": "ai",
+      "headline": "Сотрудники используют ИИ тайком: что происходит с нейросетями в офисах | ОТВ - Новости",
+      "body": "Сотрудники используют ИИ тайком: что происходит с нейросетями в офисах | ОТВ - Новости",
+      "aside": "",
+      "importance": 5.0,
+      "confidence": 1.0,
+      "preference_tags": [
+        "ai",
+        "workplace",
+        "productivity"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T17:35:23.998280+03:00",
+      "story_id": "a8e4895081adfd78",
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcHBOMFB2TzByV0dNQUg5VDVDalNQeEZBR1E1TTZ1Z1VmLWV1T3FScFNuTHlMTUJVa2VJNmZkUlMyaDdFY2VlRWEyRVNMSFVsekYyWlQ1QmxnYmlXcW5ZYXJuSkdPQ0FoLWloWXZ3aUh0Q2xvWXU4bWN1eGhocGRoZUg1R3JxVDJXVTMyUzhNb1FVZ3c2SXdaMmdGaHBXNHA5?oc=5"
+      ],
+      "source_names": [
+        "obltv.ru"
+      ],
+      "published_at": "2026-11-02T15:03:13+03:00",
+      "source_dates": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcHBOMFB2TzByV0dNQUg5VDVDalNQeEZBR1E1TTZ1Z1VmLWV1T3FScFNuTHlMTUJVa2VJNmZkUlMyaDdFY2VlRWEyRVNMSFVsekYyWlQ1QmxnYmlXcW5ZYXJuSkdPQ0FoLWloWXZ3aUh0Q2xvWXU4bWN1eGhocGRoZUg1R3JxVDJXVTMyUzhNb1FVZ3c2SXdaMmdGaHBXNHA5?oc=5",
+          "published_at": "2026-11-02T15:03:13+03:00"
+        }
+      ]
+    },
+    {
+      "category": "ai",
+      "headline": "Северокорейские хакеры использовали искусственный интеллект для кражи у Binance криптовалюты на $6,3 млрд",
+      "body": "Северокорейские хакеры использовали искусственный интеллект для кражи у Binance криптовалюты на $6,3 млрд",
+      "aside": "",
+      "importance": 7.0,
+      "confidence": 1.0,
+      "preference_tags": [
+        "ai",
+        "cybersecurity",
+        "crime"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T17:35:23.998280+03:00",
+      "story_id": "d7c885b2686e2037",
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRV9KQVo4TFhSRXNBNnBnN0NEMVZDR2dxdXFvWEIzV0VUS19rNlctZTRhWlFyby1ESVB3NWlLODlkSUNPZkFPbTRJZjY2cHh5STh5eFJBeHBDbEc1amIwbTNNWF9UMS04MHN6X2RmRVQ4VXhYUlllSWhtcTEwZGRtdmxITWJwVnljMUROcGNuQXpkcWpiOGJORkJPZTNncUZicTEzVmk3bHp6czFqcFI0LTM2QTB3bWh4RXRsQjVvQkFwb2lKSGhrREpMR2wyelA0Zmg1SExCV195NmVxRmZfNGhZUmN1YmQ5NlE?oc=5"
+      ],
+      "source_names": [
+        "Русская служба The Moscow Times"
+      ],
+      "published_at": "2026-11-02T16:03:15+03:00",
+      "source_dates": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRV9KQVo4TFhSRXNBNnBnN0NEMVZDR2dxdXFvWEIzV0VUS19rNlctZTRhWlFyby1ESVB3NWlLODlkSUNPZkFPbTRJZjY2cHh5STh5eFJBeHBDbEc1amIwbTNNWF9UMS04MHN6X2RmRVQ4VXhYUlllSWhtcTEwZGRtdmxITWJwVnljMUROcGNuQXpkcWpiOGJORkJPZTNncUZicTEzVmk3bHp6czFqcFI0LTM2QTB3bWh4RXRsQjVvQkFwb2lKSGhrREpMR2wyelA0Zmg1SExCV195NmVxRmZfNGhZUmN1YmQ5NlE?oc=5",
+          "published_at": "2026-11-02T16:03:15+03:00"
+        }
+      ]
+    },
+    {
+      "category": "ai",
+      "headline": "Круглый стол по вопросам использования искусственного интеллекта",
+      "body": "Круглый стол по вопросам использования искусственного интеллекта",
+      "aside": "",
+      "importance": 3.0,
+      "confidence": 1.0,
+      "preference_tags": [
+        "ai",
+        "government",
+        "policy"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T17:35:23.998280+03:00",
+      "story_id": "1db7a03f1695a06d",
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMXNMZTJsNGltcTFrS2pUckhrV0xIXzc5blN0eW85Y256dS0yTlIzUUVDckl1RzdQZFk2YWFHZWV3Z0tweEZoUFhaWFZ0UF9RQTA2dkFYNVlWbnFURDdfU1h4c2E1cHRrRmpaeEF3ejV1T1BVUXFDdFQwTXkydHdkSXUxeS14cGc2NVNBSkh2NThIb0k2bloxX0V3RVp1M0h4NjlURjR1SQ?oc=5"
+      ],
+      "source_names": [
+        "Алтайский филиал РАНХиГС"
+      ],
+      "published_at": "2026-11-02T13:30:00+03:00",
+      "source_dates": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMXNMZTJsNGltcTFrS2pUckhrV0xIXzc5blN0eW85Y256dS0yTlIzUUVDckl1RzdQZFk2YWFHZWV3Z0tweEZoUFhaWFZ0UF9RQTA2dkFYNVlWbnFURDdfU1h4c2E1cHRrRmpaeEF3ejV1T1BVUXFDdFQwTXkydHdkSXUxeS14cGc2NVNBSkh2NThIb0k2bloxX0V3RVp1M0h4NjlURjR1SQ?oc=5",
+          "published_at": "2026-11-02T13:30:00+03:00"
+        }
+      ]
+    },
+    {
+      "category": "ai",
+      "headline": "TRT на русском - Искусственный интеллект уже умнее ведущих ученых",
+      "body": "TRT на русском - Искусственный интеллект уже умнее ведущих ученых",
+      "aside": "",
+      "importance": 4.0,
+      "confidence": 1.0,
+      "preference_tags": [
+        "ai",
+        "education",
+        "science"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T17:35:23.998280+03:00",
+      "story_id": "bd7ec5f8224f51ad",
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oX19Dbl91N0RfTGtVeXYtZnVxZXhDOUdNcjRNZlN4Z2x1MWx5T21yLTVQczNHdDdsb2JzM2NsNWFEN0hjUHJVeEJ3VVRIVHZBeEdfcnZR?oc=5"
+      ],
+      "source_names": [
+        "TRT Russian."
+      ],
+      "published_at": "2026-11-02T14:25:20+03:00",
+      "source_dates": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oX19Dbl91N0RfTGtVeXYtZnVxZXhDOUdNcjRNZlN4Z2x1MWx5T21yLTVQczNHdDdsb2JzM2NsNWFEN0hjUHJVeEJ3VVRIVHZBeEdfcnZR?oc=5",
+          "published_at": "2026-11-02T14:25:20+03:00"
+        }
+      ]
+    },
+    {
+      "category": "ai",
+      "headline": "Конференция «IT-технологии и искусственный интеллект» прошла в ГДК Армавира",
+      "body": "Конференция «IT-технологии и искусственный интеллект» прошла в ГДК Армавира",
+      "aside": "",
+      "importance": 3.0,
+      "confidence": 1.0,
+      "preference_tags": [
+        "ai",
+        "conference",
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T17:35:23.998280+03:00",
+      "story_id": "871db09ccd12a28f",
+      "source_urls": [
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaVlnREliX1BPZ092M1Fvbk1DRDVZTklFbWFGSi1LVWs4Q2M4VUs4VExnSTUxaUM3cjVTNkpocWlWamNuZlJ6UkNiUnVUdmU0SnF5bHBYUjk3WmpfR2RFQXNrTWwwMHNqTWxHVmRvQlFCa1kwNER5OEkwejVGQnNUWE1oM2pZcTkxbEYwMUMyemtLamxnd05CSWQyalI2dE03TjZIQ0NpLUE4LUg5MkFfZUU5OWpWN2Z6cjZLcg?oc=5"
+      ],
+      "source_names": [
+        "Сайт города Армавира"
+      ],
+      "published_at": "2026-11-02T15:23:28+03:00",
+      "source_dates": [
+        {
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQaVlnREliX1BPZ092M1Fvbk1DRDVZTklFbWFGSi1LVWs4Q2M4VUs4VExnSTUxaUM3cjVTNkpocWlWamNuZlJ6UkNiUnVUdmU0SnF5bHBYUjk3WmpfR2RFQXNrTWwwMHNqTWxHVmRvQlFCa1kwNER5OEkwejVGQnNUWE1oM2pZcTkxbEYwMUMyemtLamxnd05CSWQyalI2dE03TjZIQ0NpLUE4LUg5MkFfZUU5OWpWN2Z6cjZLcg?oc=5",
+          "published_at": "2026-11-02T15:23:28+03:00"
+        }
+      ]
     }
   ]
 }

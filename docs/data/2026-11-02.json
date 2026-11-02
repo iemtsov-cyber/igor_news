@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-02",
+  "updated_at": "2026-11-02T16:27:41.739319+03:00",
+  "items": [
+    {
+      "category": "random_top",
+      "headline": "Гостиницы Сочи прибавили 954 номера: какие отели открылись и что появится до конца 2026 года",
+      "body": "Гостиницы Сочи прибавили 954 номера: какие отели открылись и что появится до конца 2026 года Финансы Mail Ещё заголовки и мнения в приложении \"Google Новости",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "random_top"
+      ],
+      "is_random_top": true,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T16:27:41.739319+03:00",
+      "story_id": "c862f1191ec687bf"
+    },
+    {
+      "category": "internet_culture",
+      "headline": "Умер проповедник и герой интернет-мемов Игнатий Лапкин",
+      "body": "Умер проповедник и герой интернет-мемов Игнатий Лапкин Kursiv Media",
+      "aside": "Умер проповедник и герой интернет-мемов Игнатий Лапкин - Kursiv Media",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-11-02T16:27:41.739319+03:00",
+      "story_id": "bad05c689a026de0"
+    },
+    {
+      "category": "moscow",
+      "headline": "Хакеры взломали холодильники в супермаркетах по всей Европе и повысили там температуру до +70",
+      "body": "Хакеры взломали холодильники в супермаркетах по всей Европе и повысили там температуру до +70 Афиша Daily",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T16:27:41.739319+03:00",
+      "story_id": "96cd5c0842af9be0"
+    },
+    {
+      "category": "moscow",
+      "headline": "Каждый пятый российский пенсионер продолжает работать",
+      "body": "Каждый пятый российский пенсионер продолжает работать Афиша Daily",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T16:27:41.739319+03:00",
+      "story_id": "5a09b6c39251efdc"
+    },
+    {
+      "category": "moscow",
+      "headline": "ИИ «Яндекса» предсказал, когда в Москве выпадет снег",
+      "body": "ИИ «Яндекса» предсказал, когда в Москве выпадет снег Афиша Daily",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.78,
+      "preference_tags": [
+        "moscow"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T16:27:41.739319+03:00",
+      "story_id": "a24422ca199bc02e"
+    }
+  ]
+}

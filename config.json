@@ -101,6 +101,6 @@
     "max_tags_per_story": 6
   },
   "provider": "rss_plus_openrouter_free",
-  "editor_max_output_tokens": 6500,
+  "editor_max_output_tokens": 12000,
   "openrouter_free_requests_per_day": 50
 }

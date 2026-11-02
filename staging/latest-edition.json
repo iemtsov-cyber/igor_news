@@ -1,139 +1,110 @@
 {
-  "generated_at": "2026-11-02T17:50:06.761903+03:00",
+  "generated_at": "2026-11-02T18:19:59.417608+03:00",
   "edition": {
+    "title": "Новости Игоря",
     "items": [
       {
-        "aside": "Северокорейские хакеры использовали ИИ для криптовалютной кражи.",
-        "body": "Северокорейские хакеры использовали искусственный интеллект для кражи у Binance криптовалюты на $6,3 млрд.",
-        "category": "ai",
-        "confidence": 0.85,
-        "headline": "Северокорейские хакеры использовали ИИ для кражи $6,3 млрд",
-        "importance": 8,
-        "is_internet_element": false,
-        "is_random_top": false,
-        "preference_tags": [
-          "ai",
-          "security",
-          "economy"
+        "category": "space",
+        "headline": "Два космических телескопа NASA раскрыли детали туманности Кошачья голова",
+        "body": "Два космических телескопа NASA раскрыли детали туманности Кошачья голова.",
+        "aside": "",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5T3JjWnM2YWZWdktsYmtraTFCWUF0YWFBMlpDRjhBR2kteUtXWVVvcEtjbDZPVnI0azFTVXBGbVVpSTlJNzM5NExlVkdOSjBqYXN2Ng?oc=5"
         ],
         "source_names": [
-          "Русская служба The Moscow Times"
+          "Naked Science"
         ],
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRV9KQVo4TFhSRXNBNnBnN0NEMVZDR2dxdXFvWEIzV0VUS19rNlctZTRhWlFyby1ESVB3NWlLODlkSUNPZkFPbTRJZjY2cHh5STh5eFJBeHBDbEc1amIwbTNNWF9UMS04MHN6X2RmRVQ4VXhYUlllSWhtcTEwZGRtdmxITWJwVnljMUROcGNuQXpkcWpiOGJORkJPZTNncUZicTEzVmk3bHp6czFqcFI0LTM2QTB3bWh4RXRsQjVvQkFwb2lKSGhrREpMR2wyelA0Zmg1SExCV195NmVxRmZfNGhZUmN1YmQ5NlE?oc=5"
-        ],
-        "source_dates": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRV9KQVo4TFhSRXNBNnBnN0NEMVZDR2dxdXFvWEIzV0VUS19rNlctZTRhWlFyby1ESVB3NWlLODlkSUNPZkFPbTRJZjY2cHh5STh5eFJBeHBDbEc1amIwbTNNWF9UMS04MHN6X2RmRVQ4VXhYUlllSWhtcTEwZGRtdmxITWJwVnljMUROcGNuQXpkcWpiOGJORkJPZTNncUZicTEzVmk3bHp6czFqcFI0LTM2QTB3bWh4RXRsQjVvQkFwb2lKSGhrREpMR2wyelA0Zmg1SExCV195NmVxRmZfNGhZUmN1YmQ5NlE?oc=5",
-            "published_at": "2026-11-02T16:03:15+03:00"
-          }
-        ],
-        "published_at": "2026-11-02T16:03:15+03:00"
-      },
-      {
-        "aside": "NASA ищет частные компании для продления срока службы телескопа.",
-        "body": "NASA попросило частников спасти космический телескоп «Хаббл» — заявки принимаются до конца ноября.",
-        "category": "space",
-        "confidence": 0.9,
-        "headline": "NASA ищет частные компании для спасения «Хаббла»",
         "importance": 8,
-        "is_internet_element": false,
-        "is_random_top": false,
+        "confidence": 1,
         "preference_tags": [
           "space",
           "technology",
           "engineering"
         ],
-        "source_names": [
-          "3DNews"
-        ],
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVm1Rd3RaOXZkcVFKeEsxSEVpanVveEdBUGxlSlNfZTlQUTdJSl9jamRBU3diRGZIbDFaa1EtZlZ5b2pUenFWQ1pSMkFvRWtVQk9rTEVyVFJzazNNazg2NnVHMHJHYk1NcHNkdndzS3E2WjJRdTBtTkZKWnRqVExLNlF3TnZSMzFlWVBQbzhvNXFNX1lEaGhob1pIYjZPUjNUQXE5X1QxRGdicWRCcDAyRFI0V0FPR3BhajBqQmxhcGhvMXBqWHfSAcsBQVVfeXFMTXU1bTBUQ1hUcXNYUEdidFEzbGg1T2FOalR1Ymo2SGtCaktua3lZeGtmTVhobzg5VGJyODgxeUR5MU5UTU04OVJPM1o4RzdzcHoyRTdUbDZGRFpENG1qUU52UVNvZ1M1UDE0cEFydlZwSlJHUW9EX2puQmpfd1VWR3JMblpfWFRTMFRDOFIzZTAwdlpaR040NjFoTFN6UVVES1Jia3BUeTlnZWF4cm1nRElnTURsOFdfNzlEUjRmOHhnQXlVMEtUREN6RVE?oc=5"
-        ],
+        "is_random_top": false,
+        "is_internet_element": false,
         "source_dates": [
           {
-            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVm1Rd3RaOXZkcVFKeEsxSEVpanVveEdBUGxlSlNfZTlQUTdJSl9jamRBU3diRGZIbDFaa1EtZlZ5b2pUenFWQ1pSMkFvRWtVQk9rTEVyVFJzazNNazg2NnVHMHJHYk1NcHNkdndzS3E2WjJRdTBtTkZKWnRqVExLNlF3TnZSMzFlWVBQbzhvNXFNX1lEaGhob1pIYjZPUjNUQXE5X1QxRGdicWRCcDAyRFI0V0FPR3BhajBqQmxhcGhvMXBqWHfSAcsBQVVfeXFMTXU1bTBUQ1hUcXNYUEdidFEzbGg1T2FOalR1Ymo2SGtCaktua3lZeGtmTVhobzg5VGJyODgxeUR5MU5UTU04OVJPM1o4RzdzcHoyRTdUbDZGRFpENG1qUU52UVNvZ1M1UDE0cEFydlZwSlJHUW9EX2puQmpfd1VWR3JMblpfWFRTMFRDOFIzZTAwdlpaR040NjFoTFN6UVVES1Jia3BUeTlnZWF4cm1nRElnTURsOFdfNzlEUjRmOHhnQXlVMEtUREN6RVE?oc=5",
-            "published_at": "2026-11-02T12:51:00+03:00"
+            "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5T3JjWnM2YWZWdktsYmtraTFCWUF0YWFBMlpDRjhBR2kteUtXWVVvcEtjbDZPVnI0azFTVXBGbVVpSTlJNzM5NExlVkdOSjBqYXN2Ng?oc=5",
+            "published_at": "2026-11-02T13:25:46+03:00"
           }
         ],
-        "published_at": "2026-11-02T12:51:00+03:00"
+        "published_at": "2026-11-02T13:25:46+03:00"
       },
       {
-        "aside": "NASA и Google разрабатывают медицинского робота для астронавтов.",
-        "body": "Google и NASA разрабатывают медицинского робота для помощи астронавтам в космосе.",
-        "category": "space",
-        "confidence": 0.85,
-        "headline": "Google и NASA разрабатывают медицинского робота для космоса",
+        "category": "economy",
+        "headline": "Акции VK выросли на 15% вечером 2 ноября",
+        "body": "Акции VK выросли на 15% вечером 2 ноября.",
+        "aside": "",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMihAFBVV95cUxPR1VKdFU4TzNRT0RyMWhnZFhkZ2tlak8wcEVwZ3hvMkxVZ0FlX19Edl9ZdGg5bVc1STBEMWJpWkxVV1JjTGpwX1JDZnZJd0tKYnFkcTFNWWlYSUNYc1RKQURWa3lpMDhTV0FkR0pFSnVxbVZWV2ZWclNmdm4wa1hhYVdGVTQ?oc=5"
+        ],
+        "source_names": [
+          "Ведомости"
+        ],
         "importance": 7,
-        "is_internet_element": false,
-        "is_random_top": false,
+        "confidence": 1,
         "preference_tags": [
-          "space",
-          "ai",
-          "engineering"
+          "economy",
+          "technology"
         ],
-        "source_names": [
-          "Компьютерра"
-        ],
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMnVkZVBTa3ozNUVMeElwQ2dIOXhubkJfWmhqR3BmYzhMVEF2RzFlNFRQcHYyQ1prTTUwYkh5QjRoLTlpVGpPTlZVNF8zWHlkVHk1Sl9OekRaeVR4RElaQVlBcG9fOUFFZDJqaldNdXpCZTVpVFR4ZkpUdnpmTDdKdVFkaGpWWExqZ21EV3VaRnRFdXpxQUVXdVlyaVE5Zm01VERpVXJ3TE1sOUJKT2t1WnRBbGg0NmNkRDBj?oc=5"
-        ],
+        "is_random_top": false,
+        "is_internet_element": false,
         "source_dates": [
           {
-            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMnVkZVBTa3ozNUVMeElwQ2dIOXhubkJfWmhqR3BmYzhMVEF2RzFlNFRQcHYyQ1prTTUwYkh5QjRoLTlpVGpPTlZVNF8zWHlkVHk1Sl9OekRaeVR4RElaQVlBcG9fOUFFZDJqaldNdXpCZTVpVFR4ZkpUdnpmTDdKdVFkaGpWWExqZ21EV3VaRnRFdXpxQUVXdVlyaVE5Zm01VERpVXJ3TE1sOUJKT2t1WnRBbGg0NmNkRDBj?oc=5",
-            "published_at": "2026-11-02T12:53:43+03:00"
+            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPR1VKdFU4TzNRT0RyMWhnZFhkZ2tlak8wcEVwZ3hvMkxVZ0FlX19Edl9ZdGg5bVc1STBEMWJpWkxVV1JjTGpwX1JDZnZJd0tKYnFkcTFNWWlYSUNYc1RKQURWa3lpMDhTV0FkR0pFSnVxbVZWV2ZWclNmdm4wa1hhYVdGVTQ?oc=5",
+            "published_at": "2026-11-02T17:28:48+03:00"
           }
         ],
-        "published_at": "2026-11-02T12:53:43+03:00"
+        "published_at": "2026-11-02T17:28:48+03:00"
       },
       {
-        "aside": "Илон Маск назвал центры обработки данных мелочью по сравнению с планами SpaceX.",
-        "body": "Илон Маск: Центры обработки данных — «мелочь» по сравнению с планами SpaceX на орбите.",
+        "category": "economy",
+        "headline": "Объем торгов на Мосбирже почти достиг 213 трлн рублей в октябре",
+        "body": "Объем торгов на Мосбирже почти достиг 213 трлн рублей в октябре.",
+        "aside": "",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMifEFVX3lxTE01dHBnNFhPelJ4dWNRaU9tTnVtbnZkX05RLUN3ZFdKakJYdFljb2xXMlZRYUZBS3JWdjRSQnMyVFhNNnM3cG5RUTZub2taQ25JM3dfcHJJRVMyTGdpMDc4UlEySDlBUk1haG9ubDIwa1FVdTNmTE5ldWdMc0s?oc=5"
+        ],
+        "source_names": [
+          "Ведомости"
+        ],
+        "importance": 7,
+        "confidence": 1,
+        "preference_tags": [
+          "economy",
+          "technology"
+        ],
+        "is_random_top": false,
+        "is_internet_element": false,
+        "source_dates": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE01dHBnNFhPelJ4dWNRaU9tTnVtbnZkX05RLUN3ZFdKakJYdFljb2xXMlZRYUZBS3JWdjRSQnMyVFhNNnM3cG5RUTZub2taQ25JM3dfcHJJRVMyTGdpMDc4UlEySDlBUk1haG9ubDIwa1FVdTNmTE5ldWdMc0s?oc=5",
+            "published_at": "2026-11-02T17:58:06+03:00"
+          }
+        ],
+        "published_at": "2026-11-02T17:58:06+03:00"
+      },
+      {
         "category": "space",
-        "confidence": 0.8,
-        "headline": "Маск: ЦОД — мелочь по сравнению с планами SpaceX",
-        "importance": 6,
-        "is_internet_element": false,
-        "is_random_top": false,
-        "preference_tags": [
-          "space",
-          "technology",
-          "economy"
-        ],
-        "source_names": [
-          "IDNFinancials"
-        ],
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMi3wRBVV95cUxPQ0tYd2JIYXNOeVdOaFFUMTY0NWZIaG9MQkZaZHRoOFVpdkxZb1B0MUNFOHQ2WUJvRTVpUE1HX200STZRMHlUY25MRFpfbWdQbkJNc0VyTE1zZXM5cTRpWlpjR1ZTQlphU2J3d05ZNHhnYmZ1cUViREREUUhwbEF6bmlMQy1JNlUzOXoxR3A5cmRNZUFjVGZoZkVpSy02YXl2eGtzbzROQ1ZENGpBSWcwbi1DVUotaTd6OUJBemo0TTZWRE1kWlk3ektVNGRoVzBIeXE3YTBWRFU3anNvUVI3R19Wa0p1SC01a2p5aDF4WTIyRGJaTUItbmh1b1FWRDhEaUNHMUNPMDlGc3JpMU9CdTRwV0JUM19zY0tnQ3BESnlidHFOR0VROU11Tm5YcVgwOFZLSHd3UjJ0UUZXMkpXbGR4TUw2a0xMU1dheHVxcmQ4bFRrRlZPX1VvUHUyTHZXcHJ3YnFULXZpYXZyRE5aeUxibzhuc19tOU5uaWl6VmlzdU9idTlHQ09XRFIyT0JLSTNTUl9tVUhQUTNGWW9pUk5QOTBrTk8zM2I0UktsMkIyNFFFNWhCUF8zTTZTdHNfTHlDbnV4UDgwY0oxNzBtY2lsTFU0QkE5SkNPSi1lSXdNS2RSWGdoTXFQNnBkZFZTeEdvWjFtdVgxNXdQQnZ5UkxZSFZDVzNoMkMtOG50VmpNNUhicnFvVUVuMGVPeUFsdkhwMGZzaklkT2luUVJQR0M1aW13c0JLbVBGRmNadDdwTnNhbU9MVEQ3VmlOem8tWGFZd3NvSzREZW9iMGJV?oc=5"
-        ],
-        "source_dates": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxPQ0tYd2JIYXNOeVdOaFFUMTY0NWZIaG9MQkZaZHRoOFVpdkxZb1B0MUNFOHQ2WUJvRTVpUE1HX200STZRMHlUY25MRFpfbWdQbkJNc0VyTE1zZXM5cTRpWlpjR1ZTQlphU2J3d05ZNHhnYmZ1cUViREREUUhwbEF6bmlMQy1JNlUzOXoxR3A5cmRNZUFjVGZoZkVpSy02YXl2eGtzbzROQ1ZENGpBSWcwbi1DVUotaTd6OUJBemo0TTZWRE1kWlk3ektVNGRoVzBIeXE3YTBWRFU3anNvUVI3R19Wa0p1SC01a2p5aDF4WTIyRGJaTUItbmh1b1FWRDhEaUNHMUNPMDlGc3JpMU9CdTRwV0JUM19zY0tnQ3BESnlidHFOR0VROU11Tm5YcVgwOFZLSHd3UjJ0UUZXMkpXbGR4TUw2a0xMU1dheHVxcmQ4bFRrRlZPX1VvUHUyTHZXcHJ3YnFULXZpYXZyRE5aeUxibzhuc19tOU5uaWl6VmlzdU9idTlHQ09XRFIyT0JLSTNTUl9tVUhQUTNGWW9pUk5QOTBrTk8zM2I0UktsMkIyNFFFNWhCUF8zTTZTdHNfTHlDbnV4UDgwY0oxNzBtY2lsTFU0QkE5SkNPSi1lSXdNS2RSWGdoTXFQNnBkZFZTeEdvWjFtdVgxNXdQQnZ5UkxZSFZDVzNoMkMtOG50VmpNNUhicnFvVUVuMGVPeUFsdkhwMGZzaklkT2luUVJQR0M1aW13c0JLbVBGRmNadDdwTnNhbU9MVEQ3VmlOem8tWGFZd3NvSzREZW9iMGJV?oc=5",
-            "published_at": "2026-11-02T12:40:00+03:00"
-          }
-        ],
-        "published_at": "2026-11-02T12:40:00+03:00"
-      },
-      {
-        "aside": "SpaceX планирует создать собственного мобильного оператора.",
+        "headline": "SpaceX купит Boost Mobile и создаст собственного мобильного оператора",
         "body": "SpaceX купит Boost Mobile и создаст собственного мобильного оператора.",
-        "category": "space",
-        "confidence": 0.8,
-        "headline": "SpaceX купит Boost Mobile и станет мобильным оператором",
-        "importance": 7,
-        "is_internet_element": false,
-        "is_random_top": false,
-        "preference_tags": [
-          "space",
-          "technology",
-          "economy"
+        "aside": "",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMimwFBVV95cUxNajgyNzFKbjlsbnRib3Qxdkpubi1aVGlRbVBSRUtGb055akVYdU04QXRBTFkyNWtyZGdxVTZJSVJoa1pSTEgya25xQXRDOXRDOGgteHBJRGhHTS1ibjhKUF9FWGkyelFRcEpIS2hiMkIzSS1iNl9TcW1Lb1RXc19odUZVUnczUHU5aVFnRnluYkNKb2pHa294TnZmNA?oc=5"
         ],
         "source_names": [
           "Incrussia"
         ],
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMimwFBVV95cUxNajgyNzFKbjlsbnRib3Qxdkpubi1aVGlRbVBSRUtGb055akVYdU04QXRBTFkyNWtyZGdxVTZJSVJoa1pSTEgya25xQXRDOXRDOGgteHBJRGhHTS1ibjhKUF9FWGkyelFRcEpIS2hiMkIzSS1iNl9TcW1Lb1RXc19odUZVUnczUHU5aVFnRnluYkNKb2pHa294TnZmNA?oc=5"
+        "importance": 8,
+        "confidence": 1,
+        "preference_tags": [
+          "space",
+          "technology",
+          "economy"
         ],
+        "is_random_top": false,
+        "is_internet_element": false,
         "source_dates": [
           {
             "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNajgyNzFKbjlsbnRib3Qxdkpubi1aVGlRbVBSRUtGb055akVYdU04QXRBTFkyNWtyZGdxVTZJSVJoa1pSTEgya25xQXRDOXRDOGgteHBJRGhHTS1ibjhKUF9FWGkyelFRcEpIS2hiMkIzSS1iNl9TcW1Lb1RXc19odUZVUnczUHU5aVFnRnluYkNKb2pHa294TnZmNA?oc=5",
@@ -143,193 +114,132 @@
         "published_at": "2026-11-02T16:59:18+03:00"
       },
       {
-        "aside": "Путин разрешил временно использовать мощности зарубежных дата-центров.",
-        "body": "Путин разрешил временно использовать мощности зарубежных дата-центров.",
-        "category": "technology",
-        "confidence": 0.85,
-        "headline": "Путин разрешил использование зарубежных дата-центров",
-        "importance": 7,
-        "is_internet_element": false,
-        "is_random_top": false,
-        "preference_tags": [
-          "technology",
-          "russia",
-          "economy"
-        ],
-        "source_names": [
-          "Ведомости"
-        ],
+        "category": "space",
+        "headline": "NASA ищет варианты спасения телескопа «Хаббл»",
+        "body": "NASA ищет варианты спасения телескопа «Хаббл».",
+        "aside": "",
         "source_urls": [
-          "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLXZ5Tk5NWlhuNWtNcW5nTmRBYkR6a0dGZDRUcGJuUFMwa18tempwQmJpZTliX3J5M3ZxSkJfWHN0WmRyZTFFX0NzWDc1MHlnSUZVcnB2TUVZTWNYR3ZYLXNwMmRBOHdIVEZJYTBjbXljNEU0Yy1iS0g5cjF4YU1WRg?oc=5"
-        ],
-        "source_dates": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLXZ5Tk5NWlhuNWtNcW5nTmRBYkR6a0dGZDRUcGJuUFMwa18tempwQmJpZTliX3J5M3ZxSkJfWHN0WmRyZTFFX0NzWDc1MHlnSUZVcnB2TUVZTWNYR3ZYLXNwMmRBOHdIVEZJYTBjbXljNEU0Yy1iS0g5cjF4YU1WRg?oc=5",
-            "published_at": "2026-11-02T17:47:53+03:00"
-          }
-        ],
-        "published_at": "2026-11-02T17:47:53+03:00"
-      },
-      {
-        "aside": "Beget начал восстановление данных после массированной кибератаки.",
-        "body": "Beget начал восстановление данных после массированной кибератаки.",
-        "category": "technology",
-        "confidence": 0.8,
-        "headline": "Beget начал восстановление данных после кибератаки",
-        "importance": 6,
-        "is_internet_element": false,
-        "is_random_top": false,
-        "preference_tags": [
-          "technology",
-          "security",
-          "russia"
-        ],
-        "source_names": [
-          "Ведомости"
-        ],
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYjg5cVhqNElFRmxaVF9QLW0xWW5WWEJNc05rQUg2d3kyWHdrWjE0Zng3azFnejZuSFR6OVppYWFsemhyRGFjeU52dUdTNGdjUlpBZkhiamtsOVY4MHAxTk83V2NLTW5JcWpsTG1pMnI1cGEtSktfdmdac29SeVh5aXplWWRCRFY4TW5vZXJzc3c?oc=5"
-        ],
-        "source_dates": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYjg5cVhqNElFRmxaVF9QLW0xWW5WWEJNc05rQUg2d3kyWHdrWjE0Zng3azFnejZuSFR6OVppYWFsemhyRGFjeU52dUdTNGdjUlpBZkhiamtsOVY4MHAxTk83V2NLTW5JcWpsTG1pMnI1cGEtSktfdmdac29SeVh5aXplWWRCRFY4TW5vZXJzc3c?oc=5",
-            "published_at": "2026-11-02T17:17:21+03:00"
-          }
-        ],
-        "published_at": "2026-11-02T17:17:21+03:00"
-      },
-      {
-        "aside": "В МГУ создали технологию совмещения медицинских изображений.",
-        "body": "В МГУ создали технологию совмещения медицинских изображений.",
-        "category": "ai",
-        "confidence": 0.8,
-        "headline": "В МГУ создали технологию совмещения медицинских изображений",
-        "importance": 6,
-        "is_internet_element": false,
-        "is_random_top": false,
-        "preference_tags": [
-          "ai",
-          "technology",
-          "medicine"
+          "https://news.google.com/rss/articles/CBMic0FVX3lxTE5QWGdsXzloMW1xZGE3QkFZaWFzRUZBSDlMZ2RoeTUzTmdmVlo0Q0trb1A2a3V0ZDE2TkpoZTNlTEJ2YVcxck52NnFTQms4NXUyYmt6T0pRckdUWDdHM3BPN0lBU185Z2xSMGsxYXEtZHBOcWc?oc=5"
         ],
         "source_names": [
           "Наука Mail"
         ],
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMimAFBVV95cUxObHdtYTRpWURJZTd1MWhjSXpEVmNhNWZSOWNIYm01U3RudEh5RGpEOXpIbmxrS1plQnlzSmw5amEwb1prOXoyYXo4Wk5ka0JkSXNRc0lHSTlzX2RZelRTajA0U0p1RzRaa1hVYUpicXlzZ3JUdWd0ejlobksyVVJhcTg2Xzk0RHplUFQxbW9SLTBHd1llYUlrVQ?oc=5"
-        ],
-        "source_dates": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObHdtYTRpWURJZTd1MWhjSXpEVmNhNWZSOWNIYm01U3RudEh5RGpEOXpIbmxrS1plQnlzSmw5amEwb1prOXoyYXo4Wk5ka0JkSXNRc0lHSTlzX2RZelRTajA0U0p1RzRaa1hVYUpicXlzZ3JUdWd0ejlobksyVVJhcTg2Xzk0RHplUFQxbW9SLTBHd1llYUlrVQ?oc=5",
-            "published_at": "2026-11-02T15:44:34+03:00"
-          }
-        ],
-        "published_at": "2026-11-02T15:44:34+03:00"
-      },
-      {
-        "aside": "Сотрудники используют ИИ тайком в офисах.",
-        "body": "Сотрудники используют ИИ тайком: что происходит с нейросетями в офисах.",
-        "category": "ai",
-        "confidence": 0.75,
-        "headline": "Сотрудники используют ИИ тайком в офисах",
-        "importance": 6,
-        "is_internet_element": false,
-        "is_random_top": false,
+        "importance": 8,
+        "confidence": 1,
         "preference_tags": [
-          "ai",
-          "technology",
-          "society"
-        ],
-        "source_names": [
-          "obltv.ru"
-        ],
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcHBOMFB2TzByV0dNQUg5VDVDalNQeEZBR1E1TTZ1Z1VmLWV1T3FScFNuTHlMTUJVa2VJNmZkUlMyaDdFY2VlRWEyRVNMSFVsekYyWlQ1QmxnYmlXcW5ZYXJuSkdPQ0FoLWloWXZ3aUh0Q2xvWXU4bWN1eGhocGRoZUg1R3JxVDJXVTMyUzhNb1FVZ3c2SXdaMmdGaHBXNHA5?oc=5"
-        ],
-        "source_dates": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcHBOMFB2TzByV0dNQUg5VDVDalNQeEZBR1E1TTZ1Z1VmLWV1T3FScFNuTHlMTUJVa2VJNmZkUlMyaDdFY2VlRWEyRVNMSFVsekYyWlQ1QmxnYmlXcW5ZYXJuSkdPQ0FoLWloWXZ3aUh0Q2xvWXU4bWN1eGhocGRoZUg1R3JxVDJXVTMyUzhNb1FVZ3c2SXdaMmdGaHBXNHA5?oc=5",
-            "published_at": "2026-11-02T15:03:13+03:00"
-          }
-        ],
-        "published_at": "2026-11-02T15:03:13+03:00"
-      },
-      {
-        "aside": "Мосбиржа начнет торги вечными фьючерсами на глобальные активы.",
-        "body": "Мосбиржа начнет торги 27 вечными фьючерсами на глобальные активы.",
-        "category": "economy",
-        "confidence": 0.8,
-        "headline": "Мосбиржа начнет торги вечными фьючерсами",
-        "importance": 6,
-        "is_internet_element": false,
-        "is_random_top": false,
-        "preference_tags": [
-          "economy",
-          "finance",
+          "space",
           "technology"
         ],
-        "source_names": [
-          "Ведомости"
-        ],
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbDB6YVY4UFdZU0dGTGxvUnBRZFphQnN5Ym1OTHUxNy1xLWpQNmF4VnlxdUJaUkxEdUVwaExKd0tMZVJSSlYwQ3VyMUllVnpZN2dvb1hiT0RkXzhaQVlnSkJyclVDSG5YamlMcmJhTDBDc1lBTmVvVkp1dHRCZS1HTjg3MDVpUUlQcWtKc0w3TExHVm1ZNDItYzBtcFE?oc=5"
-        ],
-        "source_dates": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbDB6YVY4UFdZU0dGTGxvUnBRZFphQnN5Ym1OTHUxNy1xLWpQNmF4VnlxdUJaUkxEdUVwaExKd0tMZVJSSlYwQ3VyMUllVnpZN2dvb1hiT0RkXzhaQVlnSkJyclVDSG5YamlMcmJhTDBDc1lBTmVvVkp1dHRCZS1HTjg3MDVpUUlQcWtKc0w3TExHVm1ZNDItYzBtcFE?oc=5",
-            "published_at": "2026-11-02T17:02:30+03:00"
-          }
-        ],
-        "published_at": "2026-11-02T17:02:30+03:00"
-      },
-      {
-        "aside": "Московская биржа запустит организованный рынок цифровых валют.",
-        "body": "Московская биржа запустит организованный рынок цифровых валют.",
-        "category": "economy",
-        "confidence": 0.8,
-        "headline": "Московская биржа запустит рынок цифровых валют",
-        "importance": 6,
-        "is_internet_element": false,
         "is_random_top": false,
-        "preference_tags": [
-          "economy",
-          "finance",
-          "technology"
-        ],
-        "source_names": [
-          "Ведомости"
-        ],
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMikgFBVV95cUxPXzhuNTdudTAwX2txM3BSeFB2TDBHbW8yZ3VRT080QUZUdUFpeHJyU1o3VTZmMHltN3hiS3RLbVNydXF2c1ppaEpubjZoa1ZwQzB1RFdoak4yOHM0dVBBNjhzS1phbWNNcmlpbWpONWY3SlZpWFk5UmxLeXRmdFlGek52cUJ5d3FNMkhpbENWWUt4Zw?oc=5"
-        ],
+        "is_internet_element": false,
         "source_dates": [
           {
-            "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPXzhuNTdudTAwX2txM3BSeFB2TDBHbW8yZ3VRT080QUZUdUFpeHJyU1o3VTZmMHltN3hiS3RLbVNydXF2c1ppaEpubjZoa1ZwQzB1RFdoak4yOHM0dVBBNjhzS1phbWNNcmlpbWpONWY3SlZpWFk5UmxLeXRmdFlGek52cUJ5d3FNMkhpbENWWUt4Zw?oc=5",
-            "published_at": "2026-11-02T16:10:01+03:00"
+            "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5QWGdsXzloMW1xZGE3QkFZaWFzRUZBSDlMZ2RoeTUzTmdmVlo0Q0trb1A2a3V0ZDE2TkpoZTNlTEJ2YVcxck52NnFTQms4NXUyYmt6T0pRckdUWDdHM3BPN0lBU185Z2xSMGsxYXEtZHBOcWc?oc=5",
+            "published_at": "2026-11-02T13:07:26+03:00"
           }
         ],
-        "published_at": "2026-11-02T16:10:01+03:00"
+        "published_at": "2026-11-02T13:07:26+03:00"
       },
       {
-        "aside": "Платформенная экономика может добавить России 4,4 трлн рублей к 2030 году.",
-        "body": "Платформная экономика может обеспечить России дополнительные 4,4 трлн рублей в 2030 году.",
-        "category": "economy",
-        "confidence": 0.75,
-        "headline": "Платформная экономика даст России 4,4 трлн рублей",
+        "category": "space",
+        "headline": "Два спутника NASA заглянули в магнитные «разрывы» возле Земли и обнаружили неожиданную закономерность",
+        "body": "Два спутники NASA заглянули в магнитные «разрывы» возле Земли и обнаружили неожиданную закономерность.",
+        "aside": "",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9yeHMzem9JMGdKSzNkemlDTENSNnRPMHRvSmFrUG5zdV9kUlB3RHNTRU9IbGV1ZWF5bkdoUFlFRW9WRUlXY24yUDAtSXZmX0p5T3RhLQ?oc=5"
+        ],
+        "source_names": [
+          "SecurityLab.ru"
+        ],
         "importance": 7,
-        "is_internet_element": false,
-        "is_random_top": false,
+        "confidence": 1,
         "preference_tags": [
-          "economy",
-          "technology",
+          "space",
+          "technology"
+        ],
+        "is_random_top": false,
+        "is_internet_element": false,
+        "source_dates": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9yeHMzem9JMGdKSzNkemlDTENSNnRPMHRvSmFrUG5zdV9kUlB3RHNTRU9IbGV1ZWF5bkdoUFlFRW9WRUlXY24yUDAtSXZmX0p5T3RhLQ?oc=5",
+            "published_at": "2026-11-02T18:03:09+03:00"
+          }
+        ],
+        "published_at": "2026-11-02T18:03:09+03:00"
+      },
+      {
+        "category": "engineering",
+        "headline": "«Росатом» расширяет сотрудничество со странами Африки",
+        "body": "«Росатом» расширяет сотрудничество со странами Африки.",
+        "aside": "",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMifkFVX3lxTE1hUXUwX1dqaVNhQUJid0ZaMnM2SUZValkzUFhvbzV3N29rZ1hxYlNpYi1VdDlkeURkek04aWZfcVVJTHNaVlctR3hRS1FkM2EyY1c5bU5Ccml1a0VQWkVwQWhGZUd3MnpBWUNqakNnUE1BTGFvQ1MxYS1Ea1JWQQ?oc=5"
+        ],
+        "source_names": [
+          "Страна Росатом"
+        ],
+        "importance": 7,
+        "confidence": 1,
+        "preference_tags": [
+          "engineering",
           "russia"
+        ],
+        "is_random_top": false,
+        "is_internet_element": false,
+        "source_dates": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1hUXUwX1dqaVNhQUJid0ZaMnM2SUZValkzUFhvbzV3N29rZ1hxYlNpYi1VdDlkeURkek04aWZfcVVJTHNaVlctR3hRS1FkM2EyY1c5bU5Ccml1a0VQWkVwQWhGZUd3MnpBWUNqakNnUE1BTGFvQ1MxYS1Ea1JWQQ?oc=5",
+            "published_at": "2026-11-02T16:36:55+03:00"
+          }
+        ],
+        "published_at": "2026-11-02T16:36:55+03:00"
+      },
+      {
+        "category": "engineering",
+        "headline": "В СГТУ завершилась медиа-школа «Космос в фокусе» в рамках проекта «Наследие Гагарина»",
+        "body": "В СГТУ завершилась медиа-школа «Космос в фокусе» в рамках проекта «Наследие Гагарина».",
+        "aside": "",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOEtkaEl1YnAzUzcydHdncUVxWGlneG1LVzFZaENNcWhfTk53UzBQc1h4S2xuenB4dzJSdnBXWTVsZ2djMDU5LW9SVzk4cU9LLXRjQTY4bHMyamNPREJvN0VLZGYzNDM2ZWdZRkZfZzlfUjItTUQwM2ZkTTJWU3g1cC1WbHh5Mmc4UURtWFVxblJsTDVsZERyNlZhV1NVWFNHN2pLWDI1alhTUVB1RWVsek9xVQ?oc=5"
+        ],
+        "source_names": [
+          "Саратовский государственный технический университет имени Гагарина Ю.А. 🎓"
+        ],
+        "importance": 6,
+        "confidence": 1,
+        "preference_tags": [
+          "space",
+          "engineering"
+        ],
+        "is_random_top": false,
+        "is_internet_element": false,
+        "source_dates": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOEtkaEl1YnAzUzcydHdncUVxWGlneG1LVzFZaENNcWhfTk53UzBQc1h4S2xuenB4dzJSdnBXWTVsZ2djMDU5LW9SVzk4cU9LLXRjQTY4bHMyamNPREJvN0VLZGYzNDM2ZWdZRkZfZzlfUjItTUQwM2ZkTTJWU3g1cC1WbHh5Mmc4UURtWFVxblJsTDVsZERyNlZhV1NVWFNHN2pLWDI1alhTUVB1RWVsek9xVQ?oc=5",
+            "published_at": "2026-11-02T13:55:47+03:00"
+          }
+        ],
+        "published_at": "2026-11-02T13:55:47+03:00"
+      },
+      {
+        "category": "economy",
+        "headline": "Платформенная экономика может обеспечить России дополнительные 4,4 трлн рублей в 2030 году",
+        "body": "Платформенная экономика может обеспечить России дополнительные 4,4 трлн рублей в 2030 году.",
+        "aside": "",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMVFLbm9yN2FCN1RaOElKTHdRaFA5MUo2aTZKTGdRMHdWT1dQVnNxenNFTVd4X3JCQ2pfeVowaVZNc3B1Ykh6T3c0Qy16TFNBZDRwN1F0M1gwMEw5VGxlTHpScTdsWV9mWG1aSm90UHlpTXNQUmRWdjFubjc1UUN3NGZzMmNVSllHWEVBY3hfQzVDQXlHbkViZVlRMkRzZGgtQnpxTnF2OThOeXV0U0Z0N05GYVJ5RmxMeHdMTC15RWh2eGFpN2w1V0liVEM3dk40clE?oc=5"
         ],
         "source_names": [
           "TKS.RU"
         ],
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMVFLbm9yN2FCN1RaOElKTHdRaFA5MUo2aTZKTGdRMHdWT1dQVnNxenNFTVd4X3JCQ2pfeVowaVZNc3B1Ykh6T3c0Qy16TFNBZDRwN1F0M1gwMEw5VGxlTHpScTdsWV9mWG1aSm90UHlpTXNQUmRWdjFubjc1UUN3NGZzMmNVSllHWEVBY3hfQzVDQXlHbkViZVlRMkRzZGgtQnpxTnF2OThOeXV0U0Z0N05GYVJ5RmxMeHdMTC15RWh2eGFpN2w1V0liVEM3dk40clE?oc=5"
+        "importance": 7,
+        "confidence": 1,
+        "preference_tags": [
+          "economy",
+          "technology"
         ],
+        "is_random_top": false,
+        "is_internet_element": false,
         "source_dates": [
           {
             "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMVFLbm9yN2FCN1RaOElKTHdRaFA5MUo2aTZKTGdRMHdWT1dQVnNxenNFTVd4X3JCQ2pfeVowaVZNc3B1Ykh6T3c0Qy16TFNBZDRwN1F0M1gwMEw5VGxlTHpScTdsWV9mWG1aSm90UHlpTXNQUmRWdjFubjc1UUN3NGZzMmNVSllHWEVBY3hfQzVDQXlHbkViZVlRMkRzZGgtQnpxTnF2OThOeXV0U0Z0N05GYVJ5RmxMeHdMTC15RWh2eGFpN2w1V0liVEM3dk40clE?oc=5",
@@ -339,56 +249,82 @@
         "published_at": "2026-11-02T17:18:37+03:00"
       },
       {
-        "aside": "15-летний шахматист победил гроссмейстера и выиграл национальный чемпионат.",
-        "body": "15-летний шахматист победил гроссмейстера и выиграл национальный чемпионат по блиц-шахматам.",
-        "category": "chess",
-        "confidence": 0.85,
-        "headline": "15-летний шахматист победил гроссмейстера",
-        "importance": 7,
-        "is_internet_element": false,
-        "is_random_top": false,
-        "preference_tags": [
-          "chess",
-          "sports"
+        "category": "engineering",
+        "headline": "Энергетики восстановили свет в Ольховском районе Волгоградской области",
+        "body": "Энергетики восстановили свет в Ольховском районе Волгоградской области.",
+        "aside": "",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMXZtc3lVNXROUlc3a0hxYmxiRFhjVV9QX04xSFRHRTUtZlNSNV9Gb3BjNlJXN3pnQTIySEN3b3poclpoVTFYMXo5aXRpYnhoRTlMV2xEZlBfaU9NWlFmNVRMcTJaNXNZLURPMEtpWTc5R0JjNHhISndkOHdiRTVWRndVTURneXdFY0lkOFB1QmdaaG45bXpYd082cm13S0xYR0tESzBaZWVuVE1T?oc=5"
         ],
         "source_names": [
-          "Vietnam.vn"
+          "Волгоградская Правда"
         ],
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMikwFBVV95cUxPN3JyeGk1ZTZuNWNLZGNzYm9XN3NIMFFOWE1SWHJfVWJnbjdNaDhBT2pvUHhvcjByYUtuSnQ4TEpzNVJjY1JGVmVxYjMtRUU5SmhpSkFhd3hqNS1tbHdwejhKd0RoeTZhdEdvZC14SWZyUTA0VEtnUC12MlY3dC13bU4tSFNxb21GY0VQQzRlZjBJdzA?oc=5"
+        "importance": 6,
+        "confidence": 1,
+        "preference_tags": [
+          "engineering",
+          "russia"
         ],
+        "is_random_top": false,
+        "is_internet_element": false,
         "source_dates": [
           {
-            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPN3JyeGk1ZTZuNWNLZGNzYm9XN3NIMFFOWE1SWHJfVWJnbjdNaDhBT2pvUHhvcjByYUtuSnQ4TEpzNVJjY1JGVmVxYjMtRUU5SmhpSkFhd3hqNS1tbHdwejhKd0RoeTZhdEdvZC14SWZyUTA0VEtnUC12MlY3dC13bU4tSFNxb21GY0VQQzRlZjBJdzA?oc=5",
-            "published_at": "2026-11-02T16:44:15+03:00"
+            "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMXZtc3lVNXROUlc3a0hxYmxiRFhjVV9QX04xSFRHRTUtZlNSNV9Gb3BjNlJXN3pnQTIySEN3b3poclpoVTFYMXo5aXRpYnhoRTlMV2xEZlBfaU9NWlFmNVRMcTJaNXNZLURPMEtpWTc5R0JjNHhISndkOHdiRTVWRndVTURneXdFY0lkOFB1QmdaaG45bXpYd082cm13S0xYR0tESzBaZWVuVE1T?oc=5",
+            "published_at": "2026-11-02T17:21:39+03:00"
           }
         ],
-        "published_at": "2026-11-02T16:44:15+03:00"
+        "published_at": "2026-11-02T17:21:39+03:00"
+      },
+      {
+        "category": "chess",
+        "headline": "Ган-Эрдэнэ и Мунгунзул стали чемпионами Монголии по шахматам",
+        "body": "Ган-Эрдэнэ и Мунгунзул стали чемпионами Монголии по шахматам.",
+        "aside": "",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9KYkZFV2FFQTVSdDVnSktDcUp6TlZCc2NIUTE3UElKTEJzcEI2M3EwN1lsOEU3cFF4M0loTFZSNUtZWTZscE0xSTY3NXM?oc=5"
+        ],
+        "source_names": [
+          "CentralAsia.media"
+        ],
+        "importance": 6,
+        "confidence": 1,
+        "preference_tags": [
+          "chess",
+          "russia"
+        ],
+        "is_random_top": false,
+        "is_internet_element": false,
+        "source_dates": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9KYkZFV2FFQTVSdDVnSktDcUp6TlZCc2NIUTE3UElKTEJzcEI2M3EwN1lsOEU3cFF4M0loTFZSNUtZWTZscE0xSTY3NXM?oc=5",
+            "published_at": "2026-11-02T13:13:04+03:00"
+          }
+        ],
+        "published_at": "2026-11-02T13:13:04+03:00"
       }
     ],
-    "title": "Новости Игоря — 2 ноября 2026, 17:50",
     "editor_status": "success"
   },
   "candidates": [
     {
-      "title": "Pennsylvania’s Grand Canyon",
-      "url": "https://science.nasa.gov/earth/earth-observatory/pennsylvanias-grand-canyon/",
-      "published_at": "2026-11-02T05:01:00+00:00",
-      "source_domain": "science.nasa.gov",
-      "source_name": "science.nasa.gov",
-      "rss_source_name": "NASA",
-      "category": "space",
-      "collection_batch": "space",
-      "what_happened": "Amid the warm hues of fall foliage, Pine Creek Gorge forms a deep scar in the Allegheny Plateau.",
+      "title": "Introducing the Grid Protectors Program",
+      "url": "https://openai.com/index/grid-protectors-program",
+      "published_at": "2026-11-02T15:00:00+00:00",
+      "source_domain": "openai.com",
+      "source_name": "OpenAI",
+      "rss_source_name": "OpenAI",
+      "category": "ai",
+      "collection_batch": "ai",
+      "what_happened": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
       "evidence_scope": "publisher_feed_summary",
       "is_comment_or_meme": false,
       "comment_or_meme_text": "",
       "confidence": 0.8,
       "why_interesting": "",
-      "source_id": "unknown",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
+      "source_id": "openai",
+      "source_role": "primary_announcement",
+      "source_weight": 0.96,
+      "factual_weight": 0.96
     },
     {
       "title": "Голикова анонсировала расширение программы высокотехнологичной медпомощи",
@@ -431,46 +367,6 @@
       "factual_weight": 0.98
     },
     {
-      "title": "Brent подешевела до $108,48 за баррель",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5rcjdlTmQ4VndabG85alJVSm9jeVJZX1lfS1h1SEFzWXYxdUJVSXpuaS1WaDh2OUdnVnBnb2lRZ2tLSHA2cXkydFVUa9IBS0FVX3lxTE5rcjdlTmQ4VndabG85alJVSm9jeVJZX1lfS1h1SEFzWXYxdUJVSXpuaS1WaDh2OUdnVnBnb2lRZ2tLSHA2cXkydFVUaw?oc=5",
-      "source_domain": "interfax.ru",
-      "published_at": "2026-11-02T14:59:00+03:00",
-      "category": "economy",
-      "what_happened": "Brent подешевела до $108,48 за баррель",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "Интерфакс",
-      "collection_batch": "economy",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "interfax",
-      "source_name": "Интерфакс",
-      "source_role": "wire",
-      "source_weight": 0.98,
-      "factual_weight": 0.98
-    },
-    {
-      "title": "В РФ начали выпускать 40 международных непатентованных наименований жизненно важных лекарств",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE8yanNFUjVNQzBSOG9obGxPUmlad0lHZEpoQTRBS1plUHh0dHB3UWJpYzduZ3o2VjBzb19qNHk1NkxNTEtWSUhJdnFLNNIBS0FVX3lxTE8yanNFUjVNQzBSOG9obGxPUmlad0lHZEpoQTRBS1plUHh0dHB3UWJpYzduZ3o2VjBzb19qNHk1NkxNTEtWSUhJdnFLNA?oc=5",
-      "source_domain": "interfax.ru",
-      "published_at": "2026-11-02T15:56:00+03:00",
-      "category": "economy",
-      "what_happened": "В РФ начали выпускать 40 международных непатентованных наименований жизненно важных лекарств",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "Интерфакс",
-      "collection_batch": "economy",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "interfax",
-      "source_name": "Интерфакс",
-      "source_role": "wire",
-      "source_weight": 0.98,
-      "factual_weight": 0.98
-    },
-    {
       "title": "Москва продолжает наращивать производственную инфраструктуру — Сергей Собянин",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ra2ctY3VuODJiYnBzOHA0UDdKVjZtX2wwLUVmUmVVUDZhZUtoMjZoZUlqd1RoeHkwbjIwcEVXekFPNVFBSXBiOFl1ek83ZEtfVlRN?oc=5",
       "source_domain": "mos.ru",
@@ -491,12 +387,12 @@
       "factual_weight": 0.92
     },
     {
-      "title": "Нейросети, Шекспир и храм-призрак: куда пойти 2–6 ноября",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1oemhhTmNXamZySGNKUjkxUTV3RGhjR2ZkQm1iLVE0MXpZb2FtRFJ1bDZZbmUxdGkyNmxwMUlBRFU0V0d3ZWxoNFVXSU1ENDlWWDNIdUtmeG1mbVFpcXV0eVhmQWxFc3Q0dERoZDR3MUxSbDF1ekFRZzFR?oc=5",
+      "title": "Высшей школе не обойтись без магистратуры и без искусственного интеллекта",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPa0R1Y19PaWZ0eXBJSHp6dTBkSklaMW9KOENxbWRNR0N0Q29GTjM3d1dWVFl6WWM0NHVhWXpVWmZVaWQ0OEpqWjM2eHlLbERlRXJyb0F1VnlOYnpjOE1OLTVHbmxBSnE3cTl3ODcxeWhMZ3RRNmNPVXRCZkZQVGNkQXNvZ0ZaRldSb0g3d2swRTE1YmhpX3I5dk5mZ0JKakpSamhHSkF4R1d5ZTBNWDZ3b2pVMVd1aGcxbVk2cmxoUXRuUjg?oc=5",
       "source_domain": "vedomosti.ru",
-      "published_at": "2026-11-02T13:23:21+03:00",
+      "published_at": "2026-11-02T16:52:22+03:00",
       "category": "ai",
-      "what_happened": "Нейросети, Шекспир и храм-призрак: куда пойти 2–6 ноября",
+      "what_happened": "Высшей школе не обойтись без магистратуры и без искусственного интеллекта",
       "why_interesting": "",
       "is_comment_or_meme": false,
       "comment_or_meme_text": "",
@@ -511,12 +407,12 @@
       "factual_weight": 0.91
     },
     {
-      "title": "Путин разрешил временно использовать мощности зарубежных дата-центров",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQLXZ5Tk5NWlhuNWtNcW5nTmRBYkR6a0dGZDRUcGJuUFMwa18tempwQmJpZTliX3J5M3ZxSkJfWHN0WmRyZTFFX0NzWDc1MHlnSUZVcnB2TUVZTWNYR3ZYLXNwMmRBOHdIVEZJYTBjbXljNEU0Yy1iS0g5cjF4YU1WRg?oc=5",
+      "title": "КНБ предотвратила госпереворот на западе Казахстана",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOVBUNWNDUGNSSjkzVllJbXhXYnNyN2NQbEVEYzYtUXVMWDBNMHJoUDlLWWIzdGQ3dTRfT1ZqRWRxRkFTbzRRNXBrUkc2a1lOaUZpTDVkbHNQZ0RQaWxiejRLeHZXaHFnNFFRa0tCWFRITkJmQ2VneGNhN0NYSEs0X1pkeUhXTVhUekZVTXE4NnExQQ?oc=5",
       "source_domain": "vedomosti.ru",
-      "published_at": "2026-11-02T17:47:53+03:00",
+      "published_at": "2026-11-02T18:17:33+03:00",
       "category": "technology",
-      "what_happened": "Путин разрешил временно использовать мощности зарубежных дата-центров",
+      "what_happened": "КНБ предотвратила госпереворот на западе Казахстана",
       "why_interesting": "",
       "is_comment_or_meme": false,
       "comment_or_meme_text": "",
@@ -531,12 +427,32 @@
       "factual_weight": 0.91
     },
     {
-      "title": "Beget начал восстановление данных после массированной кибератаки",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYjg5cVhqNElFRmxaVF9QLW0xWW5WWEJNc05rQUg2d3kyWHdrWjE0Zng3azFnejZuSFR6OVppYWFsemhyRGFjeU52dUdTNGdjUlpBZkhiamtsOVY4MHAxTk83V2NLTW5JcWpsTG1pMnI1cGEtSktfdmdac29SeVh5aXplWWRCRFY4TW5vZXJzc3c?oc=5",
+      "title": "Fars: Путин провел телефонный разговор с Мохсеном Резаи",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUFVTazE4NFRzOUNJV0ZicVU4c3Z5T1hIallDNE5zcUI5SDB4bHBDNDF6QUpBbG91WElfQng1VXJoOTdPLW42Uk5tWE9sMVZHMzRRTTlObjQ2X2p4bW1mbnNvTG90QTdVb1Z6cXFDMVlUeTVUM2ZoVzlWRlZPQzRySWtOc1p0QQ?oc=5",
       "source_domain": "vedomosti.ru",
-      "published_at": "2026-11-02T17:17:21+03:00",
+      "published_at": "2026-11-02T17:46:50+03:00",
       "category": "technology",
-      "what_happened": "Beget начал восстановление данных после массированной кибератаки",
+      "what_happened": "Fars: Путин провел телефонный разговор с Мохсеном Резаи",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "Ведомости",
+      "collection_batch": "science_tech",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "vedomosti",
+      "source_name": "Ведомости",
+      "source_role": "secondary",
+      "source_weight": 0.91,
+      "factual_weight": 0.91
+    },
+    {
+      "title": "Великобритания потратила более $753 млн на балансировку энергосистемы в октябре",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQk1lXzlFMk0xczRhcGl5Y05ERnBqWFpfaE56N1c1bHhwU1JKUkFmVVZCQU0zWHNib3p3VWJtc3VjeGFWamNwZ3BSaXJwTjdMejVZNDhCejZoSnBtRzgyMndHWlVlVnphalJ3MnBiV2NhM0dhS2tONHFlM3MyanhocFJEMGpuU0s1R3hGblQtUVZ5S3M?oc=5",
+      "source_domain": "vedomosti.ru",
+      "published_at": "2026-11-02T17:56:12+03:00",
+      "category": "technology",
+      "what_happened": "Великобритания потратила более $753 млн на балансировку энергосистемы в октябре",
       "why_interesting": "",
       "is_comment_or_meme": false,
       "comment_or_meme_text": "",
@@ -557,6 +473,26 @@
       "published_at": "2026-11-02T17:28:48+03:00",
       "category": "economy",
       "what_happened": "Акции VK выросли на 15% вечером 2 ноября",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "Ведомости",
+      "collection_batch": "economy",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "vedomosti",
+      "source_name": "Ведомости",
+      "source_role": "secondary",
+      "source_weight": 0.91,
+      "factual_weight": 0.91
+    },
+    {
+      "title": "Объем торгов на Мосбирже почти достиг 213 трлн рублей в октябре",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE01dHBnNFhPelJ4dWNRaU9tTnVtbnZkX05RLUN3ZFdKakJYdFljb2xXMlZRYUZBS3JWdjRSQnMyVFhNNnM3cG5RUTZub2taQ25JM3dfcHJJRVMyTGdpMDc4UlEySDlBUk1haG9ubDIwa1FVdTNmTE5ldWdMc0s?oc=5",
+      "source_domain": "vedomosti.ru",
+      "published_at": "2026-11-02T17:58:06+03:00",
+      "category": "economy",
+      "what_happened": "Объем торгов на Мосбирже почти достиг 213 трлн рублей в октябре",
       "why_interesting": "",
       "is_comment_or_meme": false,
       "comment_or_meme_text": "",
@@ -611,24 +547,24 @@
       "factual_weight": 0.91
     },
     {
-      "title": "ЮГК увеличила выручку до 32,4 млрд рублей за девять месяцев",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0ME42U2Jzd1oxSmVkTjJDMzM5WlpRTTlGN2tCeWJiQVA0YV9iWFFYS0p5c3hvay02MVJ5SGZoSkx4enBoMkJxTkU5OGhrRFZTRFFIMmlsTzZHYnFGaVAtbWhsXzV3NXotNTMxM014OE1iYmFEd3VpRURma2xfVWs?oc=5",
-      "source_domain": "vedomosti.ru",
-      "published_at": "2026-11-02T15:41:26+03:00",
-      "category": "economy",
-      "what_happened": "ЮГК увеличила выручку до 32,4 млрд рублей за девять месяцев",
+      "title": "Два космических телескопа NASA раскрыли детали туманности Кошачья голова",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5T3JjWnM2YWZWdktsYmtraTFCWUF0YWFBMlpDRjhBR2kteUtXWVVvcEtjbDZPVnI0azFTVXBGbVVpSTlJNzM5NExlVkdOSjBqYXN2Ng?oc=5",
+      "source_domain": "naked-science.ru",
+      "published_at": "2026-11-02T13:25:46+03:00",
+      "category": "space",
+      "what_happened": "Два космических телескопа NASA раскрыли детали туманности Кошачья голова",
       "why_interesting": "",
       "is_comment_or_meme": false,
       "comment_or_meme_text": "",
       "confidence": 0.78,
-      "rss_source_name": "Ведомости",
-      "collection_batch": "economy",
+      "rss_source_name": "Naked Science",
+      "collection_batch": "space",
       "evidence_scope": "rss_headline_only",
-      "source_id": "vedomosti",
-      "source_name": "Ведомости",
-      "source_role": "secondary",
-      "source_weight": 0.91,
-      "factual_weight": 0.91
+      "source_id": "naked_science",
+      "source_name": "Naked Science",
+      "source_role": "science_journalism",
+      "source_weight": 0.85,
+      "factual_weight": 0.85
     },
     {
       "title": "Сотрудники используют ИИ тайком: что происходит с нейросетями в офисах | ОТВ - Новости",
@@ -771,26 +707,6 @@
       "factual_weight": 0.3
     },
     {
-      "title": "Высшей школе не обойтись без магистратуры и без искусственного интеллекта",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1lbVRBWDBYS1NoZzRfRWRIcW9kaExPeDFoeWZBaDMwRmM1UkNRaEdGMHBGejR3Wk42NUlaekRLcnZnaVhvWWYwcFZ1S3MtZkpfcGdldUNQR0NEQjRidEE?oc=5",
-      "source_domain": "hse.ru",
-      "published_at": "2026-11-02T13:31:45+03:00",
-      "category": "ai",
-      "what_happened": "Высшей школе не обойтись без магистратуры и без искусственного интеллекта",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "Высшая школа экономики",
-      "collection_batch": "ai",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "hse.ru",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
       "title": "Как выбрать нейросеть в России 2026: полный гид по текстам, картинкам и видео",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZHl6UTR6SUdJRDNzZ0lCX3BpN1NuWnV2VW0wWDhFUGpQR29fcEtSU2Rna2tZM0NNSlZ0dlJZbXZ4dUd6Rk9qQkk0cWRjd3ZWLTdUMVBDci1xR0d2QXpmWU1MTWtZQ2h1d1lLeU9rOFRoM3Q4UGRyREJUNlJINjhIT2xtTzZQVTlwOS15WEFCRWtmVkxOZUN1ZFlrX2l3Si1LaEdxYUEyU0xIcFp4b2prT21OS2ZwUQ?oc=5",
       "source_domain": "atas.info",
@@ -851,10 +767,50 @@
       "factual_weight": 0.3
     },
     {
+      "title": "Врач объяснил, как короткие видео и искусственный интеллект влияют на память",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM3piNWwyVFJhV0x4eWh0bGRCdG5XSngwaF9EX1ZIRjhvaWluVVNZdVRxeEVxWk9MdWVDbXpTV1JURGVmNGx2alRiRjEyUldEMi01NEdRcHZRV2RQdXJoTEswRlNFbjQxQmtiYXdFRlR1UjNRRnA3ckdqeEpZenZxUVFMNEVFLThhMHNvTnRzMUVRV0tpRjF6TzllSHMxdHZBY3NLNHJUaw?oc=5",
+      "source_domain": "47channel.ru",
+      "published_at": "2026-11-02T16:07:25+03:00",
+      "category": "ai",
+      "what_happened": "Врач объяснил, как короткие видео и искусственный интеллект влияют на память",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "47Channel.",
+      "collection_batch": "ai",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "47channel.ru",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
+      "title": "«Добрые встречи» в «Космосе»: молодёжный центр объединяет семьи ветеранов СВО",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZDRoZ0pWNm9yQ3FnMTdKelM1OVRWRG9KQkdPRHhBbmhIRDNOMzRJU2RWeDNuZmptZ3BkRmszU0JKYXVKTFZqb0NteXdrUE5IZEN1ZUhIdGtXZ2tPd2l3Y1Uyd0VMVFVrOUlHcmdnRnAyZ3RBMEp4UFRFYVd3TXhwNmtDUWRvT1BSRXBDWVo1OVdxMXRxSFRWQzRTMA?oc=5",
+      "source_domain": "korolev.ru",
+      "published_at": "2026-11-02T18:16:13+03:00",
+      "category": "space",
+      "what_happened": "«Добрые встречи» в «Космосе»: молодёжный центр объединяет семьи ветеранов СВО",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "korolev.ru",
+      "collection_batch": "space",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "korolev.ru",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
       "title": "Космос на ощупь: школьники изучили Вселенную в лабораториях и мастерских СПбГУПТД на фестивале «НАУКА 0+»",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04WmN6YW55N1VRWmtMNTRmdUZQYUdfVC0tTWN6Z1VROU5uY0ROWjFSa3pZQWpBamlRYmV2UFZ6RFRObjRfSUltU2FGVTVnYTVVWUN5al83VkxaR2FjMzdITWRWYTc?oc=5",
       "source_domain": "sutd.ru",
-      "published_at": "2026-11-02T17:24:48+03:00",
+      "published_at": "2026-11-02T17:24:17+03:00",
       "category": "space",
       "what_happened": "Космос на ощупь: школьники изучили Вселенную в лабораториях и мастерских СПбГУПТД на фестивале «НАУКА 0+»",
       "why_interesting": "",
@@ -894,7 +850,7 @@
       "title": "Астронавтам придется ездить по Луне в открытых машинах: что придумало NASA",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBsVS1OQWZoTGNPbDRsbFJTcDZreS16SUF2bTdTa3kyMDZjZ0RaemFBQTJnTU5QTFpKeWU5V3dlNXpWUlY2eGtLZTgwUTZIN05SUG0tRjJVMFFqQW5SQ3EyYW5yZ2ZsMHdsUUVEVnNkejN1S3dF?oc=5",
       "source_domain": "zr.ru",
-      "published_at": "2026-11-02T16:46:52+03:00",
+      "published_at": "2026-11-02T17:49:27+03:00",
       "category": "space",
       "what_happened": "Астронавтам придется ездить по Луне в открытых машинах: что придумало NASA",
       "why_interesting": "",
@@ -931,6 +887,26 @@
       "factual_weight": 0.3
     },
     {
+      "title": "SpaceX может купить сотового оператора Boost Mobile с 7 млн абонентов — компания Маска ищет обходной путь на рынок мобильной связи США",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQSGNUTlQ5WVBwMGVGYWRDSUJkTkplRk9DS2VpaVBFX2k2cl9iZmRoaHlaWFRnOVU4aklGQzZSWU1Jc1JkckhXR1RTZEVjN2M2WlVndnRrN2FKcGl2QmlHYUZicU9KSlBXWEFYRHphMlk3LWwtUURmTGMxVEVQcm1lZlE2bXRZQlVpaGhJdUVEY0tsSXNjUUlBVjBHQUdGeUtIUWdOWUw1X0hfNnJEUTZKTVcwYnJqc2tmSm1CeU9HUjZScTA1S19oc2hRRWhONENwOFFmS2o2VEdKSll0YTJJbkhmdVY4SDEwa1Z0Ry1yRjh0YnJabEthc2JpUm5mY0UyVi0ydHN3?oc=5",
+      "source_domain": "ixbt.com",
+      "published_at": "2026-11-02T17:36:00+03:00",
+      "category": "space",
+      "what_happened": "SpaceX может купить сотового оператора Boost Mobile с 7 млн абонентов — компания Маска ищет обходной путь на рынок мобильной связи США",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "iXBT.com",
+      "collection_batch": "space",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "ixbt.com",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
       "title": "NASA попросило частников спасти космический телескоп «Хаббл» — заявки принимаются до конца ноября",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVm1Rd3RaOXZkcVFKeEsxSEVpanVveEdBUGxlSlNfZTlQUTdJSl9jamRBU3diRGZIbDFaa1EtZlZ5b2pUenFWQ1pSMkFvRWtVQk9rTEVyVFJzazNNazg2NnVHMHJHYk1NcHNkdndzS3E2WjJRdTBtTkZKWnRqVExLNlF3TnZSMzFlWVBQbzhvNXFNX1lEaGhob1pIYjZPUjNUQXE5X1QxRGdicWRCcDAyRFI0V0FPR3BhajBqQmxhcGhvMXBqWHfSAcsBQVVfeXFMTXU1bTBUQ1hUcXNYUEdidFEzbGg1T2FOalR1Ymo2SGtCaktua3lZeGtmTVhobzg5VGJyODgxeUR5MU5UTU04OVJPM1o4RzdzcHoyRTdUbDZGRFpENG1qUU52UVNvZ1M1UDE0cEFydlZwSlJHUW9EX2puQmpfd1VWR3JMblpfWFRTMFRDOFIzZTAwdlpaR040NjFoTFN6UVVES1Jia3BUeTlnZWF4cm1nRElnTURsOFdfNzlEUjRmOHhnQXlVMEtUREN6RVE?oc=5",
       "source_domain": "3dnews.ru",
@@ -946,6 +922,26 @@
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
       "source_name": "3dnews.ru",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
+      "title": "Два спутника NASA заглянули в магнитные «разрывы» возле Земли и обнаружили неожиданную закономерность",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9yeHMzem9JMGdKSzNkemlDTENSNnRPMHRvSmFrUG5zdV9kUlB3RHNTRU9IbGV1ZWF5bkdoUFlFRW9WRUlXY24yUDAtSXZmX0p5T3RhLQ?oc=5",
+      "source_domain": "securitylab.ru",
+      "published_at": "2026-11-02T18:03:09+03:00",
+      "category": "space",
+      "what_happened": "Два спутника NASA заглянули в магнитные «разрывы» возле Земли и обнаружили неожиданную закономерность",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "SecurityLab.ru",
+      "collection_batch": "space",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "securitylab.ru",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -1006,86 +1002,6 @@
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
       "source_name": "computerra.ru",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
-      "title": "EchoStar дорожает на новостях о переговорах с SpaceX",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE43aDBEYVVqZ3R1MlVHcTUweEhQMEQxQjhTWmVidV9DVVIxOGFLMG1rT0NrcEJqdGZfTEpreFRMVzJSeWxib3NNNDZ6TXhQV1ppQ3QtRFdJMlpvT0E5R3QtcURtazZ0M0szeV9hMGxNLU4?oc=5",
-      "source_domain": "ru.investing.com",
-      "published_at": "2026-11-02T14:03:00+03:00",
-      "category": "space",
-      "what_happened": "EchoStar дорожает на новостях о переговорах с SpaceX",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "Investing.com",
-      "collection_batch": "space",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "ru.investing.com",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
-      "title": "Муралы о космосе появились на фасаде школы №21 в Иркутске",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1iQjVyUTB3ZllKZGdMYzg4d1gwY3huOHB5SDBkX09Lc1RtbHJDUkExNE5ra1dEWXV1d3FQM09KdElhZXpyaUVEUmluWXhYc0F1T0E?oc=5",
-      "source_domain": "irk.ru",
-      "published_at": "2026-11-02T12:36:00+03:00",
-      "category": "space",
-      "what_happened": "Муралы о космосе появились на фасаде школы №21 в Иркутске",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "Твой Иркутск",
-      "collection_batch": "space",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "irk.ru",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
-      "title": "Илон Маск: Центры обработки данных — «мелочь» по сравнению с планами SpaceX на орбите",
-      "url": "https://news.google.com/rss/articles/CBMi3wRBVV95cUxPQ0tYd2JIYXNOeVdOaFFUMTY0NWZIaG9MQkZaZHRoOFVpdkxZb1B0MUNFOHQ2WUJvRTVpUE1HX200STZRMHlUY25MRFpfbWdQbkJNc0VyTE1zZXM5cTRpWlpjR1ZTQlphU2J3d05ZNHhnYmZ1cUViREREUUhwbEF6bmlMQy1JNlUzOXoxR3A5cmRNZUFjVGZoZkVpSy02YXl2eGtzbzROQ1ZENGpBSWcwbi1DVUotaTd6OUJBemo0TTZWRE1kWlk3ektVNGRoVzBIeXE3YTBWRFU3anNvUVI3R19Wa0p1SC01a2p5aDF4WTIyRGJaTUItbmh1b1FWRDhEaUNHMUNPMDlGc3JpMU9CdTRwV0JUM19zY0tnQ3BESnlidHFOR0VROU11Tm5YcVgwOFZLSHd3UjJ0UUZXMkpXbGR4TUw2a0xMU1dheHVxcmQ4bFRrRlZPX1VvUHUyTHZXcHJ3YnFULXZpYXZyRE5aeUxibzhuc19tOU5uaWl6VmlzdU9idTlHQ09XRFIyT0JLSTNTUl9tVUhQUTNGWW9pUk5QOTBrTk8zM2I0UktsMkIyNFFFNWhCUF8zTTZTdHNfTHlDbnV4UDgwY0oxNzBtY2lsTFU0QkE5SkNPSi1lSXdNS2RSWGdoTXFQNnBkZFZTeEdvWjFtdVgxNXdQQnZ5UkxZSFZDVzNoMkMtOG50VmpNNUhicnFvVUVuMGVPeUFsdkhwMGZzaklkT2luUVJQR0M1aW13c0JLbVBGRmNadDdwTnNhbU9MVEQ3VmlOem8tWGFZd3NvSzREZW9iMGJV?oc=5",
-      "source_domain": "idnfinancials.com",
-      "published_at": "2026-11-02T12:40:00+03:00",
-      "category": "space",
-      "what_happened": "Илон Маск: Центры обработки данных — «мелочь» по сравнению с планами SpaceX на орбите",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "IDNFinancials",
-      "collection_batch": "space",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "idnfinancials.com",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
-      "title": "Новгородский фотохудожник поведал, как перенестись в космос, не выходя на орбиту",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQc2h2QXE3b3drMW53OEdCNDFpcFN5T1hqV05xWlZ2ZW9NRU0xM1Jmd3JEclgxV2ZQbXNEWGN0bTA5MnhaRS1BVXFyZVZlODZuQTc5ZnFVSVJMWnJPSWFpVUlkMVJKTU94NHBGeXpJVlA4Um5BTVQyYXkzODlab1BwdGh0UEVabjRVM19KYWwzTDdCd21MR29VNGx3cUp4b25RaEJ4amoyWUZHeGhUVk5wTEY2UFZpeTlOVUE?oc=5",
-      "source_domain": "gazetanovgorod.ru",
-      "published_at": "2026-11-02T12:47:21+03:00",
-      "category": "space",
-      "what_happened": "Новгородский фотохудожник поведал, как перенестись в космос, не выходя на орбиту",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "Газета «Новгород",
-      "collection_batch": "space",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "gazetanovgorod.ru",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -1211,21 +1127,21 @@
       "factual_weight": 0.3
     },
     {
-      "title": "Иран и Беларусь подписали меморандум о сотрудничестве в области энергетики",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb0VJTlFSNjhFX2FMNW9vRzkzWGNBVmhQbkM2WkJHVzJIUm9yYXJqb0Q5Q2tWQUt4YTNCUElVNWctdnhhc0F1ZENlejlreC1qVXdZVmFhemZqb2tKUFc5am9HMzJWaWt1SF9DNzByTXQ1b0Y2Rm44MXZqa2JvZTFjQXBsc0dkVFNndHRHSl9Jb3IybTk5bWN4VElZQQ?oc=5",
-      "source_domain": "casp-geo.ru",
-      "published_at": "2026-11-02T14:26:14+03:00",
+      "title": "Энергетики восстановили электроснабжение почти полумиллиона абонентов в ЛНР за неделю",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaVZ4bkRNWXJsczMxMGVUd1R1WkVxTk5VZWxyTjF1Z1lPVVctY2g2eW1xaTdqRnhUTGFfN01Za2pQWFB6TjFldGNxQzktX2lpajRvM1l1cWg0UmlCNVdkYlRZcUxaS2RGX1FuNFhGLTBNMnZWUnphSngybGx5OERHMjI5WWh0TEloMC1wOUFXSV9TZ1BnM1hlN09xR3Qwdktrb0E5WTZ6UmR1UQ?oc=5",
+      "source_domain": "lug-info.ru",
+      "published_at": "2026-11-02T14:42:09+03:00",
       "category": "engineering",
-      "what_happened": "Иран и Беларусь подписали меморандум о сотрудничестве в области энергетики",
+      "what_happened": "Энергетики восстановили электроснабжение почти полумиллиона абонентов в ЛНР за неделю",
       "why_interesting": "",
       "is_comment_or_meme": false,
       "comment_or_meme_text": "",
       "confidence": 0.78,
-      "rss_source_name": "Каспийский вестник",
+      "rss_source_name": "Луганский Информационный Центр",
       "collection_batch": "engineering",
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
-      "source_name": "casp-geo.ru",
+      "source_name": "lug-info.ru",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -1251,6 +1167,26 @@
       "factual_weight": 0.3
     },
     {
+      "title": "Иран и Беларусь подписали меморандум о сотрудничестве в области энергетики",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb0VJTlFSNjhFX2FMNW9vRzkzWGNBVmhQbkM2WkJHVzJIUm9yYXJqb0Q5Q2tWQUt4YTNCUElVNWctdnhhc0F1ZENlejlreC1qVXdZVmFhemZqb2tKUFc5am9HMzJWaWt1SF9DNzByTXQ1b0Y2Rm44MXZqa2JvZTFjQXBsc0dkVFNndHRHSl9Jb3IybTk5bWN4VElZQQ?oc=5",
+      "source_domain": "casp-geo.ru",
+      "published_at": "2026-11-02T14:26:14+03:00",
+      "category": "engineering",
+      "what_happened": "Иран и Беларусь подписали меморандум о сотрудничестве в области энергетики",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "Каспийский вестник",
+      "collection_batch": "engineering",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "casp-geo.ru",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
       "title": "Энергетики восстановили свет в Ольховском районе Волгоградской области",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMXZtc3lVNXROUlc3a0hxYmxiRFhjVV9QX04xSFRHRTUtZlNSNV9Gb3BjNlJXN3pnQTIySEN3b3poclpoVTFYMXo5aXRpYnhoRTlMV2xEZlBfaU9NWlFmNVRMcTJaNXNZLURPMEtpWTc5R0JjNHhISndkOHdiRTVWRndVTURneXdFY0lkOFB1QmdaaG45bXpYd082cm13S0xYR0tESzBaZWVuVE1T?oc=5",
       "source_domain": "vpravda.ru",
@@ -1266,26 +1202,6 @@
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
       "source_name": "vpravda.ru",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
-      "title": "Энергетики Камчатки восстановили 1638 кв. м асфальта после ремонта теплосетей",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5IdExqbFRQdkw1eEdBQk1WTV82ZEF1YThidnNoNVAxU25NMUlPaDJoUmRlb3lybnpSQzA5a0tVSE5GMDl6YTNIa1hDeVBUWVhm?oc=5",
-      "source_domain": "kamchatkamedia.ru",
-      "published_at": "2026-11-02T14:48:20+03:00",
-      "category": "engineering",
-      "what_happened": "Энергетики Камчатки восстановили 1638 кв. м асфальта после ремонта теплосетей",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "KamchatkaMedia",
-      "collection_batch": "engineering",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "kamchatkamedia.ru",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -1331,21 +1247,21 @@
       "factual_weight": 0.3
     },
     {
-      "title": "Спорт без барьеров: в НЦ «Россия» в Югре обсудят технологии будущего",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObFNaYzlDbjZfOXpyVVZhZ0tvUVN2MlNXVEZDQXRXT0dxbml6WjAtUlFuRkFrbHo2eHNVLTJmTVBHZ05jYl9SX2hYa0pnMWRwTmNEdkdsOEJCY3dDNUZoRldrbGN0ZnNaejJQVWVkcWdZa2xwUWRBbjZqZERDb3BIVzFBSlJGZUlraUktX3NCSHBGN3d5X2hDUFAyaVpRNzhfX1FYQVpqU0RwUlk?oc=5",
-      "source_domain": "russia.ru",
-      "published_at": "2026-11-02T14:58:24+03:00",
+      "title": "Независимые исследования подтвердили чистоту воздуха и воды в районе Амурского ГХК",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbHpKYlNJMXE5WlJDV2tDMWF2QzMtRnNOM2VYM0p1SmVJMlpvd3NneHhqZzQ5aFlKN21zeW41OG9BMy04YjJZOXJMYTcxNnB5YkR0bko1dk16eHd5X003TFpOc0dSQ25jdHRBZU5LRDBRSE5faHc3ZmZCaVVVSEFYOGNwbUw2M2hMcFN1YWRmWFNwTWo1TFhhVk84R0hQUGl0dUFWYXhwbWRCalpmQ1pTby04QVM?oc=5",
+      "source_domain": "ampravda.ru",
+      "published_at": "2026-11-02T18:01:09+03:00",
       "category": "technology",
-      "what_happened": "Спорт без барьеров: в НЦ «Россия» в Югре обсудят технологии будущего",
+      "what_happened": "Независимые исследования подтвердили чистоту воздуха и воды в районе Амурского ГХК",
       "why_interesting": "",
       "is_comment_or_meme": false,
       "comment_or_meme_text": "",
       "confidence": 0.78,
-      "rss_source_name": "Национальный центр «Россия»",
+      "rss_source_name": "Амурская правда",
       "collection_batch": "science_tech",
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
-      "source_name": "russia.ru",
+      "source_name": "ampravda.ru",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -1366,6 +1282,26 @@
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
       "source_name": "scientificrussia.ru",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
+      "title": "Спорт без барьеров: в НЦ «Россия» в Югре обсудят технологии будущего",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObFNaYzlDbjZfOXpyVVZhZ0tvUVN2MlNXVEZDQXRXT0dxbml6WjAtUlFuRkFrbHo2eHNVLTJmTVBHZ05jYl9SX2hYa0pnMWRwTmNEdkdsOEJCY3dDNUZoRldrbGN0ZnNaejJQVWVkcWdZa2xwUWRBbjZqZERDb3BIVzFBSlJGZUlraUktX3NCSHBGN3d5X2hDUFAyaVpRNzhfX1FYQVpqU0RwUlk?oc=5",
+      "source_domain": "russia.ru",
+      "published_at": "2026-11-02T14:58:24+03:00",
+      "category": "technology",
+      "what_happened": "Спорт без барьеров: в НЦ «Россия» в Югре обсудят технологии будущего",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "Национальный центр «Россия»",
+      "collection_batch": "science_tech",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "russia.ru",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -1426,46 +1362,6 @@
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
       "source_name": "vsu.ru",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
-      "title": "Медицинский туризм: высокие технологии для экономики Томской области",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeHJDNVpZbEZQVVl0Z0tza19ySGUxdWxjTnZEcTd4SVY1NzhYTnhMQnBHR2JoanhKNUxBRFZSVWlNVXFZWmpjVENXcWNJVVR0WER1aXY4S0xIQkZkYWdaTWhmQnhPY2lIZXlwbXV0ZzExdXBUVDFsRllFaWtOODEtVmZ2bVFpdW9QT1pxYXZ4bVE2end4blJ5bkswams5YW96bTViSW0xUzd4Rk9paF93?oc=5",
-      "source_domain": "riatomsk.ru",
-      "published_at": "2026-11-02T16:10:40+03:00",
-      "category": "technology",
-      "what_happened": "Медицинский туризм: высокие технологии для экономики Томской области",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "РИА Томск",
-      "collection_batch": "science_tech",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "riatomsk.ru",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
-      "title": "Перспективы рынка утилизации нефтешламов: экономика, экология и технологии",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTld3VDJLbXFRZWNIZjJSZkt3ejFJVGxZb0hUNnc0bkxTQTVhMEt0RFBEcXdtRDdPVjlfbzNxYklMVW52d3llMTVSd01WalZDSGlGMFNSbXhtVE1Fa3pnbi1DZ0h4LTFtTHB5aXJ4UVhQRHMtcnJEeTBwdXlWYWhEMVRhSHYtcXJibWtWa25sZ1BpeXQwYnJ3UEVPVDUxTFE4Y3RhRzZmZ1g3TFhxZGFsNUF6SU1LaWs1?oc=5",
-      "source_domain": "neftegaz.ru",
-      "published_at": "2026-11-02T16:48:53+03:00",
-      "category": "technology",
-      "what_happened": "Перспективы рынка утилизации нефтешламов: экономика, экология и технологии",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "Neftegaz.RU",
-      "collection_batch": "science_tech",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "neftegaz.ru",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -1566,6 +1462,26 @@
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
       "source_name": "donland.ru",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
+      "title": "В подмосковной Балашихе открыли новый промышленный парк",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSnNyZWlwclZkUVlKSGNZU3hIZ2YxWFZnd3liUVZ6OWk1bDl2bnp1UmhZb0habGlnM3RQcGhnbW10YkZ5RkdhTmxyUEw1Ri1fVDYweERfMFpHWmdvS19NY0s2TDZEVGpaZGRGWEw1LVp6U1lDTmhEb1BqeEhoT1BhckVvWFNTSUtEcnkyQjZyR2lJMmIxc0xoMHlHeVBhdGxWT0I3Z3RMaUxMSHJpWk0w?oc=5",
+      "source_domain": "xn--80aapampemcchfmo7a3c9ehj.xn--p1ai",
+      "published_at": "2026-11-02T17:50:36+03:00",
+      "category": "economy",
+      "what_happened": "В подмосковной Балашихе открыли новый промышленный парк",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "Национальные проекты России",
+      "collection_batch": "economy",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "xn--80aapampemcchfmo7a3c9ehj.xn--p1ai",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -1731,26 +1647,6 @@
       "factual_weight": 0.3
     },
     {
-      "title": "В Тюмени прошел шахматный турнир на приз Конька-Горбунка",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcUJtdjNGZ1laLVdPS0dGclNQdzV4Wi1TNnU0cE55T2NJeUtpcW5EcGFXanBuX25DU0NDQ3JkQko5dDV2bkJwY2dvUzRWZGJJZWxUWTBkZnRzZkxCYXhIVUlpTG1nU05Pd0JCdGYyeUhublFaQkFkbWd1NUpsaXV6TlFLZ3lDOU5KRWRuVVZzOTJoOUI4eURv?oc=5",
-      "source_domain": "tumentoday.ru",
-      "published_at": "2026-11-02T12:27:00+03:00",
-      "category": "chess",
-      "what_happened": "В Тюмени прошел шахматный турнир на приз Конька-Горбунка",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "Тюменская область сегодня",
-      "collection_batch": "chess",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "tumentoday.ru",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
       "title": "В Чебоксарах состоялся \"Турнир чемпионов\"",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBISGxoYkh6TzhtV3ZYb2Y2R3V5MGpjUUw4T0ZPR0xMSWwyLWU4bXdFa1JpeGpRaG96MURpTF80V0JfRExEdFlQUEFFcVFjZG5XVXVaN0pBLXExd29ZQ01yWDFWR0w5SjMzV0NJdzFIbmVDNXVadC14MXJJWWZzUQ?oc=5",
       "source_domain": "ruchess.ru",
@@ -1771,26 +1667,6 @@
       "factual_weight": 0.3
     },
     {
-      "title": "150 участников и девять туров: чем завершился Finance Chess Cup 2026",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZnBQejlYaW9UclJqMTBSdy03ZXljNEdSLVZ3N1k0SWp1NnFQUFhGT1lfSzdueUtpcUpDeDRRT3N0WGFncDBfZlRaNDlNdHpNekE4VnNQNWtrcTRqdWVSak5tUzYyTWRWTFUwNEQ0TzFGMzBfb1BIMVREOUxrejI4SnRkTUMzUjdPUWc?oc=5",
-      "source_domain": "dknews.kz",
-      "published_at": "2026-11-02T09:52:00+03:00",
-      "category": "chess",
-      "what_happened": "150 участников и девять туров: чем завершился Finance Chess Cup 2026",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "DKNews.kz",
-      "collection_batch": "chess",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "dknews.kz",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
       "title": "Ган-Эрдэнэ и Мунгунзул стали чемпионами Монголии по шахматам",
       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9KYkZFV2FFQTVSdDVnSktDcUp6TlZCc2NIUTE3UElKTEJzcEI2M3EwN1lsOEU3cFF4M0loTFZSNUtZWTZscE0xSTY3NXM?oc=5",
       "source_domain": "centralasia.media",
@@ -1806,6 +1682,46 @@
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
       "source_name": "centralasia.media",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
+      "title": "Кан Тхо: Вручение наград на Национальном чемпионате по шахматам 2026 года.",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZFVEVUhUY3VNdURSekJyUWdBVzJrcGYtTC0tVUE2RXRwUUlyTV80RkZVc2I0aWRFaXVpRGRiOXpiYnBJck9FZjE3R0lQSzZtZ1V1MnRrb1JsVExhSk41Ymd4cFV2VFQtM1gwaDYwNHdnYlRsa1A3UnBfMFE4TE5IdTdsN2RudWQyZmpUeVM5M1BrX0t1U1hB?oc=5",
+      "source_domain": "vietnam.vn",
+      "published_at": "2026-11-02T11:39:24+03:00",
+      "category": "chess",
+      "what_happened": "Кан Тхо: Вручение наград на Национальном чемпионате по шахматам 2026 года.",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "Vietnam.vn",
+      "collection_batch": "chess",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "vietnam.vn",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
+      "title": "Иванчук поднялся на 7 позиций, Пономарев рискует вылететь из первой сотни: обновленный рейтинг ФИДЕ",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTENNclplYlhFMjViN2t1VlhobnpDTDdNUUIwQmRpOHV2VE1BRFRLOW9URGM5Y29jMTNRS1FocDNhZGhiMXR3WG5BVXgzcnJBSHBJNlpTSENEeGxSZHlQanZvd2lKbGpqUncxX1NET2gtNHFNV2k1d1RaNm5sT2dfUEVKaWI1RnNwUHM5ZFZxc0RoTm9GQnpKX2hSeDFUOWVpUGF5c0tFUkpmUVVKNEc3NXRBUGluT1VTbkdTSFlpWE5oWHhsVmdCNXhra3FzZENqVGh5ZUFUWTlTZw?oc=5",
+      "source_domain": "champion.com.ua",
+      "published_at": "2026-11-02T10:25:00+03:00",
+      "category": "chess",
+      "what_happened": "Иванчук поднялся на 7 позиций, Пономарев рискует вылететь из первой сотни: обновленный рейтинг ФИДЕ",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "Champion.com.ua",
+      "collection_batch": "chess",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "champion.com.ua",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -1931,6 +1847,26 @@
       "factual_weight": 0.3
     },
     {
+      "title": "В России стартовало производство кроссоверов Votour V5 по полному циклу",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYmRvUndPT1EycjMtd0Q3bmlUdldDSVZoZzhqZkowSlBnZHVDYUlnNnlyaUlHbkdiTWlMWnh0cktDQzVEbnlMZ0VtTm1YYzFKejlHNG1saGJ2THVJTDkxd2lOU21saEtzTUhtaGI2T19CQWREVzBUYkIyVUVLcWdFYnIwRVRFX3RQZnk2UzBxdEFXdDdZYURTSWk2UThuUDhRbGVZZzhnSHRYSUJ1dVE?oc=5",
+      "source_domain": "auto.mail.ru",
+      "published_at": "2026-11-02T17:10:00+03:00",
+      "category": "russia",
+      "what_happened": "В России стартовало производство кроссоверов Votour V5 по полному циклу",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "Авто Mail",
+      "collection_batch": "russia_core",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "auto.mail.ru",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
       "title": "Промышленность России: индекс PMI почти дотянулся до нейтральной отметки.",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WWVd4Y0JZZ05uRjFwM0tLdmdKQ3RKM2dlaGg4R3E4dmdYeGRkMXBrX0pHeERERnNMb29haE1MWFRnb29KREF3cHpMeXJjQQ?oc=5",
       "source_domain": "smart-lab.ru",
@@ -1951,21 +1887,21 @@
       "factual_weight": 0.3
     },
     {
-      "title": "В России стартовало производство кроссовера Votour V5",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZDZvbjUyRzJKamk5dUc3VDg1RjJjcVdfTF9DOU9LbTl6NFFDWlBsOEdaUzY4Ukt0aVpYOFUyNTc2QXRxN29mMXVxWjBJcXVScldnRjNPOTlRYWVLbEl2UjdycUUtb09oQkZTUTZEWDlKdWVURXR3cmp6NUtuM01RQkJQMmxvUQ?oc=5",
-      "source_domain": "auto.mail.ru",
-      "published_at": "2026-11-02T14:00:14+03:00",
+      "title": "Правительство утвердило план реализации Энергетической стратегии России до 2050 года",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY0pDN2oxZHNOUURiVUp4dk9GaWItZjlGTVhMRUR1YmdtODk4UVB1Rnl2bVVCTjlrb3ZKU25UbXM1Xy11LTZ1bU1Pb1prSzZsSWxReXlpbGV6bEgyN2N6RXZ3dkVOTDlqOE56Zzk5TE16MVliX2t5YmdaanhudTBGQnlhVFlwMk91SFRpWlZWZkpBazdDWnFydFA3V3FkU1lSbnZuNUJMZmtHMTItWk1ad1FJVENlUmxuV1djU1ZEeko0RkE?oc=5",
+      "source_domain": "neftegaz.ru",
+      "published_at": "2026-11-02T15:00:49+03:00",
       "category": "russia",
-      "what_happened": "В России стартовало производство кроссовера Votour V5",
+      "what_happened": "Правительство утвердило план реализации Энергетической стратегии России до 2050 года",
       "why_interesting": "",
       "is_comment_or_meme": false,
       "comment_or_meme_text": "",
       "confidence": 0.78,
-      "rss_source_name": "Авто Mail",
+      "rss_source_name": "Neftegaz.RU",
       "collection_batch": "russia_core",
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
-      "source_name": "auto.mail.ru",
+      "source_name": "neftegaz.ru",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -1986,26 +1922,6 @@
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
       "source_name": "24tv.ua",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
-      "title": "В России началось производство кроссовера Votour V5 по полному циклу",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM2NfWlBROUdqaGpJckFvYjBjTkU4QmVxSjV4UXhtMWIwdXEyc3Z5YWhudHBjSmFHVS0zZVVQNGZPenlSN2NHMlJxcEE0ZDdkOFVST0RXazZpaEZSejdtRl80dUxMSzlPeUxuY2dRN19hZWxmWmlOcnJKMzFaMERUZEVBV1hWNVV4aWIwSzFsTDR1SE5NaXMyU3N3?oc=5",
-      "source_domain": "kolesa.ru",
-      "published_at": "2026-11-02T16:22:01+03:00",
-      "category": "russia",
-      "what_happened": "В России началось производство кроссовера Votour V5 по полному циклу",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "КОЛЕСА.ру",
-      "collection_batch": "russia_core",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "kolesa.ru",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3

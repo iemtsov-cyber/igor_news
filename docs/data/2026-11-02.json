@@ -1,6 +1,6 @@
 {
   "date": "2026-11-02",
-  "updated_at": "2026-11-02T16:27:41.739319+03:00",
+  "updated_at": "2026-11-02T18:20:44.600798+03:00",
   "items": [
     {
       "category": "random_top",
@@ -76,6 +76,133 @@
       "is_internet_element": false,
       "added_at": "2026-11-02T16:27:41.739319+03:00",
       "story_id": "a24422ca199bc02e"
+    },
+    {
+      "category": "technology",
+      "headline": "Beget восстанавливает сервисы после кибератаки",
+      "body": "В официальном сообщении от 2 ноября провайдер связал сбой с кибератакой. Часть выделенных серверов уже восстановлена; работы над DNS, почтой и данными продолжаются. Точного срока полного восстановления компания пока не назвала.",
+      "aside": "",
+      "importance": 8.0,
+      "confidence": 0.95,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T18:20:44.600798+03:00",
+      "story_id": "beget-recovery-20261102",
+      "source_urls": [
+        "https://t.me/beget_official/572"
+      ],
+      "source_names": [
+        "Beget — официальный канал"
+      ],
+      "published_at": "2026-11-02",
+      "source_dates": [
+        {
+          "url": "https://t.me/beget_official/572",
+          "published_at": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "category": "technology",
+      "headline": "WP: SpaceX обсуждает сделку с Boost Mobile",
+      "body": "По сведениям газеты, возможны покупка оператора или доступ к его сети; сделка не подтверждена.",
+      "aside": "",
+      "importance": 8.0,
+      "confidence": 0.95,
+      "preference_tags": [
+        "technology"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T18:20:44.600798+03:00",
+      "story_id": "spacex-boost-talks-wp-20261102",
+      "source_urls": [
+        "https://www.washingtonpost.com/technology/2026/11/02/inside-elon-musks-plan-upend-wireless-phone-industry/"
+      ],
+      "source_names": [
+        "The Washington Post"
+      ],
+      "published_at": "2026-11-02T10:00:00+00:00",
+      "source_dates": [
+        {
+          "url": "https://www.washingtonpost.com/technology/2026/11/02/inside-elon-musks-plan-upend-wireless-phone-industry/",
+          "published_at": "2026-11-02T10:00:00+00:00"
+        }
+      ]
+    },
+    {
+      "category": "space",
+      "headline": "Снимок дня NASA: длинное ледяное облако над Марсом",
+      "body": "В APOD за 2 ноября NASA показало облако у вулкана Арсия, чей хвост может растягиваться более чем на 1500 километров. Это снимок Mars Express 2018 года, а не новое наблюдение. Облако состоит из водяного льда и появляется сезонно по утрам.",
+      "aside": "",
+      "importance": 7.0,
+      "confidence": 0.95,
+      "preference_tags": [
+        "space"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-02T18:20:44.600798+03:00",
+      "story_id": "apod-mars-cloud-20261102",
+      "source_urls": [
+        "https://apod.nasa.gov/apod/ap261102.html"
+      ],
+      "source_names": [
+        "NASA Astronomy Picture of the Day"
+      ],
+      "published_at": "2026-11-02",
+      "source_dates": [
+        {
+          "url": "https://apod.nasa.gov/apod/ap261102.html",
+          "published_at": "2026-11-02"
+        }
+      ],
+      "image": {
+        "url": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/MonsCloud_MarsExpress_1920.jpg?w=1920&h=1200&fit=clip&crop=faces%2Cfocalpoint",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/",
+        "source_url": "https://www.esa.int/ESA_Multimedia/Images/2026/10/The_Arsia_Mons_Elongated_Cloud_as_seen_by_Mars_Express",
+        "alt": "Марсианская поверхность с вулканом Арсия и вытянутым белым облаком, снятая с орбиты",
+        "caption": "The Arsia Mons Elongated Cloud as seen by Mars Express. Снимок 21 сентября 2018 года; APOD — 2 ноября 2026 года. Изображение без изменений.",
+        "credit": "© ESA/DLR/FU Berlin; обработка: J. Cowart",
+        "license_name": "CC BY-SA 3.0 IGO"
+      }
+    },
+    {
+      "category": "internet_culture",
+      "headline": "Мем дня: «Могнит» на московской вывеске",
+      "body": "Шутка конца октября вышла в офлайн: у одного московского магазина «Магнит» появилась вывеска «Могнит». Это локальная игра с названием, а не переименование всей сети. Фотографии опубликованы 30 октября; 2 ноября история продолжила появляться в СМИ.",
+      "aside": "",
+      "importance": 6.0,
+      "confidence": 0.95,
+      "preference_tags": [
+        "internet_culture"
+      ],
+      "is_random_top": false,
+      "is_internet_element": true,
+      "added_at": "2026-11-02T18:20:44.600798+03:00",
+      "story_id": "meme-mognit-20261102",
+      "source_urls": [
+        "https://t-j.ru/magnit-mognet/",
+        "https://media.halvacard.ru/news/magnit-v-mognit"
+      ],
+      "source_names": [
+        "Т—Ж — фотографии и репортаж",
+        "Халва Медиа"
+      ],
+      "published_at": "2026-10-30",
+      "source_dates": [
+        {
+          "url": "https://t-j.ru/magnit-mognet/",
+          "published_at": "2026-10-30"
+        },
+        {
+          "url": "https://media.halvacard.ru/news/magnit-v-mognit",
+          "published_at": "2026-11-02"
+        }
+      ]
     }
   ]
 }

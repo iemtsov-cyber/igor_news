@@ -72,6 +72,8 @@ def fallback_edition(candidates, cfg, now):
 
 def validate_edition(edition, candidates, cfg, now, allow_meme=True):
     by_url = {c['url']: c for c in candidates if candidate_is_safe(c, now, cfg)}
+    if len(edition.get('items', [])) > int(cfg['edition']['max_items']):
+        return {'title': 'Новости Игоря', 'items': [], 'editor_status': 'validation_failed'}
     accepted, seen = [], set()
     meme_count = 0
     for raw in edition.get('items', []):
@@ -84,6 +86,12 @@ def validate_edition(edition, candidates, cfg, now, allow_meme=True):
         headline, body = raw.get('headline', '').strip(), raw.get('body', '').strip()
         text = headline + ' ' + body + ' ' + raw.get('aside', '')
         evidence = ' '.join(c['title'] for c in refs)
+        if headline.casefold() == body.casefold():
+            continue
+        if re.search(r'куда пойти|круглый стол|конференци.{0,50}(?:прошла|состоится)|уже умнее|что происходит|продолжает наращивать', headline, re.I):
+            continue
+        if float(raw.get('importance', 0)) < 6:
+            continue
         if not headline or not body or not re.search('[А-Яа-яЁё]', headline) or not re.search('[А-Яа-яЁё]', body):
             continue
         if CLICKBAIT_RE.search(headline) or '?' in headline or '!' in headline or ROUTINE_RE.search(text):

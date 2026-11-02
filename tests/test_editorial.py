@@ -6,7 +6,7 @@ import news_v81 as news
 NOW = datetime(2026, 11, 2, 14, tzinfo=timezone.utc)
 CFG = {'lookback_hours': 8, 'edition': {'max_items': 15}}
 C = {'title': 'Компания представила новый процессор', 'url': 'https://example.org/article', 'source_domain': 'example.org', 'rss_source_name': 'Издание', 'published_at': '2026-11-02T12:00:00+00:00', 'collection_batch': 'engineering'}
-I = {'headline': 'Компания представила процессор', 'body': 'Компания представила новый процессор.', 'source_urls': [C['url']], 'aside': '', 'category': 'engineering'}
+I = {'headline': 'Компания представила процессор', 'body': 'Компания представила новый процессор.', 'source_urls': [C['url']], 'aside': '', 'category': 'engineering', 'importance': 7}
 
 class EditorialTests(unittest.TestCase):
     def test_dates_required_for_all_batches(self):
@@ -41,14 +41,15 @@ class PipelineTests(unittest.TestCase):
         from unittest.mock import patch
         import news_v8 as v
         from pathlib import Path
-        with patch.object(v, 'rss_candidates', side_effect=RuntimeError('offline')), \
+        with patch.object(Path, 'write_text', return_value=0), \
+             patch.object(v, 'rss_candidates', side_effect=RuntimeError('offline')), \
              patch.object(v.base, 'load_state', return_value={}), \
              patch.object(v.base, 'load_master_feed', return_value=[]), \
              patch.object(v.base, 'recent_history', return_value=[]), \
              patch.object(v.base, 'update_state'), \
              patch.object(v.base, 'save_outputs', return_value=(Path('x'), Path('y'), [], [])) as save:
             v.main()
-            self.assertEqual(save.call_args.args[0]['editor_status'], 'degraded')
+            self.assertIn(save.call_args.args[0]['editor_status'], {'degraded', 'review_required'})
     def test_meme_from_other_batch_respects_daily_limit(self):
         c=dict(C, title='Новый мем о роботе набрал популярность')
         item=dict(I, is_internet_element=True)

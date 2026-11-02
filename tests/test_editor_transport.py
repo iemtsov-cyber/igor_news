@@ -125,7 +125,7 @@ class EditorTransportTests(unittest.TestCase):
         self.assertEqual(request['reasoning'], {'effort': 'none', 'exclude': True})
         self.assertEqual(request['max_tokens'], 12000)
         self.assertNotIn(CANDIDATE['url'], request['messages'][0]['content'])
-        self.assertIn('candidate:0001', request['messages'][0]['content'])
+        self.assertIn('candidate:0001', request['messages'][1]['content'])
 
     def test_invented_or_real_reference_rejected(self):
         for ref in ('candidate:9999', CANDIDATE['url']):
@@ -152,6 +152,35 @@ class EditorTransportTests(unittest.TestCase):
             _, _, _, output = self.run_editor([response(json.dumps(WIRE_EDITION), finish=reason)] * 2)
             self.assertIn('incomplete_completion_' + expected, output)
             self.assertNotIn('SECRET', output)
+
+    def test_excessive_edition_rejected_not_cropped(self):
+        for count in (16, 79):
+            excessive = dict(title='Новости', items=[copy.deepcopy(WIRE_EDITION['items'][0]) for _ in range(count)])
+            result, _, _, output = self.run_editor([response(json.dumps(excessive))] * 2)
+            self.assertEqual(result['title'], 'fallback')
+            self.assertEqual(result['items'], [])
+            self.assertIn('edition_item_limit_exceeded', output)
+
+    def test_configured_lower_limit(self):
+        cfg = copy.deepcopy(CFG)
+        cfg['edition']['max_items'] = 1
+        edition = dict(title='Новости', items=copy.deepcopy(WIRE_EDITION['items']) * 2)
+        self.assertEqual(self.run_editor([response(json.dumps(edition))] * 2, cfg)[0]['title'], 'fallback')
+
+    def test_system_data_separation_and_request_schema_limit(self):
+        _, session, _, _ = self.run_editor([response(json.dumps(WIRE_EDITION))])
+        request = session.post.call_args.kwargs['json']
+        self.assertEqual([m['role'] for m in request['messages']], ['system', 'user'])
+        self.assertNotIn(CANDIDATE['title'], request['messages'][0]['content'])
+        self.assertIn(CANDIDATE['title'], request['messages'][1]['content'])
+        self.assertEqual(request['response_format']['json_schema']['schema']['properties']['items']['maxItems'], 15)
+
+    def test_safe_model_diagnostic(self):
+        r = response(json.dumps(WIRE_EDITION))
+        r.json.return_value['model'] = 'google/test-model:free'
+        self.assertIn('google/test-model:free', self.run_editor([r])[3])
+        for bad in ('SECRET\nmessage', 'secret key', 'provider/' + 'x' * 200, None, []):
+            self.assertEqual(news.safe_model_identifier({'model': bad}), 'unknown')
 
 
 if __name__ == '__main__':

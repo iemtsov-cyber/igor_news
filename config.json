@@ -18,7 +18,7 @@
   },
   "models": {
     "collector": "rss",
-    "editor": "openrouter/free"
+    "editor": "google/gemma-4-31b-it:free"
   },
   "web_search": {
     "search_context_size": "low",
@@ -102,5 +102,6 @@
   },
   "provider": "rss_plus_openrouter_free",
   "editor_max_output_tokens": 12000,
-  "openrouter_free_requests_per_day": 50
+  "openrouter_free_requests_per_day": 50,
+  "publication_mode": "review"
 }

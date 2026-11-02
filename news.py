@@ -788,6 +788,8 @@ def render_html(edition: dict[str, Any], now: datetime, cfg: dict[str, Any], arc
         section_order: list[str] = []
         for item in day_items:
             section = section_for(item.get("category", ""))
+            if section == "Мем дня" and not (item.get("is_internet_element") and item.get("source_dates")):
+                section = "Интернет-культура"
             if section not in grouped:
                 section_order.append(section)
             grouped[section].append(item)
@@ -838,36 +840,49 @@ def render_html(edition: dict[str, Any], now: datetime, cfg: dict[str, Any], arc
 <title>{title}</title>
 <meta name="description" content="Персональная новостная лента: сигнал вместо потока.">
 <style>
-:root {{ color-scheme: light dark; --bg:#f7f7f5; --text:#171717; --muted:#717171; --line:#e7e7e2; --accent:#1f4d3f; --soft:#efefeb; }}
-@media (prefers-color-scheme:dark) {{ :root {{ --bg:#111; --text:#f3f3f0; --muted:#aaa; --line:#30302e; --accent:#91c9b5; --soft:#1d1d1b; }} }}
-*{{box-sizing:border-box}} body{{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.5}}
-.wrap{{max-width:820px;margin:0 auto;padding:28px 20px 70px}} header{{padding:28px 0 22px;border-bottom:1px solid var(--line);margin-bottom:24px}}
-h1{{font-family:Georgia,"Times New Roman",serif;font-size:clamp(36px,7vw,62px);line-height:.98;margin:0 0 14px;letter-spacing:-1.5px}}
-.deck{{font-size:17px;color:var(--muted);margin:0 0 12px}} .meta{{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--muted)}} .meta a{{color:inherit;text-decoration:none;border-bottom:1px solid var(--line)}}
-.day-divider{{display:flex;align-items:center;gap:12px;margin:40px 0 10px;color:var(--muted);font-size:13px;font-weight:600}} .day-divider:after{{content:"";height:1px;background:var(--line);flex:1}}
-section{{margin:30px 0}} h2{{font-size:14px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 8px;color:var(--accent)}}
-.story{{display:grid;grid-template-columns:34px 1fr;gap:10px;padding:22px 0;border-top:1px solid var(--line)}} .num{{font-family:Georgia,serif;font-size:16px;color:var(--muted);padding-top:4px}}
-h3{{font-family:Georgia,"Times New Roman",serif;font-size:25px;line-height:1.16;margin:0 0 9px;letter-spacing:-.25px}} p{{margin:0;font-size:17px}}
-.aside{{margin-top:12px;padding-left:13px;border-left:3px solid var(--accent);font-size:15px;color:var(--muted)}}
-.feedback{{display:flex;gap:8px;margin-top:14px}} .vote{{border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:6px 10px;font:12px/1.2 inherit;cursor:pointer}} .vote:hover{{color:var(--text);background:var(--soft)}} .vote.active{{color:var(--text);border-color:var(--accent);background:var(--soft)}}
-.pref-hidden{{display:none}} .pref-note{{padding:10px 12px;margin:0 0 18px;border:1px solid var(--line);border-radius:10px;color:var(--muted);font-size:13px}} .pref-note button{{border:0;background:none;color:var(--accent);cursor:pointer;font:inherit;text-decoration:underline}}
-footer{{border-top:1px solid var(--line);padding-top:22px;margin-top:48px;font-size:13px;color:var(--muted)}}
-@media(max-width:560px){{.wrap{{padding:18px 16px 50px}} header{{padding-top:20px}} .story{{grid-template-columns:28px 1fr}} h3{{font-size:22px}} p{{font-size:16px}} .vote span{{display:none}}}}
+
+:root {{ color-scheme:light; --bg:#eff0ed; --paper:#fafaf7; --text:#303634; --muted:#626b66; --line:#d9deda; --accent:#895565; --petal:#e8ccd2; --soft:#e9ece7; }}
+*{{box-sizing:border-box}} html{{scroll-behavior:smooth}} body{{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}}
+a{{color:var(--accent);text-underline-offset:4px}} a:hover{{color:#653c49}} a:focus-visible,button:focus-visible{{outline:2px solid var(--accent);outline-offset:5px}}
+.wrap{{max-width:1100px;margin:0 auto;padding:38px 44px 64px}} .masthead{{position:relative;isolation:isolate;padding:0 0 35px;margin-bottom:32px;border-bottom:1px solid #b9c2bb}}
+.topline{{display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);padding-bottom:25px;border-bottom:1px solid var(--line)}}
+.brand{{display:flex;align-items:center;gap:10px}}.seal{{width:29px;height:29px;display:grid;place-items:center;border:1px solid #c9a3af;border-radius:50%;color:var(--accent);font-family:Georgia,serif;font-size:19px;letter-spacing:0}}.edition-note{{letter-spacing:.1em}}
+.hero{{position:relative;min-height:217px;display:flex;align-items:center;padding:43px 0 30px}}.hero-copy{{position:relative;z-index:1;max-width:660px;padding-right:70px}}.eyebrow{{font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin:0 0 16px}}
+h1{{font-family:Georgia,"Times New Roman",serif;font-size:clamp(44px,5.3vw,69px);font-weight:400;line-height:1.08;letter-spacing:-2px;margin:0 0 18px}}
+.deck{{font-size:15px;line-height:1.75;color:var(--muted);margin:0;max-width:440px}}.sakura{{position:absolute;width:290px;height:235px;right:-12px;top:15px;opacity:.9;pointer-events:none;z-index:0}}
+.meta{{display:flex;align-items:center;gap:12px 22px;flex-wrap:wrap;font-size:12px;color:var(--muted)}}.meta a{{color:inherit;text-decoration:none;border-bottom:1px solid #b9c2bb}}.meta a:hover{{color:var(--accent);border-color:var(--accent)}}
+.header-meta{{padding-top:18px;border-top:1px solid var(--line);justify-content:space-between;gap:10px 24px}}.header-meta nav{{display:flex;align-items:center;gap:24px;flex-wrap:wrap}}.header-meta a{{display:inline-flex;align-items:center;min-height:36px}}
+.topic-line{{display:flex;flex-wrap:wrap;gap:6px 18px;margin:21px 0 0;font-size:11px;letter-spacing:.04em;color:var(--muted)}}.topic-line span+span:before{{content:'·';color:#a6aea8;margin-right:18px}}
+.day-divider{{display:flex;align-items:center;gap:18px;margin:42px 0 25px;color:var(--accent);font-size:12px;font-variant-numeric:tabular-nums;letter-spacing:.08em}}.day-divider:after{{content:'';height:1px;background:var(--line);flex:1}}.day-divider span:before{{content:'';display:inline-block;width:6px;height:6px;border-radius:50%;background:#b88596;margin-right:12px;vertical-align:middle}}
+section{{display:grid;grid-template-columns:166px minmax(0,1fr);column-gap:34px;margin:0 0 28px}}h2{{grid-column:1;grid-row:1;font-size:11px;line-height:1.7;letter-spacing:.12em;text-transform:uppercase;font-weight:600;color:var(--muted);margin:23px 0 0;max-width:150px}}
+.story{{grid-column:2;display:grid;grid-template-columns:31px minmax(0,1fr);gap:13px;padding:23px 26px 25px;margin:0 0 12px;background:var(--paper);border:1px solid #dfe3dd;border-radius:3px;position:relative}}.num{{font-family:Georgia,serif;font-size:14px;color:#838c85;padding-top:4px;font-variant-numeric:tabular-nums}}.story-body{{min-width:0;overflow-wrap:anywhere}}
+h3{{font-family:Georgia,"Times New Roman",serif;font-size:25px;line-height:1.27;font-weight:400;letter-spacing:-.3px;margin:0 0 12px;overflow-wrap:anywhere}}p{{margin:0;font-size:15px;line-height:1.8}}.story-body>.meta{{margin-top:14px;font-size:11px;gap:8px;overflow-wrap:anywhere}}
+.aside{{margin:16px 0 2px;padding:2px 0 2px 14px;border-left:2px solid #c59aa8;font-size:14px;color:var(--muted)}}
+.feedback{{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}}.vote{{display:inline-flex;align-items:center;justify-content:center;gap:4px;min-height:36px;border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:3px;padding:6px 11px;font:11px/1.3 inherit;cursor:pointer}}.vote:hover{{background:var(--soft);color:var(--text)}}.vote.active{{color:#704151;border-color:#b88898;background:#f1e4e8}}.vote span{{font-size:11px}}
+.story.pref-hidden{{display:none}}.pref-note{{margin:0 0 20px;padding:13px 17px;border:1px solid #d6c4ca;border-left:3px solid #ad7b8c;border-radius:3px;color:#66565c;background:#f5eff0;font-size:12px;line-height:1.7}}.pref-note[hidden]{{display:none}}.pref-note button{{border:0;background:none;color:#754456;cursor:pointer;font:inherit;text-decoration:underline;text-underline-offset:3px;min-height:32px}}
+footer{{border-top:1px solid #bbc4bd;padding-top:24px;margin-top:46px;display:flex;justify-content:space-between;gap:24px;align-items:flex-start;color:var(--muted);font-size:11px;line-height:1.7}}.footer-brand{{font-family:Georgia,serif;font-size:19px;color:var(--text);white-space:nowrap}}.footer-note{{max-width:370px;text-align:right}}
+@media(max-width:760px){{.wrap{{padding:24px 24px 45px}}section{{grid-template-columns:125px minmax(0,1fr);column-gap:18px}}.sakura{{width:230px;right:-25px;opacity:.65}}.hero-copy{{max-width:550px;padding-right:95px}}h1{{font-size:52px}}.story{{padding:21px 20px;grid-template-columns:24px minmax(0,1fr);gap:10px}}h3{{font-size:23px}}}}
+@media(max-width:560px){{.wrap{{padding:18px 18px 36px}}.topline{{font-size:9px;padding-bottom:16px;letter-spacing:.12em;gap:8px}}.seal{{width:25px;height:25px;font-size:16px}}.edition-note{{font-size:9px;letter-spacing:.04em}}.hero{{min-height:220px;padding:31px 0 25px;align-items:flex-start}}.hero-copy{{padding-right:0;max-width:100%}}.eyebrow{{font-size:9px;margin-bottom:13px;letter-spacing:.17em}}h1{{font-size:44px;letter-spacing:-1.7px;max-width:240px;margin-bottom:15px}}.deck{{font-size:13px;max-width:275px;line-height:1.8;padding-right:20px}}.sakura{{width:150px;height:180px;right:-17px;top:5px;opacity:.58}}.header-meta{{font-size:10px;align-items:flex-start;gap:8px;padding-top:12px}}.header-meta nav{{gap:18px}}.header-meta a{{min-height:32px}}.topic-line{{font-size:10px;gap:4px 12px;margin-top:14px}}.topic-line span+span:before{{margin-right:12px}}.masthead{{padding-bottom:22px;margin-bottom:23px}}.day-divider{{margin:28px 0 18px;font-size:11px}}section{{display:block;margin-bottom:22px}}h2{{margin:0 0 12px;max-width:none;font-size:10px}}.story{{grid-template-columns:23px minmax(0,1fr);padding:19px 16px 20px;gap:8px;margin-bottom:10px}}h3{{font-size:22px;line-height:1.3;margin-bottom:12px}}p{{font-size:14px;line-height:1.8}}.num{{font-size:12px}}.feedback{{gap:7px;margin-top:15px}}.vote{{min-height:40px;padding:6px 9px}}.vote span{{font-size:10px}}.aside{{font-size:13px}}.pref-note{{font-size:11px;padding:11px 13px}}footer{{display:block;margin-top:28px;padding-top:20px}}.footer-note{{text-align:left;margin-top:9px;max-width:290px}}.footer-brand{{font-size:18px}}}}
+@media(prefers-reduced-motion:reduce){{html{{scroll-behavior:auto}}*{{transition:none!important;animation:none!important}}}}
 </style>
 </head>
 <body><main class="wrap">
-<header><h1>{title}</h1><p class="deck">Сигнал вместо потока. Новое добавляется каждые четыре часа и не исчезает.</p>
-<div class="meta"><span>Обновлено {generated}</span><a href="{nav_archive}">Архив по дням</a>{home_link}</div></header>
+<header class="masthead">
+<div class="topline"><span class="brand"><span class="seal" aria-hidden="true">и</span>Личная редакция</span><span class="edition-note">Каждые четыре часа</span></div>
+<div class="hero"><div class="hero-copy"><p class="eyebrow">Спокойный взгляд на новое</p><h1>{title}</h1><p class="deck">Важное и интересное — без лишнего шума.<br>Технологии, идеи и мир вокруг.</p></div><svg class="sakura" viewBox="0 0 290 235" fill="none" aria-hidden="true" focusable="false"><path d="M280 220C242 182 215 154 179 121C148 92 123 63 113 21M232 169C237 124 232 85 216 47M177 120C143 126 106 121 70 104M151 92C170 72 176 51 176 29M212 149C188 166 161 173 137 169" stroke="#89958b" stroke-width="2" stroke-linecap="round"/><path d="M273 221C239 190 215 169 198 156" stroke="#89958b" stroke-width="3" stroke-linecap="round"/><g fill="#e8c4cd" stroke="#c995a6" stroke-width=".55"><g transform="translate(112 29)"><ellipse cy="-7" rx="5" ry="8"/><ellipse cx="7" cy="-2" rx="5" ry="8" transform="rotate(70 7 -2)"/><ellipse cx="5" cy="7" rx="5" ry="8" transform="rotate(145 5 7)"/><ellipse cx="-5" cy="7" rx="5" ry="8" transform="rotate(-145 -5 7)"/><ellipse cx="-7" cy="-2" rx="5" ry="8" transform="rotate(-70 -7 -2)"/><circle r="2" fill="#a8687c"/></g><g transform="translate(176 42)"><ellipse cy="-6" rx="4.5" ry="7"/><ellipse cx="6" cy="-2" rx="4.5" ry="7" transform="rotate(70 6 -2)"/><ellipse cx="4" cy="6" rx="4.5" ry="7" transform="rotate(145 4 6)"/><ellipse cx="-4" cy="6" rx="4.5" ry="7" transform="rotate(-145 -4 6)"/><ellipse cx="-6" cy="-2" rx="4.5" ry="7" transform="rotate(-70 -6 -2)"/><circle r="2" fill="#a8687c"/></g><g transform="translate(226 75)"><ellipse cy="-7" rx="5" ry="8"/><ellipse cx="7" cy="-2" rx="5" ry="8" transform="rotate(70 7 -2)"/><ellipse cx="5" cy="7" rx="5" ry="8" transform="rotate(145 5 7)"/><ellipse cx="-5" cy="7" rx="5" ry="8" transform="rotate(-145 -5 7)"/><ellipse cx="-7" cy="-2" rx="5" ry="8" transform="rotate(-70 -7 -2)"/><circle r="2" fill="#a8687c"/></g><g transform="translate(89 111)"><ellipse cy="-6" rx="4.5" ry="7"/><ellipse cx="6" cy="-2" rx="4.5" ry="7" transform="rotate(70 6 -2)"/><ellipse cx="4" cy="6" rx="4.5" ry="7" transform="rotate(145 4 6)"/><ellipse cx="-4" cy="6" rx="4.5" ry="7" transform="rotate(-145 -4 6)"/><ellipse cx="-6" cy="-2" rx="4.5" ry="7" transform="rotate(-70 -6 -2)"/><circle r="2" fill="#a8687c"/></g><ellipse cx="138" cy="168" rx="4" ry="7" transform="rotate(-50 138 168)"/><ellipse cx="214" cy="46" rx="4" ry="6" transform="rotate(-30 214 46)"/><ellipse cx="150" cy="98" rx="4" ry="6" transform="rotate(45 150 98)"/><ellipse cx="190" cy="193" rx="3" ry="6" transform="rotate(35 190 193)"/><ellipse cx="61" cy="83" rx="3" ry="6" transform="rotate(-30 61 83)"/></g></svg></div>
+<div class="meta header-meta"><span>Обновлено {generated}</span><nav aria-label="Навигация по выпускам"><a href="{nav_archive}">Архив по дням</a>{home_link}</nav></div>
+<div class="topic-line" aria-label="Основные темы"><span>Технологии и ИИ</span><span>Космос</span><span>Экономика</span><span>Инженерия</span><span>Шахматы</span></div>
+</header>
 <div id="health-note" class="pref-note" hidden></div>
 <div id="pref-note" class="pref-note" hidden>По вашим оценкам скрыто новых сюжетов: <strong id="hidden-count">0</strong>. <button id="show-hidden" type="button">Показать</button></div>
 {"".join(parts)}
-<footer>Новости Игоря · лайки хранятся только в этом браузере и влияют на будущие похожие сюжеты</footer>
+<footer><span class="footer-brand">Новости Игоря</span><span class="footer-note">Сигнал вместо потока.<br>Ваши оценки хранятся только в этом браузере<br>и помогают настроить будущую ленту.</span></footer>
 </main>
 <script>
 fetch('{health_url}', {{cache: 'no-store'}}).then(r => r.ok ? r.json() : null).then(h => {{
-  if (!h || h.status !== 'degraded') return;
+  if (!h || !['degraded', 'review_required'].includes(h.status)) return;
   const box = document.getElementById('health-note');
-  box.textContent = 'Последняя проверка прошла с ограничениями. Непроверенные новости не добавлены; дата контента указана выше.';
+  box.textContent = h.status === 'review_required' ? 'Новый выпуск проходит проверку. Показана последняя опубликованная лента.' : 'Последняя проверка прошла с ограничениями. Непроверенные новости не добавлены; дата контента указана выше.';
   box.hidden = false;
 }}).catch(() => {{}});
 </script>
@@ -982,7 +997,7 @@ def save_outputs(
     # Health checks are not content updates. Do not relabel an old edition as fresh
     # when the editor is unavailable or every candidate was a duplicate.
     editor_status = new_edition.get("editor_status", "success")
-    health_status = "degraded" if editor_status in {"unavailable", "degraded", "fallback", "validation_failed"} else ("success" if added else "no_new_items")
+    health_status = "review_required" if editor_status == "review_required" else "degraded" if editor_status in {"unavailable", "degraded", "fallback", "validation_failed"} else ("success" if added else "no_new_items")
     previous_updated = ""
     previous_feed_path = docs_dir / "feed.json"
     if previous_feed_path.exists():

@@ -52,14 +52,20 @@ _original_rss_candidates = v8.rss_candidates
 
 def rss_candidates(session, batch, domains, cfg, now):
     items = _original_rss_candidates(session, batch, domains, cfg, now)
+    from primary_feeds import collect_primary
+    try:
+        items += collect_primary(session, batch, cfg, now)
+    except RuntimeError:
+        print(f"Primary sources unavailable for {batch}; Google feed remains limited headline evidence.")
     filtered = []
     for raw in items:
         item = dict(raw)
         item['title'] = clean_rss_title(item.get('title', ''), item.get('rss_source_name', ''))
         # Google News descriptions may concatenate unrelated linked headlines.
         # Only the feed headline is evidence; never give the editor extra invented detail.
-        item['what_happened'] = item['title']
-        item['evidence_scope'] = 'rss_headline_only'
+        if item.get('evidence_scope') != 'publisher_feed_summary':
+            item['what_happened'] = item['title']
+            item['evidence_scope'] = 'rss_headline_only'
         if candidate_is_safe(item, now, cfg):
             filtered.append(item)
     return filtered
@@ -85,7 +91,7 @@ def validate_edition(edition, candidates, cfg, now, allow_meme=True):
         refs = [by_url[u] for u in urls]
         headline, body = raw.get('headline', '').strip(), raw.get('body', '').strip()
         text = headline + ' ' + body + ' ' + raw.get('aside', '')
-        evidence = ' '.join(c['title'] for c in refs)
+        evidence = ' '.join(c['title'] + (' ' + c.get('what_happened', '') if c.get('evidence_scope') == 'publisher_feed_summary' else '') for c in refs)
         if headline.casefold() == body.casefold():
             continue
         if re.search(r'куда пойти|круглый стол|конференци.{0,50}(?:прошла|состоится)|уже умнее|что происходит|продолжает наращивать', headline, re.I):

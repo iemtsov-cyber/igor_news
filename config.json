@@ -18,7 +18,7 @@
   },
   "models": {
     "collector": "rss",
-    "editor": "google/gemma-4-31b-it:free"
+    "editor": "openrouter/free"
   },
   "web_search": {
     "search_context_size": "low",

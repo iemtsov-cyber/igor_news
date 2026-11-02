@@ -14,7 +14,7 @@ from datetime import datetime, timedelta
 from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urlsplit, urlunsplit, parse_qsl, urlencode
 from zoneinfo import ZoneInfo
 
 from dotenv import load_dotenv
@@ -469,6 +469,10 @@ def apply_hard_limits(edition: dict[str, Any], cfg: dict[str, Any]) -> dict[str,
 
 def section_for(category: str) -> str:
     c = category.lower()
+    if c in {"ai", "space", "engineering"}:
+        return "ИИ, космос и инженерия"
+    if c in {"internet_culture", "memes"}:
+        return "Мем дня"
     if any(x in c for x in ["russia", "росс", "business", "econom", "бизнес", "эконом"]):
         return "Россия, бизнес и экономика"
     if any(x in c for x in ["world", "polit", "мир", "полит"]):
@@ -520,6 +524,74 @@ def normalize_tags(item: dict[str, Any], cfg: dict[str, Any]) -> list[str]:
     return tags[:limit]
 
 
+def safe_source_url(value: Any) -> str:
+    """Keep public citation URLs only; never persist credentials or unsafe schemes."""
+    if not isinstance(value, str):
+        return ""
+    value = value.strip()
+    try:
+        parts = urlsplit(value)
+        if parts.scheme.lower() not in {"http", "https"} or not parts.hostname or parts.username or parts.password:
+            return ""
+        if any(ord(c) < 32 for c in value):
+            return ""
+        return value
+    except ValueError:
+        return ""
+
+
+def source_url_key(value: Any) -> str:
+    url = safe_source_url(value)
+    if not url:
+        return ""
+    parts = urlsplit(url)
+    # Remove only known tracking parameters; article-identifying query stays intact.
+    query = [(k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True)
+             if not k.lower().startswith("utm_") and k.lower() not in {"fbclid", "gclid"}]
+    return urlunsplit((parts.scheme.lower(), parts.netloc.lower(), parts.path, urlencode(sorted(query)), ""))
+
+
+def source_date(value: Any) -> str:
+    if not isinstance(value, str):
+        return ""
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+        return value if parsed.tzinfo is not None else ""
+    except ValueError:
+        return ""
+
+
+def story_provenance(item: dict[str, Any]) -> dict[str, Any]:
+    """Preserve supplied provenance, without retroactively inventing old sources/dates."""
+    result: dict[str, Any] = {}
+    raw_urls = item.get("source_urls", [])
+    urls = list(dict.fromkeys(filter(None, (safe_source_url(x) for x in raw_urls)))) if isinstance(raw_urls, list) else []
+    if urls:
+        result["source_urls"] = urls
+    names = item.get("source_names", [])
+    if isinstance(names, list):
+        names = list(dict.fromkeys(x.strip() for x in names if isinstance(x, str) and x.strip()))
+        if names:
+            result["source_names"] = names
+    published = source_date(item.get("published_at"))
+    if published:
+        result["published_at"] = published
+    dates = item.get("source_dates", [])
+    if isinstance(dates, dict):
+        dates = [{"url": key, "published_at": value} for key, value in dates.items()]
+    if isinstance(dates, list):
+        verified = []
+        for record in dates:
+            if not isinstance(record, dict):
+                continue
+            url, date = safe_source_url(record.get("url")), source_date(record.get("published_at"))
+            if url in urls and date and {"url": url, "published_at": date} not in verified:
+                verified.append({"url": url, "published_at": date})
+        if verified:
+            result["source_dates"] = verified
+    return result
+
+
 def public_story(item: dict[str, Any], cfg: dict[str, Any], now: datetime) -> dict[str, Any]:
     clean = {
         "category": item.get("category", "other"),
@@ -534,6 +606,7 @@ def public_story(item: dict[str, Any], cfg: dict[str, Any], now: datetime) -> di
         "added_at": item.get("added_at") or now.isoformat(),
     }
     clean["story_id"] = item.get("story_id") or stable_story_id(clean)
+    clean.update(story_provenance(item))
     return clean
 
 
@@ -601,7 +674,13 @@ def merge_feed(existing: list[dict[str, Any]], new_items: list[dict[str, Any]], 
     added: list[dict[str, Any]] = []
     for raw in new_items:
         item = public_story(raw, cfg, now)
-        if any(similarity(item["headline"], old.get("headline", "")) >= threshold for old in merged):
+        new_urls = {source_url_key(url) for url in item.get("source_urls", [])} - {""}
+        if any(
+            (new_urls & {source_url_key(url) for url in old.get("source_urls", [])})
+            or item["story_id"] == old.get("story_id")
+            or similarity(item["headline"], old.get("headline", "")) >= threshold
+            for old in merged
+        ):
             continue
         merged.append(item)
         added.append(item)
@@ -718,13 +797,21 @@ def render_html(edition: dict[str, Any], now: datetime, cfg: dict[str, Any], arc
             for item in group_items:
                 aside = item.get("aside", "").strip()
                 aside_html = f'<div class="aside">{html.escape(aside)}</div>' if aside else ""
+                source_links = []
+                for n, url in enumerate(item.get("source_urls", [])):
+                    safe = safe_source_url(url)
+                    if safe:
+                        names = item.get("source_names", [])
+                        label = names[n] if n < len(names) else "Источник"
+                        source_links.append(f'<a href="{html.escape(safe, quote=True)}" target="_blank" rel="noopener noreferrer">{html.escape(label)}</a>')
+                sources_html = '<div class="meta">' + ' · '.join(source_links) + '</div>' if source_links else ''
                 story_id = item.get("story_id") or stable_story_id(item)
                 tags_json = html.escape(json.dumps(item.get("preference_tags", []), ensure_ascii=False), quote=True)
                 category_attr = html.escape(item.get("category", "other"), quote=True)
                 cards.append(
                     f'<article class="story" data-story-id="{story_id}" data-category="{category_attr}" data-tags="{tags_json}">'
                     f'<div class="num">{number}</div><div class="story-body"><h3>{html.escape(item.get("headline", ""))}</h3>'
-                    f'<p>{html.escape(item.get("body", ""))}</p>{aside_html}'
+                    f'<p>{html.escape(item.get("body", ""))}</p>{aside_html}{sources_html}'
                     f'<div class="feedback" aria-label="Настроить будущую ленту">'
                     f'<button class="vote vote-up" type="button" title="Больше такого">👍 <span>Больше такого</span></button>'
                     f'<button class="vote vote-down" type="button" title="Меньше такого">👎 <span>Меньше такого</span></button>'
@@ -735,7 +822,8 @@ def render_html(edition: dict[str, Any], now: datetime, cfg: dict[str, Any], arc
 
     title = html.escape(edition.get("title", "Новости Игоря"))
     generated = now.strftime("%d.%m.%Y · %H:%M МСК")
-    home_link = f'<a href="{nav_home}">Лента</a>' if archive_mode else ""
+    home_link = f'<a href="{nav_home}">Лента</a>' if archive_mode else '<a href="health.json">Статус обновления</a>'
+    health_url = "../health.json" if archive_mode else "health.json"
     p_cfg = cfg.get("personalization", {})
     js_cfg = json.dumps({
         "hideThreshold": float(p_cfg.get("hide_threshold", -1.6)),
@@ -770,10 +858,19 @@ footer{{border-top:1px solid var(--line);padding-top:22px;margin-top:48px;font-s
 <body><main class="wrap">
 <header><h1>{title}</h1><p class="deck">Сигнал вместо потока. Новое добавляется каждые четыре часа и не исчезает.</p>
 <div class="meta"><span>Обновлено {generated}</span><a href="{nav_archive}">Архив по дням</a>{home_link}</div></header>
+<div id="health-note" class="pref-note" hidden></div>
 <div id="pref-note" class="pref-note" hidden>По вашим оценкам скрыто новых сюжетов: <strong id="hidden-count">0</strong>. <button id="show-hidden" type="button">Показать</button></div>
 {"".join(parts)}
 <footer>Новости Игоря · лайки хранятся только в этом браузере и влияют на будущие похожие сюжеты</footer>
 </main>
+<script>
+fetch('{health_url}', {{cache: 'no-store'}}).then(r => r.ok ? r.json() : null).then(h => {{
+  if (!h || h.status !== 'degraded') return;
+  const box = document.getElementById('health-note');
+  box.textContent = 'Последняя проверка прошла с ограничениями. Непроверенные новости не добавлены; дата контента указана выше.';
+  box.hidden = false;
+}}).catch(() => {{}});
+</script>
 <script>
 (() => {{
   const CFG = {js_cfg};
@@ -881,6 +978,32 @@ def save_outputs(
     md_path.write_text(render_markdown({"title": new_edition.get("title", "Новости Игоря"), "items": added}, cfg), encoding="utf-8")
     internal = {"generated_at": now.isoformat(), "edition": new_edition, "candidate_count": len(candidates), "candidates": candidates}
     json_path.write_text(json.dumps(internal, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    # Health checks are not content updates. Do not relabel an old edition as fresh
+    # when the editor is unavailable or every candidate was a duplicate.
+    editor_status = new_edition.get("editor_status", "success")
+    health_status = "degraded" if editor_status in {"unavailable", "degraded", "fallback", "validation_failed"} else ("success" if added else "no_new_items")
+    previous_updated = ""
+    previous_feed_path = docs_dir / "feed.json"
+    if previous_feed_path.exists():
+        try:
+            previous_updated = source_date(json.loads(previous_feed_path.read_text(encoding="utf-8")).get("updated_at"))
+        except (ValueError, OSError, TypeError):
+            pass
+    if not previous_updated:
+        known_dates = [source_date(x.get("added_at")) for x in existing_feed]
+        known_dates = [date for date in known_dates if date]
+        previous_updated = max(known_dates, key=lambda date: datetime.fromisoformat(date.replace("Z", "+00:00"))) if known_dates else ""
+    health = {
+        "checked_at": now.isoformat(),
+        "status": health_status,
+        "last_content_update_at": now.isoformat() if added else previous_updated or None,
+        "added_items": len(added),
+    }
+    (docs_dir / "health.json").write_text(json.dumps(health, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if not added:
+        # Preserve the live page, feed dates and prior day archives byte-for-byte.
+        return md_path, json_path, merged, added
 
     feed_payload = {"updated_at": now.isoformat(), "items": merged}
     (docs_dir / "feed.json").write_text(json.dumps(feed_payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

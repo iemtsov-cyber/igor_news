@@ -1,6 +1,17 @@
 name: News every 4 hours + GitHub Pages
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '*.py'
+      - 'config.json'
+      - 'sources.json'
+      - 'editorial_policy.md'
+      - 'prompts/**'
+      - 'tests/**'
+      - 'requirements.txt'
+      - '.github/workflows/daily-news.yml'
   workflow_dispatch:
   schedule:
     # Every 4 hours in Moscow, shifted away from minute 00 to avoid GitHub Actions peak load.
@@ -19,6 +30,7 @@ concurrency:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -38,6 +50,9 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Offline regression tests
+        run: python -m unittest discover -s tests -v
+
       - name: Validate v8.1
         run: |
           python -m py_compile news.py
@@ -48,6 +63,9 @@ jobs:
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python news_v81.py
+
+      - name: Refresh presentation preserving content timestamp
+        run: python render_current.py
 
       - name: Save feed, archive and memory
         run: |

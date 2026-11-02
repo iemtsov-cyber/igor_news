@@ -1,20 +1,20 @@
 {
-  "version": 8,
+  "version": 9,
   "timezone": "Europe/Moscow",
   "lookback_hours": 8,
   "edition": {
-    "target_items": 6,
-    "min_items": 4,
-    "max_items": 8,
+    "target_items": 15,
+    "min_items": 0,
+    "max_items": 15,
     "show_links": false,
     "show_source_names": false,
     "show_section_headers": true,
-    "max_politics_share": 0.25,
+    "max_politics_share": 0.15,
     "max_items_from_one_source": 4,
     "max_reddit_items": 2,
     "max_meme_items": 1,
     "min_internet_elements_per_day": 1,
-    "random_top_items_per_update": 1
+    "random_top_items_per_update": 0
   },
   "models": {
     "collector": "rss",
@@ -22,7 +22,7 @@
   },
   "web_search": {
     "search_context_size": "low",
-    "max_candidates_per_batch": 8,
+    "max_candidates_per_batch": 12,
     "collector_max_output_tokens": 4500,
     "json_retries": 2,
     "search_max_output_tokens": 5500
@@ -31,58 +31,60 @@
     "title_similarity_threshold": 0.79
   },
   "category_weights": {
+    "ai": 1.5,
+    "technology": 1.4,
+    "space": 1.4,
+    "engineering": 1.4,
+    "economy": 1.3,
+    "chess": 1.3,
     "russia": 1.1,
-    "business": 1.25,
-    "economy": 1.2,
-    "world": 1.0,
-    "politics": 0.82,
-    "science": 1.0,
-    "technology": 1.05,
-    "ai": 1.05,
-    "moscow": 1.05,
-    "restaurants": 0.95,
-    "food": 0.9,
-    "products": 0.92,
-    "cinema": 0.78,
-    "culture": 0.7,
-    "sports": 0.45,
-    "chess": 0.45,
-    "memes": 0.72,
-    "internet_culture": 0.68,
-    "human_story": 0.88,
-    "random_top": 0.75
+    "world": 0.8,
+    "internet_culture": 1.0
   },
   "soft_targets": {
-    "russia_business_economy": 2,
-    "world_politics": 1,
-    "science_technology": 1,
-    "moscow_food_restaurants": 1,
-    "cinema_culture": 1,
-    "sport_chess": 0,
-    "internet_comment_meme": 0
+    "ai_technology": 4,
+    "space_engineering": 3,
+    "economy": 3,
+    "chess": 2,
+    "russia": 2,
+    "important_world": 1
   },
   "collection_batches": {
-    "russia_core": {
-      "prompt": "Главные НОВЫЕ события России за последние часы: экономика, бизнес, компании, регулирование, общество и только действительно значимая политика. Ищи последствия, а не поток заявлений."
+    "ai": {
+      "search_query": "(\"искусственный интеллект\" OR \"AI model\" OR \"нейросеть\")",
+      "category": "ai"
     },
-    "world_core": {
-      "prompt": "Главные НОВЫЕ международные события за последние часы: экономика, бизнес, геополитика, крупные компании и процессы. Отсекай мелкую дипломатическую текучку."
+    "space": {
+      "search_query": "(космос OR NASA OR ESA OR SpaceX OR астрономия)",
+      "category": "space"
+    },
+    "engineering": {
+      "search_query": "(робототехника OR инженерия OR semiconductor OR энергетика)",
+      "category": "engineering"
     },
     "science_tech": {
-      "prompt": "Свежие сильные новости науки, технологий и ИИ. Для науки предпочитай реальные исследования и первичные публикации. Для ИИ — только значимые изменения, модели, продукты и применения."
+      "search_query": "(технологии OR исследование OR technology OR science)",
+      "category": "technology"
     },
-    "moscow_food": {
-      "prompt": "Свежие новости Москвы, еды, продуктов, ресторанов и гастрономии: заметные городские изменения, интересные открытия, продуктовые тенденции, Michelin и сильные ресторанные истории. Не делай афишу из всех открытий подряд."
+    "economy": {
+      "search_query": "(экономика OR производство OR инвестиции OR economy)",
+      "category": "economy"
     },
-    "culture_sport": {
-      "prompt": "Свежие заметные события кино, сериалов, культуры, спорта и шахмат. Бери только премьеры, феномены, рекорды, большие турниры, необычные истории и события с культурным весом."
+    "chess": {
+      "search_query": "(шахматы OR FIDE OR chess)",
+      "category": "chess"
+    },
+    "russia_core": {
+      "search_query": "(Россия экономика OR Россия технологии OR российское производство)",
+      "category": "russia"
+    },
+    "world_core": {
+      "search_query": "(major discovery OR major disaster OR мировая экономика)",
+      "category": "world"
     },
     "internet_culture": {
-      "prompt": "Интернет-культура. Найди несколько СВЕЖИХ кандидатов: текущий массовый мем, реально смешной или показательный Reddit-комментарий к заметной теме, либо интернет-феномен, который сейчас расходится. Не выдумывай комментарии и не используй Reddit/мем-сайты как подтверждение факта новости."
-    },
-    "random_top": {
-      "allow_any_domain": true,
-      "prompt": "Найди 5–8 самых заметных новостей последних часов из общего мирового топа БЕЗ тематического ограничения. Это лотерея редакции: политика, бизнес, природа, наука, культура, происшествия — что угодно, если сюжет реально заметный. Источники могут быть любые разумные новостные или первичные сайты. Не бери SEO-мусор и очевидно недостоверные страницы."
+      "search_query": "(\"новый мем\" OR \"мемный тренд\" OR \"viral meme\")",
+      "category": "internet_culture"
     }
   },
   "memory": {

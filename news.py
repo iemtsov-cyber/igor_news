@@ -556,6 +556,9 @@ def source_date(value: Any) -> str:
         return ""
     try:
         parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+        # A publisher may provide a calendar day only; never invent midnight.
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
+            return value
         return value if parsed.tzinfo is not None else ""
     except ValueError:
         return ""
@@ -592,6 +595,46 @@ def story_provenance(item: dict[str, Any]) -> dict[str, Any]:
     return result
 
 
+def story_image(value: Any) -> dict[str, str] | None:
+    """Preserve an attributed image only when all required URLs are safe HTTPS."""
+    if not isinstance(value, dict):
+        return None
+    clean = {}
+    for key in ("url", "license_url", "source_url"):
+        url = safe_source_url(value.get(key))
+        if not url or urlsplit(url).scheme.lower() != "https":
+            return None
+        clean[key] = url
+    for key in ("alt", "caption", "credit", "license_name"):
+        text = value.get(key, "")
+        if not isinstance(text, str):
+            return None
+        clean[key] = text.strip()
+    if not clean["alt"] or not clean["credit"] or not clean["license_name"]:
+        return None
+    return clean
+
+
+def render_story_image(value: Any) -> str:
+    image = story_image(value)
+    if image is None:
+        return ""
+    escape = lambda text: html.escape(text, quote=True)
+    details = []
+    if image["caption"]:
+        details.append(escape(image["caption"]))
+    details.append(escape(image["credit"]))
+    for key, label in (("license_url", image["license_name"]), ("source_url", "Источник изображения")):
+        details.append(f'<a href="{escape(image[key])}" target="_blank" rel="noopener noreferrer">{escape(label)}</a>')
+    return (
+        '<figure class="story-image" style="margin:18px 0">'
+        f'<img src="{escape(image["url"])}" alt="{escape(image["alt"])}" loading="lazy" decoding="async" '
+        'style="display:block;width:100%;height:auto">'
+        '<figcaption style="margin-top:8px;font-size:12px;line-height:1.5;color:var(--muted)">'
+        + ' · '.join(details) + '</figcaption></figure>'
+    )
+
+
 def public_story(item: dict[str, Any], cfg: dict[str, Any], now: datetime) -> dict[str, Any]:
     clean = {
         "category": item.get("category", "other"),
@@ -607,6 +650,9 @@ def public_story(item: dict[str, Any], cfg: dict[str, Any], now: datetime) -> di
     }
     clean["story_id"] = item.get("story_id") or stable_story_id(clean)
     clean.update(story_provenance(item))
+    image = story_image(item.get("image"))
+    if image is not None:
+        clean["image"] = image
     return clean
 
 
@@ -777,7 +823,7 @@ def render_html(edition: dict[str, Any], now: datetime, cfg: dict[str, Any], arc
     parts: list[str] = []
     number = 1
     for day in day_order:
-        day_items = by_day[day]
+        day_items = sorted(by_day[day], key=lambda item: item.get("added_at", ""), reverse=True)
         if not archive_mode or len(day_order) > 1:
             try:
                 day_label = datetime.strptime(day, "%Y-%m-%d").strftime("%d.%m.%Y")
@@ -813,7 +859,7 @@ def render_html(edition: dict[str, Any], now: datetime, cfg: dict[str, Any], arc
                 cards.append(
                     f'<article class="story" data-story-id="{story_id}" data-category="{category_attr}" data-tags="{tags_json}">'
                     f'<div class="num">{number}</div><div class="story-body"><h3>{html.escape(item.get("headline", ""))}</h3>'
-                    f'<p>{html.escape(item.get("body", ""))}</p>{aside_html}{sources_html}'
+                    f'<p>{html.escape(item.get("body", ""))}</p>{render_story_image(item.get("image"))}{aside_html}{sources_html}'
                     f'<div class="feedback" aria-label="Настроить будущую ленту">'
                     f'<button class="vote vote-up" type="button" title="Больше такого">👍 <span>Больше такого</span></button>'
                     f'<button class="vote vote-down" type="button" title="Меньше такого">👎 <span>Меньше такого</span></button>'
@@ -882,7 +928,7 @@ footer{{border-top:1px solid #bbc4bd;padding-top:24px;margin-top:46px;display:fl
 fetch('{health_url}', {{cache: 'no-store'}}).then(r => r.ok ? r.json() : null).then(h => {{
   if (!h || !['degraded', 'review_required'].includes(h.status)) return;
   const box = document.getElementById('health-note');
-  box.textContent = h.status === 'review_required' ? 'Новый выпуск проходит проверку. Показана последняя опубликованная лента.' : 'Последняя проверка прошла с ограничениями. Непроверенные новости не добавлены; дата контента указана выше.';
+  box.textContent = h.status === 'review_required' ? 'Автоматические выпуски проходят предварительную проверку. Ниже — опубликованная лента.' : 'Последняя проверка прошла с ограничениями. Непроверенные новости не добавлены; дата контента указана выше.';
   box.hidden = false;
 }}).catch(() => {{}});
 </script>

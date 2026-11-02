@@ -37,7 +37,7 @@ class ProvenanceTests(unittest.TestCase):
     def test_reject_unsafe_urls_dates_and_unmatched_dates(self):
         item = self.item()
         item['source_urls'] += ['javascript:alert(1)', 'https://user:pass@example.org/private', 'file:///tmp/a']
-        item['published_at'] = '2026-11-02'
+        item['published_at'] = '2026-11-02T12:00:00'
         item['source_dates'].append({'url': 'https://unverified.test/', 'published_at': '2026-11-02T10:00:00Z'})
         clean = news.public_story(item, CFG, NOW)
         self.assertEqual(clean['source_urls'], ['https://example.org/news?id=1'])
@@ -93,3 +93,9 @@ class ProvenanceTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+class DatePrecisionTests(unittest.TestCase):
+    def test_calendar_day_preserved_without_invented_time(self):
+        self.assertEqual(news.source_date('2026-11-02'), '2026-11-02')
+        self.assertEqual(news.source_date('2026-02-30'), '')
+        self.assertEqual(news.source_date('2026-11-02T12:00:00'), '')

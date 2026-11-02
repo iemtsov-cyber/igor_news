@@ -10,6 +10,7 @@ on:
       - 'editorial_policy.md'
       - 'prompts/**'
       - 'tests/**'
+      - 'reviewed_editions/**'
       - 'requirements.txt'
       - '.github/workflows/daily-news.yml'
   workflow_dispatch:
@@ -63,6 +64,9 @@ jobs:
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python news_v81.py
+
+      - name: Publish only explicitly reviewed editions (no API calls)
+        run: python publish_reviewed.py
 
       - name: Refresh presentation preserving content timestamp
         run: python render_current.py

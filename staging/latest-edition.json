@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-21T11:43:46.100664+03:00",
+  "generated_at": "2026-11-21T11:48:03.797688+03:00",
   "edition": {
     "title": "Новости Игоря",
     "items": [
       {
         "category": "space",
-        "headline": "Аппарат BepiColombo готов выйти на орбиту Меркурия",
-        "body": "После восьми лет путешествия в космосе аппарат BepiColombo готов выйти на орбиту Меркурия.",
+        "headline": "BepiColombo готов выйти на орбиту Меркурия после восьми лет в космосе",
+        "body": "Аппарат BepiColombo после восьми лет путешествия в космосе готов выйти на орбиту Меркурия.",
         "aside": "",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBDZkZRbEhHRDI0c0hpbkFnZ1R3TWJnNlVHSWpHZDNQWXRDZldubURhcC1YdlczU25QRTRhQ21XRFE4UzJrNDVvTjg3eWgtLV9fYzN6X29iRVUyOG9kRGJn0gFkQVVfeXFMTy1KZXFFazRBYlVDN0gxNW5HcmM2Vk1iSlJ0bkRGZl9RRmhPNFRmVDRjYzB1Z3pkRHNZc21jUmlLTTlCdUJDelBRSGhhNFJRd2dfY0JRaEctYVpYMnZ3Uk1VTU1mXw?oc=5"
@@ -14,10 +14,12 @@
         "source_names": [
           "BBC"
         ],
-        "importance": 8,
+        "importance": 9,
         "confidence": 1,
         "preference_tags": [
-          "space"
+          "космос",
+          "исследование планет",
+          "миссия BepiColombo"
         ],
         "is_random_top": false,
         "is_internet_element": false,
@@ -30,114 +32,37 @@
         "published_at": "2026-11-21T09:42:58+03:00"
       },
       {
-        "category": "space",
-        "headline": "SpaceX получит вычислительные ускорители Nvidia на $44 млрд — это крупнейшая сделка по финансированию закупки GPU",
-        "body": "SpaceX получит вычислительные ускорители Nvidia на $44 млрд — это крупнейшая сделка по финансированию закупки GPU.",
+        "category": "technology",
+        "headline": "Участник испытаний Neuralink сыграл в GTA VI с мозговым имплантом",
+        "body": "Участник испытаний Neuralink сыграл в GTA VI с помощью мозгового импланта.",
         "aside": "",
         "source_urls": [
-          "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBuWGp1QUNHb0JxVWw0ejRpUlFvUFB2Wm1aY08zbUlRek5LdG0xMVVqM3R6empkX3hJMFFoV2VLalM5Yk0?oc=5"
+          "https://news.google.com/rss/articles/CBMifkFVX3lxTE84dUhJSTRaa2liVU1KTmsyc3k0OU1ENG9jT1VSRmk4ajY4Qy1xcFNoUFJqT1lKWGVzckFFS25fNnVndGhLVVNsMlhKY1lBUXF4TTZNa1FtRzZ4eFR1OGJrSnFGWlhybnZBMmZBSS1tMmYyQ1hqZlFxRU1VVEV2Zw?oc=5"
         ],
         "source_names": [
-          "Runet.news"
+          "Ведомости"
         ],
-        "importance": 9,
+        "importance": 8,
         "confidence": 1,
         "preference_tags": [
-          "space",
-          "technology"
+          "нейроинтерфейсы",
+          "Neuralink",
+          "ИИ"
         ],
         "is_random_top": false,
         "is_internet_element": false,
         "source_dates": [
           {
-            "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBuWGp1QUNHb0JxVWw0ejRpUlFvUFB2Wm1aY08zbUlRek5LdG0xMVVqM3R6empkX3hJMFFoV2VLalM5Yk0?oc=5",
-            "published_at": "2026-11-21T09:20:50+03:00"
+            "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE84dUhJSTRaa2liVU1KTmsyc3k0OU1ENG9jT1VSRmk4ajY4Qy1xcFNoUFJqT1lKWGVzckFFS25fNnVndGhLVVNsMlhKY1lBUXF4TTZNa1FtRzZ4eFR1OGJrSnFGWlhybnZBMmZBSS1tMmYyQ1hqZlFxRU1VVEV2Zw?oc=5",
+            "published_at": "2026-11-21T11:02:10+03:00"
           }
         ],
-        "published_at": "2026-11-21T09:20:50+03:00"
+        "published_at": "2026-11-21T11:02:10+03:00"
       },
       {
         "category": "space",
-        "headline": "Конгресс США пригрозил лишить SpaceX финансирования из-за проблем со связью на Украине",
-        "body": "Конгресс США пригрозил лишить SpaceX финансирования из-за проблем со связью на Украине.",
-        "aside": "",
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVng1VEF6NTRwWjVrSi1NN2I2NTBIcE1QaUxkSHNMSl9XbTJlZjFxY3VIQVQxYVNlc3hRVzYzTVUwcXNMcWNyekh6aDR5ZFVaVXE3bEpTQ19rdFdjRloxd08xSmxyR3VodVhMeTBJYmwwaVZJV2lPX21fT1JzYndZS2VnUzRoTWxmdTRjUDZJSU1yb18wa1hQVnM4d2VQeHlzXzlURlR3?oc=5"
-        ],
-        "source_names": [
-          "Главный Региональный"
-        ],
-        "importance": 7,
-        "confidence": 1,
-        "preference_tags": [
-          "space"
-        ],
-        "is_random_top": false,
-        "is_internet_element": false,
-        "source_dates": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVng1VEF6NTRwWjVrSi1NN2I2NTBIcE1QaUxkSHNMSl9XbTJlZjFxY3VIQVQxYVNlc3hRVzYzTVUwcXNMcWNyekh6aDR5ZFVaVXE3bEpTQ19rdFdjRloxd08xSmxyR3VodVhMeTBJYmwwaVZJV2lPX21fT1JzYndZS2VnUzRoTWxmdTRjUDZJSU1yb18wa1hQVnM4d2VQeHlzXzlURlR3?oc=5",
-            "published_at": "2026-11-21T09:29:58+03:00"
-          }
-        ],
-        "published_at": "2026-11-21T09:29:58+03:00"
-      },
-      {
-        "category": "space",
-        "headline": "CNN: Демократ пригрозил ограничить финансирование SpaceX из-за Украины",
-        "body": "CNN: Демократ пригрозил ограничить финансирование SpaceX из-за Украины.",
-        "aside": "",
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMlF5NzFHZ05ObzY3VFV2UTZTSEZwbVFzenJTQ1B4TWNXbDJqdjJHYjRJSU8xS2F6V3ozWl91NVcxaEhGOUt3TGJaNHB1aG1WTENDNEJJM2lVWnhaaTM2Umg0b3JVX1JMb1NhU3JNc2JHaVhHMUh1NTlJUFl0NXZ5amF5OWhUVU1zU3Vnb09iNTY4d2h0Q0NMczRhMi1LR0ozOEFtTmpwU3Y3c0V5ZEh2cXR5R01KQk0?oc=5"
-        ],
-        "source_names": [
-          "rosbalt.ru"
-        ],
-        "importance": 7,
-        "confidence": 1,
-        "preference_tags": [
-          "space"
-        ],
-        "is_random_top": false,
-        "is_internet_element": false,
-        "source_dates": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPMlF5NzFHZ05ObzY3VFV2UTZTSEZwbVFzenJTQ1B4TWNXbDJqdjJHYjRJSU8xS2F6V3ozWl91NVcxaEhGOUt3TGJaNHB1aG1WTENDNEJJM2lVWnhaaTM2Umg0b3JVX1JMb1NhU3JNc2JHaVhHMUh1NTlJUFl0NXZ5amF5OWhUVU1zU3Vnb09iNTY4d2h0Q0NMczRhMi1LR0ozOEFtTmpwU3Y3c0V5ZEh2cXR5R01KQk0?oc=5",
-            "published_at": "2026-11-21T10:06:05+03:00"
-          }
-        ],
-        "published_at": "2026-11-21T10:06:05+03:00"
-      },
-      {
-        "category": "space",
-        "headline": "CNN: конгрессмен Хаймс пригрозил добиваться приостановки финансирования SpaceX",
-        "body": "CNN: конгрессмен Хаймс пригрозил добиваться приостановки финансирования SpaceX.",
-        "aside": "",
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMEdmc1FCMUNYODN0dGhzbzctUlJEZzNDMmUzT0hMaDlEeDByU2JPQUN4Ui1FZUt1S1pvb08xYlA2OFc2QmFhcFRBUUEtUlF3MXpUZHJHQm5HMThmbWNQNEhRM3pIbE9sZUx5Yjh3MnNMVkg5bHVfdnFxTnJQYjJYVVg0UkxZVHE3YUxqMUZHWUNuTzJpYnlaczN6Sl9sb0JwWW51Ykh2azNQdE5jV2RLTzBRMUw0QQ?oc=5"
-        ],
-        "source_names": [
-          "ГИПОРТ"
-        ],
-        "importance": 7,
-        "confidence": 1,
-        "preference_tags": [
-          "space"
-        ],
-        "is_random_top": false,
-        "is_internet_element": false,
-        "source_dates": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMEdmc1FCMUNYODN0dGhzbzctUlJEZzNDMmUzT0hMaDlEeDByU2JPQUN4Ui1FZUt1S1pvb08xYlA2OFc2QmFhcFRBUUEtUlF3MXpUZHJHQm5HMThmbWNQNEhRM3pIbE9sZUx5Yjh3MnNMVkg5bHVfdnFxTnJQYjJYVVg0UkxZVHE3YUxqMUZHWUNuTzJpYnlaczN6Sl9sb0JwWW51Ykh2azNQdE5jV2RLTzBRMUw0QQ?oc=5",
-            "published_at": "2026-11-21T10:55:07+03:00"
-          }
-        ],
-        "published_at": "2026-11-21T10:55:07+03:00"
-      },
-      {
-        "category": "space",
-        "headline": "Единственный «космический грузовик», который не сгорает в атмосфере. Корабль SpaceX Dragon отстыковался от МКС и возвращается на Землю",
-        "body": "Единственный «космический грузовик», который не сгорает в атмосфере. Корабль SpaceX Dragon отстыковался от МКС и возвращается на Землю.",
+        "headline": "Корабль SpaceX Dragon отстыковался от МКС и возвращается на Землю",
+        "body": "Корабль SpaceX Dragon отстыковался от МКС и возвращается на Землю.",
         "aside": "",
         "source_urls": [
           "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeGRHQ1NoNWM4NElmS0F5WWREdUVwSHI5VEVqZWc5S2NuREp2OGN2aWp2Yk9zTGMzSkVWUUZaWnhmVXY2d3JCQktwX0xaUXUwX0NxVkNuSHFjY0FiTlZUNXFybW1USjA3cm1tdjItUTdEcUN4QmMtMlg0d0JPdFJoU09Ld29TcTZsTld3RFh3V0NxVDlzbWF0cVNfb0JBREdvMEI0VVBHTDFxbWF1S0tyQmVlOTdmck1aREdSSkszUXlycmRFQ0tVSnQzcUlnM1BZcG04Tk1DNVp5MGhNMFZCWFVIbUt2ckV6T1BhTG5lRi12V2ZyVFE3RU9wN1oxMDlPcWxXTHF1ONIBjAJBVV95cUxPajRvaDF3YktSMlpWVDBqVjdEbWotYUZ5cFowejBRRl9GXzRNcXpQU0l0aVFkU21CZ0NldTJrVThYcF84alZzZ3BUenlRU1FCNW9Pb0dTdkozMkJXY21CdU8zMVZvc201X09nNWpsNzFYMU9Kd3RMaDhXR1pwYXVGVmhpanZxU0tHdFB5U1dXNFpRQmduRENubVY1Qy16d0dYaHlLc0plMGRzOExnRllpV01LZHZlcGZ4NkJLc0NFcVEwT2w3NlYyVGxPUWNPSXVzYllmcnlTNGwzeW5OMGxlaVA4Vi0xZlpmQTRibkY5aTRTWld2aVRXNG5TQVFTQ2dLN2JpczVka0NUcEM5?oc=5"
@@ -148,7 +73,9 @@
         "importance": 8,
         "confidence": 1,
         "preference_tags": [
-          "space"
+          "космос",
+          "SpaceX",
+          "МКС"
         ],
         "is_random_top": false,
         "is_internet_element": false,
@@ -174,7 +101,9 @@
         "importance": 7,
         "confidence": 1,
         "preference_tags": [
-          "space"
+          "космос",
+          "NASA",
+          "лунные технологии"
         ],
         "is_random_top": false,
         "is_internet_element": false,
@@ -187,86 +116,8 @@
         "published_at": "2026-11-21T10:02:25+03:00"
       },
       {
-        "category": "space",
-        "headline": "Почему я покупаю Spacex на распродаже",
-        "body": "Почему я покупаю Spacex на распродаже.",
-        "aside": "",
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9yM25nX0hpNFgyRk52amRBSmZlYVlzMm1MbVVUbUI4S0ZrYWcxemR5MjA2UHRlV3k3WTA3d0hsbUJCZWlkbkU3ZS1pY1lRUQ?oc=5"
-        ],
-        "source_names": [
-          "Smart-Lab"
-        ],
-        "importance": 6,
-        "confidence": 1,
-        "preference_tags": [
-          "space"
-        ],
-        "is_random_top": false,
-        "is_internet_element": false,
-        "source_dates": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9yM25nX0hpNFgyRk52amRBSmZlYVlzMm1MbVVUbUI4S0ZrYWcxemR5MjA2UHRlV3k3WTA3d0hsbUJCZWlkbkU3ZS1pY1lRUQ?oc=5",
-            "published_at": "2026-11-21T10:52:30+03:00"
-          }
-        ],
-        "published_at": "2026-11-21T10:52:30+03:00"
-      },
-      {
-        "category": "space",
-        "headline": "Удар прямо из космоса: Европа задумала оружие нового типа",
-        "body": "Удар прямо из космоса: Европа задумала оружие нового типа.",
-        "aside": "",
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaVcwdmJxOGpHQXo4eUg3Njc3bWVMR0JIMkVQOTNGUFUtT0pJQXROZEowOFIzNnNhVjVaS0RhMzB5SXcweFI0ZjQ1MVlnU0Nub0JTQVFITC1uUmpUcl9Kamp3WEdTbVQ5TlJCSUwxenpJcGRaWno5QnRRWGVaODY0YS14S2ltWjV4dFBWcWtTa1lMSjZUS2hnUFpPaEc?oc=5"
-        ],
-        "source_names": [
-          "Военное дело"
-        ],
-        "importance": 7,
-        "confidence": 1,
-        "preference_tags": [
-          "space"
-        ],
-        "is_random_top": false,
-        "is_internet_element": false,
-        "source_dates": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaVcwdmJxOGpHQXo4eUg3Njc3bWVMR0JIMkVQOTNGUFUtT0pJQXROZEowOFIzNnNhVjVaS0RhMzB5SXcweFI0ZjQ1MVlnU0Nub0JTQVFITC1uUmpUcl9Kamp3WEdTbVQ5TlJCSUwxenpJcGRaWno5QnRRWGVaODY0YS14S2ltWjV4dFBWcWtTa1lMSjZUS2hnUFpPaEc?oc=5",
-            "published_at": "2026-11-21T09:18:02+03:00"
-          }
-        ],
-        "published_at": "2026-11-21T09:18:02+03:00"
-      },
-      {
-        "category": "space",
-        "headline": "В России разрабатывают проект D-принтера для печати еды в космосе",
-        "body": "В России разрабатывают проект D-принтера для печати еды в космосе.",
-        "aside": "",
-        "source_urls": [
-          "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVVFpR2RnLTZDSEgwYUNyR0FQaUF0OVAyM2NVV3VFZ1R6MUxlUWJUaWpHYUZoSTRXTFFCZFlDQmxyTV9OOGlYYzkyRVNFSjhTTkpYN0plMm1iMmhxcWJJVWVqRGY4RzBudERFaDRuck10eXhUSTlEMlVCTzNsdE1LSjhnaDlvN2RzWGpjVkRXdmFnS1N2Tml3WDF5NWEtNFdQRWxvY013?oc=5"
-        ],
-        "source_names": [
-          "Вечерний Санкт-Петербург"
-        ],
-        "importance": 6,
-        "confidence": 1,
-        "preference_tags": [
-          "space"
-        ],
-        "is_random_top": false,
-        "is_internet_element": false,
-        "source_dates": [
-          {
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVVFpR2RnLTZDSEgwYUNyR0FQaUF0OVAyM2NVV3VFZ1R6MUxlUWJUaWpHYUZoSTRXTFFCZFlDQmxyTV9OOGlYYzkyRVNFSjhTTkpYN0plMm1iMmhxcWJJVWVqRGY4RzBudERFaDRuck10eXhUSTlEMlVCTzNsdE1LSjhnaDlvN2RzWGpjVkRXdmFnS1N2Tml3WDF5NWEtNFdQRWxvY013?oc=5",
-            "published_at": "2026-11-21T08:26:55+03:00"
-          }
-        ],
-        "published_at": "2026-11-21T08:26:55+03:00"
-      },
-      {
         "category": "ai",
-        "headline": "Столичные школьники завоевали две серебряные награды на Всероссийской олимпиаде по искусственному интеллекту",
+        "headline": "Школьники из Москвы завоевали две серебряные награды на Всероссийской олимпиаде по ИИ",
         "body": "Столичные школьники завоевали две серебряные награды на Всероссийской олимпиаде по искусственному интеллекту.",
         "aside": "",
         "source_urls": [
@@ -275,11 +126,12 @@
         "source_names": [
           "Официальный сайт Мэра Москвы"
         ],
-        "importance": 8,
+        "importance": 7,
         "confidence": 1,
         "preference_tags": [
-          "ai",
-          "technology"
+          "ИИ",
+          "образование",
+          "Россия"
         ],
         "is_random_top": false,
         "is_internet_element": false,
@@ -293,81 +145,227 @@
       },
       {
         "category": "ai",
-        "headline": "Двое школьников из Москвы стали призёрами олимпиады по искусственному интеллекту",
-        "body": "Двое школьников из Москвы стали призёрами олимпиады по искусственному интеллекту.",
+        "headline": "Антропологи применили ИИ для решения проблемы, существовавшей более 160 лет",
+        "body": "Эксперты-антропологи успешно применили искусственный интеллект для решения проблемы, существовавшей более 160 лет.",
         "aside": "",
         "source_urls": [
-          "https://news.google.com/rss/articles/CBMiaEFVX3lxTE94RllEYUx0OFhWZllXU0RnQU9zWnZFOEI5cEZzb05aSGNnTkVYUzB4dGtNb3lqUDhqUVhBYllYSFFqZXNfOFBkN1RNZ1BmVV9ocENLcnpHckJ3ZTJjSVVWRWw3ZmNKNnB0?oc=5"
+          "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWExlc19UWndyMC0zXzYzN2JqZEp6cHU4bjduZ1htZ1hUbHhNM0ZLMEhyQkVsWm9KSy1VU0xjNzhrWjNIWDhwM2FlWG9QdEtYZHQ3ZVZXUHh3ZktiLXJVdGR1ckVBVWVCaHVxSEc1dGhFbVdNZWJSLUJFODRmcUdpSUN2LUtMOHk0SUxVTXhsLVJFWGJuZXFYdC1iYXVGcTlU?oc=5"
         ],
         "source_names": [
-          "Newsroom24"
+          "Vietnam.vn"
         ],
         "importance": 7,
         "confidence": 1,
         "preference_tags": [
-          "ai"
+          "ИИ",
+          "антропология",
+          "наука"
         ],
         "is_random_top": false,
         "is_internet_element": false,
         "source_dates": [
           {
-            "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE94RllEYUx0OFhWZllXU0RnQU9zWnZFOEI5cEZzb05aSGNnTkVYUzB4dGtNb3lqUDhqUVhBYllYSFFqZXNfOFBkN1RNZ1BmVV9ocENLcnpHckJ3ZTJjSVVWRWw3ZmNKNnB0?oc=5",
-            "published_at": "2026-11-21T11:35:46+03:00"
+            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWExlc19UWndyMC0zXzYzN2JqZEp6cHU4bjduZ1htZ1hUbHhNM0ZLMEhyQkVsWm9KSy1VU0xjNzhrWjNIWDhwM2FlWG9QdEtYZHQ3ZVZXUHh3ZktiLXJVdGR1ckVBVWVCaHVxSEc1dGhFbVdNZWJSLUJFODRmcUdpSUN2LUtMOHk0SUxVTXhsLVJFWGJuZXFYdC1iYXVGcTlU?oc=5",
+            "published_at": "2026-11-21T11:29:21+03:00"
           }
         ],
-        "published_at": "2026-11-21T11:35:46+03:00"
+        "published_at": "2026-11-21T11:29:21+03:00"
       },
       {
-        "category": "ai",
-        "headline": "Воронежский «Факел» будет разбирать матчи с помощью искусственного интеллекта",
-        "body": "Воронежский «Факел» будет разбирать матчи с помощью искусственного интеллекта.",
+        "category": "chess",
+        "headline": "Фируджа выиграл дебютный турнир Total Chess, Карлсен занял 17-е место",
+        "body": "На дебютном турнире Total Chess победил Фируджа, Гири стал вторым, Каруана — третьим, Непомнящий — седьмым, Карлсен — 17-м, Артемьев — 18-м.",
         "aside": "",
         "source_urls": [
-          "https://news.google.com/rss/articles/CBMiUkFVX3lxTE01bHlzSFF4RWRaZFBJMzhzek9tcmd6YWloZmNPTC1CQXhsZjByTjg5VURLcHo0bXUtdk83ZDViQ2hpenRlLUotMzMxc3pidTI5SlHSAVdBVV95cUxOUm9KUTA3R2pkTU9MdzR0bkxGOENQeXUzVEhVeU9qS01ZSmZ6S0xRcTRMbWFMZjNjZVZZd2VpSEFTbmRRUkwtcF9yQ0NVZ2h5cEM1M09zYm8?oc=5"
+          "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQTJ5TlhQSllVUmlHTEdiWWNROEhfa0ZyRzlIRmVWUThidzViVVpkUmluNEU3QWdESktDeWRTRkVqSEhoRmo3Ty1TdTJJMDJjOWZXZFNjZ2FnQlRvQ3hOWXhENmFvOGJOaXpYeVB4VmJ1UGRnTUZ1NGp0M3AyVW5lYVg0dlFXSExWMkQ0cURpV3Qxd1hvanVjOFZwNnFVajZWUHJvelBXcE02cWdqam85VFY1aDVPV1AyclNxTEo0cWF0R25iNVFFbWY0UHZXbEp2Z0Z5cHd3?oc=5"
         ],
         "source_names": [
-          "МОЁ! Online. Все новости Воронежа"
+          "irbis.spb.ru"
+        ],
+        "importance": 8,
+        "confidence": 1,
+        "preference_tags": [
+          "шахматы",
+          "турнир",
+          "результаты"
+        ],
+        "is_random_top": false,
+        "is_internet_element": false,
+        "source_dates": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQTJ5TlhQSllVUmlHTEdiWWNROEhfa0ZyRzlIRmVWUThidzViVVpkUmluNEU3QWdESktDeWRTRkVqSEhoRmo3Ty1TdTJJMDJjOWZXZFNjZ2FnQlRvQ3hOWXhENmFvOGJOaXpYeVB4VmJ1UGRnTUZ1NGp0M3AyVW5lYVg0dlFXSExWMkQ0cURpV3Qxd1hvanVjOFZwNnFVajZWUHJvelBXcE02cWdqam85VFY1aDVPV1AyclNxTEo0cWF0R25iNVFFbWY0UHZXbEp2Z0Z5cHd3?oc=5",
+            "published_at": "2026-11-21T05:44:09+03:00"
+          }
+        ],
+        "published_at": "2026-11-21T05:44:09+03:00"
+      },
+      {
+        "category": "chess",
+        "headline": "Бибисара Асаубаева вернулась в пятерку сильнейших шахматисток мира",
+        "body": "Бибисара Асаубаева вернулась в пятерку сильнейших шахматисток мира.",
+        "aside": "",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON0gyaUgzUHl5a21IQ3FYd3R3d2NiU3BleGhpS29mLXNoSENKQVlSVXdmWGZ3d05JaFVnOFMxU3BfNW5ZdEFvdXcyUVQ2VEpkcEE2eVkyTnBwX2dvS2tsSEtGc3dZV3dzejZ4T0tCWDJPdjVvbmFtZDl3NFRGRUtfLUhqSTFrLVljc2Z1cTlxMWpUWHo4cVNvZVhPcDE2Umd3aHFUeVoxWWI?oc=5"
+        ],
+        "source_names": [
+          "Offside.kz"
+        ],
+        "importance": 7,
+        "confidence": 1,
+        "preference_tags": [
+          "шахматы",
+          "рейтинг",
+          "женский шахмат"
+        ],
+        "is_random_top": false,
+        "is_internet_element": false,
+        "source_dates": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON0gyaUgzUHl5a21IQ3FYd3R3d2NiU3BleGhpS29mLXNoSENKQVlSVXdmWGZ3d05JaFVnOFMxU3BfNW5ZdEFvdXcyUVQ2VEpkcEE2eVkyTnBwX2dvS2tsSEtGc3dZV3dzejZ4T0tCWDJPdjVvbmFtZDl3NFRGRUtfLUhqSTFrLVljc2Z1cTlxMWpUWHo4cVNvZVhPcDE2Umd3aHFUeVoxWWI?oc=5",
+            "published_at": "2026-11-21T07:45:00+03:00"
+          }
+        ],
+        "published_at": "2026-11-21T07:45:00+03:00"
+      },
+      {
+        "category": "chess",
+        "headline": "17-летняя оренбурженка стала чемпионкой Азии по шахматам",
+        "body": "17-летняя оренбурженка стала чемпионкой Азии по шахматам.",
+        "aside": "",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1yY0ZUSE5KTjI5YnlGWG9sUjVaUGdhcC1OUklqRmlwb25vSkUyaVdaSnBaYnpuTFh4cHdodC1GS0U5d216QWpFZ1RSQTE?oc=5"
+        ],
+        "source_names": [
+          "Новости Оренбурга Orenday.ru"
+        ],
+        "importance": 7,
+        "confidence": 1,
+        "preference_tags": [
+          "шахматы",
+          "чемпионат Азии",
+          "Россия"
+        ],
+        "is_random_top": false,
+        "is_internet_element": false,
+        "source_dates": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1yY0ZUSE5KTjI5YnlGWG9sUjVaUGdhcC1OUklqRmlwb25vSkUyaVdaSnBaYnpuTFh4cHdodC1GS0U5d216QWpFZ1RSQTE?oc=5",
+            "published_at": "2026-11-21T09:09:27+03:00"
+          }
+        ],
+        "published_at": "2026-11-21T09:09:27+03:00"
+      },
+      {
+        "category": "economy",
+        "headline": "Венчурные инвестиции в России упали на 36%, доля ангелов снизилась",
+        "body": "Венчурные инвестиции в России упали на 36%, доля ангелов снизилась.",
+        "aside": "",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMikwFBVV95cUxOU0FXUExiSUxBb2VTRGRORlF1Si0tb3dZbFJFaEFkbkthWmtOLU9JQ0REMXkwSXoySzFadGRKY1RLcFg4ckFOUlJuRnRTZzJpT3N0SEZZampFamRSQi1VSTdJM3RZOTZvVXF0U0JuZG5XUTBSMzFvVmdUMTl4V2N2MnZQSm8tcDdRLWRsWWw2b05ENGM?oc=5"
+        ],
+        "source_names": [
+          "quasa.io"
+        ],
+        "importance": 7,
+        "confidence": 1,
+        "preference_tags": [
+          "экономика",
+          "инвестиции",
+          "Россия"
+        ],
+        "is_random_top": false,
+        "is_internet_element": false,
+        "source_dates": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOU0FXUExiSUxBb2VTRGRORlF1Si0tb3dZbFJFaEFkbkthWmtOLU9JQ0REMXkwSXoySzFadGRKY1RLcFg4ckFOUlJuRnRTZzJpT3N0SEZZampFamRSQi1VSTdJM3RZOTZvVXF0U0JuZG5XUTBSMzFvVmdUMTl4V2N2MnZQSm8tcDdRLWRsWWw2b05ENGM?oc=5",
+            "published_at": "2026-11-21T11:13:19+03:00"
+          }
+        ],
+        "published_at": "2026-11-21T11:13:19+03:00"
+      },
+      {
+        "category": "technology",
+        "headline": "Исследование: 42% разработчиков сложно разобраться в коде от ИИ",
+        "body": "Исследование ИТ-холдинга Т1 и TProger показало, что 42% разработчиков сложно разобраться в коде от ИИ.",
+        "aside": "",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NdWNCV08zQi1FWGV3VnFSeTF5TDRYc2F4SjRtN3FlMHpkWU1PNk5pYk1iYk5IVXo0UWRTeVJLaDhFcXRhTm95Ulk0R3Y2Y0V5a2EzNTlTS0NZQdIBWkFVX3lxTE1NdWNCV08zQi1FWGV3VnFSeTF5TDRYc2F4SjRtN3FlMHpkWU1PNk5pYk1iYk5IVXo0UWRTeVJLaDhFcXRhTm95Ulk0R3Y2Y0V5a2EzNTlTS0NZQQ?oc=5"
+        ],
+        "source_names": [
+          "Newslab"
+        ],
+        "importance": 7,
+        "confidence": 1,
+        "preference_tags": [
+          "ИИ",
+          "разработка",
+          "исследование"
+        ],
+        "is_random_top": false,
+        "is_internet_element": false,
+        "source_dates": [
+          {
+            "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NdWNCV08zQi1FWGV3VnFSeTF5TDRYc2F4SjRtN3FlMHpkWU1PNk5pYk1iYk5IVXo0UWRTeVJLaDhFcXRhTm95Ulk0R3Y2Y0V5a2EzNTlTS0NZQdIBWkFVX3lxTE1NdWNCV08zQi1FWGV3VnFSeTF5TDRYc2F4SjRtN3FlMHpkWU1PNk5pYk1iYk5IVXo0UWRTeVJLaDhFcXRhTm95Ulk0R3Y2Y0V5a2EzNTlTS0NZQQ?oc=5",
+            "published_at": "2026-11-21T07:29:00+03:00"
+          }
+        ],
+        "published_at": "2026-11-21T07:29:00+03:00"
+      },
+      {
+        "category": "engineering",
+        "headline": "В Калуге подвели итоги Всероссийского турнира по робототехнике «Новая высота 2026»",
+        "body": "В Калуге подвели итоги «Всероссийского турнира по робототехнике. Новая высота 2026».",
+        "aside": "",
+        "source_urls": [
+          "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTUtBdFBmSFh4ZzFMWGM0X3djUUVFSnlVbVhBd2lHbWJlTktYSS10cXNlMzBHRzZOc09ld1ZSaVdjVHRqNUxTWEQzNUNQaTc4bkdVSUtrVkxmSlVheE1ha0JDdzFuTzNydHJxU2tOUXZPc29idEptWDExZ21mNlgwZmxMVUR6dHhfUzlnbDhULUxVLUpETUxrUVNQVGthUWEtSndSR1c0R2tkbzFtdS13QzN4TQ?oc=5"
+        ],
+        "source_names": [
+          "Минпросвещения России"
         ],
         "importance": 6,
         "confidence": 1,
         "preference_tags": [
-          "ai"
+          "робототехника",
+          "турнир",
+          "Россия"
         ],
         "is_random_top": false,
         "is_internet_element": false,
         "source_dates": [
           {
-            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE01bHlzSFF4RWRaZFBJMzhzek9tcmd6YWloZmNPTC1CQXhsZjByTjg5VURLcHo0bXUtdk83ZDViQ2hpenRlLUotMzMxc3pidTI5SlHSAVdBVV95cUxOUm9KUTA3R2pkTU9MdzR0bkxGOENQeXUzVEhVeU9qS01ZSmZ6S0xRcTRMbWFMZjNjZVZZd2VpSEFTbmRRUkwtcF9yQ0NVZ2h5cEM1M09zYm8?oc=5",
-            "published_at": "2026-11-21T09:00:00+03:00"
+            "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTUtBdFBmSFh4ZzFMWGM0X3djUUVFSnlVbVhBd2lHbWJlTktYSS10cXNlMzBHRzZOc09ld1ZSaVdjVHRqNUxTWEQzNUNQaTc4bkdVSUtrVkxmSlVheE1ha0JDdzFuTzNydHJxU2tOUXZPc29idEptWDExZ21mNlgwZmxMVUR6dHhfUzlnbDhULUxVLUpETUxrUVNQVGthUWEtSndSR1c0R2tkbzFtdS13QzN4TQ?oc=5",
+            "published_at": "2026-11-21T09:01:41+03:00"
           }
         ],
-        "published_at": "2026-11-21T09:00:00+03:00"
+        "published_at": "2026-11-21T09:01:41+03:00"
       },
       {
-        "category": "ai",
-        "headline": "Нейросетям устроили искусственный инсульт. ИИ начал забывать, как говорить",
-        "body": "Нейросетям устроили искусственный инсульт. ИИ начал забывать, как говорить.",
+        "category": "russia",
+        "headline": "Петербург стал вторым городом России по объему цифрового трафика",
+        "body": "Петербург занял второе место в России по объему цифрового трафика.",
         "aside": "",
         "source_urls": [
-          "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BZzJXSXNrU0l1a19iRU1GUENPcWtxdnpJVlU3MHdXYU9hSWR2WHA5clRBcGNkemJKVlRkU29QeGhWbGNqalgzUXRfeVBobjIyb3R0QQ?oc=5"
+          "https://news.google.com/rss/articles/CBMickFVX3lxTE5RWjFaV05rbmFqSVBvY1UtWG8tNzZSckFxbzl3clkwV3JuU3VzVTdwdG1zcGVZVmdwM0dDMHBIVVZqd0p1czdJN2p5MlZrc2hnUXBNRURHYVlObXozQnliTkl1V2JjX1BnSEVfLXhGWS0xQQ?oc=5"
         ],
         "source_names": [
-          "SecurityLab.ru"
+          "CNews.ru"
         ],
         "importance": 6,
         "confidence": 1,
         "preference_tags": [
-          "ai"
+          "цифровой трафик",
+          "Россия",
+          "технологии"
         ],
         "is_random_top": false,
         "is_internet_element": false,
         "source_dates": [
           {
-            "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1BZzJXSXNrU0l1a19iRU1GUENPcWtxdnpJVlU3MHdXYU9hSWR2WHA5clRBcGNkemJKVlRkU29QeGhWbGNqalgzUXRfeVBobjIyb3R0QQ?oc=5",
-            "published_at": "2026-11-21T08:05:14+03:00"
+            "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5RWjFaV05rbmFqSVBvY1UtWG8tNzZSckFxbzl3clkwV3JuU3VzVTdwdG1zcGVZVmdwM0dDMHBIVVZqd0p1czdJN2p5MlZrc2hnUXBNRURHYVlObXozQnliTkl1V2JjX1BnSEVfLXhGWS0xQQ?oc=5",
+            "published_at": "2026-11-21T05:54:40+03:00"
           }
         ],
-        "published_at": "2026-11-21T08:05:14+03:00"
+        "published_at": "2026-11-21T05:54:40+03:00"
       }
     ],
     "editor_status": "success"
@@ -454,26 +452,6 @@
       "factual_weight": 0.9
     },
     {
-      "title": "Российские химики сделали катализатор для водородных авто эффективнее аналогов",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE42SWtaRjZwSkJmVFRFNEFXeEtVZktMQ0ZTRFFrNjI2UXFOQkh2eFZpcDg4cWlDSlhQSzVzRTIzSzE1WllPY3hoR2Z5S2x6dzd0eEN1SUFoQUFhNFVNc3FaS1FsekpXOWpTd2VTSVA1TzV0dWs5Mnc?oc=5",
-      "source_domain": "naked-science.ru",
-      "published_at": "2026-11-21T08:51:07+03:00",
-      "category": "technology",
-      "what_happened": "Российские химики сделали катализатор для водородных авто эффективнее аналогов",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "Naked Science",
-      "collection_batch": "science_tech",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "naked_science",
-      "source_name": "Naked Science",
-      "source_role": "science_journalism",
-      "source_weight": 0.85,
-      "factual_weight": 0.85
-    },
-    {
       "title": "«Правда»: Гимн человеческому мышлению. Проблема искусственного интеллекта в философском труде Эвальда Ильенкова и его учеников",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAxTXdJdzYwZnFEX0ExMlhMV0FuMGVHdzg4S1N1ZnhtU1AtVmxFZGtPNldqck5YZklPT1M0Rzl3clluZ2FrVmplMzR0ZTZMMHpKNmZMUDlHR19VZw?oc=5",
       "source_domain": "kprf.ru",
@@ -489,6 +467,26 @@
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
       "source_name": "kprf.ru",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
+      "title": "Двое школьников из Москвы стали призёрами олимпиады по искусственному интеллекту",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE94RllEYUx0OFhWZllXU0RnQU9zWnZFOEI5cEZzb05aSGNnTkVYUzB4dGtNb3lqUDhqUVhBYllYSFFqZXNfOFBkN1RNZ1BmVV9ocENLcnpHckJ3ZTJjSVVWRWw3ZmNKNnB0?oc=5",
+      "source_domain": "newsroom24.ru",
+      "published_at": "2026-11-21T11:35:46+03:00",
+      "category": "ai",
+      "what_happened": "Двое школьников из Москвы стали призёрами олимпиады по искусственному интеллекту",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "Newsroom24",
+      "collection_batch": "ai",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "newsroom24.ru",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -529,26 +527,6 @@
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
       "source_name": "moe-online.ru",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
-      "title": "Двое школьников из Москвы стали призёрами олимпиады по искусственному интеллекту",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE94RllEYUx0OFhWZllXU0RnQU9zWnZFOEI5cEZzb05aSGNnTkVYUzB4dGtNb3lqUDhqUVhBYllYSFFqZXNfOFBkN1RNZ1BmVV9ocENLcnpHckJ3ZTJjSVVWRWw3ZmNKNnB0?oc=5",
-      "source_domain": "newsroom24.ru",
-      "published_at": "2026-11-21T11:35:46+03:00",
-      "category": "ai",
-      "what_happened": "Двое школьников из Москвы стали призёрами олимпиады по искусственному интеллекту",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "Newsroom24",
-      "collection_batch": "ai",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "newsroom24.ru",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -714,6 +692,26 @@
       "factual_weight": 0.3
     },
     {
+      "title": "СМИ: Конгресс хочет лишить SpaceX финансирования из-за Украины",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORXBUNjk1Wno2TTk1RXFLRGhsSVhYckVaUlVEMnRwZ1VCdTJwTEtJRUV3TnhkWjZjSjQ4TXlKeHJiMUxlWElBRm5MWDl0d0hOVzMyUmRJa0t3ZlY0bGtOTDN3RmpnZlY5RmNSOE9paU81OWN1ekZvVS12cFhWeEdSY01zYUNEZmNmdk84cVFR?oc=5",
+      "source_domain": "nsn.fm",
+      "published_at": "2026-11-21T10:40:58+03:00",
+      "category": "space",
+      "what_happened": "СМИ: Конгресс хочет лишить SpaceX финансирования из-за Украины",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "Национальная Служба Новостей",
+      "collection_batch": "space",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "nsn.fm",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
       "title": "Почему я покупаю Spacex на распродаже",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9yM25nX0hpNFgyRk52amRBSmZlYVlzMm1MbVVUbUI4S0ZrYWcxemR5MjA2UHRlV3k3WTA3d0hsbUJCZWlkbkU3ZS1pY1lRUQ?oc=5",
       "source_domain": "smart-lab.ru",
@@ -729,26 +727,6 @@
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
       "source_name": "smart-lab.ru",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
-      "title": "Конгресс угрожает лишить SpaceX финансирования из-за Украины",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeE5aNlpycDJyRW02X2F2NGVTXzJmcXJUN21FYmd4SXRnRmFtQVdQbXBoNFRQRUs5TlZwdHVCcGdzQzhzSmxja0llVnlMeVdkT2JMME9qNGRTRzlra3c5bWZUM0VlRDhjOWFmdXZPcTFaMFI0Rkt4cXBBekhzSTZINjlya3gzYW9zSjlURzU3dEN0UTVUcldQeC1rVVQwRnIwVmRHM3R0dHhSdnhWUXVWLXdHSG4?oc=5",
-      "source_domain": "vfokuse.mail.ru",
-      "published_at": "2026-11-21T11:00:11+03:00",
-      "category": "space",
-      "what_happened": "Конгресс угрожает лишить SpaceX финансирования из-за Украины",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "ВФокусе Mail",
-      "collection_batch": "space",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "vfokuse.mail.ru",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -774,26 +752,6 @@
       "factual_weight": 0.3
     },
     {
-      "title": "Единственный «космический грузовик», который не сгорает в атмосфере. Корабль SpaceX Dragon отстыковался от МКС и возвращается на Землю",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeGRHQ1NoNWM4NElmS0F5WWREdUVwSHI5VEVqZWc5S2NuREp2OGN2aWp2Yk9zTGMzSkVWUUZaWnhmVXY2d3JCQktwX0xaUXUwX0NxVkNuSHFjY0FiTlZUNXFybW1USjA3cm1tdjItUTdEcUN4QmMtMlg0d0JPdFJoU09Ld29TcTZsTld3RFh3V0NxVDlzbWF0cVNfb0JBREdvMEI0VVBHTDFxbWF1S0tyQmVlOTdmck1aREdSSkszUXlycmRFQ0tVSnQzcUlnM1BZcG04Tk1DNVp5MGhNMFZCWFVIbUt2ckV6T1BhTG5lRi12V2ZyVFE3RU9wN1oxMDlPcWxXTHF1ONIBjAJBVV95cUxPajRvaDF3YktSMlpWVDBqVjdEbWotYUZ5cFowejBRRl9GXzRNcXpQU0l0aVFkU21CZ0NldTJrVThYcF84alZzZ3BUenlRU1FCNW9Pb0dTdkozMkJXY21CdU8zMVZvc201X09nNWpsNzFYMU9Kd3RMaDhXR1pwYXVGVmhpanZxU0tHdFB5U1dXNFpRQmduRENubVY1Qy16d0dYaHlLc0plMGRzOExnRllpV01LZHZlcGZ4NkJLc0NFcVEwT2w3NlYyVGxPUWNPSXVzYllmcnlTNGwzeW5OMGxlaVA4Vi0xZlpmQTRibkY5aTRTWld2aVRXNG5TQVFTQ2dLN2JpczVka0NUcEM5?oc=5",
-      "source_domain": "ixbt.com",
-      "published_at": "2026-11-21T08:46:00+03:00",
-      "category": "space",
-      "what_happened": "Единственный «космический грузовик», который не сгорает в атмосфере. Корабль SpaceX Dragon отстыковался от МКС и возвращается на Землю",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "iXBT.com",
-      "collection_batch": "space",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "ixbt.com",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
       "title": "CNN: конгрессмен Хаймс пригрозил добиваться приостановки финансирования SpaceX",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMEdmc1FCMUNYODN0dGhzbzctUlJEZzNDMmUzT0hMaDlEeDByU2JPQUN4Ui1FZUt1S1pvb08xYlA2OFc2QmFhcFRBUUEtUlF3MXpUZHJHQm5HMThmbWNQNEhRM3pIbE9sZUx5Yjh3MnNMVkg5bHVfdnFxTnJQYjJYVVg0UkxZVHE3YUxqMUZHWUNuTzJpYnlaczN6Sl9sb0JwWW51Ykh2azNQdE5jV2RLTzBRMUw0QQ?oc=5",
       "source_domain": "giport.ru",
@@ -809,6 +767,26 @@
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
       "source_name": "giport.ru",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
+      "title": "Единственный «космический грузовик», который не сгорает в атмосфере. Корабль SpaceX Dragon отстыковался от МКС и возвращается на Землю",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeGRHQ1NoNWM4NElmS0F5WWREdUVwSHI5VEVqZWc5S2NuREp2OGN2aWp2Yk9zTGMzSkVWUUZaWnhmVXY2d3JCQktwX0xaUXUwX0NxVkNuSHFjY0FiTlZUNXFybW1USjA3cm1tdjItUTdEcUN4QmMtMlg0d0JPdFJoU09Ld29TcTZsTld3RFh3V0NxVDlzbWF0cVNfb0JBREdvMEI0VVBHTDFxbWF1S0tyQmVlOTdmck1aREdSSkszUXlycmRFQ0tVSnQzcUlnM1BZcG04Tk1DNVp5MGhNMFZCWFVIbUt2ckV6T1BhTG5lRi12V2ZyVFE3RU9wN1oxMDlPcWxXTHF1ONIBjAJBVV95cUxPajRvaDF3YktSMlpWVDBqVjdEbWotYUZ5cFowejBRRl9GXzRNcXpQU0l0aVFkU21CZ0NldTJrVThYcF84alZzZ3BUenlRU1FCNW9Pb0dTdkozMkJXY21CdU8zMVZvc201X09nNWpsNzFYMU9Kd3RMaDhXR1pwYXVGVmhpanZxU0tHdFB5U1dXNFpRQmduRENubVY1Qy16d0dYaHlLc0plMGRzOExnRllpV01LZHZlcGZ4NkJLc0NFcVEwT2w3NlYyVGxPUWNPSXVzYllmcnlTNGwzeW5OMGxlaVA4Vi0xZlpmQTRibkY5aTRTWld2aVRXNG5TQVFTQ2dLN2JpczVka0NUcEM5?oc=5",
+      "source_domain": "ixbt.com",
+      "published_at": "2026-11-21T08:46:00+03:00",
+      "category": "space",
+      "what_happened": "Единственный «космический грузовик», который не сгорает в атмосфере. Корабль SpaceX Dragon отстыковался от МКС и возвращается на Землю",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "iXBT.com",
+      "collection_batch": "space",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "ixbt.com",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -894,26 +872,6 @@
       "factual_weight": 0.3
     },
     {
-      "title": "Удар прямо из космоса: Европа задумала оружие нового типа",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaVcwdmJxOGpHQXo4eUg3Njc3bWVMR0JIMkVQOTNGUFUtT0pJQXROZEowOFIzNnNhVjVaS0RhMzB5SXcweFI0ZjQ1MVlnU0Nub0JTQVFITC1uUmpUcl9Kamp3WEdTbVQ5TlJCSUwxenpJcGRaWno5QnRRWGVaODY0YS14S2ltWjV4dFBWcWtTa1lMSjZUS2hnUFpPaEc?oc=5",
-      "source_domain": "voennoedelo.com",
-      "published_at": "2026-11-21T09:18:02+03:00",
-      "category": "space",
-      "what_happened": "Удар прямо из космоса: Европа задумала оружие нового типа",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "Военное дело",
-      "collection_batch": "space",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "voennoedelo.com",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
       "title": "В Калуге подвели итоги «Всероссийского турнира по робототехнике. Новая высота 2026",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTUtBdFBmSFh4ZzFMWGM0X3djUUVFSnlVbVhBd2lHbWJlTktYSS10cXNlMzBHRzZOc09ld1ZSaVdjVHRqNUxTWEQzNUNQaTc4bkdVSUtrVkxmSlVheE1ha0JDdzFuTzNydHJxU2tOUXZPc29idEptWDExZ21mNlgwZmxMVUR6dHhfUzlnbDhULUxVLUpETUxrUVNQVGthUWEtSndSR1c0R2tkbzFtdS13QzN4TQ?oc=5",
       "source_domain": "edu.gov.ru",
@@ -974,21 +932,21 @@
       "factual_weight": 0.3
     },
     {
-      "title": "Энергетики восстанавливают свет в Донецке и других городах ДНР",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObzUwZllkWjBtbmxLMi13UDZQaFdxUWpPQThwN1ItSFJKT1p1ZWxtMGhab2dXcm1XSy1QTmF1ZlpsVDZtTVE3aVFTMmdtVXhoWGYwb1czUF9ZNndCVThkbWF2TWZERVk1cE4zNm01bkpXZE1QdVFwNlh1aE05LTRFM3Etd0tYbHd2cEJ0a1dqY2ZHenNIbWMxOTdDdGQ?oc=5",
-      "source_domain": "dan-news.ru",
-      "published_at": "2026-11-21T10:39:49+03:00",
+      "title": "Дмитрий Миляев сообщил об открытии в ТулГУ Центра компетенций промышленной робототехники",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5jWk1ibS1GbXhRM1VXRTlpcU4yZDh0YThtR0lwV3NmWjdUM0k2YU9uTnNGU1JwV3ZuUU95OWJhalFTQQ?oc=5",
+      "source_domain": "ti71.ru",
+      "published_at": "2026-11-21T11:44:32+03:00",
       "category": "engineering",
-      "what_happened": "Энергетики восстанавливают свет в Донецке и других городах ДНР",
+      "what_happened": "Дмитрий Миляев сообщил об открытии в ТулГУ Центра компетенций промышленной робототехники",
       "why_interesting": "",
       "is_comment_or_meme": false,
       "comment_or_meme_text": "",
       "confidence": 0.78,
-      "rss_source_name": "Донецкое Агентство Новостей",
+      "rss_source_name": "Тульские известия",
       "collection_batch": "engineering",
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
-      "source_name": "dan-news.ru",
+      "source_name": "ti71.ru",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -1014,26 +972,6 @@
       "factual_weight": 0.3
     },
     {
-      "title": "Удар по Криворожской ТЭЦ: российские беспилотники атаковали объекты энергетики Украины",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQX3dzTTZTY2VXUTlMM19VMFlPZWlLUVRUSS10ekJNWFVkTkRRbEJtWWVmVWxOX3JPR0pSYlQweGVwSThXYm0xYUdlR3JubFZCZUpLZTF5NXRHZ0FiV3QyWkM4bnNZaGlYdEVOekJ0alM3S203SzdlVnZTdXJHelZBc183TjluOE1MMDZicFpfdVNPQUw1RXhPbFZ6dmo3Ri1LYWwtdmJNYkhsbFdFLW9UeTc0NXJuY0NWdVZndGU2TnBsRlNRR0tvRXlIOA?oc=5",
-      "source_domain": "gazetametro.ru",
-      "published_at": "2026-11-21T08:29:18+03:00",
-      "category": "engineering",
-      "what_happened": "Удар по Криворожской ТЭЦ: российские беспилотники атаковали объекты энергетики Украины",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "Газета Metro Москва",
-      "collection_batch": "engineering",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "gazetametro.ru",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
       "title": "Украинская энергетика и логистика ВСУ оказались под ударами ВС РФ",
       "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1zaEFqdFFLajdxQUlRZHZoUlNIaXlEUV9OYzdDUU00cHRYX1dlNHpoYmh1cEFYMFV0bTEwZy1naEFXd0FGaEdRNjJn?oc=5",
       "source_domain": "readovka.news",
@@ -1054,21 +992,21 @@
       "factual_weight": 0.3
     },
     {
-      "title": "Улучшение качества электроэнергии для жителей: энергетики ЕАО подводят итоги инвестиционной программы",
-      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE82dnZGRGFGMzVRek9aQzRTRXJienU3V0lGN0tySzNaeGJPNHdyT0RWX3JfeW5Fa09uNXh0LTdR?oc=5",
-      "source_domain": "riabir.ru",
-      "published_at": "2026-11-21T06:02:27+03:00",
+      "title": "Удар по Криворожской ТЭЦ: российские беспилотники атаковали объекты энергетики Украины",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQX3dzTTZTY2VXUTlMM19VMFlPZWlLUVRUSS10ekJNWFVkTkRRbEJtWWVmVWxOX3JPR0pSYlQweGVwSThXYm0xYUdlR3JubFZCZUpLZTF5NXRHZ0FiV3QyWkM4bnNZaGlYdEVOekJ0alM3S203SzdlVnZTdXJHelZBc183TjluOE1MMDZicFpfdVNPQUw1RXhPbFZ6dmo3Ri1LYWwtdmJNYkhsbFdFLW9UeTc0NXJuY0NWdVZndGU2TnBsRlNRR0tvRXlIOA?oc=5",
+      "source_domain": "gazetametro.ru",
+      "published_at": "2026-11-21T08:29:18+03:00",
       "category": "engineering",
-      "what_happened": "Улучшение качества электроэнергии для жителей: энергетики ЕАО подводят итоги инвестиционной программы",
+      "what_happened": "Удар по Криворожской ТЭЦ: российские беспилотники атаковали объекты энергетики Украины",
       "why_interesting": "",
       "is_comment_or_meme": false,
       "comment_or_meme_text": "",
       "confidence": 0.78,
-      "rss_source_name": "РИА Биробиджан",
+      "rss_source_name": "Газета Metro Москва",
       "collection_batch": "engineering",
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
-      "source_name": "riabir.ru",
+      "source_name": "gazetametro.ru",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -1094,6 +1032,26 @@
       "factual_weight": 0.3
     },
     {
+      "title": "Улучшение качества электроэнергии для жителей: энергетики ЕАО подводят итоги инвестиционной программы",
+      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE82dnZGRGFGMzVRek9aQzRTRXJienU3V0lGN0tySzNaeGJPNHdyT0RWX3JfeW5Fa09uNXh0LTdR?oc=5",
+      "source_domain": "riabir.ru",
+      "published_at": "2026-11-21T06:02:27+03:00",
+      "category": "engineering",
+      "what_happened": "Улучшение качества электроэнергии для жителей: энергетики ЕАО подводят итоги инвестиционной программы",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "РИА Биробиджан",
+      "collection_batch": "engineering",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "riabir.ru",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
       "title": "Энергетики отключат свет в домах Читы с 22 по 27 ноября: список адресов",
       "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE1fbXM4dTJfd29SVXJPYzBTajgxQ2kteDdTMEJyZ3E2VzZ4NTVfNkM5ay1NZmVhWXh1Qm9vMUFOM3lUQdIBR0FVX3lxTE90amhuQTVmOFNmM2tjcGt5UDAxMkFaWmlncjJvVXFSQWtac1ZJbEpObVZwWGt3NGdGMUg1dXBYZ0RCUGR1QjFr?oc=5",
       "source_domain": "zab.ru",
@@ -1114,6 +1072,26 @@
       "factual_weight": 0.3
     },
     {
+      "title": "Названы самые востребованные в России профессии в сфере разработки игр",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSkhuU3JKdjlGN2ZyMGM3WlZHS3BabzJ4UFJZVDRSNmh5X2szVVZLbThILXJUdXVuNXhKTWpGOF9TZFQ5QmtCR04wc2dNbzNWaG54RG56bS1iM2tIMThuMnY0dnBCTF9mS25WcGpfbWQtXy1QczFKVzZaaEtPU2xaLTNVYm9lOFVjYUJoUU9QRVpaczd2c0ZNSFlJaEozYUFlM3ZfOURCWW8tNDhPLUpWcjc5LTZVZw?oc=5",
+      "source_domain": "finance.mail.ru",
+      "published_at": "2026-11-21T10:58:07+03:00",
+      "category": "engineering",
+      "what_happened": "Названы самые востребованные в России профессии в сфере разработки игр",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "Финансы Mail",
+      "collection_batch": "engineering",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "finance.mail.ru",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
       "title": "Российские военные ударили по объектам энергетики и морским судам",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jcGRabHdlcjJzNkcwMEROaUdVb212UWZKSVhFZWxzV3ItSEFHcjVMRkFKZjZIOFc2bV9hWk1zdlZLc0JmdXVfbTVHai10ckVmZjFzdlZwbWt4QVVvOUtYMTI4QUNQaldtckcwUdIBckFVX3lxTFBzenhMR050UnFvUVZQU2NCNG8tSDQtcl9GUWRUVlpxdzBGNzdKV3ZaX0xvb1FHQjJCV1J6cEM4WVJPcHc0MlY4WmRLWjh3WW9vcjhzNDEwUlMzeWI3eHBqTmQzZkdmWVRsbjNKbTBPUmZkZw?oc=5",
       "source_domain": "gazeta.press",
@@ -1129,26 +1107,6 @@
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
       "source_name": "gazeta.press",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
-      "title": "Конец эпохи «цифрового пузыря»: куда пойти работать айтишнику",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOUpGaWRuZVpoMUhYdGcxLTNvNWViLWdJRU13c0R6VWNGWHpnNmdDTnRaLWt0ZU9DbEhmQndoRWllVXhCTVVSWHNwbmtEcTVqT2U0OTBVOUFQeFF2V0JPZW00azA3ZkVLaXJnQWdCbGJGQjZiNmVRWHlRdExKT1JMdV9vbjRVZkxBRkFFOFE0WlZzUko3T1I5NkNfSm1FZGR6ZjFIbg?oc=5",
-      "source_domain": "newizv.ru",
-      "published_at": "2026-11-21T06:00:00+03:00",
-      "category": "engineering",
-      "what_happened": "Конец эпохи «цифрового пузыря»: куда пойти работать айтишнику",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "newizv.ru",
-      "collection_batch": "engineering",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "newizv.ru",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -1314,6 +1272,26 @@
       "factual_weight": 0.3
     },
     {
+      "title": "«Девочка без аффилиации»: научный журнал смутила критика рекомендаций Минздрава",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQU2ZlOG1ERUZBZ2Izc05lUVY4SFFNd3ZxazAySHhKYUw5YTBneXNObjVpU1AtSFNESGRuZEg3LXlKR25mMHI0MGZRUGNWNTR3bjk2dG9TT3pKWXhFckdHdXZ2a1NSd0gyeXV3WkkzbVhRbWdQTk91Y0k0a2JfRVhKeGxMaGdaWmhZaHctSDB5cU43Qndhcm1ubVVBZnFRSTdRdGwyYUR0dElFTU52?oc=5",
+      "source_domain": "rtvi.com",
+      "published_at": "2026-11-21T08:14:55+03:00",
+      "category": "technology",
+      "what_happened": "«Девочка без аффилиации»: научный журнал смутила критика рекомендаций Минздрава",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "RTVI",
+      "collection_batch": "science_tech",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "rtvi.com",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
       "title": "Производитель бутылок из Подмосковья увеличил выработку на 14%",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYWF0c08yVmNiLVgzR2FMS1daOUVIZzBPTWduN1V0YmtaVGR0a2lId2JjVHlJWGxaMDhBdERIZ1JPaHdidnFfUnBlSVluQ1FNejdCb2ZBcDZUdV80R01JY3VEMzZZUEM3UUlVeEpWSUFfazV2SFFHTGswNmlha3F1RHF5YkZqWWgtbF9UWmJwOUJzek1YR0U3ZFBGcjNqVjFOU3hNRXpvQlJqNHhWY2dwdEtFOA?oc=5",
       "source_domain": "xn--80aapampemcchfmo7a3c9ehj.xn--p1ai",
@@ -1349,6 +1327,46 @@
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
       "source_name": "omskinform.ru",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
+      "title": "Китай торопит госстройки после падения инвестиций на 8,1%",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ0I0WHJmS2tSaWtQQ2x1YnZjQTVhVUEwYngyblRZQW91UGMxNFg1M1FXYkRNSU0yYXlnaHozN0N5YlNfRmE4ZFlKUDhIYjFSck56R3VQR1VJb0lWQUZyWGYxOWNlM1BZaXQxWUJadndDOWN2b2ozY0FzSFEtRXFSWVRGSTRvemVSRjZLMFJTdmpEODIzQldKN2NyWmdjZFFnU2E2d0h5SQ?oc=5",
+      "source_domain": "profinance.ru",
+      "published_at": "2026-11-21T09:53:00+03:00",
+      "category": "economy",
+      "what_happened": "Китай торопит госстройки после падения инвестиций на 8,1%",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "ProFinance",
+      "collection_batch": "economy",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "profinance.ru",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
+      "title": "СИБУР и ФТАР запустили производство профессионального инвентаря для тяжелой атлетики",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9qYjlkVml1VW9XT21KRmRMNmNhX0FwMlpuYnhnTm5aZjBkd1RYUnFsY0F2akZqLUJHVm81MFQxMUxmd2ltdzdkTDBMRFI3SzEtWHMwMDBB?oc=5",
+      "source_domain": "vz-nn.ru",
+      "published_at": "2026-11-21T09:17:00+03:00",
+      "category": "economy",
+      "what_happened": "СИБУР и ФТАР запустили производство профессионального инвентаря для тяжелой атлетики",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "Бизнес News",
+      "collection_batch": "economy",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "vz-nn.ru",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -1394,26 +1412,6 @@
       "factual_weight": 0.3
     },
     {
-      "title": "Китай торопит госстройки после падения инвестиций на 8,1%",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ0I0WHJmS2tSaWtQQ2x1YnZjQTVhVUEwYngyblRZQW91UGMxNFg1M1FXYkRNSU0yYXlnaHozN0N5YlNfRmE4ZFlKUDhIYjFSck56R3VQR1VJb0lWQUZyWGYxOWNlM1BZaXQxWUJadndDOWN2b2ozY0FzSFEtRXFSWVRGSTRvemVSRjZLMFJTdmpEODIzQldKN2NyWmdjZFFnU2E2d0h5SQ?oc=5",
-      "source_domain": "profinance.ru",
-      "published_at": "2026-11-21T09:53:00+03:00",
-      "category": "economy",
-      "what_happened": "Китай торопит госстройки после падения инвестиций на 8,1%",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "ProFinance",
-      "collection_batch": "economy",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "profinance.ru",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
       "title": "Венчурные инвестиции в России упали на 36%, доля ангелов снизилась",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOU0FXUExiSUxBb2VTRGRORlF1Si0tb3dZbFJFaEFkbkthWmtOLU9JQ0REMXkwSXoySzFadGRKY1RLcFg4ckFOUlJuRnRTZzJpT3N0SEZZampFamRSQi1VSTdJM3RZOTZvVXF0U0JuZG5XUTBSMzFvVmdUMTl4V2N2MnZQSm8tcDdRLWRsWWw2b05ENGM?oc=5",
       "source_domain": "quasa.io",
@@ -1434,26 +1432,6 @@
       "factual_weight": 0.3
     },
     {
-      "title": "СИБУР и ФТАР запустили производство профессионального инвентаря для тяжелой атлетики",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9qYjlkVml1VW9XT21KRmRMNmNhX0FwMlpuYnhnTm5aZjBkd1RYUnFsY0F2akZqLUJHVm81MFQxMUxmd2ltdzdkTDBMRFI3SzEtWHMwMDBB?oc=5",
-      "source_domain": "vz-nn.ru",
-      "published_at": "2026-11-21T09:17:00+03:00",
-      "category": "economy",
-      "what_happened": "СИБУР и ФТАР запустили производство профессионального инвентаря для тяжелой атлетики",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "Бизнес News",
-      "collection_batch": "economy",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "vz-nn.ru",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
       "title": "К бережливому производству подключатся более 400 предприятий",
       "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1nMVl3Ry1ZRDdqOWlLYVU1QVdxVWZnM3dSM191MjJ2d3MyTmVVN0RhTkZVTnFETzhENHB2VmE1S3EyMUHSAUBBVV95cUxNc2JnYkJjSWtpdHVScVBxa3JSSFh4N254MzVIWnFvV0xkNkZNRjcxdDRpMW5LSEFDeFBVZWtKR1Vi?oc=5",
       "source_domain": "dela.ru",
@@ -1469,6 +1447,26 @@
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
       "source_name": "dela.ru",
+      "source_role": "unknown",
+      "source_weight": 0.3,
+      "factual_weight": 0.3
+    },
+    {
+      "title": "Новости Китая, суббота: Трамп похвалил Шэньчжэнь, бриллианты из праха питомцев",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOGloclFrSU9HYVN4RnhMRkc4ZGp6bXpDcnpCeFpQWW1Kd1ZmcXVWeVFVME1MVVRYRzNyNDhGQjk0QlFNUFdHUHp0VDUxSWZaZkNRLW1pQU1rSlVoWDd0amhoaFNubnh5cTVpQk5tYnVQVVJrM2dKRWlZc004dXBBUlRwZkYzQjJYdjNfeHZBS1NjcFhfaTJSX2FjaDU1TkkxQ2c4?oc=5",
+      "source_domain": "ekd.me",
+      "published_at": "2026-11-21T11:44:38+03:00",
+      "category": "economy",
+      "what_happened": "Новости Китая, суббота: Трамп похвалил Шэньчжэнь, бриллианты из праха питомцев",
+      "why_interesting": "",
+      "is_comment_or_meme": false,
+      "comment_or_meme_text": "",
+      "confidence": 0.78,
+      "rss_source_name": "ЭКД",
+      "collection_batch": "economy",
+      "evidence_scope": "rss_headline_only",
+      "source_id": "unknown",
+      "source_name": "ekd.me",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -1534,21 +1532,21 @@
       "factual_weight": 0.3
     },
     {
-      "title": "Путин поздравил работников ФНС с профессиональным праздником",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQWZ4c0NORUJGN3pmNGV0aEpxR05QTDBpQzYxV2VoSkQzYVR6cVRadDhLaXd2VmZpM19odG9tTldGODQ3Y3M1a282OEZ3U0I2eG5DUXRCU0pJcEZpUHhWb1BOXzhNc3NRdXRkRm9SMV92aGhTNFozX3R2NXotUFg5ZUlTaVpRc0wzcUtYN1VMMTF4Z2xwcmY2bVJXN1FIaHV6eHFjbmpn?oc=5",
-      "source_domain": "vfokuse.mail.ru",
-      "published_at": "2026-11-21T10:15:12+03:00",
-      "category": "economy",
-      "what_happened": "Путин поздравил работников ФНС с профессиональным праздником",
+      "title": "Айк Мартиросян занял 9-е место в пилотном этапе Total Chess World Championship Tour Pilot 2026",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hOGdXa3ROb245VFpmclhBbTdMRFotUzVHX1BGbThUTnF5Rk51UlZOb0txMDA2NXdLTGtlbS1IM2RmZlBqeGZZTFppazRzel9sV3fSAVdBVV95cUxQbmZMX1hEOVZEMFBwTnZlNmU4ZDZNblVJeGhuN1VnWG96TUxIX3FjamhDaHFsTHdzNFZiQkR4bGx4bnlOQ0UyZ2Z1dFhDTmtuOHJRQk93bkU?oc=5",
+      "source_domain": "armenpress.am",
+      "published_at": "2026-11-21T11:14:00+03:00",
+      "category": "chess",
+      "what_happened": "Айк Мартиросян занял 9-е место в пилотном этапе Total Chess World Championship Tour Pilot 2026",
       "why_interesting": "",
       "is_comment_or_meme": false,
       "comment_or_meme_text": "",
       "confidence": 0.78,
-      "rss_source_name": "ВФокусе Mail",
-      "collection_batch": "economy",
+      "rss_source_name": "Armenpress",
+      "collection_batch": "chess",
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
-      "source_name": "vfokuse.mail.ru",
+      "source_name": "armenpress.am",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3
@@ -1589,26 +1587,6 @@
       "evidence_scope": "rss_headline_only",
       "source_id": "unknown",
       "source_name": "orenday.ru",
-      "source_role": "unknown",
-      "source_weight": 0.3,
-      "factual_weight": 0.3
-    },
-    {
-      "title": "Айк Мартиросян занял 9-е место в пилотном этапе Total Chess World Championship Tour Pilot 2026",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hOGdXa3ROb245VFpmclhBbTdMRFotUzVHX1BGbThUTnF5Rk51UlZOb0txMDA2NXdLTGtlbS1IM2RmZlBqeGZZTFppazRzel9sV3fSAVdBVV95cUxQbmZMX1hEOVZEMFBwTnZlNmU4ZDZNblVJeGhuN1VnWG96TUxIX3FjamhDaHFsTHdzNFZiQkR4bGx4bnlOQ0UyZ2Z1dFhDTmtuOHJRQk93bkU?oc=5",
-      "source_domain": "armenpress.am",
-      "published_at": "2026-11-21T11:14:00+03:00",
-      "category": "chess",
-      "what_happened": "Айк Мартиросян занял 9-е место в пилотном этапе Total Chess World Championship Tour Pilot 2026",
-      "why_interesting": "",
-      "is_comment_or_meme": false,
-      "comment_or_meme_text": "",
-      "confidence": 0.78,
-      "rss_source_name": "Armenpress",
-      "collection_batch": "chess",
-      "evidence_scope": "rss_headline_only",
-      "source_id": "unknown",
-      "source_name": "armenpress.am",
       "source_role": "unknown",
       "source_weight": 0.3,
       "factual_weight": 0.3

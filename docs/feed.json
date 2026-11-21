@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T18:20:44.600798+03:00",
+  "updated_at": "2026-11-21T11:48:19.429766+03:00",
   "items": [
     {
       "category": "russia",
@@ -14846,6 +14846,34 @@
         {
           "url": "https://media.halvacard.ru/news/magnit-v-mognit",
           "published_at": "2026-11-02"
+        }
+      ]
+    },
+    {
+      "category": "space",
+      "headline": "Грузовой корабль SpaceX Dragon отстыковался от МКС",
+      "body": "Беспилотный Dragon отстыковался от модуля Harmony 20 ноября в 20:05 по московскому времени. Корабль возвращает на Землю груз и образцы экспериментов, проведённых на станции.",
+      "aside": "",
+      "importance": 7.0,
+      "confidence": 0.95,
+      "preference_tags": [
+        "space"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-21T11:48:19.429766+03:00",
+      "story_id": "spacex-dragon-iss-undocking-20261120",
+      "source_urls": [
+        "https://www.nasa.gov/blogs/general-blog/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/"
+      ],
+      "source_names": [
+        "NASA"
+      ],
+      "published_at": "2026-11-20T17:08:00Z",
+      "source_dates": [
+        {
+          "url": "https://www.nasa.gov/blogs/general-blog/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/",
+          "published_at": "2026-11-20T17:08:00Z"
         }
       ]
     }

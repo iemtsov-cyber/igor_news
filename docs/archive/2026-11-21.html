@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Новости Игоря</title>
+<meta name="description" content="Персональная новостная лента: сигнал вместо потока.">
+<style>
+
+:root { color-scheme:light; --bg:#eff0ed; --paper:#fafaf7; --text:#303634; --muted:#626b66; --line:#d9deda; --accent:#895565; --petal:#e8ccd2; --soft:#e9ece7; }
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-underline-offset:4px} a:hover{color:#653c49} a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:5px}
+.wrap{max-width:1100px;margin:0 auto;padding:38px 44px 64px} .masthead{position:relative;isolation:isolate;padding:0 0 35px;margin-bottom:32px;border-bottom:1px solid #b9c2bb}
+.topline{display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);padding-bottom:25px;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:10px}.seal{width:29px;height:29px;display:grid;place-items:center;border:1px solid #c9a3af;border-radius:50%;color:var(--accent);font-family:Georgia,serif;font-size:19px;letter-spacing:0}.edition-note{letter-spacing:.1em}
+.hero{position:relative;min-height:217px;display:flex;align-items:center;padding:43px 0 30px}.hero-copy{position:relative;z-index:1;max-width:660px;padding-right:70px}.eyebrow{font-size:11px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin:0 0 16px}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(44px,5.3vw,69px);font-weight:400;line-height:1.08;letter-spacing:-2px;margin:0 0 18px}
+.deck{font-size:15px;line-height:1.75;color:var(--muted);margin:0;max-width:440px}.sakura{position:absolute;width:290px;height:235px;right:-12px;top:15px;opacity:.9;pointer-events:none;z-index:0}
+.meta{display:flex;align-items:center;gap:12px 22px;flex-wrap:wrap;font-size:12px;color:var(--muted)}.meta a{color:inherit;text-decoration:none;border-bottom:1px solid #b9c2bb}.meta a:hover{color:var(--accent);border-color:var(--accent)}
+.header-meta{padding-top:18px;border-top:1px solid var(--line);justify-content:space-between;gap:10px 24px}.header-meta nav{display:flex;align-items:center;gap:24px;flex-wrap:wrap}.header-meta a{display:inline-flex;align-items:center;min-height:36px}
+.topic-line{display:flex;flex-wrap:wrap;gap:6px 18px;margin:21px 0 0;font-size:11px;letter-spacing:.04em;color:var(--muted)}.topic-line span+span:before{content:'·';color:#a6aea8;margin-right:18px}
+.day-divider{display:flex;align-items:center;gap:18px;margin:42px 0 25px;color:var(--accent);font-size:12px;font-variant-numeric:tabular-nums;letter-spacing:.08em}.day-divider:after{content:'';height:1px;background:var(--line);flex:1}.day-divider span:before{content:'';display:inline-block;width:6px;height:6px;border-radius:50%;background:#b88596;margin-right:12px;vertical-align:middle}
+section{display:grid;grid-template-columns:166px minmax(0,1fr);column-gap:34px;margin:0 0 28px}h2{grid-column:1;grid-row:1;font-size:11px;line-height:1.7;letter-spacing:.12em;text-transform:uppercase;font-weight:600;color:var(--muted);margin:23px 0 0;max-width:150px}
+.story{grid-column:2;display:grid;grid-template-columns:31px minmax(0,1fr);gap:13px;padding:23px 26px 25px;margin:0 0 12px;background:var(--paper);border:1px solid #dfe3dd;border-radius:3px;position:relative}.num{font-family:Georgia,serif;font-size:14px;color:#838c85;padding-top:4px;font-variant-numeric:tabular-nums}.story-body{min-width:0;overflow-wrap:anywhere}
+h3{font-family:Georgia,"Times New Roman",serif;font-size:25px;line-height:1.27;font-weight:400;letter-spacing:-.3px;margin:0 0 12px;overflow-wrap:anywhere}p{margin:0;font-size:15px;line-height:1.8}.story-body>.meta{margin-top:14px;font-size:11px;gap:8px;overflow-wrap:anywhere}
+.aside{margin:16px 0 2px;padding:2px 0 2px 14px;border-left:2px solid #c59aa8;font-size:14px;color:var(--muted)}
+.feedback{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.vote{display:inline-flex;align-items:center;justify-content:center;gap:4px;min-height:36px;border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:3px;padding:6px 11px;font:11px/1.3 inherit;cursor:pointer}.vote:hover{background:var(--soft);color:var(--text)}.vote.active{color:#704151;border-color:#b88898;background:#f1e4e8}.vote span{font-size:11px}
+.story.pref-hidden{display:none}.pref-note{margin:0 0 20px;padding:13px 17px;border:1px solid #d6c4ca;border-left:3px solid #ad7b8c;border-radius:3px;color:#66565c;background:#f5eff0;font-size:12px;line-height:1.7}.pref-note[hidden]{display:none}.pref-note button{border:0;background:none;color:#754456;cursor:pointer;font:inherit;text-decoration:underline;text-underline-offset:3px;min-height:32px}
+footer{border-top:1px solid #bbc4bd;padding-top:24px;margin-top:46px;display:flex;justify-content:space-between;gap:24px;align-items:flex-start;color:var(--muted);font-size:11px;line-height:1.7}.footer-brand{font-family:Georgia,serif;font-size:19px;color:var(--text);white-space:nowrap}.footer-note{max-width:370px;text-align:right}
+@media(max-width:760px){.wrap{padding:24px 24px 45px}section{grid-template-columns:125px minmax(0,1fr);column-gap:18px}.sakura{width:230px;right:-25px;opacity:.65}.hero-copy{max-width:550px;padding-right:95px}h1{font-size:52px}.story{padding:21px 20px;grid-template-columns:24px minmax(0,1fr);gap:10px}h3{font-size:23px}}
+@media(max-width:560px){.wrap{padding:18px 18px 36px}.topline{font-size:9px;padding-bottom:16px;letter-spacing:.12em;gap:8px}.seal{width:25px;height:25px;font-size:16px}.edition-note{font-size:9px;letter-spacing:.04em}.hero{min-height:220px;padding:31px 0 25px;align-items:flex-start}.hero-copy{padding-right:0;max-width:100%}.eyebrow{font-size:9px;margin-bottom:13px;letter-spacing:.17em}h1{font-size:44px;letter-spacing:-1.7px;max-width:240px;margin-bottom:15px}.deck{font-size:13px;max-width:275px;line-height:1.8;padding-right:20px}.sakura{width:150px;height:180px;right:-17px;top:5px;opacity:.58}.header-meta{font-size:10px;align-items:flex-start;gap:8px;padding-top:12px}.header-meta nav{gap:18px}.header-meta a{min-height:32px}.topic-line{font-size:10px;gap:4px 12px;margin-top:14px}.topic-line span+span:before{margin-right:12px}.masthead{padding-bottom:22px;margin-bottom:23px}.day-divider{margin:28px 0 18px;font-size:11px}section{display:block;margin-bottom:22px}h2{margin:0 0 12px;max-width:none;font-size:10px}.story{grid-template-columns:23px minmax(0,1fr);padding:19px 16px 20px;gap:8px;margin-bottom:10px}h3{font-size:22px;line-height:1.3;margin-bottom:12px}p{font-size:14px;line-height:1.8}.num{font-size:12px}.feedback{gap:7px;margin-top:15px}.vote{min-height:40px;padding:6px 9px}.vote span{font-size:10px}.aside{font-size:13px}.pref-note{font-size:11px;padding:11px 13px}footer{display:block;margin-top:28px;padding-top:20px}.footer-note{text-align:left;margin-top:9px;max-width:290px}.footer-brand{font-size:18px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body><main class="wrap">
+<header class="masthead">
+<div class="topline"><span class="brand"><span class="seal" aria-hidden="true">и</span>Личная редакция</span><span class="edition-note">Каждые четыре часа</span></div>
+<div class="hero"><div class="hero-copy"><p class="eyebrow">Спокойный взгляд на новое</p><h1>Новости Игоря</h1><p class="deck">Важное и интересное — без лишнего шума.<br>Технологии, идеи и мир вокруг.</p></div><svg class="sakura" viewBox="0 0 290 235" fill="none" aria-hidden="true" focusable="false"><path d="M280 220C242 182 215 154 179 121C148 92 123 63 113 21M232 169C237 124 232 85 216 47M177 120C143 126 106 121 70 104M151 92C170 72 176 51 176 29M212 149C188 166 161 173 137 169" stroke="#89958b" stroke-width="2" stroke-linecap="round"/><path d="M273 221C239 190 215 169 198 156" stroke="#89958b" stroke-width="3" stroke-linecap="round"/><g fill="#e8c4cd" stroke="#c995a6" stroke-width=".55"><g transform="translate(112 29)"><ellipse cy="-7" rx="5" ry="8"/><ellipse cx="7" cy="-2" rx="5" ry="8" transform="rotate(70 7 -2)"/><ellipse cx="5" cy="7" rx="5" ry="8" transform="rotate(145 5 7)"/><ellipse cx="-5" cy="7" rx="5" ry="8" transform="rotate(-145 -5 7)"/><ellipse cx="-7" cy="-2" rx="5" ry="8" transform="rotate(-70 -7 -2)"/><circle r="2" fill="#a8687c"/></g><g transform="translate(176 42)"><ellipse cy="-6" rx="4.5" ry="7"/><ellipse cx="6" cy="-2" rx="4.5" ry="7" transform="rotate(70 6 -2)"/><ellipse cx="4" cy="6" rx="4.5" ry="7" transform="rotate(145 4 6)"/><ellipse cx="-4" cy="6" rx="4.5" ry="7" transform="rotate(-145 -4 6)"/><ellipse cx="-6" cy="-2" rx="4.5" ry="7" transform="rotate(-70 -6 -2)"/><circle r="2" fill="#a8687c"/></g><g transform="translate(226 75)"><ellipse cy="-7" rx="5" ry="8"/><ellipse cx="7" cy="-2" rx="5" ry="8" transform="rotate(70 7 -2)"/><ellipse cx="5" cy="7" rx="5" ry="8" transform="rotate(145 5 7)"/><ellipse cx="-5" cy="7" rx="5" ry="8" transform="rotate(-145 -5 7)"/><ellipse cx="-7" cy="-2" rx="5" ry="8" transform="rotate(-70 -7 -2)"/><circle r="2" fill="#a8687c"/></g><g transform="translate(89 111)"><ellipse cy="-6" rx="4.5" ry="7"/><ellipse cx="6" cy="-2" rx="4.5" ry="7" transform="rotate(70 6 -2)"/><ellipse cx="4" cy="6" rx="4.5" ry="7" transform="rotate(145 4 6)"/><ellipse cx="-4" cy="6" rx="4.5" ry="7" transform="rotate(-145 -4 6)"/><ellipse cx="-6" cy="-2" rx="4.5" ry="7" transform="rotate(-70 -6 -2)"/><circle r="2" fill="#a8687c"/></g><ellipse cx="138" cy="168" rx="4" ry="7" transform="rotate(-50 138 168)"/><ellipse cx="214" cy="46" rx="4" ry="6" transform="rotate(-30 214 46)"/><ellipse cx="150" cy="98" rx="4" ry="6" transform="rotate(45 150 98)"/><ellipse cx="190" cy="193" rx="3" ry="6" transform="rotate(35 190 193)"/><ellipse cx="61" cy="83" rx="3" ry="6" transform="rotate(-30 61 83)"/></g></svg></div>
+<div class="meta header-meta"><span>Обновлено 21.11.2026 · 11:48 МСК</span><nav aria-label="Навигация по выпускам"><a href="index.html">Архив по дням</a><a href="../index.html">Лента</a></nav></div>
+<div class="topic-line" aria-label="Основные темы"><span>Технологии и ИИ</span><span>Космос</span><span>Экономика</span><span>Инженерия</span><span>Шахматы</span></div>
+</header>
+<div id="health-note" class="pref-note" hidden></div>
+<div id="pref-note" class="pref-note" hidden>По вашим оценкам скрыто новых сюжетов: <strong id="hidden-count">0</strong>. <button id="show-hidden" type="button">Показать</button></div>
+<section><h2>ИИ, космос и инженерия</h2><article class="story" data-story-id="spacex-dragon-iss-undocking-20261120" data-category="space" data-tags="[&quot;space&quot;]"><div class="num">1</div><div class="story-body"><h3>Грузовой корабль SpaceX Dragon отстыковался от МКС</h3><p>Беспилотный Dragon отстыковался от модуля Harmony 20 ноября в 20:05 по московскому времени. Корабль возвращает на Землю груз и образцы экспериментов, проведённых на станции.</p><div class="meta"><a href="https://www.nasa.gov/blogs/general-blog/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/" target="_blank" rel="noopener noreferrer">NASA</a></div><div class="feedback" aria-label="Настроить будущую ленту"><button class="vote vote-up" type="button" title="Больше такого">👍 <span>Больше такого</span></button><button class="vote vote-down" type="button" title="Меньше такого">👎 <span>Меньше такого</span></button></div></div></article></section>
+<footer><span class="footer-brand">Новости Игоря</span><span class="footer-note">Сигнал вместо потока.<br>Ваши оценки хранятся только в этом браузере<br>и помогают настроить будущую ленту.</span></footer>
+</main>
+<script>
+fetch('../health.json', {cache: 'no-store'}).then(r => r.ok ? r.json() : null).then(h => {
+  if (!h || !['degraded', 'review_required'].includes(h.status)) return;
+  const box = document.getElementById('health-note');
+  box.textContent = h.status === 'review_required' ? 'Автоматические выпуски проходят предварительную проверку. Ниже — опубликованная лента.' : 'Последняя проверка прошла с ограничениями. Непроверенные новости не добавлены; дата контента указана выше.';
+  box.hidden = false;
+}).catch(() => {});
+</script>
+<script>
+(() => {
+  const CFG = {"hideThreshold": -1.6, "categoryWeight": 0.8, "tagWeight": 0.45};
+  const KEY = 'igor_news_preferences_v1';
+  const blank = () => ({ category: {}, tags: {}, feedback: {}, known: {}, hidden: {} });
+  let state;
+  try { state = Object.assign(blank(), JSON.parse(localStorage.getItem(KEY) || '{}')); } catch (_) { state = blank(); }
+  const save = () => localStorage.setItem(KEY, JSON.stringify(state));
+  const cards = [...document.querySelectorAll('.story[data-story-id]')];
+  const parseTags = card => { try { return JSON.parse(card.dataset.tags || '[]'); } catch (_) { return []; } };
+  const score = card => {
+    const cat = (card.dataset.category || '').toLowerCase();
+    const tags = parseTags(card);
+    let s = Number(state.category[cat] || 0);
+    if (tags.length) s += tags.reduce((a,t) => a + Number(state.tags[String(t).toLowerCase()] || 0), 0) / tags.length;
+    return s;
+  };
+  const setButtons = card => {
+    const v = Number(state.feedback[card.dataset.storyId] || 0);
+    card.querySelector('.vote-up')?.classList.toggle('active', v === 1);
+    card.querySelector('.vote-down')?.classList.toggle('active', v === -1);
+  };
+  let hidden = 0;
+  cards.forEach(card => {
+    const id = card.dataset.storyId;
+    if (state.hidden[id]) { card.classList.add('pref-hidden'); hidden++; }
+    else if (!state.known[id] && score(card) <= CFG.hideThreshold) {
+      state.hidden[id] = true; card.classList.add('pref-hidden'); hidden++;
+    }
+    state.known[id] = true;
+    setButtons(card);
+  });
+  save();
+  const note = document.getElementById('pref-note');
+  const count = document.getElementById('hidden-count');
+  if (hidden > 0 && note && count) { note.hidden = false; count.textContent = String(hidden); }
+  document.getElementById('show-hidden')?.addEventListener('click', () => {
+    document.querySelectorAll('.pref-hidden').forEach(x => x.classList.remove('pref-hidden'));
+    if (note) note.hidden = true;
+  });
+  const vote = (card, wanted) => {
+    const id = card.dataset.storyId;
+    const previous = Number(state.feedback[id] || 0);
+    const next = previous === wanted ? 0 : wanted;
+    const delta = next - previous;
+    const cat = (card.dataset.category || '').toLowerCase();
+    if (cat) state.category[cat] = Number(state.category[cat] || 0) + delta * CFG.categoryWeight;
+    parseTags(card).forEach(t => {
+      const k = String(t).toLowerCase();
+      state.tags[k] = Number(state.tags[k] || 0) + delta * CFG.tagWeight;
+    });
+    state.feedback[id] = next;
+    state.hidden[id] = false;
+    card.classList.remove('pref-hidden');
+    save(); setButtons(card);
+  };
+  cards.forEach(card => {
+    card.querySelector('.vote-up')?.addEventListener('click', () => vote(card, 1));
+    card.querySelector('.vote-down')?.addEventListener('click', () => vote(card, -1));
+  });
+})();
+</script>
+</body></html>

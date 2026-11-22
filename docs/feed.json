@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T11:48:19.429766+03:00",
+  "updated_at": "2026-11-22T13:55:09.664495+03:00",
   "items": [
     {
       "category": "russia",
@@ -14874,6 +14874,103 @@
         {
           "url": "https://www.nasa.gov/blogs/general-blog/2026/11/20/dragon-undocks-from-station-packed-with-science-and-cargo/",
           "published_at": "2026-11-20T17:08:00Z"
+        }
+      ]
+    },
+    {
+      "category": "technology",
+      "headline": "Lean и Mathlib подтвердили формальное доказательство гипотезы Римана",
+      "body": "21 ноября сообщества Lean и Mathlib сообщили, что несколько программ проверки приняли формальное доказательство Левента Альпёге. Два независимых инструмента подтвердили, что доказана именно классическая гипотеза о нетривиальных нулях дзета-функции, связанная с распределением простых чисел. Альпёге говорит, что работал с Claude. Институт Клэя пока отмечает задачу как нерешённую.",
+      "aside": "",
+      "importance": 10.0,
+      "confidence": 0.95,
+      "preference_tags": [
+        "technology",
+        "science",
+        "mathematics",
+        "ai"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-22T13:55:09.664495+03:00",
+      "story_id": "riemann-hypothesis-lean-mathlib-verification-20261121",
+      "source_urls": [
+        "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+        "https://alpo.ge/remark.pdf",
+        "https://www.claymath.org/millennium/riemann-hypothesis/"
+      ],
+      "source_names": [
+        "Lean и Mathlib",
+        "Левент Альпёге",
+        "Институт Клэя"
+      ],
+      "published_at": "2026-11-21",
+      "source_dates": [
+        {
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+          "published_at": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "category": "space",
+      "headline": "BepiColombo вышел на орбиту Меркурия",
+      "body": "После восьми лет полёта совместная миссия ESA и JAXA достигла орбиты Меркурия 21 ноября. ESA Operations подтвердило захват после восстановления связи. Европейский аппарат MPO и японский Mio пока соединены; их разделение намечено на 9–10 декабря.",
+      "aside": "",
+      "importance": 9.0,
+      "confidence": 0.95,
+      "preference_tags": [
+        "space",
+        "mercury"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-22T13:55:09.664495+03:00",
+      "story_id": "bepicolombo-mercury-orbit-capture-20261121",
+      "source_urls": [
+        "https://bsky.app/profile/operations.esa.int/post/3n2uftyw2f22t",
+        "https://www.esa.int/media/bepicolombo-arrival-at-mercury-timeline"
+      ],
+      "source_names": [
+        "ESA Operations",
+        "ESA"
+      ],
+      "published_at": "2026-11-22T00:59:21.748Z",
+      "source_dates": [
+        {
+          "url": "https://bsky.app/profile/operations.esa.int/post/3n2uftyw2f22t",
+          "published_at": "2026-11-22T00:59:21.748Z"
+        }
+      ]
+    },
+    {
+      "category": "space",
+      "headline": "«Вояджер-1»: сигнал идёт до Земли целые сутки",
+      "body": "18 ноября в 13:16:07 по Москве «Вояджер-1» достиг расстояния в одни световые сутки именно от Земли: около 25,9 млрд км. NASA подтвердило рубеж по несущему радиосигналу и расчёту траектории. По сообщению агентства от 19 ноября, научные и инженерные данные с аппарата не поступали с 14 ноября.",
+      "aside": "",
+      "importance": 8.0,
+      "confidence": 0.95,
+      "preference_tags": [
+        "space",
+        "voyager"
+      ],
+      "is_random_top": false,
+      "is_internet_element": false,
+      "added_at": "2026-11-22T13:55:09.664495+03:00",
+      "story_id": "voyager-1-one-light-day-from-earth-20261118",
+      "source_urls": [
+        "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+        "https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/"
+      ],
+      "source_names": [
+        "NASA",
+        "NASA Science"
+      ],
+      "published_at": "2026-11-19",
+      "source_dates": [
+        {
+          "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+          "published_at": "2026-11-19"
         }
       ]
     }
